@@ -1,0 +1,47 @@
+{
+ "results": [
+  {
+   "model": "ESM_whole",
+   "pooled_auroc": 0.6759,
+   "auroc_EFI": 0.4594,
+   "auroc_JCSG": 0.6171,
+   "auroc_MCSG": 0.562,
+   "auroc_SECSG": 0.4631,
+   "auroc_SGPP": 0.4854,
+   "unweighted_mean_5_centers": 0.5174
+  },
+  {
+   "model": "comp_len_matched",
+   "pooled_auroc": 0.6563,
+   "auroc_EFI": 0.5057,
+   "auroc_JCSG": 0.5327,
+   "auroc_MCSG": 0.4976,
+   "auroc_SECSG": 0.3653,
+   "auroc_SGPP": 0.5931,
+   "unweighted_mean_5_centers": 0.4989
+  },
+  {
+   "model": "comp_len_fulllength",
+   "pooled_auroc": 0.6565,
+   "auroc_EFI": 0.5044,
+   "auroc_JCSG": 0.5338,
+   "auroc_MCSG": 0.4996,
+   "auroc_SECSG": 0.3677,
+   "auroc_SGPP": 0.5919,
+   "unweighted_mean_5_centers": 0.4995
+  }
+ ],
+ "n_train": 10000,
+ "n_val": 4000,
+ "C": 1.0,
+ "layer": 8,
+ "centers": [
+  "EFI",
+  "JCSG",
+  "MCSG",
+  "SECSG",
+  "SGPP"
+ ],
+ "truncated_train": 157,
+ "truncated_val": 61
+}

@@ -1,0 +1,134 @@
+{
+ "dev_file": "Swissprot_Train_Validation_dataset.csv",
+ "dev_sha256": "29a07b293fed2994a966b70bdcd6bacc59915b8b01fa200cb2b07d8db18384a2",
+ "dev_bytes": 17724293,
+ "hpa_file": "hpa_testset.csv",
+ "hpa_sha256": "557553bcd35e3dcb59bbfe90e1fd63341549f0a693c0e725d6c2c8387a463b37",
+ "hpa_bytes": 570089,
+ "n_rows": 28303,
+ "columns": [
+  "",
+  "ACC",
+  "Kingdom",
+  "Partition",
+  "Membrane",
+  "Cytoplasm",
+  "Nucleus",
+  "Extracellular",
+  "Cell membrane",
+  "Mitochondrion",
+  "Plastid",
+  "Endoplasmic reticulum",
+  "Lysosome/Vacuole",
+  "Golgi apparatus",
+  "Peroxisome",
+  "Sequence"
+ ],
+ "partitions": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "partition_totals": {
+  "4": 5462,
+  "3": 5696,
+  "1": 5451,
+  "0": 5963,
+  "2": 5731
+ },
+ "groups": {
+  "Extracellular_pos_Cytoplasm_neg": {
+   "by_partition": {
+    "0": 643,
+    "4": 575,
+    "1": 520,
+    "2": 819,
+    "3": 584
+   },
+   "total": 3141
+  },
+  "Cytoplasm_pos_Extracellular_neg": {
+   "by_partition": {
+    "4": 1807,
+    "1": 1970,
+    "0": 2069,
+    "3": 1972,
+    "2": 1892
+   },
+   "total": 9710
+  },
+  "both_positive": {
+   "by_partition": {
+    "4": 24,
+    "2": 36,
+    "3": 24,
+    "0": 50,
+    "1": 26
+   },
+   "total": 160
+  },
+  "both_negative": {
+   "by_partition": {
+    "3": 3116,
+    "0": 3201,
+    "4": 3056,
+    "2": 2984,
+    "1": 2935
+   },
+   "total": 15292
+  },
+  "missing_or_unrecognized": {
+   "by_partition": {},
+   "total": 0
+  }
+ },
+ "also_other_localization": {
+  "Extracellular_pos_Cytoplasm_neg": {
+   "by_partition": {
+    "0": 66,
+    "1": 37,
+    "4": 33,
+    "2": 30,
+    "3": 31
+   },
+   "total": 197
+  },
+  "Cytoplasm_pos_Extracellular_neg": {
+   "by_partition": {
+    "4": 945,
+    "1": 1032,
+    "0": 1087,
+    "2": 1020,
+    "3": 1044
+   },
+   "total": 5128
+  }
+ },
+ "candidate_class_sizes": {
+  "Extracellular_pos_Cytoplasm_neg": 3141,
+  "Cytoplasm_pos_Extracellular_neg": 9710
+ },
+ "duplicate_accessions": 0,
+ "duplicate_sequences": 0,
+ "cross_partition_duplicate_sequences": 0,
+ "cross_partition_label_conflicts": 0,
+ "hpa_columns": [
+  "sid",
+  "Cell membrane",
+  "Cytoplasm",
+  "Endoplasmic reticulum",
+  "Golgi apparatus",
+  "Lysosome/Vacuole",
+  "Mitochondrion",
+  "Nucleus",
+  "Peroxisome",
+  "Lengths",
+  "fasta"
+ ],
+ "hpa_target_availability": {
+  "Extracellular": false,
+  "Cytoplasm": true
+ }
+}

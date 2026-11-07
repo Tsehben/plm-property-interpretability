@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# --- added by the 6.3930 project (not upstream) ----------------------------
+# Upstream's "* text=auto" above would normalize line endings. Our generated
+# TSVs under this tree are CRLF-terminated (Python csv module) and the FASTAs
+# are checksummed, so disable conversion for this subtree.
+* -text
+*.npz binary
+*.t7 binary
+*.png binary

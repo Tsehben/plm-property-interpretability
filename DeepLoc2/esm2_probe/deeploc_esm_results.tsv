@@ -1,0 +1,17 @@
+subset	model	n	n_neg	n_pos	prevalence	auroc_P1	auroc_P2	auroc_P3	auroc_P4	auroc_mean	ap_P1	ap_P2	ap_P3	ap_P4	ap_mean
+ALL development proteins (P1-4)	matched_C	10139	7641	2498	0.2464	0.9612	0.9572	0.9573	0.9682	0.961	0.8777	0.8898	0.8776	0.9162	0.8903
+ALL development proteins (P1-4)	fulllen_C	10139	7641	2498	0.2464	0.9611	0.9554	0.9575	0.9679	0.9605	0.8765	0.886	0.8764	0.9157	0.8887
+ALL development proteins (P1-4)	a_ESM_whole	10139	7641	2498	0.2464	0.9661	0.9878	0.9815	0.9656	0.9752	0.9392	0.9735	0.9527	0.9213	0.9467
+ALL development proteins (P1-4)	b_ESM_whole_nterm	10139	7641	2498	0.2464	0.9656	0.9928	0.9849	0.9746	0.9795	0.9377	0.9838	0.9546	0.9399	0.954
+ALL development proteins (P1-4)	c_matchedC_plus_ESM	10139	7641	2498	0.2464	0.965	0.9929	0.9845	0.9731	0.9789	0.9371	0.9836	0.9541	0.9401	0.9537
+ALL development proteins (P1-4)	delta_a_ESM_whole_minus_matched_C	10139	7641	2498	0.2464	0.0049	0.0306	0.0242	-0.0026	0.0143	0.0615	0.0837	0.075	0.0051	0.0563
+ALL development proteins (P1-4)	delta_b_ESM_whole_nterm_minus_matched_C	10139	7641	2498	0.2464	0.0044	0.0356	0.0276	0.0064	0.0185	0.06	0.0941	0.077	0.0237	0.0637
+ALL development proteins (P1-4)	delta_c_matchedC_plus_ESM_minus_matched_C	10139	7641	2498	0.2464	0.0038	0.0357	0.0271	0.0049	0.0179	0.0594	0.0938	0.0764	0.0239	0.0634
+SENSITIVITY: no additional localization annotation	matched_C	5967	3600	2367	0.3967	0.9661	0.9643	0.9593	0.9706	0.9651	0.9292	0.9495	0.9328	0.9548	0.9416
+SENSITIVITY: no additional localization annotation	fulllen_C	5967	3600	2367	0.3967	0.9657	0.9625	0.9596	0.9703	0.9645	0.9282	0.9472	0.9321	0.9548	0.9406
+SENSITIVITY: no additional localization annotation	a_ESM_whole	5967	3600	2367	0.3967	0.9715	0.9877	0.9822	0.9626	0.976	0.9637	0.9834	0.9715	0.943	0.9654
+SENSITIVITY: no additional localization annotation	b_ESM_whole_nterm	5967	3600	2367	0.3967	0.9712	0.9931	0.985	0.9715	0.9802	0.9593	0.9914	0.9726	0.9574	0.9702
+SENSITIVITY: no additional localization annotation	c_matchedC_plus_ESM	5967	3600	2367	0.3967	0.9706	0.9928	0.9844	0.9699	0.9794	0.9584	0.9909	0.9721	0.9571	0.9696
+SENSITIVITY: no additional localization annotation	delta_a_ESM_whole_minus_matched_C	5967	3600	2367	0.3967	0.0054	0.0234	0.0229	-0.0081	0.0109	0.0345	0.034	0.0387	-0.0119	0.0238
+SENSITIVITY: no additional localization annotation	delta_b_ESM_whole_nterm_minus_matched_C	5967	3600	2367	0.3967	0.0051	0.0289	0.0256	0.0009	0.0151	0.0301	0.0419	0.0399	0.0026	0.0286
+SENSITIVITY: no additional localization annotation	delta_c_matchedC_plus_ESM_minus_matched_C	5967	3600	2367	0.3967	0.0045	0.0286	0.0251	-0.0008	0.0143	0.0293	0.0414	0.0393	0.0023	0.0281

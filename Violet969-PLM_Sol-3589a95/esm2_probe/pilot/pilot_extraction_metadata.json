@@ -1,0 +1,21 @@
+{
+ "checkpoint": "facebook/esm2_t33_650M_UR50D",
+ "implementation": "transformers.EsmModel",
+ "transformers_version": "4.57.6",
+ "torch_version": "2.8.0",
+ "device": "mps",
+ "layer_index": 8,
+ "layer_indexing_note": "HF hidden_states[8] = output of transformer block 8 = fair-esm representations[8]",
+ "frozen": true,
+ "eval_mode": true,
+ "input": "sequence only",
+ "max_residues": 1022,
+ "hidden_dim": 1280,
+ "pooling": "mean over residue tokens only; <cls>, <eos> and padding excluded",
+ "nterm_positions": 0,
+ "n_sequences": 64,
+ "n_truncated": 0,
+ "truncated_keys": [],
+ "elapsed_s": 13.2,
+ "seq_per_s": 4.83
+}

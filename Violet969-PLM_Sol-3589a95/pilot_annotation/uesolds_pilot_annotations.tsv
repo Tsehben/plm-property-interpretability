@@ -1,0 +1,101 @@
+original_id	id_class	raw_label	seq_len	uniparc_upi	matched_accessions	n_uniprot_xrefs	pdb_xrefs	source_organism	organism_status	pfam_accessions	pfam_names	expression_host	expression_vector_from_id	organism_hint_from_id_unverified	match_method	evidence_source
+BcCD00423099_pET21	DNASU_clone	1	359			0			no_exact_match				pET21		none	none
+CvCD00585083_pET21	DNASU_clone	1	130			0			no_exact_match				pET21		none	none
+HsCD00626161_pET15	DNASU_clone	1	84			0			no_exact_match				pET15		none	none
+PDB_230301_11860	PDB_serial	1	428	UPI0003E5C677		0	4n48;4n49;4n4a	Homo sapiens	confident	PF01728	FtsJ-like methyltransferase (FtsJ)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_12118	PDB_serial	1	178	UPI00025C5044		0	4e0e	Bacteroides thetaiotaomicron	confident			Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism
+PDB_230301_12239	PDB_serial	1	99	UPI0000112DC1		0	1qb5;1qcb;1tii;5g3l	Escherichia coli	confident			Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism
+PDB_230301_16292	PDB_serial	1	317	UPI0001A5DE8C		0	3hl1	Caulobacter vibrioides	confident	PF12902	Ferritin-like (Ferritin-like)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_16649	PDB_serial	1	294	UPI00020F055C		0	3qwl	Homo sapiens	confident	PF00566	Rab-GTPase-TBC domain (RabGAP-TBC)	Escherichia coli BL21(DE3)			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_17263	PDB_serial	1	499	UPI0006454586		0	4zkd;4zke	Saccharomyces cerevisiae	confident	PF00009;PF21920;PF21921	Elongation factor Tu GTP binding domain (GTP_EFTU);Ski7 III domain (Ski7_3rd);Ski7 domain II (Ski7_2nd)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_19906	PDB_serial	1	227	UPI0015516372		0	6k5s	Schizosaccharomyces pombe	confident	PF08558	Telomere repeat binding factor (TRF) (TRF)	Escherichia coli BL21(DE3)			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_25006	PDB_serial	1	318	UPI00001C1253		0	1ozp;1p0h	Mycobacterium tuberculosis	confident	PF00583	Acetyltransferase (GNAT) family (Acetyltransf_1)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_26853	PDB_serial	1	173	UPI0002638CBE		0	4afi	Homo sapiens; Mus musculus	ambiguous_multi_organism	PF13774	Regulated-SNARE-like domain (Longin)	Escherichia coli BL21(DE3)			exact_full_sequence	PDB_source_organism(multi)|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_27200	PDB_serial	1	165	UPI00053CEE5A		0	4tjv;4tjx;7f2d;7f2i;8hyg;9l4o...	Arabidopsis thaliana	confident	PF02225	PA domain (PA)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_27865	PDB_serial	1	309	UPI001E281CCC		0	7mro;7mrs	Danio rerio	confident	PF00041	Fibronectin type III domain (fn3)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_29050	PDB_serial	1	219	UPI0001BE65DA		0	3hr4	Homo sapiens	confident						exact_full_sequence	UniParc_exact->EMBL/other_xref
+PDB_230301_46779	PDB_serial	1	142			0			no_exact_match						none	none
+PDB_230301_53335	PDB_serial	1	64	UPI0001B04C7A		0	3hrn	Homo sapiens	confident	PF18109	Ferredoxin I 4Fe-4S cluster domain (Fer4_24)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_57192	PDB_serial	1	68	UPI000052F0C9	A0A974BLZ2;Q4R102	2	7ae4;7ae5	Sedimentibacter hydroxybenzoicus	confident	PF26358	EcdD_BsdD_detox	Escherichia coli;Escherichia coli BL21(DE3)			exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+PDB_230301_58537	PDB_serial	1	124	UPI001FE2435C		0	7o4x	Lentilactobacillus hilgardii	confident			Escherichia coli BL21(DE3)			exact_full_sequence	UniParc_exact->PDB_source_organism
+PDB_230301_61076	PDB_serial	1	331	UPI000012FD36	Q1XGL4;Q51947	2	6dao;8do5	Pseudomonas putida	confident	PF00701	DHDPS	Escherichia coli			exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+PDB_230301_62133	PDB_serial	1	162	UPI0004437F4D		0	4oxx	Citrobacter braakii	confident			Escherichia coli BL21(DE3)			exact_full_sequence	UniParc_exact->PDB_source_organism
+PDB_230301_70736	PDB_serial	1	310	UPI000227E756		0	5yma	Thermochaetoides thermophila	confident	PF10153	rRNA-processing protein Efg1 (Efg1)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_76238	PDB_serial	1	529	UPI0006DBD7D0		0	5djs	Thermobaculum terrenum	confident	PF13181;PF13844	Tetratricopeptide repeat (TPR_8);Glycosyl transferase family 41 (Glyco_transf_41)	Escherichia coli BL21(DE3)			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_76633	PDB_serial	1	131	UPI0001BE63EE		0	3f7e	Mycolicibacterium smegmatis	confident	PF01243	Pyridoxamine 5'-phosphate oxidase (PNPOx_N)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+PDB_230301_92500	PDB_serial	1	59	UPI0010C7616B		0	6o5w	Homo sapiens	confident	PF07496	CW-type Zinc Finger (zf-CW)	Escherichia coli			exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation
+YP_026285.1	RefSeq	1	312	UPI000013C13E	P39317	1		Escherichia coli	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+CESG-GO.81819	SG_target	0	533	UPI000007173F	Q8TBY0;Q8TBY0-1	2		Homo sapiens	confident	PF00076;PF14709	RRM_1;DND1_DSRM				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-354959	SG_target	0	404	UPI000006C5E6	Q12090	1		Saccharomyces cerevisiae	confident	PF00929;PF28843;PF28865	RNase_T;REX3_middle;REX3_N				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-371987	SG_target	0	254			0			no_exact_match						none	none
+JCSG-375725	SG_target	0	341			0			no_exact_match						none	none
+JCSG-376084	SG_target	0	245	UPI0000391B84	Q04FT7	1		Oenococcus oeni	confident	PF00881;PF28600	Nitroreductase;Nitroreductase_C				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-377372	SG_target	0	408	UPI0000D5AB44	Q13PK9	1		Paraburkholderia xenovorans	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+JCSG-380804	SG_target	0	283	UPI0000DD4E12		0		Histophilus somni	confident						exact_full_sequence	UniParc_exact->EMBL/other_xref
+JCSG-391975	SG_target	0	131	UPI0000064191	Q980Y7	1		Saccharolobus solfataricus	confident	PF04693	DDE_Tnp_2				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-392403	SG_target	0	206	UPI00003CDF30	Q03D75	1		Pediococcus pentosaceus	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+MCSG-APC103501	SG_target	0	125	UPI00019BC46E	C7P1C7	1		Halomicrobium mukohataei	confident	PF00582	Usp				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC106756	SG_target	0	398	UPI000233B768	A0A445GQ57;I1ME64	2		Glycine max; Glycine soja	ambiguous_multi_organism						exact_full_sequence	UniParc_exact->UniProtKB_active(multi)
+MCSG-APC26903	SG_target	0	126	UPI00000C34AB	Q9KMQ5	1		Vibrio cholerae	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+MCSG-APC38902.3	SG_target	0	293			0			no_exact_match						none	none
+MCSG-APC38984.0	SG_target	0	234	UPI00000C1993	Q9RTT4	1		Deinococcus radiodurans	confident	PF05430	Methyltransf_30				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC65434.1	SG_target	0	164			0			no_exact_match						none	none
+NESG-CvR148	SG_target	0	625	UPI00001BCAD9	A0A202BDQ3;Q7NTJ9	2		Chromobacterium violaceum	confident	PF13450	NAD_binding_8				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NESG-FR427	SG_target	0	518	UPI00000811D5	Q9W133	1		Drosophila melanogaster	confident	PF03109	ABC1				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NESG-HR3081	SG_target	0	140			0			no_exact_match						none	none
+NESG-LmR120	SG_target	0	422	UPI0000054F0D	Q8Y778	1		Listeria monocytogenes	confident	PF01663	Phosphodiest				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NESG-MlR29	SG_target	0	238	UPI00000C831B		0		Mesorhizobium japonicum	confident						tag_trimmed_exact:trim_C_His	UniParc_exact->EMBL/other_xref
+NESG-SuR38	SG_target	0	487	UPI0000352561	Q72HQ9	1		Thermus thermophilus	confident	PF09992	NAGPA				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NESG-TdR67	SG_target	0	360	UPI000023A63F	Q73ME2	1		Treponema denticola	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+NYSGRC-003581	SG_target	0	388	UPI00000D8B9C	Q8PBY1	1		Xanthomonas campestris	confident	PF01464;PF01476	SLT;LysM				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NYSGRC-003804	SG_target	0	150	UPI00005C814D	Q3IWJ7	1		Cereibacter sphaeroides	confident	PF12790	T6SS-SciN				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NYSGRC-005339	SG_target	0	350	UPI0000009F6E	Q87N59	1		Vibrio parahaemolyticus	confident	PF00034;PF21342	Cytochrom_C;SoxA-TsdA_cyt-c				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NYSGRC-008708	SG_target	0	320	UPI000037C810	Q1LIR9	1		Cupriavidus metallidurans	confident	PF08240	ADH_N				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NYSGRC-034017	SG_target	0	559			0			no_exact_match						none	none
+SECSG-C28H8.8	SG_target	0	177	UPI000013BD7D		0		Caenorhabditis elegans	confident						exact_full_sequence	UniParc_exact->EMBL/other_xref
+SECSG-Pfu-1517263-001	SG_target	0	576			0			no_exact_match					Pyrococcus furiosus	none	none
+SECSG-T05F1.6B	SG_target	0	1165	UPI0000240003	Q7JKP6	1		Caenorhabditis elegans	confident	PF00533;PF18428;PF24680	BRCT;BRCT_3;SH3_Hsr9				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SECSG-Y48E1A.1	SG_target	0	1737	UPI000007A521	G5ED21	1		Caenorhabditis elegans	confident	PF00623;PF04983;PF04997;PF04998;PF05000	RNA_pol_Rpb1_2;RNA_pol_Rpb1_3;RNA_pol_Rpb1_1;RNA_pol_Rpb1_5;RNA_pol_Rpb1_4				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SGPP-Lmaj000958AAA	SG_target	0	662			0			no_exact_match					Leishmania major	none	none
+SGPP-Pfal004965AAA	SG_target	0	545	UPI00000858E4		0		Plasmodium falciparum	confident					Plasmodium falciparum	exact_full_sequence	UniParc_exact->EMBL/other_xref
+SGPP-Tbru015500AAA	SG_target	0	157			0			no_exact_match					Trypanosoma brucei	none	none
+SGPP-Tcru007969AAA	SG_target	0	318	UPI000055E177	Q4DA24	1		Trypanosoma cruzi	confident	PF13640	2OG-FeII_Oxy_3			Trypanosoma cruzi	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SGPP-Tcru012510AAA	SG_target	0	335			0			no_exact_match					Trypanosoma cruzi	none	none
+SSGCID-BuxeA.00114.a	SG_target	0	240	UPI00003C4992	Q13LR6	1		Paraburkholderia xenovorans	confident	PF00300	His_Phos_1			Burkholderia xenovorans	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SSGCID-CrneC.19308.a	SG_target	0	619	UPI000392B407	J9VWP2	1		Cryptococcus neoformans	confident	PF00249;PF04433;PF22941;PF25299	Myb_DNA-binding;SWIRM;TADA2A-like_3rd;ZZ_ADA2			Cryptococcus neoformans	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SSGCID-CrneC.19449.a	SG_target	0	1296	UPI000392C559	J9VYD5	1		Cryptococcus neoformans	confident	PF00069	Pkinase			Cryptococcus neoformans	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-360773	SG_target	1	132	UPI00003B87D1	Q6D565	1		Pectobacterium atrosepticum	confident	PF07007	LprI				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-376438	SG_target	1	132	UPI0000EFDDDF	A2SJW5	1		Methylibium petroleiphilum	confident	PF00072	Response_reg				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-377595	SG_target	1	260	UPI0000240D05		0		Bacillus; Bacillus cereus; Bacillus cereus group sp. BceL033; Bacillus cereus group sp. BceL044; Bacillus cereus group sp. BceL078; Bacillus cereus group sp. BceL148 (+8 more)	ambiguous_multi_organism						exact_full_sequence	UniParc_exact->xrefs(14_species)
+JCSG-382180	SG_target	1	447	UPI000046019A	A0A0H3K346;Q31S91	2		Synechococcus elongatus	confident	PF13847	Methyltransf_31				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+JCSG-392794	SG_target	1	335	UPI0000E9B3C7	A1A350	1		Bifidobacterium adolescentis	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+JCSG-419826	SG_target	1	562			0			no_exact_match						none	none
+JCSG-419869	SG_target	1	423			0			no_exact_match						none	none
+JCSG-420407	SG_target	1	303			0			no_exact_match						none	none
+MCSG-APC100217	SG_target	1	499	UPI00000DB3F9	Q9S2D9	1		Streptomyces coelicolor	confident	PF02065	Melibiase				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC105555	SG_target	1	246	UPI0000442AB7	Q5ZRQ0	1		Legionella pneumophila	confident	PF04564	U-box				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC111749	SG_target	1	139	UPI0002C4D908		0		Thermoplasmatales archaeon SCGC AB-539-N05	confident						exact_full_sequence	UniParc_exact->EMBL/other_xref
+MCSG-APC115063	SG_target	1	427			0			no_exact_match						none	none
+MCSG-APC22027	SG_target	1	127	UPI00000C4F02	Q9I784	1		Pseudomonas aeruginosa	confident	PF01381	HTH_3				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC35751	SG_target	1	409			0			no_exact_match						none	none
+MCSG-APC37795.1	SG_target	1	131			0			no_exact_match						none	none
+MCSG-APC40280	SG_target	1	218	UPI000023A5E1	Q73MP0	1		Treponema denticola	confident	PF00814	TsaD				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC80346	SG_target	1	88	UPI00000515BE	A0A0H2UPI7	1		Streptococcus pneumoniae	confident	PF13592	HTH_33				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC81603	SG_target	1	139	UPI000005B106	Q8A6R8	1		Bacteroides thetaiotaomicron	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+MCSG-APC82475	SG_target	1	83	UPI00002135B0	Q6NJQ9	1		Corynebacterium diphtheriae	confident						exact_full_sequence	UniParc_exact->UniProtKB_active
+MCSG-APC84365	SG_target	1	138	UPI00003B1C2D	A0A0R4J9K9	1		Bartonella henselae	confident	PF01381	HTH_3				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+MCSG-APC84427	SG_target	1	155	UPI00003B1CB3	A0A0H3LWF5	1		Bartonella henselae	confident	PF08346	AntA				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+NESG-HR3339E	SG_target	1	328			0			no_exact_match						none	none
+NESG-HR6725	SG_target	1	738			0			no_exact_match						none	none
+SECSG-B0041.3	SG_target	1	158	UPI0000060E5B		0		Caenorhabditis elegans	confident						exact_full_sequence	UniParc_exact->EMBL/other_xref
+SECSG-G_YK3053	SG_target	1	265	UPI0000079AF4	P91398	1		Caenorhabditis elegans	confident	PF00313	CSD				exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SECSG-Y44A6C.2	SG_target	1	333	UPI000007FF4F		0		Caenorhabditis elegans	confident						exact_full_sequence	UniParc_exact->EMBL/other_xref
+SGPP-Lmaj005335AAA	SG_target	1	495			0			no_exact_match					Leishmania major	none	none
+SGPP-Lmaj005461AAA	SG_target	1	238			0			no_exact_match					Leishmania major	none	none
+SGPP-Lmaj00820AAA	SG_target	1	357	UPI000007D892	Q4QJ88	1		Leishmania major	confident	PF01992	vATP-synt_AC39			Leishmania major	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SGPP-Pfal005257AAA	SG_target	1	342	UPI0000085835	Q8IBB6	1		Plasmodium falciparum	confident	PF01008	IF-2B			Plasmodium falciparum	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref
+SGPP-Pviv009354AAA	SG_target	1	226			0			no_exact_match					Plasmodium vivax	none	none
+SGPP-Tbru020718AAA	SG_target	1	265			0			no_exact_match					Trypanosoma brucei	none	none
+SSGCID-BaheA.01076.a	SG_target	1	223			0			no_exact_match					Bartonella henselae	none	none
+SSGCID-BobuA.11726.a	SG_target	1	333			0			no_exact_match					Borrelia/Borreliella sp.	none	none
+SSGCID-LebrA.19512.a	SG_target	1	682	UPI0001F7E64B	A4H3M3	1		Leishmania braziliensis	confident					Leishmania braziliensis	exact_full_sequence	UniParc_exact->UniProtKB_active

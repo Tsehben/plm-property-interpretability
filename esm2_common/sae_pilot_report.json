@@ -1,0 +1,83 @@
+{
+  "sae": {
+    "repo": "liambai/InterProt-ESM2-SAEs",
+    "revision": "3ded2e51641df84d6b89f25430874e3a8eb42c24",
+    "file": "esm2_plm1280_l8_sae4096.safetensors",
+    "sha256": "1172503b90c950651e787a5625d91ff1c702a04ff3d851e8e95b700201e56ebd",
+    "d_model": 1280,
+    "d_hidden": 4096,
+    "k": 128,
+    "dead_features_at_train_end": 338
+  },
+  "datasets": {
+    "uesolds": {
+      "n_proteins": 64,
+      "n_residues": 17526,
+      "runtime_s": 25.3,
+      "residues_per_s": 692.0,
+      "mean_cosine_vs_saved": 0.9999995026737452,
+      "min_cosine_vs_saved": 0.9999988675117493,
+      "max_absdiff_over_norm_vs_saved": 0.0010793907567858696,
+      "max_abs_diff_vs_saved": 0.08216094970703125,
+      "smallest_saved_component_abs": 6.387399935192661e-06,
+      "nonfinite_proteins": 0,
+      "active_per_residue_mean": 128.0,
+      "active_per_residue_min": 128,
+      "active_per_residue_max": 128,
+      "recon_rel_err_vs_zero": 0.11997624740095722,
+      "recon_rel_err_vs_meanvec": 0.601137989034807,
+      "frac_latents_ever_active": 0.968017578125,
+      "n_latents_ever_active": 3965,
+      "fp16_topk_overlap_mean": 0.9966891424622297,
+      "fp16_topk_overlap_min": 0.9958333333333333,
+      "pooled_cosine_fp32_vs_fp16_mean": 0.9999983180314302,
+      "pooled_cosine_fp32_vs_fp16_min": 0.9999935626983643,
+      "pooled_density_frac_nonzero": 0.5407829284667969,
+      "full_run_proteins": 14000,
+      "full_run_residues": 4092687,
+      "full_run_est_runtime_min": 98.6,
+      "full_run_est_storage_MB": 229.4,
+      "pooled_shape_whole": [
+        64,
+        4096
+      ],
+      "pooled_shape_nterm": null
+    },
+    "deeploc": {
+      "n_proteins": 64,
+      "n_residues": 30809,
+      "runtime_s": 46.1,
+      "residues_per_s": 668.2,
+      "mean_cosine_vs_saved": 0.9999994430691004,
+      "min_cosine_vs_saved": 0.999998927116394,
+      "max_absdiff_over_norm_vs_saved": 0.0009827630128711462,
+      "max_abs_diff_vs_saved": 0.0916290283203125,
+      "smallest_saved_component_abs": 3.32086210619309e-06,
+      "nonfinite_proteins": 0,
+      "active_per_residue_mean": 128.0,
+      "active_per_residue_min": 128,
+      "active_per_residue_max": 128,
+      "recon_rel_err_vs_zero": 0.11090178962580269,
+      "recon_rel_err_vs_meanvec": 0.5178433886658582,
+      "frac_latents_ever_active": 0.97900390625,
+      "n_latents_ever_active": 4010,
+      "fp16_topk_overlap_mean": 0.9964642311619325,
+      "fp16_topk_overlap_min": 0.9951603982300885,
+      "pooled_cosine_fp32_vs_fp16_mean": 0.9999986793845892,
+      "pooled_cosine_fp32_vs_fp16_min": 0.9999951124191284,
+      "pooled_density_frac_nonzero": 0.5995864868164062,
+      "full_run_proteins": 10139,
+      "full_run_residues": 4819401,
+      "full_run_est_runtime_min": 120.2,
+      "full_run_est_storage_MB": 332.2,
+      "pooled_shape_whole": [
+        64,
+        4096
+      ],
+      "pooled_shape_nterm": [
+        64,
+        4096
+      ]
+    }
+  }
+}

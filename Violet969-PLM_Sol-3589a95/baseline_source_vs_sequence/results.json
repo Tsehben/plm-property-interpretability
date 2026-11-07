@@ -1,0 +1,151 @@
+{
+ "results": [
+  {
+   "group_type": "overall",
+   "group": "ALL_validation",
+   "n": 4000,
+   "n_insoluble_0": 2000,
+   "n_soluble_1": 2000,
+   "A_source_only": 0.7792,
+   "B_sequence_only": 0.657,
+   "C_source_plus_sequence": 0.7996,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_target_only",
+   "group": "SG_target",
+   "n": 2959,
+   "n_insoluble_0": 1905,
+   "n_soluble_1": 1054,
+   "A_source_only": 0.6172,
+   "B_sequence_only": 0.626,
+   "C_source_plus_sequence": 0.6479,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_center_EXCLUDED",
+   "group": "BSGI",
+   "n": 35,
+   "n_insoluble_0": 35,
+   "n_soluble_1": 0,
+   "A_source_only": null,
+   "B_sequence_only": null,
+   "C_source_plus_sequence": null,
+   "auroc_defined": false
+  },
+  {
+   "group_type": "SG_center",
+   "group": "EFI",
+   "n": 92,
+   "n_insoluble_0": 71,
+   "n_soluble_1": 21,
+   "A_source_only": 0.5,
+   "B_sequence_only": 0.4386,
+   "C_source_plus_sequence": 0.3937,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_center",
+   "group": "JCSG",
+   "n": 890,
+   "n_insoluble_0": 269,
+   "n_soluble_1": 621,
+   "A_source_only": 0.5,
+   "B_sequence_only": 0.5562,
+   "C_source_plus_sequence": 0.5868,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_center",
+   "group": "MCSG",
+   "n": 527,
+   "n_insoluble_0": 367,
+   "n_soluble_1": 160,
+   "A_source_only": 0.5,
+   "B_sequence_only": 0.4905,
+   "C_source_plus_sequence": 0.53,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_center_EXCLUDED",
+   "group": "MPP",
+   "n": 57,
+   "n_insoluble_0": 57,
+   "n_soluble_1": 0,
+   "A_source_only": null,
+   "B_sequence_only": null,
+   "C_source_plus_sequence": null,
+   "auroc_defined": false
+  },
+  {
+   "group_type": "SG_center_EXCLUDED",
+   "group": "NESG",
+   "n": 152,
+   "n_insoluble_0": 152,
+   "n_soluble_1": 0,
+   "A_source_only": null,
+   "B_sequence_only": null,
+   "C_source_plus_sequence": null,
+   "auroc_defined": false
+  },
+  {
+   "group_type": "SG_center_EXCLUDED",
+   "group": "NYSGRC",
+   "n": 384,
+   "n_insoluble_0": 384,
+   "n_soluble_1": 0,
+   "A_source_only": null,
+   "B_sequence_only": null,
+   "C_source_plus_sequence": null,
+   "auroc_defined": false
+  },
+  {
+   "group_type": "SG_center",
+   "group": "SECSG",
+   "n": 300,
+   "n_insoluble_0": 208,
+   "n_soluble_1": 92,
+   "A_source_only": 0.5,
+   "B_sequence_only": 0.3708,
+   "C_source_plus_sequence": 0.4212,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_center",
+   "group": "SGPP",
+   "n": 455,
+   "n_insoluble_0": 361,
+   "n_soluble_1": 94,
+   "A_source_only": 0.5,
+   "B_sequence_only": 0.586,
+   "C_source_plus_sequence": 0.556,
+   "auroc_defined": true
+  },
+  {
+   "group_type": "SG_center_EXCLUDED",
+   "group": "SSGCID",
+   "n": 67,
+   "n_insoluble_0": 1,
+   "n_soluble_1": 66,
+   "A_source_only": null,
+   "B_sequence_only": null,
+   "C_source_plus_sequence": null,
+   "auroc_defined": true
+  }
+ ],
+ "C": 1.0,
+ "seed": 42,
+ "train_n": 70030,
+ "val_n": 4000,
+ "excluded_from_train": [
+  "PDB_230301_28958"
+ ],
+ "centers_evaluated": [
+  "EFI",
+  "JCSG",
+  "MCSG",
+  "SECSG",
+  "SGPP"
+ ],
+ "unseen_category_val_rows": 0
+}

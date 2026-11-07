@@ -1,0 +1,9 @@
+group_type	group	n	n_insoluble_0	n_soluble_1	A_source_only	B_sequence_only	C_source_plus_sequence	auroc_defined
+overall	ALL_validation	4000	2000	2000	0.7792	0.6565	0.7982	True
+SG_target_only	SG_target	2959	1905	1054	0.6172	0.6242	0.646	True
+SG_center	EFI	92	71	21	0.5	0.5044	0.5594	True
+SG_center	JCSG	890	269	621	0.5	0.5338	0.5456	True
+SG_center	MCSG	527	367	160	0.5	0.4996	0.5308	True
+SG_center	SECSG	300	208	92	0.5	0.3677	0.4381	True
+SG_center	SGPP	455	361	94	0.5	0.5919	0.5589	True
+macro_mean	unweighted_mean_of_5_centers	2264	1276	988	0.5	0.4995	0.5266	True

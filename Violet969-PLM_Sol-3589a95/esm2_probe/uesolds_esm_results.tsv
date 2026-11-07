@@ -1,0 +1,4 @@
+model	pooled_auroc	auroc_EFI	auroc_JCSG	auroc_MCSG	auroc_SECSG	auroc_SGPP	unweighted_mean_5_centers
+ESM_whole	0.6759	0.4594	0.6171	0.562	0.4631	0.4854	0.5174
+comp_len_matched	0.6563	0.5057	0.5327	0.4976	0.3653	0.5931	0.4989
+comp_len_fulllength	0.6565	0.5044	0.5338	0.4996	0.3677	0.5919	0.4995

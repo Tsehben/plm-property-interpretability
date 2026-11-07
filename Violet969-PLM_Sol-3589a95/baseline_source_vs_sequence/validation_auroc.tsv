@@ -1,0 +1,13 @@
+group_type	group	n	n_insoluble_0	n_soluble_1	A_source_only	B_sequence_only	C_source_plus_sequence	auroc_defined
+overall	ALL_validation	4000	2000	2000	0.7792	0.657	0.7996	True
+SG_target_only	SG_target	2959	1905	1054	0.6172	0.626	0.6479	True
+SG_center_EXCLUDED	BSGI	35	35	0				False
+SG_center	EFI	92	71	21	0.5	0.4386	0.3937	True
+SG_center	JCSG	890	269	621	0.5	0.5562	0.5868	True
+SG_center	MCSG	527	367	160	0.5	0.4905	0.53	True
+SG_center_EXCLUDED	MPP	57	57	0				False
+SG_center_EXCLUDED	NESG	152	152	0				False
+SG_center_EXCLUDED	NYSGRC	384	384	0				False
+SG_center	SECSG	300	208	92	0.5	0.3708	0.4212	True
+SG_center	SGPP	455	361	94	0.5	0.586	0.556	True
+SG_center_EXCLUDED	SSGCID	67	1	66				True

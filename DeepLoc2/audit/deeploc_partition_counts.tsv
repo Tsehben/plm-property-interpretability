@@ -1,0 +1,9 @@
+group	P0	P1	P2	P3	P4	TOTAL
+Extracellular_pos_Cytoplasm_neg	643	520	819	584	575	3141
+Cytoplasm_pos_Extracellular_neg	2069	1970	1892	1972	1807	9710
+both_positive	50	26	36	24	24	160
+both_negative	3201	2935	2984	3116	3056	15292
+missing_or_unrecognized	0	0	0	0	0	0
+TOTAL_rows	5963	5451	5731	5696	5462	28303
+Extracellular_pos_Cytoplasm_neg__also_other_localization	66	37	30	31	33	197
+Cytoplasm_pos_Extracellular_neg__also_other_localization	1087	1032	1020	1044	945	5128

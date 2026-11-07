@@ -1,0 +1,8 @@
+# Preserve every tracked file byte-for-byte. Several of our outputs are written
+# by Python's csv module, which terminates lines with CRLF; line-ending
+# normalization would change their bytes and break SHA-256 checks.
+* -text
+*.npz binary
+*.safetensors binary
+*.t7 binary
+*.png binary

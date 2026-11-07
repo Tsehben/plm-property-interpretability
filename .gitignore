@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# MIT 6.3930 project .gitignore
+#
+# Deliberately NARROW.  Do NOT add blanket rules for *.fasta, *.csv, *.npz or
+# emb/ -- the cohort FASTAs, manifests, result tables and pooled ESM-2
+# embeddings are tracked on purpose.  Every exclusion below names a specific
+# path and is justified in REPO_SETUP.md.
+# ---------------------------------------------------------------------------
+
+# --- macOS metadata --------------------------------------------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Python caches / environments -----------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# --- Credentials (never commit) -------------------------------------------
+*.pem
+*.key
+.netrc
+.huggingface/
+**/secrets.*
+**/credentials.*
+*token*.txt
+
+# --- Redundant upstream release archive -----------------------------------
+# Byte-identical to the tracked Violet969-PLM_Sol-3589a95/ tree.
+PLM_Sol-V1.1.zip
+
+# --- Large third-party binaries: retrieve, do not redistribute -------------
+# InterProt SAE weights, 40 MB.  Download step + SHA-256 in REPO_SETUP.md.
+interprot_ref/raw/*.safetensors
+
+# PLM_Sol's own trained protT5 model, 28 MB.  Not used anywhere in our
+# analysis; retrieval step in REPO_SETUP.md.
+Violet969-PLM_Sol-3589a95/model_param/model_param.t7
+
+# --- DeepLoc 2.0 raw data: no stated redistribution terms ------------------
+# Download URLs + SHA-256 in REPO_SETUP.md and FINDINGS.md.
+DeepLoc2/raw/*.csv
