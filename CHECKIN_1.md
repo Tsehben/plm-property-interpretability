@@ -16,9 +16,10 @@ ablations, sequence variants) is planned.
 **Status:** property probes complete for both properties; SAE feasibility verified; concept
 probes and representation overlap not yet run.
 
-**One change to report:** the HPA test file has no Extracellular column, so it cannot evaluate
-our binary contrast. We therefore reserve **DeepLoc partition 0** as an internal Swiss-Prot
-holdout. External validation for this contrast **remains open** ([§3](#3-data-and-access)).
+**One change to report:** both labels come from DeepLoc's Swiss-Prot training/validation file,
+which has them. The *separate* HPA test file has no Extracellular column, so it cannot evaluate
+our contrast. We therefore reserve **DeepLoc partition 0** as an internal Swiss-Prot holdout.
+External validation for this contrast **remains open** ([§3](#3-data-and-access)).
 
 ---
 
@@ -86,7 +87,7 @@ Both datasets are downloaded, audited, hash-verified, and frozen. We have full a
 
 | | **UESolDS** (solubility) | **DeepLoc 2.0** (localization) |
 |---|---|---|
-| **Labels** | 1 = soluble, 0 = insoluble; verified in release code | Multi-label; we use **Extracellular = 1 vs Cytoplasm = 0** |
+| **Labels** | 1 = soluble, 0 = insoluble; verified in release code | Multi-label: 10 localizations as **separate 0/1 columns**. Positive = `Extracellular=1 AND Cytoplasm=0`; negative = `Cytoplasm=1 AND Extracellular=0`; rows with **both 1 or both 0 excluded**. Other localizations are allowed |
 | **Release** | PLM_Sol V1.1 (Zenodo) | 28,303 records, SHA-256 `29a07b29…8384a2` |
 | **Eligible** | 70,030 training records | **12,851** (3,141 Extracellular-pos + 9,710 Cytoplasm-pos; 160 both-positive and 15,292 both-negative excluded) |
 | **Analysis cohort** | **10,000 train** (seed 42, stratified) + **4,000 validation** | **10,139** in partitions 1–4 (2,498 / 7,641; prevalence 0.2464) |
@@ -99,13 +100,31 @@ additional positive localizations (the separate Membrane flag is excluded from i
 4,172 of 10,139 carry an additional localization, leaving a **5,967-protein single-localization
 sensitivity subset** we re-score every model on.
 
-**The evaluation change.** The HPA test file's columns are `sid, Cell membrane, Cytoplasm,
-Endoplasmic reticulum, Golgi apparatus, Lysosome/Vacuole, Mitochondrion, Nucleus, Peroxisome,
-Lengths, fasta` — **no Extracellular column**. Our positive class does not exist there, so HPA
-cannot evaluate this contrast. We therefore reserve **partition 0 as an internal Swiss-Prot
-holdout**. It is drawn from the same corpus as development, so it tests generalization across
-homology partitions but **not** across data sources. **External validation for this binary
-contrast remains an open problem.**
+**The evaluation change — two different files.** DeepLoc 2.0 ships a Swiss-Prot
+training/validation set and a separate, independent HPA test set [[4]](#r4), and only one of
+them carries our labels.
+
+*The Swiss-Prot training/validation file **has both labels.*** Its header is
+`, ACC, Kingdom, Partition, Membrane, Cytoplasm, Nucleus, Extracellular, Cell membrane,
+Mitochondrion, Plastid, Endoplasmic reticulum, Lysosome/Vacuole, Golgi apparatus, Peroxisome,
+Sequence` — ten localization columns including **Extracellular**. We built our binary cohort
+from these annotations, and we had extracellular proteins throughout development. Swiss-Prot
+contains **3,301** proteins labeled extracellular. Of these, **160** are also labeled
+cytoplasmic. Excluding those leaves **3,141** positives for our binary comparison, with
+**2,498** in development (P1–P4) and **643** in the reserved partition (P0).
+
+*The separate HPA test file **lacks one of them.*** Its header is `sid, Cell membrane,
+Cytoplasm, Endoplasmic reticulum, Golgi apparatus, Lysosome/Vacuole, Mitochondrion, Nucleus,
+Peroxisome, Lengths, fasta` — eight localization columns, and **no Extracellular column**
+(the paper's Table 2 scores six of them). Extracellular status is simply *unknown* for those
+proteins; it is a missing annotation, not an absence of extracellular protein. A protein there
+with `Cytoplasm=0` could be extracellular or could be anything else, so HPA cannot evaluate
+this contrast either way.
+
+We therefore reserve **partition 0 as an internal Swiss-Prot holdout** (2,712 proteins). It is
+drawn from the same corpus as development, so it tests generalization across homology
+partitions — DeepLoc partitions at ≤30 % sequence similarity — but **not** across data sources.
+**External validation for this binary contrast remains an open problem.**
 
 ## 4. Preliminary evidence
 
@@ -205,7 +224,7 @@ Submitted plan, with actual progress marked:
 | **Incomplete family annotations** | *Measured, unresolved.* In the 100-protein pilot, **49 of 100** had a Pfam annotation and **51 of 100** did not, using the methods applied. Of those **51**, **23** had exact sequence matches but no Pfam in the queried records; the remaining **28** had no exact match at all — they are tagged, truncated expression constructs (His6, TEV sites, pET vector ends), and a tag-trimming retry recovered only 1 of 29. So family **cannot be fully controlled on UESolDS**, and the concept probe for family will run on partial coverage. |
 | **Unverified homology overlap** | *Unmeasured in both datasets.* Exact-sequence overlap is zero everywhere, but homology-level overlap is not measured. DeepLoc's published partitions are homology-partitioned by design (partial protection); UESolDS has no equivalent. Leakage would inflate **every** model alike, so our **paired differences** are more robust than absolute numbers. |
 | **Limits on causal interpretation** | *Structural.* Probes and SAE features are correlational. A latent firing on residues 1–30 is predictive evidence; only Phase 2 ablations and sequence variants test causation. We will not claim "ESM-2 detects signal peptides" on probe evidence. |
-| **No external test for the DeepLoc contrast** | *Open.* HPA lacks the Extracellular column. P0 is an internal Swiss-Prot holdout, not an independent source. Options if time allows: add Nucleus vs Cytoplasm as a secondary contrast, which HPA *can* evaluate. |
+| **No external test for the DeepLoc contrast** | *Open.* The separate HPA test file lacks the Extracellular column, so extracellular status is unknown there. P0 is an internal Swiss-Prot holdout, not an independent source. Options if time allows: add Nucleus vs Cytoplasm as a secondary contrast, which HPA *can* evaluate. |
 
 ### 5.4 How a negative result still answers the question
 
@@ -257,6 +276,16 @@ SECSG 92/208 · SGPP 94/361 — 2,264 validation proteins in total.
 [`utils/general.py:10`](Violet969-PLM_Sol-3589a95/utils/general.py),
 [`datasets/transforms.py:72-87`](Violet969-PLM_Sol-3589a95/datasets/transforms.py).
 
+**DeepLoc cohort re-verified against the raw release.** Rebuilding the eligibility rule
+directly from [`Swissprot_Train_Validation_dataset.csv`](DeepLoc2/raw/Swissprot_Train_Validation_dataset.csv)
+reproduces [`deeploc_binary_manifest.tsv`](DeepLoc2/baseline/deeploc_binary_manifest.tsv)
+exactly: same 12,851 accessions, **0** label or partition mismatches, **0** sequence-SHA-256
+mismatches, **0** length mismatches, and **0** mismatches on the additional-localization flag.
+The 10,139 keys in [`deeploc_pairs.tsv`](DeepLoc2/esm2_probe/deeploc_pairs.tsv) are exactly the
+P1–P4 development set, with sequences identical to the CSV. The file's 3,301 Extracellular-
+positive rows match the 3,301 reported in the paper's Table 1 [[4]](#r4), confirming we hold the
+published dataset. **No re-extraction is required.**
+
 **Integrity.** DeepLoc: zero duplicate accessions, zero cross-partition duplicate sequences,
 zero cross-partition label conflicts. UESolDS: `original_id` is **not** a primary key — 169
 identifiers are reused across 374 training records as distinct construct variants — so the
@@ -307,8 +336,9 @@ baseline and ESM models alike, so our **paired per-fold differences** are more r
 absolute numbers — the +0.0634 AP gain held in 4/4 folds.
 
 **Q6. What is the external validity story for DeepLoc?**
-Weaker than we would like, and we flag it rather than paper over it. HPA has no Extracellular
-column, so P0 is an internal Swiss-Prot holdout — it tests generalization across homology
+Weaker than we would like, and we flag it rather than paper over it. Our labels come from the
+Swiss-Prot file; the separate HPA test file has no Extracellular column, so P0 is an internal
+Swiss-Prot holdout — it tests generalization across homology
 partitions, not across sources. If time allows, Nucleus vs Cytoplasm is a secondary contrast
 that HPA *can* evaluate.
 
@@ -348,5 +378,21 @@ code: [etowahadams/interprot](https://github.com/etowahadams/interprot)
 *Localization latents (layer 28):* L28/1541 signal-peptide cleavage site; L28/1470 and L28/1555
 across the peptide; L28/2375 bipartite NLS; L28/3277 mitochondrial transit peptides.
 
+<a name="r4"></a>**[4]** Thumuluri V, Almagro Armenteros JJ, Johansen AR, Nielsen H, Winther O.
+*DeepLoc 2.0: multi-label subcellular localization prediction using protein language models.*
+**Nucleic Acids Research** 50(W1):W228–W234, 2022.
+[doi:10.1093/nar/gkac278](https://doi.org/10.1093/nar/gkac278) ·
+[PMC9252801](https://pmc.ncbi.nlm.nih.gov/articles/PMC9252801/)
+*Table 1* is the Swiss-Prot cross-validation dataset: ten localization categories, including
+**Extracellular (3,301 proteins)**. *Table 2* is the independent Human Protein Atlas test set
+and scores six categories — Cytoplasm, Nucleus, Cell membrane, Mitochondrion, Endoplasmic
+reticulum, Golgi apparatus — with **no Extracellular**. HPA annotations come from confocal
+microscopy and are "used for independent validation."
+
 **Datasets.** PLM_Sol V1.1 / UESolDS (Zenodo) ·
-DeepLoc 2.0, [DTU Health Tech](https://services.healthtech.dtu.dk/services/DeepLoc-2.0/4-Data.php)
+DeepLoc 2.0 downloads, "Training and testing data sets":
+[DTU Health Tech](https://services.healthtech.dtu.dk/services/DeepLoc-2.0/) ·
+[data page](https://services.healthtech.dtu.dk/services/DeepLoc-2.0/4-Data.php).
+The page lists the *Training/Validation set* and the *Test set HPA* as two separate downloads
+and states that the Partition column marks five homology partitions (0–4) at "maximum 30%
+sequence similarity." 
