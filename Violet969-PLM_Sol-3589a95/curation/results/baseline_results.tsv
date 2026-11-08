@@ -1,0 +1,133 @@
+cohort	model	group	n_train	n_eval	n0	n1	auroc	average_precision
+original	source	POOLED	10000	4000	2000	2000	0.77918713	0.80371409
+original	source	BSGI	10000	35	35	0		
+original	source	DNASU_clone	10000	126	16	110	0.5	0.87301587
+original	source	EFI	10000	92	71	21	0.5	0.22826087
+original	source	JCSG	10000	890	269	621	0.5	0.69775281
+original	source	MCSG	10000	527	367	160	0.5	0.30360531
+original	source	MPP	10000	57	57	0		
+original	source	NESG	10000	152	152	0		
+original	source	NYSGRC	10000	384	384	0		
+original	source	PDB_serial	10000	748	0	748		
+original	source	RefSeq	10000	32	0	32		
+original	source	SECSG	10000	300	208	92	0.5	0.30666667
+original	source	SGPP	10000	455	361	94	0.5	0.20659341
+original	source	SSGCID	10000	67	1	66	0.5	0.98507463
+original	source	TB_Rv	10000	100	53	47	0.5	0.47
+original	source	other	10000	35	26	9	0.5	0.25714286
+original	source	MACRO_training_selected_centers	10000	6			0.5	
+original	composition	POOLED	10000	4000	2000	2000	0.6562615	0.64425072
+original	composition	BSGI	10000	35	35	0		
+original	composition	DNASU_clone	10000	126	16	110	0.62556818	0.91911917
+original	composition	EFI	10000	92	71	21	0.50570087	0.2951263
+original	composition	JCSG	10000	890	269	621	0.5327359	0.75306921
+original	composition	MCSG	10000	527	367	160	0.4976158	0.29347881
+original	composition	MPP	10000	57	57	0		
+original	composition	NESG	10000	152	152	0		
+original	composition	NYSGRC	10000	384	384	0		
+original	composition	PDB_serial	10000	748	0	748		
+original	composition	RefSeq	10000	32	0	32		
+original	composition	SECSG	10000	300	208	92	0.3652801	0.24041695
+original	composition	SGPP	10000	455	361	94	0.593063	0.25925533
+original	composition	SSGCID	10000	67	1	66	0.12121212	0.97029721
+original	composition	TB_Rv	10000	100	53	47	0.52428743	0.51288306
+original	composition	other	10000	35	26	9	0.82905983	0.62401395
+original	composition	MACRO_training_selected_centers	10000	6			0.43593463	
+original	ESM_layer8	POOLED	10000	4000	2000	2000	0.67587337	0.67926186
+original	ESM_layer8	BSGI	10000	35	35	0		
+original	ESM_layer8	DNASU_clone	10000	126	16	110	0.61931818	0.92922497
+original	ESM_layer8	EFI	10000	92	71	21	0.45875252	0.25139294
+original	ESM_layer8	JCSG	10000	890	269	621	0.61701058	0.80335945
+original	ESM_layer8	MCSG	10000	527	367	160	0.56176771	0.3533309
+original	ESM_layer8	MPP	10000	57	57	0		
+original	ESM_layer8	NESG	10000	152	152	0		
+original	ESM_layer8	NYSGRC	10000	384	384	0		
+original	ESM_layer8	PDB_serial	10000	748	0	748		
+original	ESM_layer8	RefSeq	10000	32	0	32		
+original	ESM_layer8	SECSG	10000	300	208	92	0.46362876	0.27331115
+original	ESM_layer8	SGPP	10000	455	361	94	0.48544233	0.20927053
+original	ESM_layer8	SSGCID	10000	67	1	66	0.59090909	0.99226046
+original	ESM_layer8	TB_Rv	10000	100	53	47	0.49698916	0.46930713
+original	ESM_layer8	other	10000	35	26	9	0.56837607	0.51394241
+original	ESM_layer8	MACRO_training_selected_centers	10000	6			0.52958516	
+clean_all_sources	source	POOLED	9880	4000	2000	2000	0.77905713	0.80366566
+clean_all_sources	source	BSGI	9880	35	35	0		
+clean_all_sources	source	DNASU_clone	9880	126	16	110	0.5	0.87301587
+clean_all_sources	source	EFI	9880	92	71	21	0.5	0.22826087
+clean_all_sources	source	JCSG	9880	890	269	621	0.5	0.69775281
+clean_all_sources	source	MCSG	9880	527	367	160	0.5	0.30360531
+clean_all_sources	source	MPP	9880	57	57	0		
+clean_all_sources	source	NESG	9880	152	152	0		
+clean_all_sources	source	NYSGRC	9880	384	384	0		
+clean_all_sources	source	PDB_serial	9880	748	0	748		
+clean_all_sources	source	RefSeq	9880	32	0	32		
+clean_all_sources	source	SECSG	9880	300	208	92	0.5	0.30666667
+clean_all_sources	source	SGPP	9880	455	361	94	0.5	0.20659341
+clean_all_sources	source	SSGCID	9880	67	1	66	0.5	0.98507463
+clean_all_sources	source	TB_Rv	9880	100	53	47	0.5	0.47
+clean_all_sources	source	other	9880	35	26	9	0.5	0.25714286
+clean_all_sources	source	MACRO_training_selected_centers	9880	6			0.5	
+clean_all_sources	composition	POOLED	9880	4000	2000	2000	0.65649075	0.64408684
+clean_all_sources	composition	BSGI	9880	35	35	0		
+clean_all_sources	composition	DNASU_clone	9880	126	16	110	0.62727273	0.91960653
+clean_all_sources	composition	EFI	9880	92	71	21	0.49899396	0.29131307
+clean_all_sources	composition	JCSG	9880	890	269	621	0.53359793	0.75332712
+clean_all_sources	composition	MCSG	9880	527	367	160	0.49671322	0.29304703
+clean_all_sources	composition	MPP	9880	57	57	0		
+clean_all_sources	composition	NESG	9880	152	152	0		
+clean_all_sources	composition	NYSGRC	9880	384	384	0		
+clean_all_sources	composition	PDB_serial	9880	748	0	748		
+clean_all_sources	composition	RefSeq	9880	32	0	32		
+clean_all_sources	composition	SECSG	9880	300	208	92	0.36460075	0.24034246
+clean_all_sources	composition	SGPP	9880	455	361	94	0.59450698	0.2601976
+clean_all_sources	composition	SSGCID	9880	67	1	66	0.12121212	0.97029721
+clean_all_sources	composition	TB_Rv	9880	100	53	47	0.5230831	0.51278867
+clean_all_sources	composition	other	9880	35	26	9	0.82905983	0.62401395
+clean_all_sources	composition	MACRO_training_selected_centers	9880	6			0.43493749	
+clean_all_sources	ESM_layer8	POOLED	9880	4000	2000	2000	0.67685788	0.67926183
+clean_all_sources	ESM_layer8	BSGI	9880	35	35	0		
+clean_all_sources	ESM_layer8	DNASU_clone	9880	126	16	110	0.61875	0.92848464
+clean_all_sources	ESM_layer8	EFI	9880	92	71	21	0.48222669	0.26195935
+clean_all_sources	ESM_layer8	JCSG	9880	890	269	621	0.61920155	0.80602453
+clean_all_sources	ESM_layer8	MCSG	9880	527	367	160	0.56066076	0.35062902
+clean_all_sources	ESM_layer8	MPP	9880	57	57	0		
+clean_all_sources	ESM_layer8	NESG	9880	152	152	0		
+clean_all_sources	ESM_layer8	NYSGRC	9880	384	384	0		
+clean_all_sources	ESM_layer8	PDB_serial	9880	748	0	748		
+clean_all_sources	ESM_layer8	RefSeq	9880	32	0	32		
+clean_all_sources	ESM_layer8	SECSG	9880	300	208	92	0.46117266	0.27096228
+clean_all_sources	ESM_layer8	SGPP	9880	455	361	94	0.49080568	0.21260238
+clean_all_sources	ESM_layer8	SSGCID	9880	67	1	66	0.57575758	0.99188168
+clean_all_sources	ESM_layer8	TB_Rv	9880	100	53	47	0.48735448	0.46165087
+clean_all_sources	ESM_layer8	other	9880	35	26	9	0.57264957	0.47993568
+clean_all_sources	ESM_layer8	MACRO_training_selected_centers	9880	6			0.53163749	
+source_controlled	source	POOLED	7191	2867	1813	1054	0.64555953	0.45836412
+source_controlled	source	EFI	7191	92	71	21	0.5	0.22826087
+source_controlled	source	JCSG	7191	890	269	621	0.5	0.69775281
+source_controlled	source	MCSG	7191	527	367	160	0.5	0.30360531
+source_controlled	source	NESG	7191	152	152	0		
+source_controlled	source	NYSGRC	7191	384	384	0		
+source_controlled	source	SECSG	7191	300	208	92	0.5	0.30666667
+source_controlled	source	SGPP	7191	455	361	94	0.5	0.20659341
+source_controlled	source	SSGCID	7191	67	1	66	0.5	0.98507463
+source_controlled	source	MACRO_training_selected_centers	7191	6			0.5	
+source_controlled	composition	POOLED	7191	2867	1813	1054	0.62312405	0.46516886
+source_controlled	composition	EFI	7191	92	71	21	0.50100604	0.30027263
+source_controlled	composition	JCSG	7191	890	269	621	0.53749499	0.74891807
+source_controlled	composition	MCSG	7191	527	367	160	0.4925579	0.29444255
+source_controlled	composition	NESG	7191	152	152	0		
+source_controlled	composition	NYSGRC	7191	384	384	0		
+source_controlled	composition	SECSG	7191	300	208	92	0.38482441	0.24825279
+source_controlled	composition	SGPP	7191	455	361	94	0.58389816	0.25542984
+source_controlled	composition	SSGCID	7191	67	1	66	0.10606061	0.96861371
+source_controlled	composition	MACRO_training_selected_centers	7191	6			0.43430702	
+source_controlled	ESM_layer8	POOLED	7191	2867	1813	1054	0.61687936	0.493793
+source_controlled	ESM_layer8	EFI	7191	92	71	21	0.47887324	0.24657803
+source_controlled	ESM_layer8	JCSG	7191	890	269	621	0.61622039	0.80552342
+source_controlled	ESM_layer8	MCSG	7191	527	367	160	0.54950613	0.35591312
+source_controlled	ESM_layer8	NESG	7191	152	152	0		
+source_controlled	ESM_layer8	NYSGRC	7191	384	384	0		
+source_controlled	ESM_layer8	SECSG	7191	300	208	92	0.47444607	0.28141299
+source_controlled	ESM_layer8	SGPP	7191	455	361	94	0.49702363	0.2202527
+source_controlled	ESM_layer8	SSGCID	7191	67	1	66	0.75757576	0.99590092
+source_controlled	ESM_layer8	MACRO_training_selected_centers	7191	6			0.5622742	

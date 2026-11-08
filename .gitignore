@@ -48,3 +48,10 @@ Violet969-PLM_Sol-3589a95/model_param/model_param.t7
 # --- DeepLoc 2.0 raw data: no stated redistribution terms ------------------
 # Download URLs + SHA-256 in REPO_SETUP.md and FINDINGS.md.
 DeepLoc2/raw/*.csv
+
+# Rebuildable MMseqs input FASTAs and representative sequences; audit mappings tracked.
+Violet969-PLM_Sol-3589a95/curation/results/train.fasta
+Violet969-PLM_Sol-3589a95/curation/results/validation.fasta
+Violet969-PLM_Sol-3589a95/curation/results/all_development.fasta
+Violet969-PLM_Sol-3589a95/curation/results/diversity_rep_seq.fasta
+Violet969-PLM_Sol-3589a95/curation/results/diversity_all_seqs.fasta

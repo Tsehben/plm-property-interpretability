@@ -550,3 +550,47 @@ being examined.
 - DeepLoc sample / pooled features — [`sae_pilot_sample.tsv`](DeepLoc2/sae_pilot/sae_pilot_sample.tsv), [`sae_pilot_pooled.npz`](DeepLoc2/sae_pilot/sae_pilot_pooled.npz)
 
 **Status: SAE compatibility pilot complete. Full pooled-feature extraction not started.**
+
+---
+
+## UESolDS — development validity audit and preprocessing — 2026-11-08
+
+Reviewed the submitted proposal, existing pipeline, this log and CHECKIN_1 before adding
+[the EDA report](Violet969-PLM_Sol-3589a95/curation/EDA_REPORT.md) and
+[reproducible curation pipeline](Violet969-PLM_Sol-3589a95/curation/README.md).
+Original inputs, embeddings and prior results are preserved; independent test was not opened.
+
+- **Label validity remains unresolved.** The published construction uses workflow stages
+  and missing measurements for some labels. Centre control alone does not verify an
+  experimental solubility outcome. No row-level strict-label cohort can be established
+  from the available release; the strict manifest explicitly contains zero records.
+- **Homology is now measured for UESolDS development.** MMseqs2 at 30% identity,
+  80% bilateral coverage finds 668 train–validation pairs (660 training, 624 validation
+  records). Additional all-development clustering supports conservative training exclusion.
+  Exact sequence duplicates/conflicts remain zero; one ID spans splits with different
+  construct lengths. Cleaned training has no shared detected cluster, direct qualifying
+  hit, exact sequence or identifier with validation. Remote/partial-domain homology remains
+  possible; locked-test homology remains deferred.
+- **Source-controlled cohort:** training-only minimum 100 records/class selects eight SG
+  centres. After cleaning: 50,436 training / 2,867 validation; cached comparison:
+  7,191 / 2,867. No class balancing, tag stripping or label flipping.
+- **Matched probes:** source-controlled pooled AUROC source/composition/ESM =
+  0.6456/0.6231/0.6169. Historical five-centre macro = 0.5000/0.5000/0.5232.
+  The broader six-defined-of-eight macro = 0.5000/0.4343/0.5623, but SSGCID has
+  only one validation negative and two other centres are single-class. Do not present
+  this unstable macro as evidence of improved biochemical validity.
+- **Artifacts:** terminal His runs occur in 6.90% of positive versus 2.55% of negative
+  training records; cleavage motifs 4.00% versus 0.29%. They are flags, not proof of
+  artificial tags or causal shortcuts. No-match annotations do not prove truncation.
+- **Annotation coverage remains a 100-record pilot:** 69 confident organisms, 3 ambiguous,
+  28 unmatched, 49 Pfam annotated. All other records are unqueried, not biologically absent.
+- **Index mapping:** legacy indices are assigned after exclusion, but the excluded row is
+  last in this release; zero cached indices are displaced. All 14,000 cache mappings
+  pass ID/label/hash/sequence checks. Seventeen prepare-stage outputs reproduce byte-for-byte.
+
+Recommendation: use the source-controlled, homology-filtered cached cohort only for
+exploratory SAE/concept comparisons. Recover construct-matched experimental outcomes
+before making stronger solubility claims. Earlier claims that provenance was fully
+"mitigated", that unmatched records were necessarily constructs, or that homology affects
+all models equally should be qualified by this report. CHECKIN_1 is preserved as the
+historical check-in, not rewritten retrospectively.

@@ -1,0 +1,17 @@
+cohort	scope	split	n	soluble	insoluble	unique_sequences	clusters	centers	annotation_attempted	organism_assigned	pfam_assigned
+original	full	train	70030	42449	27581	70030	63897	17	100	69	49
+original	full	validation	4000	2000	2000	4000	3978	15	0	0	0
+original	cached	train	10000	6063	3937	10000	9855	17	13	10	7
+original	cached	validation	4000	2000	2000	4000	3978	15	0	0	0
+clean_all_sources	full	train	69248	41982	27266	69248	63229	17	100	69	49
+clean_all_sources	full	validation	4000	2000	2000	4000	3978	15	0	0	0
+clean_all_sources	cached	train	9880	5996	3884	9880	9738	17	13	10	7
+clean_all_sources	cached	validation	4000	2000	2000	4000	3978	15	0	0	0
+source_controlled	full	train	50436	23868	26568	50436	46487	8	73	47	32
+source_controlled	full	validation	2867	1054	1813	2867	2857	8	0	0	0
+source_controlled	cached	train	7191	3403	3788	7191	7103	8	11	9	6
+source_controlled	cached	validation	2867	1054	1813	2867	2857	8	0	0	0
+strict_label	full	train	0	0	0	0	0	0	0	0	0
+strict_label	full	validation	0	0	0	0	0	0	0	0	0
+strict_label	cached	train	0	0	0	0	0	0	0	0	0
+strict_label	cached	validation	0	0	0	0	0	0	0	0	0

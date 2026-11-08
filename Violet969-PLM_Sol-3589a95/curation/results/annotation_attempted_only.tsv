@@ -1,0 +1,19 @@
+center	label	organism_assigned	organism_assigned	organism_assigned	pfam_assigned	pfam_assigned	pfam_assigned
+		size	sum	mean	size	sum	mean
+CESG	0	1	1	1	1	1	1
+DNASU_clone	1	3	0	0	3	0	0
+JCSG	0	8	6	0.75	8	3	0.375
+JCSG	1	8	4	0.5	8	3	0.375
+MCSG	0	6	3	0.5	6	2	0.33333333
+MCSG	1	13	10	0.76923077	13	7	0.53846154
+NESG	0	7	6	0.85714286	7	4	0.57142857
+NESG	1	2	0	0	2	0	0
+NYSGRC	0	5	4	0.8	5	4	0.8
+PDB_serial	1	22	20	0.90909091	22	16	0.72727273
+RefSeq	1	1	1	1	1	0	0
+SECSG	0	4	3	0.75	4	2	0.5
+SECSG	1	3	3	1	3	1	0.33333333
+SGPP	0	5	2	0.4	5	1	0.2
+SGPP	1	6	2	0.33333333	6	2	0.33333333
+SSGCID	0	3	3	1	3	3	1
+SSGCID	1	3	1	0.33333333	3	0	0

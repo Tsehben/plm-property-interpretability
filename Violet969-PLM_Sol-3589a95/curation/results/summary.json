@@ -1,0 +1,23 @@
+{
+  "records": 74031,
+  "cache_index_displacements": 0,
+  "exact_duplicate_records": 0,
+  "conflicting_records": 0,
+  "repeated_identifier_records": 376,
+  "cross_split_pairs": 668,
+  "train_with_hits": 660,
+  "validation_with_hits": 624,
+  "clusters": 67229,
+  "selected_centers": [
+    "EFI",
+    "JCSG",
+    "MCSG",
+    "NESG",
+    "NYSGRC",
+    "SECSG",
+    "SGPP",
+    "SSGCID"
+  ],
+  "strict_label_n": 0,
+  "checks": "passed: cache mapping, finite models, convergence, exact/cluster/hit/identifier separation, input hashes; independent test never opened"
+}

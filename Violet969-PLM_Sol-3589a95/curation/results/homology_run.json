@@ -1,0 +1,62 @@
+{
+  "version": "2a3dafc46f9a1bc79af96b4c11a24d63a7b0b4d4",
+  "binary_sha256": "d6ebeaf4b8cc7570d3f2bdbce191a37bd14e24ad604022ad67cc072657af352b",
+  "commands": [
+    [
+      "/tmp/mmseqs/bin/mmseqs",
+      "easy-search",
+      "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/validation.fasta",
+      "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/train.fasta",
+      "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/cross_split_hits.tsv",
+      "/var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/search",
+      "--min-seq-id",
+      "0.30",
+      "-c",
+      "0.80",
+      "--cov-mode",
+      "0",
+      "-s",
+      "7.5",
+      "-e",
+      "0.001",
+      "--max-seqs",
+      "10000",
+      "--alignment-mode",
+      "3",
+      "--threads",
+      "4",
+      "--format-output",
+      "query,target,fident,qcov,tcov,evalue,bits"
+    ],
+    [
+      "/tmp/mmseqs/bin/mmseqs",
+      "easy-cluster",
+      "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/all_development.fasta",
+      "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/diversity",
+      "/var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster",
+      "--min-seq-id",
+      "0.30",
+      "-c",
+      "0.80",
+      "--cov-mode",
+      "0",
+      "-s",
+      "7.5",
+      "-e",
+      "0.001",
+      "--alignment-mode",
+      "3",
+      "--cluster-mode",
+      "1",
+      "--linclust-version",
+      "1",
+      "--threads",
+      "4"
+    ]
+  ],
+  "input_hashes": {
+    "train.fasta": "82423e8c3f4b76f6da613b743180423cdcdb2e2bd558372d0cec67aa6cfdb4b3",
+    "validation.fasta": "a2d4c856f5550ee6d6183688a8691672bfb026b0709801182ce9657a14f2f615",
+    "all_development.fasta": "52b7022eb0070d70fd35b7cc5ff56cfb09c63c31e6cedc743fa63adfaa1b8399"
+  }
+}

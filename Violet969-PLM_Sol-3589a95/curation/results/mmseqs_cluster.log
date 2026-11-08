@@ -1,0 +1,593 @@
+Create directory /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster
+easy-cluster /Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/all_development.fasta /Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/diversity /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster --min-seq-id 0.30 -c 0.80 --cov-mode 0 -s 7.5 -e 0.001 --alignment-mode 3 --cluster-mode 1 --linclust-version 1 --threads 4 
+
+MMseqs Version:                            	2a3dafc46f9a1bc79af96b4c11a24d63a7b0b4d4
+Substitution matrix                        	aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix                   	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                                	7.5
+k-mer length                               	0
+Target search mode                         	0
+k-score                                    	seq:2147483647,prof:2147483647
+Alphabet size                              	aa:21,nucl:5
+Max sequence length                        	65535
+Max results per query                      	20
+Split database                             	0
+Split mode                                 	2
+Split memory limit                         	0
+Coverage threshold                         	0.8
+Coverage mode                              	0
+Compositional bias                         	1
+Compositional bias scale                   	1
+Diagonal scoring                           	true
+Exact k-mer matching                       	0
+Mask residues                              	1
+Mask residues probability                  	0.9
+Mask lower case residues                   	0
+Mask lower letter repeating N times        	0
+Minimum diagonal score                     	15
+Selected taxa                              	
+Include identical seq. id.                 	false
+Spaced k-mers                              	1
+Preload mode                               	0
+Pseudo count a                             	substitution:1.100,context:1.400
+Pseudo count b                             	substitution:4.100,context:5.800
+Spaced k-mer pattern                       	
+Local temporary path                       	
+Threads                                    	4
+Compressed                                 	0
+Verbosity                                  	3
+Add backtrace                              	false
+Alignment mode                             	3
+Alignment mode                             	0
+Allow wrapped scoring                      	false
+E-value threshold                          	0.001
+Seq. id. threshold                         	0.3
+Min alignment length                       	0
+Seq. id. mode                              	0
+Alternative alignments                     	0
+Max reject                                 	2147483647
+Max accept                                 	2147483647
+Score bias                                 	0
+Realign hits                               	false
+Realign score bias                         	-0.2
+Realign max seqs                           	2147483647
+Correlation score weight                   	0
+Gap open cost                              	aa:11,nucl:5
+Gap extension cost                         	aa:1,nucl:2
+Zdrop                                      	40
+Rescore mode                               	0
+Remove hits by seq. id. and coverage       	false
+Sort results                               	0
+Cluster mode                               	1
+Max connected component depth              	1000
+Similarity type                            	2
+Weight file name                           	
+Cluster Weight threshold                   	0.9
+Set mode                                   	false
+Single step clustering                     	false
+Cascaded clustering steps                  	3
+Cluster reassign                           	false
+Remove temporary files                     	true
+Force restart with latest tmp              	false
+MPI runner                                 	
+Cluster version                            	1
+k-mers per sequence                        	21
+Scale k-mers per sequence                  	aa:0.000,nucl:0.200
+Adjust k-mer length                        	false
+Shift hash                                 	67
+Include only extendable                    	false
+Skip repeating k-mers                      	false
+Include count table                        	true
+Number of count table based center swapping	2
+Include adjacency based center swapping    	true
+Number of adjacency based center swapping  	3
+Use parallelism                            	false
+Linclust version                           	1
+Filter cluDB file                          	
+Filter seqDB file                          	
+Switch to consensus representatives        	false
+Cluster hash                               	false
+Database type                              	0
+Shuffle input database                     	true
+Createdb mode                              	1
+Write lookup file                          	0
+Offset of numeric ids                      	0
+Use GPU                                    	0
+
+createdb /Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/results/all_development.fasta /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input --createdb-mode 1 --write-lookup 0 --threads 4 
+
+Shuffle database cannot be combined with --createdb-mode 1
+We recompute with --shuffle 0
+Converting sequences
+[=======
+Time for merging to input_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 40ms
+Create directory /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp
+cluster /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp -s 7.5 --max-seqs 20 -c 0.8 --cov-mode 0 --spaced-kmer-mode 1 --threads 4 --alignment-mode 3 -e 0.001 --min-seq-id 0.3 --cluster-mode 1 --remove-tmp-files 1 --linclust-version 1 
+
+Connected component clustering produces less clusters in a single step clustering.
+Please use --single-step-clusteringSet cluster iterations to 3
+linclust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 -k 0 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --include-align-files 0 --switch-consensus-rep 0 --clust-hash 0 --remove-tmp-files 1 --force-reuse 0 
+
+kmermatcher /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.3 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 1 
+
+kmermatcher /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.3 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 1 
+
+Database size: 74031 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Generate k-mers list for 1 split
+[=================================================================] 74.03K 0s 162ms
+Sort kmer 0h 0m 0s 35ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 1ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for fill: 0h 0m 0s 1ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 224ms
+rescorediagonal /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 4 --compressed 0 -v 3 
+
+[=================================================================] 74.03K 0s 6ms
+Time for merging to pref_rescore1: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 26ms
+clust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_rescore1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pre_clust --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Connected Component
+[=================================================================] 74.03K 0s 4ms
+Sort entries
+Find missing connections
+Found 629 new connections.
+Reconstruct initial order
+[=================================================================] 74.03K 0s 4ms
+Add missing connections
+[=================================================================] 74.03K 0s 0ms
+
+Time for read in: 0h 0m 0s 12ms
+connected component mode
+Total time: 0h 0m 0s 19ms
+
+Size of the sequence database: 74031
+Size of the alignment database: 74031
+Number of clusters: 73405
+
+Writing results 0h 0m 0s 7ms
+Time for merging to pre_clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 33ms
+createsubdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/order_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 13ms
+createsubdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/order_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 14ms
+filterdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_filter1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_filter2 --filter-file /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/order_redundancy --threads 4 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=================================================================] 73.40K 0s 10ms
+Time for merging to pref_filter2: 0h 0m 0s 10ms
+Time for processing: 0h 0m 0s 35ms
+rescorediagonal /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_filter2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 4 --compressed 0 -v 3 
+
+[=================================================================] 73.40K 0s 13ms
+Time for merging to pref_rescore2: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 33ms
+align /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_rescore2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 73405 type: Aminoacid
+Target database size: 73405 type: Aminoacid
+Calculation of alignments
+[=================================================================] 73.40K 0s 660ms
+Time for merging to aln: 0h 0m 0s 12ms
+76066 alignments calculated
+74168 sequence pairs passed the thresholds (0.975048 of overall calculated)
+1.010394 hits per query sequence
+Time for processing: 0h 0m 0s 680ms
+clust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/aln /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/clust --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Connected Component
+[=================================================================] 73.40K 0s 4ms
+Sort entries
+Find missing connections
+Found 763 new connections.
+Reconstruct initial order
+[=================================================================] 73.40K 0s 5ms
+Add missing connections
+[=================================================================] 73.40K 0s 0ms
+
+Time for read in: 0h 0m 0s 14ms
+connected component mode
+Total time: 0h 0m 0s 22ms
+
+Size of the sequence database: 73405
+Size of the alignment database: 73405
+Number of clusters: 72642
+
+Writing results 0h 0m 0s 6ms
+Time for merging to clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 35ms
+mergeclusters /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pre_clust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/clust --threads 4 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 73.40K 0s 4ms
+Clustering step 2
+[=================================================================] 72.64K 0s 9ms
+Write merged clustering
+[=================================================================] 74.03K 0s 14ms
+Time for merging to clu_redundancy: 0h 0m 0s 10ms
+Time for processing: 0h 0m 0s 30ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/pref_rescore2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/aln -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/linclust/14668340629101861718/clust -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createsubdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 13ms
+prefilter /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 4 --compressed 0 -v 3 
+
+Query database size: 72642 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 72642 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 72.64K 0s 381ms
+Index table: Masked residues: 316946
+Index table: fill
+[=================================================================] 72.64K 0s 346ms
+Index statistics
+Entries:          9687729
+DB size:          543 MB
+Avg k-mer size:   0.151371
+Top 10 k-mers
+    GTEQGP	1323
+    MGLAQG	1272
+    SGVRHM	702
+    GLPGMA	212
+    VDGEYF	181
+    AQQPMV	181
+    DLTNFQ	180
+    AQQPMS	171
+    AQQPMA	167
+    LINHAD	154
+Time for index table init: 0h 0m 0s 902ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 72642
+Target db start 1 to 72642
+[=================================================================] 72.64K 1s 285ms
+
+1.934292 k-mers per position
+362 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 11ms
+Time for processing: 0h 0m 2s 730ms
+align /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step0 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 72642 type: Aminoacid
+Target database size: 72642 type: Aminoacid
+Calculation of alignments
+[=================================================================] 72.64K 1s 978ms
+Time for merging to aln_step0: 0h 0m 0s 11ms
+109494 alignments calculated
+77185 sequence pairs passed the thresholds (0.704924 of overall calculated)
+1.062540 hits per query sequence
+Time for processing: 0h 0m 1s 999ms
+clust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step0 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step0 --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Connected Component
+[=================================================================] 72.64K 0s 4ms
+Sort entries
+Find missing connections
+Found 103 new connections.
+Reconstruct initial order
+[=================================================================] 72.64K 0s 6ms
+Add missing connections
+[=================================================================] 72.64K 0s 0ms
+
+Time for read in: 0h 0m 0s 14ms
+connected component mode
+Total time: 0h 0m 0s 22ms
+
+Size of the sequence database: 72642
+Size of the alignment database: 72642
+Number of clusters: 70321
+
+Writing results 0h 0m 0s 6ms
+Time for merging to clu_step0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 35ms
+createsubdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step0 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 -v 3 --subdb-mode 1 
+
+Time for merging to input_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 13ms
+prefilter /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 4.25 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 4 --compressed 0 -v 3 
+
+Query database size: 70321 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 70321 type: Aminoacid
+Index table k-mer threshold: 125 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 70.32K 0s 414ms
+Index table: Masked residues: 310357
+Index table: fill
+[=================================================================] 70.32K 0s 537ms
+Index statistics
+Entries:          19426238
+DB size:          599 MB
+Avg k-mer size:   0.303535
+Top 10 k-mers
+    TLATPG	1242
+    GTEQGP	1242
+    LEQQGS	1241
+    EATGSM	1229
+    MGLAQG	1192
+    SSLPSH	698
+    SGVRHM	674
+    GLPGMA	202
+    SGELQG	178
+    LGELQS	171
+Time for index table init: 0h 0m 1s 150ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 125
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 70321
+Target db start 1 to 70321
+[=================================================================] 70.32K 9s 945ms
+
+75.567126 k-mers per position
+5923 DB matches per sequence
+0 overflows
+17 sequences passed prefiltering per query sequence
+20 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step1: 0h 0m 0s 10ms
+Time for processing: 0h 0m 11s 637ms
+align /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 70321 type: Aminoacid
+Target database size: 70321 type: Aminoacid
+Calculation of alignments
+[=================================================================] 70.32K 4s 597ms
+Time for merging to aln_step1: 0h 0m 0s 10ms
+323272 alignments calculated
+74250 sequence pairs passed the thresholds (0.229683 of overall calculated)
+1.055872 hits per query sequence
+Time for processing: 0h 0m 4s 618ms
+clust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step1 --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Connected Component
+[=================================================================] 70.32K 0s 4ms
+Sort entries
+Find missing connections
+Found 437 new connections.
+Reconstruct initial order
+[=================================================================] 70.32K 0s 8ms
+Add missing connections
+[=================================================================] 70.32K 0s 0ms
+
+Time for read in: 0h 0m 0s 16ms
+connected component mode
+Total time: 0h 0m 0s 23ms
+
+Size of the sequence database: 70321
+Size of the alignment database: 70321
+Number of clusters: 68138
+
+Writing results 0h 0m 0s 6ms
+Time for merging to clu_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 36ms
+createsubdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 -v 3 --subdb-mode 1 
+
+Time for merging to input_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 12ms
+prefilter /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 4 --compressed 0 -v 3 
+
+Query database size: 68138 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 68138 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 68.14K 0s 415ms
+Index table: Masked residues: 307753
+Index table: fill
+[=================================================================] 68.14K 0s 528ms
+Index statistics
+Entries:          18965092
+DB size:          596 MB
+Avg k-mer size:   0.296330
+Top 10 k-mers
+    TLATPG	1156
+    GTEQGP	1156
+    LEQQGS	1155
+    EATGSM	1143
+    MGLAQG	1106
+    SSLPSH	687
+    SGVRHM	664
+    GLPGMA	201
+    SGELQG	172
+    LGELQS	158
+Time for index table init: 0h 0m 1s 134ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 68138
+Target db start 1 to 68138
+[=================================================================] 68.14K 2m 27s 529ms
+
+1559.031924 k-mers per position
+135668 DB matches per sequence
+0 overflows
+19 sequences passed prefiltering per query sequence
+20 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step2: 0h 0m 0s 10ms
+Time for processing: 0h 2m 29s 222ms
+align /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 68138 type: Aminoacid
+Target database size: 68138 type: Aminoacid
+Calculation of alignments
+[=================================================================] 68.14K 5s 286ms
+Time for merging to aln_step2: 0h 0m 0s 10ms
+352784 alignments calculated
+69674 sequence pairs passed the thresholds (0.197498 of overall calculated)
+1.022542 hits per query sequence
+Time for processing: 0h 0m 5s 305ms
+clust /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step2 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step2 --cluster-mode 1 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Connected Component
+[=================================================================] 68.14K 0s 6ms
+Sort entries
+Find missing connections
+Found 312 new connections.
+Reconstruct initial order
+[=================================================================] 68.14K 0s 6ms
+Add missing connections
+[=================================================================] 68.14K 0s 0ms
+
+Time for read in: 0h 0m 0s 16ms
+connected component mode
+Total time: 0h 0m 0s 23ms
+
+Size of the sequence database: 68138
+Size of the alignment database: 68138
+Number of clusters: 67229
+
+Writing results 0h 0m 0s 6ms
+Time for merging to clu_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 36ms
+mergeclusters /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_redundancy /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step0 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step1 /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step2 --threads 4 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 72.64K 0s 4ms
+Clustering step 2
+[=================================================================] 70.32K 0s 9ms
+Clustering step 3
+[=================================================================] 68.14K 0s 15ms
+Clustering step 4
+[=================================================================] 67.23K 0s 21ms
+Write merged clustering
+[=================================================================] 74.03K 0s 30ms
+Time for merging to clu: 0h 0m 0s 10ms
+Time for processing: 0h 0m 0s 48ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/pref_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/aln_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/clu_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step1_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_tmp/15137168298352505134/input_step2_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createtsv /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/cluster.tsv --threads 4 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 10ms
+Time for processing: 0h 0m 0s 31ms
+result2repseq /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_rep --db-load-mode 0 --compressed 0 --threads 4 -v 3 
+
+[=================================================================] 67.23K 0s 9ms
+Time for merging to clu_rep: 0h 0m 0s 20ms
+Time for processing: 0h 0m 0s 42ms
+result2flat /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_rep /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 76ms
+createseqfiledb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_seqs --threads 4 -v 3 
+
+[=================================================================] 67.23K 0s 9ms
+Time for merging to clu_seqs: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 34ms
+result2flat /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_seqs /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 137ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/input_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/uesolds-mmseqs-2q8dv884/cluster/7291568082047547394/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms

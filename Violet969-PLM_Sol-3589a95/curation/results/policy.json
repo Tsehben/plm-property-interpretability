@@ -1,0 +1,20 @@
+{
+  "min_training_per_class": 100,
+  "centers": [
+    "EFI",
+    "JCSG",
+    "MCSG",
+    "NESG",
+    "NYSGRC",
+    "SECSG",
+    "SGPP",
+    "SSGCID"
+  ],
+  "identity": 0.3,
+  "coverage": 0.8,
+  "evalue": 0.001,
+  "sensitivity": 7.5,
+  "seed": 42,
+  "C": 1.0,
+  "strict_label_status": "unavailable: no record-level experimental outcomes in release"
+}
