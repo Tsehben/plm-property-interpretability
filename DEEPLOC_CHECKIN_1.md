@@ -1,4 +1,4 @@
-# DeepLoc Check-in 1 — partner brief
+# DeepLoc Check-in 1 
 
 **6.3930 Final Project · Ebenezer Tseh and Hoi · 2026-11-08**
 Scope: the DeepLoc subcellular localisation contrast only. Solubility work is covered
