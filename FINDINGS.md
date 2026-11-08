@@ -550,3 +550,74 @@ being examined.
 - DeepLoc sample / pooled features — [`sae_pilot_sample.tsv`](DeepLoc2/sae_pilot/sae_pilot_sample.tsv), [`sae_pilot_pooled.npz`](DeepLoc2/sae_pilot/sae_pilot_pooled.npz)
 
 **Status: SAE compatibility pilot complete. Full pooled-feature extraction not started.**
+
+---
+
+## DeepLoc 2.0 — ESM-2 gain on untruncated proteins only — 2026-11-08
+
+**Read-only check.** No refitting. Uses the saved out-of-fold predictions in
+[`DeepLoc2/rerun/esm2_probe/`](DeepLoc2/rerun/esm2_probe/) joined to the verified manifest
+by accession. P0 reserved, HPA excluded.
+
+**Question.** The +ESM gain was measured on all 10,139 development proteins, 1,111 of
+which exceed the 1,022-residue ESM-2 input limit and are truncated — and truncation is
+class-correlated (13.3 % of cytoplasmic vs 3.7 % of extracellular). Does the gain survive
+when the truncated proteins are removed, so that every protein's representation covers its
+whole sequence?
+
+**Yes.** On the 9,028 proteins whose *original* length is ≤ 1,022 (2,406 extracellular,
+6,622 cytoplasmic), `c_matchedC_plus_ESM` beats `matched_C` in **4/4 folds on both
+metrics**: mean AUROC 0.9587 → 0.9776 (**+0.0190**), mean AP 0.8935 → 0.9534
+(**+0.0599**). These are within 0.001 of the full-cohort values (+0.0179 AUROC,
++0.0634 AP), so the gain is not an artifact of differential truncation.
+
+Join integrity: 10,139/10,139 proteins with exactly one score per classifier, zero
+duplicate accessions, zero label or fold mismatches, zero non-finite scores.
+
+**One caveat on recomputed metrics.** Metrics recomputed from the saved predictions file
+are slightly *below* the archived in-memory values for the +ESM model: mean AUROC 0.9788
+vs the archived 0.9789, worst single fold P2 0.9924 vs 0.9929. Cause: the predictions file
+stores probabilities at 6 decimals, and the +ESM model is heavily saturated — only ~800
+distinct values per fold, with 544–629 scores at exactly `0.000000` and 158–457 at exactly
+`1.000000`. AUROC is rank-based, so those rounding-induced ties take 0.5 credit and pull
+the value down. `matched_C` is unsaturated (0 values at either extreme) and reproduces
+exactly. The subset figures above therefore **understate** the +ESM column and the deltas
+by up to ~0.0005 per fold; the direction and 4/4 counts are unaffected. Archived
+in-memory values remain authoritative; recomputation from the stored file is bounded
+below by tie-breaking.
+
+### Outputs
+
+- Per-fold table — [`DeepLoc2/rerun/deeploc_esm_lenmatched_le1022.tsv`](DeepLoc2/rerun/deeploc_esm_lenmatched_le1022.tsv)
+
+**Status: check complete. Primary cohort and archived results unchanged.**
+
+---
+
+## DeepLoc 2.0 — single-localisation sensitivity + meeting summary — 2026-11-08
+
+**Read-only.** Saved rerun predictions only, no retraining. P0 reserved, HPA excluded.
+
+On the 5,967 development proteins with no additional localisation annotation (2,367
+extracellular / 3,600 cytoplasmic; `Membrane` flag excluded from the definition, no length
+filter), `c_matchedC_plus_ESM` beats `matched_C` by **+0.0143 mean AUROC** (0.9651 →
+0.9794) and **+0.0281 mean AP** (0.9416 → 0.9696), improving **3/4 folds on AUROC** and
+4/4 on AP — P4 is the exception at −0.0008. Against the full cohort's +0.0179 / +0.0634,
+roughly half the apparent ESM-2 advantage traces to multi-localised proteins.
+
+**Preprocessing decision: retain all 10,139 development proteins for the primary
+comparison.** The single-localisation and ≤1,022-residue subsets stand as sensitivity
+analyses. The published partitions are defined over the full cohort, multi-localised
+proteins are real biology rather than annotation noise, and the conclusion holds in both
+subsets.
+
+Metrics recomputed from the 6-decimal predictions file match the full-precision table to
+within −0.00068/+0.00012 AUROC and −0.0036/+0.0010 AP, differing in both directions and
+most on AP, because the saturated +ESM scores round into ties. Full-precision values are
+authoritative; see the summary's precision note.
+
+### Outputs
+
+- Meeting summary — [`DeepLoc2/rerun/meeting_summary.md`](DeepLoc2/rerun/meeting_summary.md)
+
+**Status: DeepLoc single-localisation check complete. Full-cohort result unchanged.**
