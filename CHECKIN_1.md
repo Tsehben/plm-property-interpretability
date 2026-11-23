@@ -1,6 +1,6 @@
 # Check-in 1 — Research Brief
 
-**6.3930 Final Project · Ebenezer Tseh and Hoi · 2026-11-07**
+**6.3930 Final Project · 2026-11-07**
 **Format:** 7-minute presentation covering the whole project, then 4 minutes of questions.
 
 **Submitted proposal:** *Mechanistic Interpretability of Property Representations in Protein
@@ -9,7 +9,7 @@ UESolDS, and the DeepLoc Extracellular-versus-Cytoplasm contrast. Phase 1 (prope
 biological-concept probes, representation overlap) is partly complete; Phase 2 (feature
 ablations, sequence variants) is planned.
 
-> *Submission history per Ebenezer; the authoritative submitted text is not in the shared
+> *Submission history as reported by the project; the authoritative submitted text is not in the shared
 > folder. A similarly titled local PDF describing steering of ProGen2/ProLLaMA is an **earlier
 > draft**, superseded, and is not the submitted plan.*
 
@@ -349,7 +349,7 @@ that HPA *can* evaluate.
 3. **Pfam coverage is partial** — 49 of 100 pilot proteins annotated; the family concept probe
    will run on incomplete coverage, and we will report the denominator rather than impute.
 4. **The authoritative submitted proposal text is not in the shared folder**; the framing above
-   is per Ebenezer. Worth dropping the real document in for the record.
+   is as reported by the project. Worth dropping the real document in for the record.
 5. **InterPLM count differs by version** — Nature Methods reports 2,309 concept-aligned features
    per layer, the arXiv preprint 2,548. We cite the published figure.
 

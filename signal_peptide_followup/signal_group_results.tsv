@@ -1,0 +1,6 @@
+group	n	n_extracellular	n_cytoplasm	n_eligible_pairs	pair_weight_share_pct	n_clusters_id30	n_clusters_extracellular	n_clusters_cytoplasm	largest_cluster_n	auroc_layer26_esm	auroc_composition	delta_auroc	sparse
+annotated_present	542	513	29	14877	17.59	298	278	25	92	0.796767	0.673725	0.123042	True
+not_annotated	1741	41	1700	69700	82.41	1208	21	1192	18	0.853773	0.851435	0.002339	False
+unverifiable (separate, not in primary)	83	17	66	1122		74	15	59	3	0.980392	0.924242	0.05615	True
+
+PRIMARY	ESM=0.843746	comp=0.820176	delta=0.023570	ci95=[-0.080258,0.101046]

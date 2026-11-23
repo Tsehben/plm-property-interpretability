@@ -1,0 +1,6 @@
+arm	label	n_steps	n_steps_candidate_active	pct_steps_candidate_active	n_steps_nonzero_perturbation	mean_perturbation_norm_over_nonzero	median_perturbation_norm_over_nonzero	max_perturbation_norm	mean_active_steps_per_trajectory_of_10
+A	A unmodified	1600	747	46.69	0	0	0	0	4.6688
+B	B 1446 x2	1600	748	46.75	748	8.1378381357473479	7.3700582981109619	23.569072723388672	4.6750
+C	C 1446 x0	1600	750	46.88	750	8.1501923732757575	7.3728652000427246	23.569072723388672	4.6875
+D	D random +u (matched to B)	1600	748	46.75	748	8.1608473837056899	7.382213830947876	23.569074630737305	4.6750
+E	E random -u (matched to C)	1600	747	46.69	747	8.1660473732903611	7.3903422355651855	23.569074630737305	4.6688

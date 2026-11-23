@@ -1,0 +1,287 @@
+{
+ "checkpoint": "facebook/esm2_t33_650M_UR50D",
+ "implementation": "transformers.EsmModel",
+ "python": "3.9.6",
+ "platform": "macOS-26.5.1-arm64-arm-64bit",
+ "machine": "arm64",
+ "numpy": "2.0.2",
+ "torch": "2.8.0",
+ "transformers": "4.57.6",
+ "sklearn": "1.6.1",
+ "device": "mps",
+ "layers_extracted": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33
+ ],
+ "layer_indexing_note": "HF hidden_states[i] = output of transformer block i = fair-esm representations[i]; hidden_states[0] not swept",
+ "frozen": true,
+ "eval_mode": true,
+ "input": "sequence only",
+ "compute_dtype": "float16",
+ "pooling_dtype": "float32",
+ "stored_dtype": "float16",
+ "pooling": "mean over residue tokens only; <cls>, <eos> and padding excluded",
+ "pooling_device": "on device; residue-level activations never retained",
+ "storage": "disk-backed memmap, one file per layer, cols [0:1280]=whole [1280:2560]=first-30; incremental with fsync-before-commit checkpointing",
+ "max_residues": 1022,
+ "hidden_dim": 1280,
+ "nterm_positions": 30,
+ "batch_tokens": 6144,
+ "n_sequences": 10104,
+ "cohort": "eligible core, in_core==1",
+ "n_truncated": 1108,
+ "extract_elapsed_s": 148.6,
+ "compat_key": {
+  "model_checkpoint": "facebook/esm2_t33_650M_UR50D",
+  "extraction_code_sha256": "20e625f907602cd777c10a65448ea9f4516a07eab32a2c88de89cbd5816a2e8a",
+  "layers": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33
+  ],
+  "hidden_dim": 1280,
+  "store_dtype": "float16",
+  "compute_dtype": "float16",
+  "pooling_dtype": "float32",
+  "pooling": "mean over residue tokens only; <cls>, <eos> and padding excluded",
+  "nterm_positions": 30,
+  "truncation_max_residues": 1022,
+  "n_rows": 10104,
+  "row_order_sha256": "dc17fca47afb76b6d6876f5a2bf41611070cf4c16268071ff4a2d8266ec1b1c2",
+  "batch_tokens": 6144,
+  "n_batches": 815,
+  "batch_map_sha256": "01de7eefb7ae4d98d21ef7822517c6213c937a7aa193cea151c1d173dc1eb33a",
+  "sequence_to_row_sha256": "61da2cc7cd1693224e69cb4ff9e1ef4bba79368c323c4dfab3397720370b1571"
+ },
+ "per_layer_pooled_sha256": {
+  "1": {
+   "whole": "9da9de04ff4b517aa52752ea3a8a45f713ac22dc2fb5d3e9a8572b110295fefb",
+   "nterm": "bcdbd63a6f834b5998a244f4cd77ad7d4425bcc02db0cc668cb91a5d1dbbcf7d",
+   "both": "72b36c15383cb51daf0cdf44820d2d4925ddd7486067eb736e63402f08a29461"
+  },
+  "2": {
+   "whole": "0f13e5b2b289f0325eb1177db05f5c2472cc1b295e558c188239609e3c5fe3a7",
+   "nterm": "83a6b1f187894d8f2bfd0bff0bf77b90fc5d2a35415a20c103b8e8891181032b",
+   "both": "30529a0a2a2ab8c280bcb54d9efe90478c358044cb80c2cafef6d58d1422ca4d"
+  },
+  "3": {
+   "whole": "39ef64d42dd07efbb74ecf9f5867f0223dc83dd8b1c56a615975c136c873878f",
+   "nterm": "92e333fbf30f4191aebd86eecb59c75c36bcd9ed62868d6befd2a39aebbfbba2",
+   "both": "072ce5e3d36615c33bc0413325bba3a5d771f1f0ca8c7312a5a64df179769429"
+  },
+  "4": {
+   "whole": "f7223d304ab8b1498c00672cf4ff6081b1acdc836782966cdd2cb583920aa325",
+   "nterm": "22a3ac09068d1837b738d3e09e63cf2828c3a312619128b1157c1d3475ed32d5",
+   "both": "42551e3c16c393333d364c56b24e9cffed253e2e587e69b94c2c586f58f04a74"
+  },
+  "5": {
+   "whole": "28056a611f6402584ee5a47a80de2c2460166bda72fbeba1681a0d7849b0c467",
+   "nterm": "eb1c94f4779461d306f189d473712ea1c8b71c3bd997e7c2ab335ee9fcd9747b",
+   "both": "fe7bdb2bcec210848d813f4c7ae4ce6046833b9c9ca011479cf7b7b3dd29b166"
+  },
+  "6": {
+   "whole": "4c5b97e939877b1d9af69aae3cc4256afba7cfcac0af7c3d7e12effd99838c34",
+   "nterm": "9818ef6ea427a83a1099d073ad69f6130d1a9a0eeb819cf0f60056562b30d1d1",
+   "both": "6fb25e134c1ca60ba5c60834f25a5141fb48b7abec60c6fecc3ba211c1364d16"
+  },
+  "7": {
+   "whole": "871e3e76e5a0db19cfc61734b52341589e75ae50f21347045b99bbd92aa3e497",
+   "nterm": "78231b1fa29c57980e26eeee63651ccd2a61840bc20e6e4ffe844c8cf93b76d9",
+   "both": "a040fa4a2e3537517c31a762eb7f5a37d0753c2db6e096daeb8572634db75d9f"
+  },
+  "8": {
+   "whole": "0a97a80d78c87babc2dc02021b25691155f1cb58e5f3a57e448f0908f7411e93",
+   "nterm": "0e4494fe912fd612d79bc5faa45031642c3784ac2fa5597e57e91a86b858d094",
+   "both": "6d97492859531f793d21e51afe25b8f218b0a3c2bc5830e9468ac039d33aa2d3"
+  },
+  "9": {
+   "whole": "9b08b429e5097a10ef908d33aa22f6cf47d06dd16ac953ca751fc3e3a8bc4b36",
+   "nterm": "ab72ce465bf5536c5712c88c0d3bd9ac66276d6f1d6cb04099bb5c0b9fcfb52c",
+   "both": "a2ac288b914cdf509646e118df7e5683b072f315cea234195dd4a8cbb23293c3"
+  },
+  "10": {
+   "whole": "d57d8609dc3bf3ea934d0ec1ae87203ac7b4c6ff52f329cc038346d2b8e7758a",
+   "nterm": "1127061a8193de22a87686342f547df574b79c2ed7e745aa1ba91ca9722ddffe",
+   "both": "6d7147ace415f979da581aaef96eb53086f75180d6650917d61099e7fd64eba0"
+  },
+  "11": {
+   "whole": "c617ddc619a6d23839325c86cbc8d903042223daf0b196e7cdef6c35fe6b0d5a",
+   "nterm": "58045b78c0333b990f01b7bc26a6e27a42a9d6f31536f49e112a31b221e7ab24",
+   "both": "81b0a6b384d2ba8a776d00e72321664264260563e31b855baf2986b94fb9d018"
+  },
+  "12": {
+   "whole": "0b98356a3564b7f5722d68d1c167b035bcfb7850f3a54765de2c2c5512c0b186",
+   "nterm": "b54f51942872855f2303e568bcdf059e9147b128b950612d5a5edf6124bcebad",
+   "both": "b9e25a3ffee81f972eb469a989cff5b03b00bcbf48d516ee6e0cf86ef5af686e"
+  },
+  "13": {
+   "whole": "4fd789edecce9bb656df188cad7c378dc43a83eb0d8088bf16c96c4007bcb13c",
+   "nterm": "dece4bb93b52e579f1751f981cdfea6095bcba51259414ce934bd1167cd05ec4",
+   "both": "0dbabed0144b29ec3270e48ddb993c5f4a9a9cffc1e1b79f0f1057b5981cf9ce"
+  },
+  "14": {
+   "whole": "d89ee07cedfb18c7b82a9518bdef6d3037c564cb8711307730bf0b91025ea1ff",
+   "nterm": "179764491b7f6c6caf39b682b88def95e24b08e4a0488b602d577e86bfc0eb65",
+   "both": "912ed6fc1ee7aa046e3aa9592cd127372f0983592a581eb9541062c326521ce7"
+  },
+  "15": {
+   "whole": "80c5265690c3857e357603f5bf3c7b0b0d9030dba1c76eb21462170cfa53f838",
+   "nterm": "9e6303159936cd4897ea1717997a77e6c69d967d5353346131ad3eb926d4839d",
+   "both": "d74d66b2e0418edd1146914b81121a2bcea41b2444c65bf56ae70db1564f4835"
+  },
+  "16": {
+   "whole": "cbecee97cd6be5bf25d40208e4af5cb1c19b4f93b3e4228f94e5e489c3cf796d",
+   "nterm": "bf0503aa659045021f33e1a61112555bd0f5403852be741625cb64e5dfb67cb4",
+   "both": "e9b3e9cb4f260b27c9f23b6d69c2c5aaace369c069973e00cc8339534b9277b7"
+  },
+  "17": {
+   "whole": "3e65fb7337a14bf3c1df54df5f62ec38f5caa1628020f962ba9ccf05df9bf64b",
+   "nterm": "7baded5d5b412fa8672e5efa46ba1702be49e89a2b19db428ff2b4bd93fdbd6c",
+   "both": "3c96010627d90dc0562d1e6bc3cd783cba607587d686e857efb3f0d84c0ce6fc"
+  },
+  "18": {
+   "whole": "7c3bd0b6849e427d8529029a5e728c94fbe060c1d5a74aefe780d10b055c30f4",
+   "nterm": "966c653105b52d053b6c79c6e84de0a814bca72f09d7b19f033a3f5f35181a55",
+   "both": "a2f1683075a4404c6906c3e9e195bbf39a80660f8b51f5da1392caea83ec6ea3"
+  },
+  "19": {
+   "whole": "d4829daca512502b23eaacc87dcfb2e1f994185d997b0fb3a964561d20c3835f",
+   "nterm": "96812cc02ee4a3926b537e9f0f382cacde344f8bf94e1aedc4a171589a8f2f8a",
+   "both": "5c58b1790fa087fe9b45c27c02da84f68377b3c53a758000a607e8cb66d6ed23"
+  },
+  "20": {
+   "whole": "c34609a9dad385ff4abae3554841fa1c9373710b0dfa3d960bd30c3a05a416b1",
+   "nterm": "ac1f4e7cdbe56cb02cb74c6549df84f752dd46b68db980c4308aaf499f2b4aa1",
+   "both": "299c49d64c9fe46f4e0c235a8b7332902eb2a562af131d6bba4d152d73a38169"
+  },
+  "21": {
+   "whole": "15a4caa5c6f66c99e49b58dee21e03d58479cccb336c85694cbcdb5e0681e43a",
+   "nterm": "b3e4cc93aa2ce901bdf9c5108a039dbd05f0ef651b94f4fe23f3aeadf1034ecb",
+   "both": "ee1b5733a20cf695fe7e5288429f1b5fb62aa9b07dae7d1cb25980a0c7cb2605"
+  },
+  "22": {
+   "whole": "3fda6cb79e13e35594f0b0222c465ae976aff86f09751b6746dd05baaf6e7efa",
+   "nterm": "138f427862ee0e8ef3a503d3f9d694184366431c1043a73b91a2f9dd8ebf27f2",
+   "both": "22b2b292dbd9a7de0179cc0b1a9779786694823b37b190ec21745a0160e083f9"
+  },
+  "23": {
+   "whole": "0835bf71a121b7f2e89a55da65050e327fbcaef29ea199ee86adf9cf7cb41a8c",
+   "nterm": "dacc0a5061d60aec3f252525df0b05f29779493c24a57aa662bbb6306a43cc55",
+   "both": "6bab766777c8a0a3ca363d609f818e3524c4b1a0bfae6f8217d94d7262ccd5c0"
+  },
+  "24": {
+   "whole": "3eb4212a30abdb71b6c6b19840fe2e87553d1eab1511bdb17733123c1234a401",
+   "nterm": "24ac0099adbb968f254bc175bd671e3e2634d856cb139afc601bba1a2d18175c",
+   "both": "47608532ee7081026c2b123d1422042ffd204bedc0059dc730a3abd99e09d176"
+  },
+  "25": {
+   "whole": "ac66ef4d9c9058d1d38e238e5bcb0b2edc483e50c379f63b44616aa2639752b2",
+   "nterm": "7f023f2414206006035243d44e395769dc5a0168ec27ee43ae20a5413594c6de",
+   "both": "a60009adea490b3869b3cda09b880b503d5763b6ee8c479fa399d52a5da1dc16"
+  },
+  "26": {
+   "whole": "f8f18f252919dbcb9acfdd395962e08da3ac1bb5ae770835a1effeb54fdf362a",
+   "nterm": "3162b63ee9868d97b92c3dfecec2f04758673dce9cfd45c029a156777a147b63",
+   "both": "6d994834c76865b577b9ef57fba039d08cf6bf265408757d4fd32b404908a1c1"
+  },
+  "27": {
+   "whole": "ee99cd1f42d775b07de64dd009e7fd0b7830bd14e932270ae3e9d7a198356068",
+   "nterm": "267c2b10b9d2116a886b43c8a4b11999d54c39ba8967f740ea9b7af8ebac7cb0",
+   "both": "31a537d6b71fa87373266b9ea3e1ae11f3f780d409f07db1550d8890c07337c8"
+  },
+  "28": {
+   "whole": "40a9a49255f7d7865b20a2f945b3be7626ee2dd610ecdddd9fb0de941db70b56",
+   "nterm": "d3e13444fef54eeb268f3df62fc202f74e1fdd7c60f1ea8f7b8f55b88b78ecd6",
+   "both": "c47f219ec70cdf6ea3200611c454fcf25623454e457c629be99f0cf461fddef5"
+  },
+  "29": {
+   "whole": "345dc9419902a7de5cae6dcc5dbc3b9d97310121efbf7454765eec9bfcac04cb",
+   "nterm": "54bb154533517e4a1370fbd3baf4dd6728d248ae34424b3ee51faadbef91eb78",
+   "both": "9ea27d038735cc42772114ed5cc54dad939dbd32f17c1c5ecd657e33bb0e89d0"
+  },
+  "30": {
+   "whole": "226242d37d586550968073fd07300cf6c2d5b2e0fdbde2aa92e87945ec093835",
+   "nterm": "5a96a0259de40582552d35d69aec3603fe84f5df3ef3fa091686e064264a17cf",
+   "both": "f578b1ca1cbf20abd20377276aac577a85e7a8be6f5c9efcbe0c17c59bcec878"
+  },
+  "31": {
+   "whole": "cfe1d95f394d192d0728ac0a7597ba7cdc82c12ef81e1a28dcee198d46cb0845",
+   "nterm": "8296abb171a9af45fdd540eee139f0c5128dfbdfd89190b8166ff5e894f941ac",
+   "both": "ad45fd7e5bc9b5226ef7050a7fcfb84c40b8c0cddca29051bc0158b229e522b2"
+  },
+  "32": {
+   "whole": "0be2d28f554504670f22f0146488c73a5f88b97a87eafefa4a45ffbc745c4512",
+   "nterm": "e5daf437a48e26c0c02fb2a5bd132f0619b4734bd00c79a36d4e26c27a84cfd4",
+   "both": "c30918b7996b40a22112438e3fa36710eeb584019368260c165ea0dbfa8bcd86"
+  },
+  "33": {
+   "whole": "28d15b851a69acdc4be14be3f2a90a34817e7ce9ea716a59bfde4c7e58c0d7ba",
+   "nterm": "0a8e3a29d634842334165ea65dc78a0a2788eeb3a945d5842feea1b96bcf486c",
+   "both": "89ff62a6f3c0151acb0f50634e89426c0d32686059b4ca0e8a7d81c84bb7fdf4"
+  }
+ },
+ "n_truncated_note": "sequences longer than 1022 residues in the full core cohort; the per-run counter in the resumed segment covered only its own 45 batches",
+ "extract_elapsed_s_note": "this run was extracted in two segments: 2212.5s (770 batches) + 148.6s (45 batches) = 2361.1s total",
+ "extract_elapsed_s_total": 2361.1
+}

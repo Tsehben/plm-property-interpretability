@@ -1,0 +1,7 @@
+population	threshold_pct_identity	n_proteins	n_clusters	n_singletons	pct_proteins_in_singletons	largest_cluster	mean_cluster_size	median_cluster_size	n_clusters_size_2_4	n_clusters_size_5_9	n_clusters_size_10_49	n_clusters_size_ge50	pct_proteins_in_clusters_ge2	n_clusters_1_role	n_clusters_2_roles	n_clusters_3_roles	n_P3	n_P3_sharing_cluster_with_discovery	pct_P3_sharing_with_discovery	n_P4	n_P4_sharing_cluster_with_discovery	pct_P4_sharing_with_discovery	n_clusters_extracellular_only	n_clusters_cytoplasm_only	n_clusters_mixed_class	pct_clusters_mixed_class	n_proteins_in_mixed_class_clusters
+cohort_10139	30	10139	6486	4804	47.38	93	1.563	1	1484	156	41	1	52.62	6462	24	0	2556	5	0.2	2382	22	0.92	1244	5199	43	0.66	214
+cohort_10139	50	10139	7378	5916	58.35	52	1.374	1	1329	104	28	1	41.65	7378	0	0	2556	0	0.0	2382	0	0.0	1508	5849	21	0.28	69
+cohort_10139	80	10139	8724	7705	75.99	16	1.162	1	979	36	4	0	24.01	8724	0	0	2556	0	0.0	2382	0	0.0	2005	6708	11	0.13	30
+core_10104	30	10104	6464	4786	47.37	93	1.563	1	1481	155	41	1	52.63	6440	24	0	2548	5	0.2	2366	22	0.93	1240	5181	43	0.67	214
+core_10104	50	10104	7354	5895	58.34	52	1.374	1	1326	104	28	1	41.66	7354	0	0	2548	0	0.0	2366	0	0.0	1504	5829	21	0.29	69
+core_10104	80	10104	8694	7678	75.99	16	1.162	1	976	36	4	0	24.01	8694	0	0	2548	0	0.0	2366	0	0.0	1999	6684	11	0.13	30

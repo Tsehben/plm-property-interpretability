@@ -1,0 +1,275 @@
+{
+  "case": "multi_sequence",
+  "organism": "animal",
+  "seconds": 14.7,
+  "k_used_for_knn": 32.0,
+  "n_input": 10,
+  "n_predicted": 10,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "A1AG_HUMAN|extr",
+      "status": "predicted",
+      "sites": {
+        "extr": 22.0,
+        "E.R.": 6.0,
+        "mito": 2.0,
+        "lyso": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 22.0,
+      "line": "A1AG_HUMAN|extr extr 22, E.R. 6, mito 2, lyso 2",
+      "readout": {
+        "extr_score": 22.0,
+        "cyto_score": 0.0,
+        "delta": 22.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 1,
+      "id": "A1AG_MUSCR|extr",
+      "status": "predicted",
+      "sites": {
+        "extr": 24.0,
+        "E.R.": 7.0
+      },
+      "top_site": "extr",
+      "top_score": 24.0,
+      "line": "A1AG_MUSCR|extr extr 24, E.R. 7",
+      "readout": {
+        "extr_score": 24.0,
+        "cyto_score": 0.0,
+        "delta": 24.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 2,
+      "id": "A1AH_HUMAN|extr",
+      "status": "predicted",
+      "sites": {
+        "extr": 23.0,
+        "E.R.": 5.0,
+        "lyso": 3.0,
+        "E.R._mito": 3.0
+      },
+      "top_site": "extr",
+      "top_score": 23.0,
+      "line": "A1AH_HUMAN|extr extr 23, E.R. 5, lyso 3, E.R._mito 3",
+      "readout": {
+        "extr_score": 23.0,
+        "cyto_score": 0.0,
+        "delta": 23.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 3,
+      "id": "143B_BOVIN|cyto",
+      "status": "predicted",
+      "sites": {
+        "cyto": 25.0,
+        "cyto_nucl": 18.0,
+        "nucl": 7.0
+      },
+      "top_site": "cyto",
+      "top_score": 25.0,
+      "line": "143B_BOVIN|cyto cyto 25, cyto_nucl 18, nucl 7",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 25.0,
+        "delta": -25.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 4,
+      "id": "143B_HUMAN|cyto",
+      "status": "predicted",
+      "sites": {
+        "cyto": 25.0,
+        "cyto_nucl": 18.0,
+        "nucl": 7.0
+      },
+      "top_site": "cyto",
+      "top_score": 25.0,
+      "line": "143B_HUMAN|cyto cyto 25, cyto_nucl 18, nucl 7",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 25.0,
+        "delta": -25.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 5,
+      "id": "143B_RAT|cyto",
+      "status": "predicted",
+      "sites": {
+        "cyto": 24.0,
+        "cyto_nucl": 17.0,
+        "nucl": 6.0
+      },
+      "top_site": "cyto",
+      "top_score": 24.0,
+      "line": "143B_RAT|cyto cyto 24, cyto_nucl 17, nucl 6",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 24.0,
+        "delta": -24.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 6,
+      "id": "EDA_HUMAN|extr_plas",
+      "status": "predicted",
+      "sites": {
+        "cyto": 10.5,
+        "cyto_mito": 7.16667,
+        "plas": 5.5,
+        "extr_plas": 5.0,
+        "nucl": 4.0,
+        "extr": 3.5,
+        "mito_pero": 2.83333,
+        "cysk_plas": 2.83333,
+        "mito": 2.5
+      },
+      "top_site": "cyto",
+      "top_score": 10.5,
+      "line": "EDA_HUMAN|extr_plas cyto 10.5, cyto_mito 7.16667, plas 5.5, extr_plas 5, nucl 4, extr 3.5, mito_pero 2.83333, cysk_plas 2.83333, mito 2.5",
+      "readout": {
+        "extr_score": 3.5,
+        "cyto_score": 10.5,
+        "delta": -7.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 7,
+      "id": "T13B_HUMAN|extr_plas",
+      "status": "predicted",
+      "sites": {
+        "cyto": 12.5,
+        "plas": 7.0,
+        "cyto_mito": 7.0,
+        "extr_plas": 6.0,
+        "extr": 3.0,
+        "nucl": 3.0,
+        "golg": 3.0
+      },
+      "top_site": "cyto",
+      "top_score": 12.5,
+      "line": "T13B_HUMAN|extr_plas cyto 12.5, plas 7, cyto_mito 7, extr_plas 6, extr 3, nucl 3, golg 3",
+      "readout": {
+        "extr_score": 3.0,
+        "cyto_score": 12.5,
+        "delta": -9.5,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 8,
+      "id": "A32E_MOUSE|cyto_nucl",
+      "status": "predicted",
+      "sites": {
+        "cyto": 13.5,
+        "cyto_nucl": 12.5,
+        "mito": 9.0,
+        "nucl": 8.5
+      },
+      "top_site": "cyto",
+      "top_score": 13.5,
+      "line": "A32E_MOUSE|cyto_nucl cyto 13.5, cyto_nucl 12.5, mito 9, nucl 8.5",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 13.5,
+        "delta": -13.5,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 9,
+      "id": "AIPL_HUMAN|cyto_nucl",
+      "status": "predicted",
+      "sites": {
+        "cyto": 18.0,
+        "cyto_nucl": 13.5,
+        "mito": 7.0,
+        "nucl": 5.0
+      },
+      "top_site": "cyto",
+      "top_score": 18.0,
+      "line": "AIPL_HUMAN|cyto_nucl cyto 18, cyto_nucl 13.5, mito 7, nucl 5",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 18.0,
+        "delta": -18.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    }
+  ],
+  "summary_sha256": "ccad3e4098c8f151eba66136ed1bf97eac8b45b9e958401423814c6569c94008"
+}

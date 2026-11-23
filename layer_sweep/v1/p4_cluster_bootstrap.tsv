@@ -1,0 +1,16 @@
+subset	comparison	n	n_clusters	delta_auroc	auroc_ci95_lo	auroc_ci95_hi	auroc_ci95_excludes_zero	delta_ap	ap_ci95_lo	ap_ci95_hi	ap_ci95_excludes_zero	n_resamples	n_resamples_undefined_excluded
+P4_all	layer26_vs_layer8_comp_plus_esm	2366	1547	0.020102	-0.003503	0.063002	0	0.021853	-0.006598	0.065666	0	10000	0
+P4_all	layer8_comp_plus_esm_vs_comp	2366	1547	-0.006794	-0.044584	0.017806	0	0.022354	-0.013102	0.072298	0	10000	0
+P4_all	layer26_comp_plus_esm_vs_comp	2366	1547	0.013308	0.004635	0.023672	1	0.044207	0.020061	0.084874	1	10000	0
+P4_all	layer8_esm_vs_comp	2366	1547	-0.008417	-0.048621	0.01719	0	0.021577	-0.014287	0.070845	0	10000	0
+P4_all	layer26_esm_vs_comp	2366	1547	0.013298	0.004658	0.023729	1	0.045465	0.020891	0.086497	1	10000	0
+P4_excl_fitting_set_cluster_overlap	layer26_vs_layer8_comp_plus_esm	2344	1533	0.021272	-0.002418	0.064362	0	0.022184	-0.007143	0.066664	0	10000	0
+P4_excl_fitting_set_cluster_overlap	layer8_comp_plus_esm_vs_comp	2344	1533	-0.006523	-0.045127	0.018127	0	0.022917	-0.013572	0.07373	0	10000	0
+P4_excl_fitting_set_cluster_overlap	layer26_comp_plus_esm_vs_comp	2344	1533	0.014749	0.006406	0.024943	1	0.045101	0.020782	0.085486	1	10000	0
+P4_excl_fitting_set_cluster_overlap	layer8_esm_vs_comp	2344	1533	-0.008089	-0.049188	0.017598	0	0.022223	-0.01462	0.072057	0	10000	0
+P4_excl_fitting_set_cluster_overlap	layer26_esm_vs_comp	2344	1533	0.01475	0.006375	0.025044	1	0.046378	0.021645	0.087272	1	10000	0
+P4_excl_toxin_cluster_Q2VBP4	layer26_vs_layer8_comp_plus_esm	2273	1546	0.023707	-0.004503	0.069603	0	0.024561	-0.010163	0.075511	0	10000	0
+P4_excl_toxin_cluster_Q2VBP4	layer8_comp_plus_esm_vs_comp	2273	1546	-0.008043	-0.051257	0.019934	0	0.040792	-0.007767	0.08165	0	10000	0
+P4_excl_toxin_cluster_Q2VBP4	layer26_comp_plus_esm_vs_comp	2273	1546	0.015664	0.00545	0.025824	1	0.065353	0.040182	0.092647	1	10000	0
+P4_excl_toxin_cluster_Q2VBP4	layer8_esm_vs_comp	2273	1546	-0.010137	-0.055596	0.019318	0	0.038517	-0.010996	0.079653	0	10000	0
+P4_excl_toxin_cluster_Q2VBP4	layer26_esm_vs_comp	2273	1546	0.015592	0.005348	0.02582	1	0.066984	0.041597	0.094648	1	10000	0

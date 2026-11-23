@@ -1,0 +1,9 @@
+analysis	model	n	n_extracellular	n_cytoplasm	n_clusters_id30	largest_cluster	largest_cluster_n	largest_cluster_pct	auroc_protein_weighted	ap_protein_weighted
+subgroup_443_family_unseen_vs_P1P2P3	layer26_esm	443	183	260	234	Q2VBP4	83	18.736	0.986528	0.985267
+subgroup_443_family_unseen_vs_P1P2P3	composition	443	183	260	234	Q2VBP4	83	18.736	0.975011	0.963783
+full_P4_context	layer26_esm	2366	571	1795	1547	Q2VBP4	93	3.931	0.982903	0.963665
+full_P4_context	composition	2366	571	1795	1547	Q2VBP4	93	3.931	0.969604	0.918208
+full_P4_context	layer26_esm_minus_composition	2366	571	1795	1547	Q2VBP4	93	3.931	0.013299	0.045458
+
+analysis	comparison	n	n_clusters_id30	largest_cluster_pct	delta_auroc	auroc_ci95_lo	auroc_ci95_hi	auroc_ci95_excludes_zero	delta_ap	ap_ci95_lo	ap_ci95_hi	ap_ci95_excludes_zero	n_resamples	n_resamples_undefined_excluded	seed
+subgroup_443_family_unseen_vs_P1P2P3	layer26_esm_minus_composition	443	234	18.736	0.011517	-0.005361	0.037176	0	0.021484	0.000276	0.10882	1	10000	0	42

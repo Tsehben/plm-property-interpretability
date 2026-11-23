@@ -1,0 +1,49 @@
+{
+  "selected_feature_ids": [
+    3900,
+    642,
+    1446,
+    243,
+    963,
+    2040,
+    317,
+    250,
+    2737,
+    627,
+    1052,
+    50,
+    900,
+    2564,
+    3731,
+    1235,
+    999,
+    217,
+    1946,
+    657
+  ],
+  "selected_list_sha256": "070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917",
+  "candidate_list_unchanged": true,
+  "not_annotated_note": "not_annotated means a matching UniProt record was retrieved and carries no signal-peptide annotation. It is NOT a confirmed biological negative and is never pooled with unverifiable or treated as absence.",
+  "interpretation_limits": [
+    "Annotation agreement is descriptive co-occurrence. It is not causal evidence and does not show that a feature encodes localisation or a signal peptide.",
+    "Untyped InterPro entries are not treated as families anywhere in this report.",
+    "No significance claim is made; the ranking screened thousands of features without multiplicity control."
+  ],
+  "signal_interval_scope": {
+    "n_proteins_used": 1306,
+    "n_skipped_interval_outside_visible_or_too_short": 0,
+    "n_Extracellular": 1247,
+    "n_Cytoplasm": 59,
+    "rule": "signal-peptide features with EXACT start and end whose coordinates are verified to apply to the frozen extraction-input sequence, in the annotation-conditioned discovery sample",
+    "comparison": "mean activation over residues [start, end] versus over all other visible residues"
+  },
+  "output_hashes": {
+    "activation_by_class.tsv": "05a3f9548cbbed34e718c2f2efd894fdb836dd0bfe7f552ec2a0da4af347254a",
+    "activation_by_signal_status.tsv": "39649a93c1209c15fa0d24935a444ba4439d064ed9e716d0acdb168c696b4163",
+    "activation_by_kingdom.tsv": "a4521005f15a22750d1156321c1bce934dd5b73f3d52d3eb4bc5d56aabf06413",
+    "activation_vs_length.tsv": "b43491930e1ea74541c013f36c36d62d3aa3be2d0dc214ce898a647bdb323b31",
+    "counterexamples.tsv": "6d18476b148b6c981e5d5c54020c0d23af2e1edea74f1e2fbd5e3e9c774d014e",
+    "signal_interval_enrichment.tsv": "1fd738fd9ed1130055f8d10fb22bda6a33109422a253d01b7d8581f9cb922ea5"
+  },
+  "seconds": 171.43868613243103
+}

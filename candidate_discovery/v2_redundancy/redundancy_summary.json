@@ -1,0 +1,146 @@
+{
+  "selected_feature_ids": [
+    3900,
+    642,
+    1446,
+    243,
+    963,
+    2040,
+    317,
+    250,
+    2737,
+    627,
+    1052,
+    50,
+    900,
+    2564,
+    3731,
+    1235,
+    999,
+    217,
+    1946,
+    657
+  ],
+  "selected_list_sha256": "070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917",
+  "candidate_list_unchanged": true,
+  "n_proteins": 5190,
+  "n_Extracellular": 1336,
+  "n_Cytoplasm": 3854,
+  "redundancy": {
+    "n_pairs": 190,
+    "definition_spearman": "Spearman correlation of per-protein mean_nterm across the stated protein population (behaviour)",
+    "definition_decoder_cosine": "cosine between SAE decoder rows w_dec[f] (intervention direction in residual space); rows are not unit-norm in this checkpoint, norms reported separately",
+    "definition_jaccard": "|{proteins where A active in the first 30}  INTERSECT  {same for B}| / |union of those sets|, over the 5,190 discovery proteins",
+    "spearman_all": {
+      "median": 0.6965354428860778,
+      "min": -0.725383712761698,
+      "max": 0.8325466983750496,
+      "n_pairs_above_0p7": 91,
+      "n_pairs_above_0p9": 0
+    },
+    "spearman_within_Extracellular": {
+      "median": 0.13923493164596815,
+      "min": -0.5618528142432789,
+      "max": 0.6667422192345605,
+      "n_pairs_above_0p7": 0
+    },
+    "spearman_within_Cytoplasm": {
+      "median": 0.1787346904520477,
+      "min": -0.29288751935529317,
+      "max": 0.464397802999101,
+      "n_pairs_above_0p7": 0
+    },
+    "decoder_cosine": {
+      "median": 0.008428247645497322,
+      "min": -0.09813719242811203,
+      "max": 0.30511799454689026,
+      "n_pairs_above_0p5": 0,
+      "n_pairs_above_0p3": 1
+    },
+    "jaccard": {
+      "median": 0.535742074148609,
+      "min": 0.23333333333333334,
+      "max": 0.7141327623126338
+    },
+    "decoder_row_norms": {
+      "3900": 0.5993127226829529,
+      "642": 0.5898697376251221,
+      "1446": 0.625023603439331,
+      "243": 0.569288432598114,
+      "963": 0.5550560355186462,
+      "2040": 0.5440748333930969,
+      "317": 0.5905637145042419,
+      "250": 0.5135254263877869,
+      "2737": 0.6158960461616516,
+      "627": 0.5652640461921692,
+      "1052": 0.5674057006835938,
+      "50": 0.5715526938438416,
+      "900": 0.5847846269607544,
+      "2564": 0.5956848859786987,
+      "3731": 0.4690822958946228,
+      "1235": 0.5497273802757263,
+      "999": 0.5334272384643555,
+      "217": 0.5642135143280029,
+      "1946": 0.5171085596084595,
+      "657": 0.5985084176063538
+    }
+  },
+  "stratification": {
+    "length_quartile_boundaries_from": "the 5,190 discovery proteins only",
+    "q25": 223.0,
+    "q50": 407.0,
+    "q75": 671.75,
+    "min_per_class_to_score": 10,
+    "pooling": "none. Subgroup AUROCs are reported per cell and are NOT averaged; any pooled figure would require a stated weighting and population, and none is computed here.",
+    "caveat": "Stratification conditions on one measured variable at a time. It is not complete confounding removal: residual within-stratum variation, unmeasured confounders and homology dependence all remain."
+  },
+  "signal_cell_counts": {
+    "Extracellular, annotated_present": 1252,
+    "Cytoplasm, annotated_present": 59,
+    "Extracellular, not_annotated": 53,
+    "Cytoplasm, not_annotated": 3645,
+    "Extracellular, annotated_present, EXPERIMENTAL evidence": 236,
+    "Cytoplasm, annotated_present, EXPERIMENTAL evidence": 4
+  },
+  "interval_exceptions": {
+    "not_enriched_by_mean_difference": [
+      2564
+    ],
+    "not_enriched_by_majority_of_proteins": [
+      2564
+    ],
+    "three_weakest_by_fraction_inside_greater": [
+      {
+        "feature_id": 2564,
+        "frac_inside_greater": "0.1271",
+        "n_zero_inside": "547"
+      },
+      {
+        "feature_id": 3900,
+        "frac_inside_greater": "0.6914",
+        "n_zero_inside": "382"
+      },
+      {
+        "feature_id": 1052,
+        "frac_inside_greater": "0.7971",
+        "n_zero_inside": "104"
+      }
+    ],
+    "comparison_region": "FULL VISIBLE SEQUENCE. 'outside' is every visible residue not in [start, end], so the two regions differ in length, in position and in sequence context. This is not a matched-position window comparison, and the saved artefacts cannot produce one: per-residue activations were streamed and not retained."
+  },
+  "inputs": {
+    "pooled_dir": "candidate_discovery/v1/pooled",
+    "selected_list": "070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917",
+    "sae_file_sha256": "1172503b90c950651e787a5625d91ff1c702a04ff3d851e8e95b700201e56ebd",
+    "inclusion_manifest": "783931349700b3082cac37edc5a2729e9b439cdb98bb7824a8c30e206ab2adb1"
+  },
+  "network_requests": 0,
+  "new_esm_extraction": false,
+  "seconds": 0.7262628078460693,
+  "output_hashes": {
+    "candidate_pairwise.tsv": "a8031b92b04512326e4ce215a226b7002d07ddefe7e8f340344529446d9d5c9f",
+    "stratified_auroc.tsv": "e3b2beef89a332b5958397882feb20b13e2ec2bd99d35dc10272fe5e4f4ed969",
+    "signal_annotation_cells.tsv": "720e61e421986a62b8be2d105881fb9cb656257d5be1f5a63e1504a594d7447c",
+    "interval_exceptions.tsv": "6b858c30a10d4d8e786567f8ef5de85a36360bc86cb6aa5d39d174f5d265338d"
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "step": "1 - membership frozen BEFORE any prediction score was read",
+ "prediction_files_opened": [],
+ "definition": "P4 proteins with >=1 APPLICABLE Pfam family-type signature, none of which appears in P1+P2+P3",
+ "unseen_means": "recorded Pfam family IDs absent from the probe's fitting partitions (P1+P2) and the layer-selection partition (P3), under this annotation snapshot; NOT a claim of evolutionary independence",
+ "family_type_basis": "the Pfam signature's OWN entry type, not the integrated InterPro entry",
+ "n_members": 443,
+ "n_extracellular": 183,
+ "n_cytoplasm": 260,
+ "expected_183_260_443": true,
+ "verification": {
+  "rows_checked": 443,
+  "failures": 0,
+  "accession_in_core_manifest": true,
+  "frozen_sha256_matches_manifest": true,
+  "frozen_sha256_matches_actual_sequence": true,
+  "target_matches_manifest": true,
+  "partition_is_P4": true,
+  "role_is_evaluation": true
+ },
+ "n_clusters_id30": 234,
+ "largest_cluster": "Q2VBP4",
+ "largest_cluster_n": 83,
+ "largest_cluster_pct": 18.736,
+ "n_distinct_family_ids_in_subgroup": 224,
+ "P0_accessed": false,
+ "membership_sha256": "dacd8a55990b3f0b6bed696861f9d811226419c4e7c79fe65f75a5f430d066eb"
+}

@@ -1,0 +1,31 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+candidates: [3900, 642, 1446, 243, 963, 2040, 317, 250, 2737, 627, 1052, 50, 900, 2564, 3731, 1235, 999, 217, 1946, 657]
+selected list sha256: 070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917
+interval enrichment over 1306 proteins
+`torch_dtype` is deprecated! Use `dtype` instead!
+  0/1306  2s
+  200/1306  71s
+  400/1306  108s
+  600/1306  133s
+  800/1306  148s
+  1000/1306  158s
+  1200/1306  165s
+{
+  "scope": {
+    "n_proteins_used": 1306,
+    "n_skipped_interval_outside_visible_or_too_short": 0,
+    "n_Extracellular": 1247,
+    "n_Cytoplasm": 59,
+    "rule": "signal-peptide features with EXACT start and end whose coordinates are verified to apply to the frozen extraction-input sequence, in the annotation-conditioned discovery sample",
+    "comparison": "mean activation over residues [start, end] versus over all other visible residues"
+  },
+  "hashes": {
+    "activation_by_class.tsv": "05a3f9548cbbed34e718c2f2efd894fdb836dd0bfe7f552ec2a0da4af347254a",
+    "activation_by_signal_status.tsv": "39649a93c1209c15fa0d24935a444ba4439d064ed9e716d0acdb168c696b4163",
+    "activation_by_kingdom.tsv": "a4521005f15a22750d1156321c1bce934dd5b73f3d52d3eb4bc5d56aabf06413",
+    "activation_vs_length.tsv": "b43491930e1ea74541c013f36c36d62d3aa3be2d0dc214ce898a647bdb323b31",
+    "counterexamples.tsv": "6d18476b148b6c981e5d5c54020c0d23af2e1edea74f1e2fbd5e3e9c774d014e",
+    "signal_interval_enrichment.tsv": "1fd738fd9ed1130055f8d10fb22bda6a33109422a253d01b7d8581f9cb922ea5"
+  }
+}

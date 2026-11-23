@@ -1,0 +1,2349 @@
+19-ab57c
+=== min-seq-id 0.3  -c 0.8  --cov-mode 0 ===
+Create directory /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30
+easy-cluster ./homology_audit/v1/development_10139.fasta ./homology_audit/v1/clusters/id30 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30 --min-seq-id 0.3 -c 0.8 --cov-mode 0 --seq-id-mode 0 --cluster-mode 0 --cluster-reassign 1 --alignment-mode 3 -s 7.5 -e 0.001 --threads 12 
+
+MMseqs Version:                            	19-ab57c
+Substitution matrix                        	aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix                   	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                                	7.5
+k-mer length                               	0
+Target search mode                         	0
+k-score                                    	seq:2147483647,prof:2147483647
+Alphabet size                              	aa:21,nucl:5
+Max sequence length                        	65535
+Max results per query                      	20
+Split database                             	0
+Split mode                                 	2
+Split memory limit                         	0
+Coverage threshold                         	0.8
+Coverage mode                              	0
+Compositional bias                         	1
+Compositional bias scale                   	1
+Diagonal scoring                           	true
+Exact k-mer matching                       	0
+Mask residues                              	1
+Mask residues probability                  	0.9
+Mask lower case residues                   	0
+Mask lower letter repeating N times        	0
+Minimum diagonal score                     	15
+Selected taxa                              	
+Include identical seq. id.                 	false
+Spaced k-mers                              	1
+Preload mode                               	0
+Pseudo count a                             	substitution:1.100,context:1.400
+Pseudo count b                             	substitution:4.100,context:5.800
+Spaced k-mer pattern                       	
+Local temporary path                       	
+Threads                                    	12
+Compressed                                 	0
+Verbosity                                  	3
+Add backtrace                              	false
+Alignment mode                             	3
+Alignment mode                             	0
+Allow wrapped scoring                      	false
+E-value threshold                          	0.001
+Seq. id. threshold                         	0.3
+Min alignment length                       	0
+Seq. id. mode                              	0
+Alternative alignments                     	0
+Max reject                                 	2147483647
+Max accept                                 	2147483647
+Score bias                                 	0
+Realign hits                               	false
+Realign score bias                         	-0.2
+Realign max seqs                           	2147483647
+Correlation score weight                   	0
+Gap open cost                              	aa:11,nucl:5
+Gap extension cost                         	aa:1,nucl:2
+Zdrop                                      	40
+Rescore mode                               	0
+Remove hits by seq. id. and coverage       	false
+Sort results                               	0
+Cluster mode                               	0
+Max connected component depth              	1000
+Similarity type                            	2
+Weight file name                           	
+Cluster Weight threshold                   	0.9
+Set mode                                   	false
+Single step clustering                     	false
+Cascaded clustering steps                  	3
+Cluster reassign                           	true
+Remove temporary files                     	true
+Force restart with latest tmp              	false
+MPI runner                                 	
+Cluster version                            	1
+k-mers per sequence                        	21
+Scale k-mers per sequence                  	aa:0.000,nucl:0.200
+Adjust k-mer length                        	false
+Shift hash                                 	67
+Include only extendable                    	false
+Skip repeating k-mers                      	false
+Include count table                        	true
+Number of count table based center swapping	2
+Include adjacency based center swapping    	true
+Number of adjacency based center swapping  	3
+Use parallelism                            	false
+Linclust version                           	2
+Filter cluDB file                          	
+Filter seqDB file                          	
+Switch to consensus representatives        	false
+Cluster hash                               	false
+Database type                              	0
+Shuffle input database                     	true
+Createdb mode                              	1
+Write lookup file                          	0
+Offset of numeric ids                      	0
+Use GPU                                    	0
+
+createdb ./homology_audit/v1/development_10139.fasta /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input --createdb-mode 1 --write-lookup 0 --threads 12 
+
+Shuffle database cannot be combined with --createdb-mode 1
+We recompute with --shuffle 0
+Converting sequences
+[=
+Time for merging to input_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 8ms
+Create directory /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp
+cluster /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp -s 7.5 --max-seqs 20 -c 0.8 --cov-mode 0 --spaced-kmer-mode 1 --threads 12 --alignment-mode 3 -e 0.001 --min-seq-id 0.3 --seq-id-mode 0 --cluster-mode 0 --cluster-reassign 1 --remove-tmp-files 1 
+
+Set cluster iterations to 3
+linclust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 -k 0 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 --rescore-mode 0 --filter-hits 0 --sort-results 0 --include-align-files 0 --switch-consensus-rep 0 --clust-hash 0 --remove-tmp-files 1 --force-reuse 0 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.3 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.3 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+Database size: 10139 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Initiating count table
+[=================================================================] 10.14K 0s 26ms
+Fill count table for 1 split
+[=================================================================] 10.14K 0s 21ms
+Sort kmer 0h 0m 0s 0ms
+Assign group Mode: SetupCountTable: Generate k-mers list for 1 split
+[=================================================================] 10.14K 0s 20ms
+Sort kmer 0h 0m 0s 2ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Merge splits ... Time for fill: 0h 0m 0s 4ms
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 101ms
+align2clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --filter-hits 0 -e 0.001 -c 0.8 --cov-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 12 --compressed 0 -v 3 --cluster-mode 0 --include-align-files 0 
+
+Score per column threshold for filtering: 0.200000
+Using SET_COVER clustering mode
+Reorder buffer sizing: memory limit 23158620070 byte, reserved (fixed) 202780 byte, budget 20842575561 byte, 1252 byte/result
+Reorder buffer capacity: 10139 results (486672 byte pre-allocated slots)
+[=================================================================] 10.14K 0s 92ms
+Size of the alignment database: 10139
+Number of clusters: 7302
+Time for run Align2Clust: 0h 0m 0s 97ms sec
+Time for merging to clu: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 99ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/input_rep -v 3 --subdb-mode 1 
+
+Time for merging to input_rep: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.3 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.100,nucl:0.100 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.3 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.100,nucl:0.100 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+Database size: 7302 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Initiating count table
+[=================================================================] 7.30K 0s 12ms
+Fill count table for 1 split
+[=================================================================] 7.30K 0s 15ms
+Sort kmer 0h 0m 0s 0ms
+Assign group Mode: SetupCountTable: Generate k-mers list for 1 split
+[=================================================================] 7.30K 0s 18ms
+Sort kmer 0h 0m 0s 7ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Merge splits ... Time for fill: 0h 0m 0s 3ms
+Time for merging to pref_rep: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 78ms
+align2clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --filter-hits 0 -e 0.001 -c 0.8 --cov-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 12 --compressed 0 -v 3 --cluster-mode 0 --include-align-files 0 --filter-cludb-file /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu --filter-seqdb-file /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input 
+
+Score per column threshold for filtering: 0.200000
+Using SET_COVER clustering mode
+Reorder buffer sizing: memory limit 23158383054 byte, reserved (fixed) 146040 byte, budget 20842413312 byte, 1252 byte/result
+Reorder buffer capacity: 7302 results (350496 byte pre-allocated slots)
+[=================================================================] 7.30K 0s 75ms
+Size of the alignment database: 7302
+Number of clusters: 6921
+Time for run Align2Clust: 0h 0m 0s 81ms sec
+Time for merging to clu_rep: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 83ms
+mergeclusters /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu_rep --threads 12 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 7.30K 0s 0ms
+Clustering step 2
+[=================================================================] 6.92K 0s 1ms
+Write merged clustering
+[=================================================================] 10.14K 0s 3ms
+Time for merging to clu_redundancy: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 7ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/input_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/input_rep_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/pref_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/linclust/2016438263177754/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 6921 type: Aminoacid
+Estimated memory consumption: 1008M
+Target database size: 6921 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 6.92K 0s 34ms
+Index table: Masked residues: 134205
+Index table: fill
+[=================================================================] 6.92K 0s 25ms
+Index statistics
+Entries:          1754200
+DB size:          498 MB
+Avg k-mer size:   0.027409
+Top 10 k-mers
+    IHDKNI	50
+    CGPYPE	33
+    FAGTGK	28
+    VHDKNL	26
+    AYQGKT	21
+    YELGPF	20
+    VHDKNI	20
+    HRIPLL	19
+    HRLPLL	19
+    VGPWPE	18
+Time for index table init: 0h 0m 0s 267ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6921
+Target db start 1 to 6921
+[=================================================================] 6.92K 0s 91ms
+
+2.275775 k-mers per position
+319 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 540ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6921 type: Aminoacid
+Target database size: 6921 type: Aminoacid
+Calculation of alignments
+[=================================================================] 6.92K 0s 158ms
+Time for merging to aln_step0: 0h 0m 0s 2ms
+10549 alignments calculated
+7835 sequence pairs passed the thresholds (0.742724 of overall calculated)
+1.132062 hits per query sequence
+Time for processing: 0h 0m 0s 171ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step0 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 6.92K 0s 0ms
+Sort entries
+Find missing connections
+Found 6 new connections.
+Reconstruct initial order
+[=================================================================] 6.92K 0s 1ms
+Add missing connections
+[=================================================================] 6.92K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 6921
+Size of the alignment database: 6921
+Number of clusters: 6521
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 -v 3 --subdb-mode 1 
+
+Time for merging to input_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 4.25 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 6521 type: Aminoacid
+Estimated memory consumption: 1006M
+Target database size: 6521 type: Aminoacid
+Index table k-mer threshold: 125 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 6.52K 0s 30ms
+Index table: Masked residues: 125216
+Index table: fill
+[=================================================================] 6.52K 0s 41ms
+Index statistics
+Entries:          3418150
+DB size:          507 MB
+Avg k-mer size:   0.053409
+Top 10 k-mers
+    IHDKNI	46
+    RDKELL	35
+    CGPYPE	31
+    FAGTGK	26
+    YRSLLL	24
+    VHDKNL	24
+    QTSKTM	20
+    AYQGKT	19
+    HRLPLL	18
+    GIHDPE	17
+Time for index table init: 0h 0m 0s 185ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 125
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6521
+Target db start 1 to 6521
+[=================================================================] 6.52K 0s 559ms
+
+75.507759 k-mers per position
+2182 DB matches per sequence
+0 overflows
+10 sequences passed prefiltering per query sequence
+9 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step1: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 926ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6521 type: Aminoacid
+Target database size: 6521 type: Aminoacid
+Calculation of alignments
+[=================================================================] 6.52K 0s 214ms
+Time for merging to aln_step1: 0h 0m 0s 2ms
+20272 alignments calculated
+6974 sequence pairs passed the thresholds (0.344021 of overall calculated)
+1.069468 hits per query sequence
+Time for processing: 0h 0m 0s 232ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step1 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 6.52K 0s 0ms
+Sort entries
+Find missing connections
+Found 55 new connections.
+Reconstruct initial order
+[=================================================================] 6.52K 0s 1ms
+Add missing connections
+[=================================================================] 6.52K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 6521
+Size of the alignment database: 6521
+Number of clusters: 6297
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 -v 3 --subdb-mode 1 
+
+Time for merging to input_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 6297 type: Aminoacid
+Estimated memory consumption: 1005M
+Target database size: 6297 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 6.30K 0s 28ms
+Index table: Masked residues: 124459
+Index table: fill
+[=================================================================] 6.30K 0s 39ms
+Index statistics
+Entries:          3371004
+DB size:          507 MB
+Avg k-mer size:   0.052672
+Top 10 k-mers
+    IHDKNI	45
+    RDKELL	34
+    CGPYPE	31
+    FAGTGK	26
+    YRSLLL	24
+    VHDKNL	23
+    SSSSSS	23
+    QTSKTM	20
+    AYQGKT	19
+    HRLPLL	18
+Time for index table init: 0h 0m 0s 185ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6297
+Target db start 1 to 6297
+[=================================================================] 6.30K 7s 293ms
+
+1514.548875 k-mers per position
+42866 DB matches per sequence
+0 overflows
+19 sequences passed prefiltering per query sequence
+20 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step2: 0h 0m 0s 2ms
+Time for processing: 0h 0m 7s 688ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6297 type: Aminoacid
+Target database size: 6297 type: Aminoacid
+Calculation of alignments
+[=================================================================] 6.30K 0s 241ms
+Time for merging to aln_step2: 0h 0m 0s 2ms
+27446 alignments calculated
+6344 sequence pairs passed the thresholds (0.231145 of overall calculated)
+1.007464 hits per query sequence
+Time for processing: 0h 0m 0s 251ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step2 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 6.30K 0s 0ms
+Sort entries
+Find missing connections
+Found 9 new connections.
+Reconstruct initial order
+[=================================================================] 6.30K 0s 1ms
+Add missing connections
+[=================================================================] 6.30K 0s 0ms
+
+Time for read in: 0h 0m 0s 2ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 6297
+Size of the alignment database: 6297
+Number of clusters: 6269
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+mergeclusters /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step2 
+
+Clustering step 1
+[=================================================================] 6.92K 0s 0ms
+Clustering step 2
+[=================================================================] 6.52K 0s 1ms
+Clustering step 3
+[=================================================================] 6.30K 0s 2ms
+Clustering step 4
+[=================================================================] 6.27K 0s 3ms
+Write merged clustering
+[=================================================================] 10.14K 0s 5ms
+Time for merging to clu: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 9ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 10139 type: Aminoacid
+Target database size: 10139 type: Aminoacid
+Calculation of alignments
+[=================================================================] 6.27K 0s 136ms
+Time for merging to aln: 0h 0m 0s 2ms
+10113 alignments calculated
+9717 sequence pairs passed the thresholds (0.960842 of overall calculated)
+1.550008 hits per query sequence
+Time for processing: 0h 0m 0s 178ms
+subtractdbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted --e-profile 100000000 -e 100000000 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 6.27K 0s 1ms
+Time for merging to clu_not_accepted: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 7ms
+swapdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted_swap --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 6.27K 0s 0ms
+Computing offsets.
+[=================================================================] 6.27K 0s 0ms
+
+Reading results.
+[=================================================================] 6.27K 0s 0ms
+
+Output database: /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted_swap
+[=================================================================] 10.06K 0s 1ms
+
+Time for merging to clu_not_accepted_swap: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+subtractdbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted --e-profile 100000000 -e 100000000 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 6.27K 0s 0ms
+Time for merging to clu_accepted: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted_swap /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned -v 3 
+
+Time for merging to seq_wrong_assigned: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_seeds -v 3 
+
+Time for merging to seq_seeds: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 422 type: Aminoacid
+Estimated memory consumption: 1007M
+Target database size: 6691 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 6.69K 0s 30ms
+Index table: Masked residues: 130466
+Index table: fill
+[=================================================================] 6.69K 0s 40ms
+Index statistics
+Entries:          3540050
+DB size:          508 MB
+Avg k-mer size:   0.055313
+Top 10 k-mers
+    KKLLFL	51
+    IHDKNI	49
+    LKSFLF	43
+    LVFGSL	42
+    FLLLVS	42
+    KSFVLG	41
+    LFGVSI	39
+    SLLLGL	39
+    VLLLLS	38
+    RDKELL	37
+Time for index table init: 0h 0m 0s 184ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 422
+Target db start 1 to 6691
+[=================================================================] 422 0s 365ms
+
+1565.109419 k-mers per position
+36538 DB matches per sequence
+0 overflows
+20 sequences passed prefiltering per query sequence
+20 median result list length
+0 sequences with 0 size result lists
+Time for merging to seq_wrong_assigned_pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 750ms
+swapdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 422 0s 0ms
+Computing offsets.
+[=================================================================] 422 0s 0ms
+
+Reading results.
+[=================================================================] 422 0s 0ms
+
+Output database: /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped
+[=================================================================] 10.12K 0s 1ms
+
+Time for merging to seq_wrong_assigned_pref_swaped: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 5ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped_aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6691 type: Aminoacid
+Target database size: 422 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.22K 0s 62ms
+Time for merging to seq_wrong_assigned_pref_swaped_aln: 0h 0m 0s 1ms
+4243 alignments calculated
+1878 sequence pairs passed the thresholds (0.442611 of overall calculated)
+1.536825 hits per query sequence
+Time for processing: 0h 0m 0s 71ms
+filterdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped_aln /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped_aln_ocol --trim-to-one-column --threads 12 --compressed 0 -v 3 
+
+Filtering using regular expression
+[=================================================================] 1.22K 0s 0ms
+Time for merging to seq_wrong_assigned_pref_swaped_aln_ocol: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 4ms
+mergedbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped_aln_ocol --merge-stop-empty 0 --merge-filter-target 0 --compressed 0 -v 3 
+
+Merging the results to /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong
+[=================================================================] 6.69K 0s 1ms
+Time for merging to clu_accepted_plus_wrong: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+tsv2db /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/missing.single.seqs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/missing.single.seqs.db --output-dbtype 6 --compressed 0 -v 3 
+
+Output database type: Clustering
+Time for merging to missing.single.seqs.db: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+mergedbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong_plus_single /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/missing.single.seqs.db --merge-stop-empty 0 --merge-filter-target 0 --compressed 0 -v 3 
+
+Merging the results to /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong_plus_single
+[=================================================================] 10.14K 0s 1ms
+Time for merging to clu_accepted_plus_wrong_plus_single: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 3ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong_plus_single /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 10.14K 0s 0ms
+Sort entries
+Find missing connections
+Found 3742 new connections.
+Reconstruct initial order
+[=================================================================] 10.14K 0s 0ms
+Add missing connections
+[=================================================================] 10.14K 0s 0ms
+
+Time for read in: 0h 0m 0s 2ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 10139
+Size of the alignment database: 10139
+Number of clusters: 6486
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 5ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_not_accepted_swap -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_seeds -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_seeds.merged -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped_aln -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/seq_wrong_assigned_pref_swaped_aln_ocol -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/missing.single.seqs.db -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_accepted_plus_wrong_plus_single -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/pref_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/aln_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/clu_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step1_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_tmp/14875757438427900145/input_step2_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createtsv /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/cluster.tsv --threads 12 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 6ms
+result2repseq /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_rep --db-load-mode 0 --compressed 0 --threads 12 -v 3 
+
+[=================================================================] 6.49K 0s 0ms
+Time for merging to clu_rep: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 9ms
+result2flat /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 15ms
+createseqfiledb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_seqs --threads 12 -v 3 
+
+[=================================================================] 6.49K 0s 0ms
+Time for merging to clu_seqs: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 7ms
+result2flat /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_seqs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 21ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/input_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id30/9397199139556562016/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+=== min-seq-id 0.5  -c 0.8  --cov-mode 0 ===
+Create directory /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50
+easy-cluster ./homology_audit/v1/development_10139.fasta ./homology_audit/v1/clusters/id50 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50 --min-seq-id 0.5 -c 0.8 --cov-mode 0 --seq-id-mode 0 --cluster-mode 0 --cluster-reassign 1 --alignment-mode 3 -s 7.5 -e 0.001 --threads 12 
+
+MMseqs Version:                            	19-ab57c
+Substitution matrix                        	aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix                   	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                                	7.5
+k-mer length                               	0
+Target search mode                         	0
+k-score                                    	seq:2147483647,prof:2147483647
+Alphabet size                              	aa:21,nucl:5
+Max sequence length                        	65535
+Max results per query                      	20
+Split database                             	0
+Split mode                                 	2
+Split memory limit                         	0
+Coverage threshold                         	0.8
+Coverage mode                              	0
+Compositional bias                         	1
+Compositional bias scale                   	1
+Diagonal scoring                           	true
+Exact k-mer matching                       	0
+Mask residues                              	1
+Mask residues probability                  	0.9
+Mask lower case residues                   	0
+Mask lower letter repeating N times        	0
+Minimum diagonal score                     	15
+Selected taxa                              	
+Include identical seq. id.                 	false
+Spaced k-mers                              	1
+Preload mode                               	0
+Pseudo count a                             	substitution:1.100,context:1.400
+Pseudo count b                             	substitution:4.100,context:5.800
+Spaced k-mer pattern                       	
+Local temporary path                       	
+Threads                                    	12
+Compressed                                 	0
+Verbosity                                  	3
+Add backtrace                              	false
+Alignment mode                             	3
+Alignment mode                             	0
+Allow wrapped scoring                      	false
+E-value threshold                          	0.001
+Seq. id. threshold                         	0.5
+Min alignment length                       	0
+Seq. id. mode                              	0
+Alternative alignments                     	0
+Max reject                                 	2147483647
+Max accept                                 	2147483647
+Score bias                                 	0
+Realign hits                               	false
+Realign score bias                         	-0.2
+Realign max seqs                           	2147483647
+Correlation score weight                   	0
+Gap open cost                              	aa:11,nucl:5
+Gap extension cost                         	aa:1,nucl:2
+Zdrop                                      	40
+Rescore mode                               	0
+Remove hits by seq. id. and coverage       	false
+Sort results                               	0
+Cluster mode                               	0
+Max connected component depth              	1000
+Similarity type                            	2
+Weight file name                           	
+Cluster Weight threshold                   	0.9
+Set mode                                   	false
+Single step clustering                     	false
+Cascaded clustering steps                  	3
+Cluster reassign                           	true
+Remove temporary files                     	true
+Force restart with latest tmp              	false
+MPI runner                                 	
+Cluster version                            	1
+k-mers per sequence                        	21
+Scale k-mers per sequence                  	aa:0.000,nucl:0.200
+Adjust k-mer length                        	false
+Shift hash                                 	67
+Include only extendable                    	false
+Skip repeating k-mers                      	false
+Include count table                        	true
+Number of count table based center swapping	2
+Include adjacency based center swapping    	true
+Number of adjacency based center swapping  	3
+Use parallelism                            	false
+Linclust version                           	2
+Filter cluDB file                          	
+Filter seqDB file                          	
+Switch to consensus representatives        	false
+Cluster hash                               	false
+Database type                              	0
+Shuffle input database                     	true
+Createdb mode                              	1
+Write lookup file                          	0
+Offset of numeric ids                      	0
+Use GPU                                    	0
+
+createdb ./homology_audit/v1/development_10139.fasta /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input --createdb-mode 1 --write-lookup 0 --threads 12 
+
+Shuffle database cannot be combined with --createdb-mode 1
+We recompute with --shuffle 0
+Converting sequences
+[=
+Time for merging to input_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 6ms
+Create directory /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp
+cluster /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp -s 7.5 --max-seqs 20 -c 0.8 --cov-mode 0 --spaced-kmer-mode 1 --threads 12 --alignment-mode 3 -e 0.001 --min-seq-id 0.5 --seq-id-mode 0 --cluster-mode 0 --cluster-reassign 1 --remove-tmp-files 1 
+
+Set cluster iterations to 3
+linclust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 -k 0 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 --rescore-mode 0 --filter-hits 0 --sort-results 0 --include-align-files 0 --switch-consensus-rep 0 --clust-hash 0 --remove-tmp-files 1 --force-reuse 0 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.5 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.5 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+Database size: 10139 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Initiating count table
+[=================================================================] 10.14K 0s 29ms
+Fill count table for 1 split
+[=================================================================] 10.14K 0s 22ms
+Sort kmer 0h 0m 0s 0ms
+Assign group Mode: SetupCountTable: Generate k-mers list for 1 split
+[=================================================================] 10.14K 0s 21ms
+Sort kmer 0h 0m 0s 2ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Merge splits ... Time for fill: 0h 0m 0s 4ms
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 106ms
+align2clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --filter-hits 0 -e 0.001 -c 0.8 --cov-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 12 --compressed 0 -v 3 --cluster-mode 0 --include-align-files 0 
+
+Score per column threshold for filtering: 0.400000
+Using SET_COVER clustering mode
+Reorder buffer sizing: memory limit 23158620070 byte, reserved (fixed) 202780 byte, budget 20842575561 byte, 1252 byte/result
+Reorder buffer capacity: 10139 results (486672 byte pre-allocated slots)
+[=================================================================] 10.14K 0s 90ms
+Size of the alignment database: 10139
+Number of clusters: 7591
+Time for run Align2Clust: 0h 0m 0s 95ms sec
+Time for merging to clu: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 98ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/input_rep -v 3 --subdb-mode 1 
+
+Time for merging to input_rep: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.100,nucl:0.100 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.100,nucl:0.100 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+Database size: 7591 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Initiating count table
+[=================================================================] 7.59K 0s 14ms
+Fill count table for 1 split
+[=================================================================] 7.59K 0s 21ms
+Sort kmer 0h 0m 0s 1ms
+Assign group Mode: SetupCountTable: Generate k-mers list for 1 split
+[=================================================================] 7.59K 0s 13ms
+Sort kmer 0h 0m 0s 6ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Merge splits ... Time for fill: 0h 0m 0s 4ms
+Time for merging to pref_rep: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 84ms
+align2clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --filter-hits 0 -e 0.001 -c 0.8 --cov-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 12 --compressed 0 -v 3 --cluster-mode 0 --include-align-files 0 --filter-cludb-file /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu --filter-seqdb-file /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input 
+
+Score per column threshold for filtering: 0.400000
+Using SET_COVER clustering mode
+Reorder buffer sizing: memory limit 23158357622 byte, reserved (fixed) 151820 byte, budget 20842385221 byte, 1252 byte/result
+Reorder buffer capacity: 7591 results (364368 byte pre-allocated slots)
+[=================================================================] 7.59K 0s 60ms
+Size of the alignment database: 7591
+Number of clusters: 7414
+Time for run Align2Clust: 0h 0m 0s 66ms sec
+Time for merging to clu_rep: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 68ms
+mergeclusters /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu_rep --threads 12 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 7.59K 0s 0ms
+Clustering step 2
+[=================================================================] 7.41K 0s 1ms
+Write merged clustering
+[=================================================================] 10.14K 0s 3ms
+Time for merging to clu_redundancy: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 7ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/input_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/input_rep_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/pref_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/linclust/16382986450156583740/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 7414 type: Aminoacid
+Estimated memory consumption: 1010M
+Target database size: 7414 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 7.41K 0s 28ms
+Index table: Masked residues: 142316
+Index table: fill
+[=================================================================] 7.41K 0s 27ms
+Index statistics
+Entries:          1893821
+DB size:          499 MB
+Avg k-mer size:   0.029591
+Top 10 k-mers
+    IHDKNI	56
+    CGPYPE	39
+    FAGTGK	35
+    VHDKNL	28
+    AYQGKT	28
+    YELGPF	24
+    HRLPLL	23
+    HRIPLL	22
+    VHDKNI	21
+    IHDKNL	21
+Time for index table init: 0h 0m 0s 168ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 7414
+Target db start 1 to 7414
+[=================================================================] 7.41K 0s 88ms
+
+2.283913 k-mers per position
+328 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 442ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 7414 type: Aminoacid
+Target database size: 7414 type: Aminoacid
+Calculation of alignments
+[=================================================================] 7.41K 0s 247ms
+Time for merging to aln_step0: 0h 0m 0s 2ms
+13060 alignments calculated
+7546 sequence pairs passed the thresholds (0.577795 of overall calculated)
+1.017804 hits per query sequence
+Time for processing: 0h 0m 0s 258ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step0 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 7.41K 0s 0ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 7.41K 0s 1ms
+Add missing connections
+[=================================================================] 7.41K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 7414
+Size of the alignment database: 7414
+Number of clusters: 7349
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 -v 3 --subdb-mode 1 
+
+Time for merging to input_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 4.25 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 7349 type: Aminoacid
+Estimated memory consumption: 1010M
+Target database size: 7349 type: Aminoacid
+Index table k-mer threshold: 125 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 7.35K 0s 32ms
+Index table: Masked residues: 141773
+Index table: fill
+[=================================================================] 7.35K 0s 44ms
+Index statistics
+Entries:          3893439
+DB size:          510 MB
+Avg k-mer size:   0.060835
+Top 10 k-mers
+    IHDKNI	56
+    RDKELL	41
+    CGPYPE	39
+    FAGTGK	35
+    YRSLLL	29
+    VHDKNL	28
+    AYQGKT	28
+    QTSKTM	25
+    YELGPF	24
+    HRIPLL	22
+Time for index table init: 0h 0m 0s 190ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 125
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 7349
+Target db start 1 to 7349
+[=================================================================] 7.35K 0s 634ms
+
+76.579305 k-mers per position
+2484 DB matches per sequence
+0 overflows
+11 sequences passed prefiltering per query sequence
+12 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step1: 0h 0m 0s 2ms
+Time for processing: 0h 0m 1s 6ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 7349 type: Aminoacid
+Target database size: 7349 type: Aminoacid
+Calculation of alignments
+[=================================================================] 7.35K 0s 398ms
+Time for merging to aln_step1: 0h 0m 0s 3ms
+27737 alignments calculated
+7403 sequence pairs passed the thresholds (0.266900 of overall calculated)
+1.007348 hits per query sequence
+Time for processing: 0h 0m 0s 413ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step1 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 7.35K 0s 0ms
+Sort entries
+Find missing connections
+Found 12 new connections.
+Reconstruct initial order
+[=================================================================] 7.35K 0s 1ms
+Add missing connections
+[=================================================================] 7.35K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 7349
+Size of the alignment database: 7349
+Number of clusters: 7318
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 -v 3 --subdb-mode 1 
+
+Time for merging to input_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 7318 type: Aminoacid
+Estimated memory consumption: 1010M
+Target database size: 7318 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 7.32K 0s 33ms
+Index table: Masked residues: 141507
+Index table: fill
+[=================================================================] 7.32K 0s 44ms
+Index statistics
+Entries:          3910868
+DB size:          510 MB
+Avg k-mer size:   0.061107
+Top 10 k-mers
+    IHDKNI	56
+    RDKELL	41
+    CGPYPE	39
+    FAGTGK	35
+    YRSLLL	29
+    VHDKNL	28
+    AYQGKT	28
+    SSSSSS	27
+    QTSKTM	25
+    YELGPF	24
+Time for index table init: 0h 0m 0s 193ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 7318
+Target db start 1 to 7318
+[=================================================================] 7.32K 9s 684ms
+
+1539.037940 k-mers per position
+50086 DB matches per sequence
+0 overflows
+19 sequences passed prefiltering per query sequence
+20 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step2: 0h 0m 0s 2ms
+Time for processing: 0h 0m 10s 96ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 7318 type: Aminoacid
+Target database size: 7318 type: Aminoacid
+Calculation of alignments
+[=================================================================] 7.32K 0s 434ms
+Time for merging to aln_step2: 0h 0m 0s 2ms
+36501 alignments calculated
+7320 sequence pairs passed the thresholds (0.200542 of overall calculated)
+1.000273 hits per query sequence
+Time for processing: 0h 0m 0s 446ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step2 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 7.32K 0s 0ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 7.32K 0s 1ms
+Add missing connections
+[=================================================================] 7.32K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 7318
+Size of the alignment database: 7318
+Number of clusters: 7317
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+mergeclusters /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step2 
+
+Clustering step 1
+[=================================================================] 7.41K 0s 0ms
+Clustering step 2
+[=================================================================] 7.35K 0s 2ms
+Clustering step 3
+[=================================================================] 7.32K 0s 3ms
+Clustering step 4
+[=================================================================] 7.32K 0s 3ms
+Write merged clustering
+[=================================================================] 10.14K 0s 5ms
+Time for merging to clu: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 12ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 10139 type: Aminoacid
+Target database size: 10139 type: Aminoacid
+Calculation of alignments
+[=================================================================] 7.32K 0s 112ms
+Time for merging to aln: 0h 0m 0s 2ms
+10136 alignments calculated
+10004 sequence pairs passed the thresholds (0.986977 of overall calculated)
+1.367227 hits per query sequence
+Time for processing: 0h 0m 0s 121ms
+subtractdbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted --e-profile 100000000 -e 100000000 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 7.32K 0s 2ms
+Time for merging to clu_not_accepted: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 7ms
+swapdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted_swap --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 7.32K 0s 0ms
+Computing offsets.
+[=================================================================] 7.32K 0s 0ms
+
+Reading results.
+[=================================================================] 7.32K 0s 0ms
+
+Output database: /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted_swap
+[=================================================================] 10.06K 0s 1ms
+
+Time for merging to clu_not_accepted_swap: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+subtractdbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted --e-profile 100000000 -e 100000000 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 7.32K 0s 0ms
+Time for merging to clu_accepted: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted_swap /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned -v 3 
+
+Time for merging to seq_wrong_assigned: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_seeds -v 3 
+
+Time for merging to seq_seeds: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 135 type: Aminoacid
+Estimated memory consumption: 1010M
+Target database size: 7452 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 7.45K 0s 33ms
+Index table: Masked residues: 142512
+Index table: fill
+[=================================================================] 7.45K 0s 43ms
+Index statistics
+Entries:          3950636
+DB size:          510 MB
+Avg k-mer size:   0.061729
+Top 10 k-mers
+    IHDKNI	58
+    RDKELL	42
+    CGPYPE	39
+    FAGTGK	35
+    KKLLFL	35
+    YRSLLL	29
+    HRLPLL	28
+    VHDKNL	28
+    AYQGKT	28
+    SSSSSS	27
+Time for index table init: 0h 0m 0s 191ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 135
+Target db start 1 to 7452
+[=================================================================] 135 0s 86ms
+
+1518.033353 k-mers per position
+30394 DB matches per sequence
+0 overflows
+20 sequences passed prefiltering per query sequence
+20 median result list length
+0 sequences with 0 size result lists
+Time for merging to seq_wrong_assigned_pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 489ms
+swapdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 135 0s 0ms
+Computing offsets.
+[=================================================================] 135 0s 0ms
+
+Reading results.
+[=================================================================] 135 0s 0ms
+
+Output database: /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped
+[=================================================================] 10.12K 0s 1ms
+
+Time for merging to seq_wrong_assigned_pref_swaped: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 5ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped_aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 7452 type: Aminoacid
+Target database size: 135 type: Aminoacid
+Calculation of alignments
+[=================================================================] 474 0s 22ms
+Time for merging to seq_wrong_assigned_pref_swaped_aln: 0h 0m 0s 1ms
+1564 alignments calculated
+724 sequence pairs passed the thresholds (0.462916 of overall calculated)
+1.527426 hits per query sequence
+Time for processing: 0h 0m 0s 29ms
+filterdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped_aln /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped_aln_ocol --trim-to-one-column --threads 12 --compressed 0 -v 3 
+
+Filtering using regular expression
+[=================================================================] 474 0s 0ms
+Time for merging to seq_wrong_assigned_pref_swaped_aln_ocol: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 4ms
+mergedbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped_aln_ocol --merge-stop-empty 0 --merge-filter-target 0 --compressed 0 -v 3 
+
+Merging the results to /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong
+[=================================================================] 7.45K 0s 1ms
+Time for merging to clu_accepted_plus_wrong: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+tsv2db /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/missing.single.seqs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/missing.single.seqs.db --output-dbtype 6 --compressed 0 -v 3 
+
+Output database type: Clustering
+Time for merging to missing.single.seqs.db: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+mergedbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong_plus_single /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/missing.single.seqs.db --merge-stop-empty 0 --merge-filter-target 0 --compressed 0 -v 3 
+
+Merging the results to /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong_plus_single
+[=================================================================] 10.14K 0s 1ms
+Time for merging to clu_accepted_plus_wrong_plus_single: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong_plus_single /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 10.14K 0s 0ms
+Sort entries
+Find missing connections
+Found 2790 new connections.
+Reconstruct initial order
+[=================================================================] 10.14K 0s 0ms
+Add missing connections
+[=================================================================] 10.14K 0s 0ms
+
+Time for read in: 0h 0m 0s 2ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 10139
+Size of the alignment database: 10139
+Number of clusters: 7378
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_not_accepted_swap -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_seeds -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_seeds.merged -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped_aln -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/seq_wrong_assigned_pref_swaped_aln_ocol -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/missing.single.seqs.db -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_accepted_plus_wrong_plus_single -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/pref_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/aln_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/clu_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step1_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_tmp/17370004623195843845/input_step2_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createtsv /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/cluster.tsv --threads 12 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 6ms
+result2repseq /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_rep --db-load-mode 0 --compressed 0 --threads 12 -v 3 
+
+[=================================================================] 7.38K 0s 0ms
+Time for merging to clu_rep: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 10ms
+result2flat /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 16ms
+createseqfiledb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_seqs --threads 12 -v 3 
+
+[=================================================================] 7.38K 0s 0ms
+Time for merging to clu_seqs: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 8ms
+result2flat /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_seqs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 21ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/input_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id50/4042842743727321958/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+=== min-seq-id 0.8  -c 0.8  --cov-mode 0 ===
+Create directory /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80
+easy-cluster ./homology_audit/v1/development_10139.fasta ./homology_audit/v1/clusters/id80 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80 --min-seq-id 0.8 -c 0.8 --cov-mode 0 --seq-id-mode 0 --cluster-mode 0 --cluster-reassign 1 --alignment-mode 3 -s 7.5 -e 0.001 --threads 12 
+
+MMseqs Version:                            	19-ab57c
+Substitution matrix                        	aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix                   	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                                	7.5
+k-mer length                               	0
+Target search mode                         	0
+k-score                                    	seq:2147483647,prof:2147483647
+Alphabet size                              	aa:21,nucl:5
+Max sequence length                        	65535
+Max results per query                      	20
+Split database                             	0
+Split mode                                 	2
+Split memory limit                         	0
+Coverage threshold                         	0.8
+Coverage mode                              	0
+Compositional bias                         	1
+Compositional bias scale                   	1
+Diagonal scoring                           	true
+Exact k-mer matching                       	0
+Mask residues                              	1
+Mask residues probability                  	0.9
+Mask lower case residues                   	0
+Mask lower letter repeating N times        	0
+Minimum diagonal score                     	15
+Selected taxa                              	
+Include identical seq. id.                 	false
+Spaced k-mers                              	1
+Preload mode                               	0
+Pseudo count a                             	substitution:1.100,context:1.400
+Pseudo count b                             	substitution:4.100,context:5.800
+Spaced k-mer pattern                       	
+Local temporary path                       	
+Threads                                    	12
+Compressed                                 	0
+Verbosity                                  	3
+Add backtrace                              	false
+Alignment mode                             	3
+Alignment mode                             	0
+Allow wrapped scoring                      	false
+E-value threshold                          	0.001
+Seq. id. threshold                         	0.8
+Min alignment length                       	0
+Seq. id. mode                              	0
+Alternative alignments                     	0
+Max reject                                 	2147483647
+Max accept                                 	2147483647
+Score bias                                 	0
+Realign hits                               	false
+Realign score bias                         	-0.2
+Realign max seqs                           	2147483647
+Correlation score weight                   	0
+Gap open cost                              	aa:11,nucl:5
+Gap extension cost                         	aa:1,nucl:2
+Zdrop                                      	40
+Rescore mode                               	0
+Remove hits by seq. id. and coverage       	false
+Sort results                               	0
+Cluster mode                               	0
+Max connected component depth              	1000
+Similarity type                            	2
+Weight file name                           	
+Cluster Weight threshold                   	0.9
+Set mode                                   	false
+Single step clustering                     	false
+Cascaded clustering steps                  	3
+Cluster reassign                           	true
+Remove temporary files                     	true
+Force restart with latest tmp              	false
+MPI runner                                 	
+Cluster version                            	1
+k-mers per sequence                        	21
+Scale k-mers per sequence                  	aa:0.000,nucl:0.200
+Adjust k-mer length                        	false
+Shift hash                                 	67
+Include only extendable                    	false
+Skip repeating k-mers                      	false
+Include count table                        	true
+Number of count table based center swapping	2
+Include adjacency based center swapping    	true
+Number of adjacency based center swapping  	3
+Use parallelism                            	false
+Linclust version                           	2
+Filter cluDB file                          	
+Filter seqDB file                          	
+Switch to consensus representatives        	false
+Cluster hash                               	false
+Database type                              	0
+Shuffle input database                     	true
+Createdb mode                              	1
+Write lookup file                          	0
+Offset of numeric ids                      	0
+Use GPU                                    	0
+
+createdb ./homology_audit/v1/development_10139.fasta /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input --createdb-mode 1 --write-lookup 0 --threads 12 
+
+Shuffle database cannot be combined with --createdb-mode 1
+We recompute with --shuffle 0
+Converting sequences
+[=
+Time for merging to input_h: 0h 0m 0s 0ms
+Time for merging to input: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 8ms
+Create directory /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp
+cluster /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp -s 7.5 --max-seqs 20 -c 0.8 --cov-mode 0 --spaced-kmer-mode 1 --threads 12 --alignment-mode 3 -e 0.001 --min-seq-id 0.8 --seq-id-mode 0 --cluster-mode 0 --cluster-reassign 1 --remove-tmp-files 1 
+
+Set cluster iterations to 3
+linclust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 -k 0 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 --rescore-mode 0 --filter-hits 0 --sort-results 0 --include-align-files 0 --switch-consensus-rep 0 --clust-hash 0 --remove-tmp-files 1 --force-reuse 0 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.8 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.8 --kmer-per-seq 21 --spaced-kmer-mode 0 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+Database size: 10139 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Initiating count table
+[=================================================================] 10.14K 0s 23ms
+Fill count table for 1 split
+[=================================================================] 10.14K 0s 24ms
+Sort kmer 0h 0m 0s 0ms
+Assign group Mode: SetupCountTable: Generate k-mers list for 1 split
+[=================================================================] 10.14K 0s 24ms
+Sort kmer 0h 0m 0s 2ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Merge splits ... Time for fill: 0h 0m 0s 4ms
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 104ms
+align2clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --filter-hits 0 -e 0.001 -c 0.8 --cov-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 12 --compressed 0 -v 3 --cluster-mode 0 --include-align-files 0 
+
+Score per column threshold for filtering: 1.500000
+Using SET_COVER clustering mode
+Reorder buffer sizing: memory limit 23158620070 byte, reserved (fixed) 202780 byte, budget 20842575561 byte, 1252 byte/result
+Reorder buffer capacity: 10139 results (486672 byte pre-allocated slots)
+[=================================================================] 10.14K 0s 77ms
+Size of the alignment database: 10139
+Number of clusters: 8737
+Time for run Align2Clust: 0h 0m 0s 83ms sec
+Time for merging to clu: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 84ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/input_rep -v 3 --subdb-mode 1 
+
+Time for merging to input_rep: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.8 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.100,nucl:0.100 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+kmermatcher /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.8 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.100,nucl:0.100 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --include-count-table 1 --num-count-table 2 --include-adjacency 1 --num-adjacency 3 --use-parallelism 0 --need-write-buffer 0 --linclust-version 2 
+
+Database size: 8737 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Initiating count table
+[=================================================================] 8.74K 0s 19ms
+Fill count table for 1 split
+[=================================================================] 8.74K 0s 19ms
+Sort kmer 0h 0m 0s 1ms
+Assign group Mode: SetupCountTable: Generate k-mers list for 1 split
+[=================================================================] 8.74K 0s 12ms
+Sort kmer 0h 0m 0s 8ms
+Assign group Mode: Longest center: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: Adjacent sequence: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Assign group Mode: CountTable: Time for assign: 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for write: 0h 0m 0s 1ms
+Merge splits ... Time for fill: 0h 0m 0s 5ms
+Time for merging to pref_rep: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 91ms
+align2clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/input_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu_rep --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --filter-hits 0 -e 0.001 -c 0.8 --cov-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 12 --compressed 0 -v 3 --cluster-mode 0 --include-align-files 0 --filter-cludb-file /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu --filter-seqdb-file /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input 
+
+Score per column threshold for filtering: 1.500000
+Using SET_COVER clustering mode
+Reorder buffer sizing: memory limit 23158256774 byte, reserved (fixed) 174740 byte, budget 20842273830 byte, 1252 byte/result
+Reorder buffer capacity: 8737 results (419376 byte pre-allocated slots)
+[=================================================================] 8.74K 0s 61ms
+Size of the alignment database: 8737
+Number of clusters: 8718
+Time for run Align2Clust: 0h 0m 0s 67ms sec
+Time for merging to clu_rep: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 69ms
+mergeclusters /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu_rep --threads 12 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 8.74K 0s 0ms
+Clustering step 2
+[=================================================================] 8.72K 0s 1ms
+Write merged clustering
+[=================================================================] 10.14K 0s 3ms
+Time for merging to clu_redundancy: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 8ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/input_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/input_rep_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/pref_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/linclust/4904076265630219931/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 8718 type: Aminoacid
+Estimated memory consumption: 1015M
+Target database size: 8718 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 8.72K 0s 46ms
+Index table: Masked residues: 158590
+Index table: fill
+[=================================================================] 8.72K 0s 31ms
+Index statistics
+Entries:          2191868
+DB size:          500 MB
+Avg k-mer size:   0.034248
+Top 10 k-mers
+    IHDKNI	66
+    CGPYPE	56
+    FAGTGK	43
+    VHDKNL	35
+    AYQGKT	34
+    YELGPF	33
+    HRLPLL	30
+    IHDKNL	30
+    HRIPLL	29
+    VGPYPE	28
+Time for index table init: 0h 0m 0s 216ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 8718
+Target db start 1 to 8718
+[=================================================================] 8.72K 0s 108ms
+
+2.310990 k-mers per position
+355 DB matches per sequence
+0 overflows
+3 sequences passed prefiltering per query sequence
+2 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 525ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8718 type: Aminoacid
+Target database size: 8718 type: Aminoacid
+Calculation of alignments
+[=================================================================] 8.72K 0s 484ms
+Time for merging to aln_step0: 0h 0m 0s 2ms
+23011 alignments calculated
+8748 sequence pairs passed the thresholds (0.380166 of overall calculated)
+1.003441 hits per query sequence
+Time for processing: 0h 0m 0s 497ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step0 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 8.72K 0s 0ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 8.72K 0s 1ms
+Add missing connections
+[=================================================================] 8.72K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 8718
+Size of the alignment database: 8718
+Number of clusters: 8703
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 8ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 -v 3 --subdb-mode 1 
+
+Time for merging to input_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 4.25 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 60 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 8703 type: Aminoacid
+Estimated memory consumption: 1015M
+Target database size: 8703 type: Aminoacid
+Index table k-mer threshold: 125 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 8.70K 0s 40ms
+Index table: Masked residues: 158127
+Index table: fill
+[=================================================================] 8.70K 0s 52ms
+Index statistics
+Entries:          4510135
+DB size:          514 MB
+Avg k-mer size:   0.070471
+Top 10 k-mers
+    IHDKNI	66
+    KKLLFL	57
+    RDKELL	57
+    CGPYPE	54
+    TLLLVT	51
+    TLVTCL	48
+    LLTVTI	47
+    MKLLVV	47
+    KTLTVV	47
+    LVVILD	44
+Time for index table init: 0h 0m 0s 206ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 125
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 8703
+Target db start 1 to 8703
+[=================================================================] 8.70K 0s 801ms
+
+77.794280 k-mers per position
+2839 DB matches per sequence
+0 overflows
+5 sequences passed prefiltering per query sequence
+3 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step1: 0h 0m 0s 2ms
+Time for processing: 0h 0m 1s 225ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8703 type: Aminoacid
+Target database size: 8703 type: Aminoacid
+Calculation of alignments
+[=================================================================] 8.70K 0s 630ms
+Time for merging to aln_step1: 0h 0m 0s 2ms
+29948 alignments calculated
+8709 sequence pairs passed the thresholds (0.290804 of overall calculated)
+1.000689 hits per query sequence
+Time for processing: 0h 0m 0s 642ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step1 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 8.70K 0s 0ms
+Sort entries
+Find missing connections
+Found 2 new connections.
+Reconstruct initial order
+[=================================================================] 8.70K 0s 1ms
+Add missing connections
+[=================================================================] 8.70K 0s 0ms
+
+Time for read in: 0h 0m 0s 3ms
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 8703
+Size of the alignment database: 8703
+Number of clusters: 8699
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 7ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 -v 3 --subdb-mode 1 
+
+Time for merging to input_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 60 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 8699 type: Aminoacid
+Estimated memory consumption: 1015M
+Target database size: 8699 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 8.70K 0s 38ms
+Index table: Masked residues: 158084
+Index table: fill
+[=================================================================] 8.70K 0s 49ms
+Index statistics
+Entries:          4536271
+DB size:          514 MB
+Avg k-mer size:   0.070879
+Top 10 k-mers
+    IHDKNI	66
+    KKLLFL	57
+    RDKELL	57
+    CGPYPE	54
+    TLLLVT	51
+    TLVTCL	48
+    LLTVTI	47
+    MKLLVV	47
+    KTLTVV	47
+    LVVILD	44
+Time for index table init: 0h 0m 0s 205ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 8699
+Target db start 1 to 8699
+[=================================================================] 8.70K 12s 599ms
+
+1555.817246 k-mers per position
+57147 DB matches per sequence
+0 overflows
+7 sequences passed prefiltering per query sequence
+4 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step2: 0h 0m 0s 2ms
+Time for processing: 0h 0m 13s 20ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8699 type: Aminoacid
+Target database size: 8699 type: Aminoacid
+Calculation of alignments
+[=================================================================] 8.70K 0s 644ms
+Time for merging to aln_step2: 0h 0m 0s 2ms
+33732 alignments calculated
+8699 sequence pairs passed the thresholds (0.257886 of overall calculated)
+1.000000 hits per query sequence
+Time for processing: 0h 0m 0s 683ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step2 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step2 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 8.70K 0s 0ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 8.70K 0s 1ms
+Add missing connections
+[=================================================================] 8.70K 0s 0ms
+
+Time for read in: 0h 0m 0s 4ms
+Total time: 0h 0m 0s 5ms
+
+Size of the sequence database: 8699
+Size of the alignment database: 8699
+Number of clusters: 8699
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 8ms
+mergeclusters /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_redundancy /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step0 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step1 /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step2 
+
+Clustering step 1
+[=================================================================] 8.72K 0s 1ms
+Clustering step 2
+[=================================================================] 8.70K 0s 3ms
+Clustering step 3
+[=================================================================] 8.70K 0s 6ms
+Clustering step 4
+[=================================================================] 8.70K 0s 7ms
+Write merged clustering
+[=================================================================] 10.14K 0s 10ms
+Time for merging to clu: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 19ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 10139 type: Aminoacid
+Target database size: 10139 type: Aminoacid
+Calculation of alignments
+[=================================================================] 8.70K 0s 138ms
+Time for merging to aln: 0h 0m 0s 4ms
+10139 alignments calculated
+10107 sequence pairs passed the thresholds (0.996844 of overall calculated)
+1.161858 hits per query sequence
+Time for processing: 0h 0m 0s 160ms
+subtractdbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted --e-profile 100000000 -e 100000000 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 8.70K 0s 2ms
+Time for merging to clu_not_accepted: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 10ms
+swapdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted_swap --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 8.70K 0s 0ms
+Computing offsets.
+[=================================================================] 8.70K 0s 0ms
+
+Reading results.
+[=================================================================] 8.70K 0s 0ms
+
+Output database: /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted_swap
+[=================================================================] 9.94K 0s 1ms
+
+Time for merging to clu_not_accepted_swap: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 7ms
+subtractdbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted --e-profile 100000000 -e 100000000 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 8.70K 0s 1ms
+Time for merging to clu_accepted: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 8ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted_swap /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned -v 3 
+
+Time for merging to seq_wrong_assigned: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+createsubdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_seeds -v 3 
+
+Time for merging to seq_seeds: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 5ms
+prefilter /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 60 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 12 --compressed 0 -v 3 
+
+Query database size: 32 type: Aminoacid
+Estimated memory consumption: 1015M
+Target database size: 8731 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 8.73K 0s 53ms
+Index table: Masked residues: 158222
+Index table: fill
+[=================================================================] 8.73K 0s 56ms
+Index statistics
+Entries:          4545789
+DB size:          514 MB
+Avg k-mer size:   0.071028
+Top 10 k-mers
+    IHDKNI	66
+    KKLLFL	59
+    RDKELL	57
+    CGPYPE	54
+    TLLLVT	51
+    TLVTCL	48
+    LLTVTI	47
+    MKLLVV	47
+    KTLTVV	47
+    LVVILD	44
+Time for index table init: 0h 0m 0s 276ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 32
+Target db start 1 to 8731
+[=================================================================] 32 0s 20ms
+
+1792.334982 k-mers per position
+37104 DB matches per sequence
+0 overflows
+12 sequences passed prefiltering per query sequence
+16 median result list length
+0 sequences with 0 size result lists
+Time for merging to seq_wrong_assigned_pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 863ms
+swapdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 32 0s 0ms
+Computing offsets.
+[=================================================================] 32 0s 0ms
+
+Reading results.
+[=================================================================] 32 0s 0ms
+
+Output database: /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped
+[=================================================================] 10.06K 0s 1ms
+
+Time for merging to seq_wrong_assigned_pref_swaped: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 4ms
+align /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped_aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.8 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8731 type: Aminoacid
+Target database size: 32 type: Aminoacid
+Calculation of alignments
+[=================================================================] 203 0s 7ms
+Time for merging to seq_wrong_assigned_pref_swaped_aln: 0h 0m 0s 0ms
+296 alignments calculated
+50 sequence pairs passed the thresholds (0.168919 of overall calculated)
+0.246305 hits per query sequence
+Time for processing: 0h 0m 0s 14ms
+filterdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped_aln /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped_aln_ocol --trim-to-one-column --threads 12 --compressed 0 -v 3 
+
+Filtering using regular expression
+[=================================================================] 203 0s 0ms
+Time for merging to seq_wrong_assigned_pref_swaped_aln_ocol: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+mergedbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_seeds.merged /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped_aln_ocol --merge-stop-empty 0 --merge-filter-target 0 --compressed 0 -v 3 
+
+Merging the results to /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong
+[=================================================================] 8.73K 0s 1ms
+Time for merging to clu_accepted_plus_wrong: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 4ms
+tsv2db /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/missing.single.seqs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/missing.single.seqs.db --output-dbtype 6 --compressed 0 -v 3 
+
+Output database type: Clustering
+Time for merging to missing.single.seqs.db: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+mergedbs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong_plus_single /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/missing.single.seqs.db --merge-stop-empty 0 --merge-filter-target 0 --compressed 0 -v 3 
+
+Merging the results to /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong_plus_single
+[=================================================================] 10.14K 0s 1ms
+Time for merging to clu_accepted_plus_wrong_plus_single: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+clust /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong_plus_single /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 12 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --set-mode 0 
+
+Clustering mode: Set Cover
+[=================================================================] 10.14K 0s 0ms
+Sort entries
+Find missing connections
+Found 1410 new connections.
+Reconstruct initial order
+[=================================================================] 10.14K 0s 0ms
+Add missing connections
+[=================================================================] 10.14K 0s 0ms
+
+Time for read in: 0h 0m 0s 2ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 10139
+Size of the alignment database: 10139
+Number of clusters: 8724
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_not_accepted_swap -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_seeds -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_seeds.merged -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped_aln -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/seq_wrong_assigned_pref_swaped_aln_ocol -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/missing.single.seqs.db -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_accepted_plus_wrong_plus_single -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step1 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/pref_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/aln_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/clu_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step1_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_tmp/17700007986828262222/input_step2_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+createtsv /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/cluster.tsv --threads 12 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 8ms
+result2repseq /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_rep --db-load-mode 0 --compressed 0 --threads 12 -v 3 
+
+[=================================================================] 8.72K 0s 1ms
+Time for merging to clu_rep: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 11ms
+result2flat /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_rep /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 19ms
+createseqfiledb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_seqs --threads 12 -v 3 
+
+[=================================================================] 8.72K 0s 1ms
+Time for merging to clu_seqs: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 10ms
+result2flat /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_seqs /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 25ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/input_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /var/folders/wn/mwn4lw0123x7d12ml_6w75lr0000gn/T//mmseqs_homology_audit/id80/5234680186838237679/clu -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+
+=== cluster TSVs ===
+id30  lines=   10139  clusters=    6486
+id50  lines=   10139  clusters=    7378
+id80  lines=   10139  clusters=    8724

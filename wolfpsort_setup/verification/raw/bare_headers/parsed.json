@@ -1,0 +1,65 @@
+{
+  "case": "bare_headers",
+  "organism": "animal",
+  "seconds": 12.6,
+  "k_used_for_knn": 32.0,
+  "n_input": 2,
+  "n_predicted": 2,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "queryProtein1",
+      "status": "predicted",
+      "sites": {
+        "extr": 24.0,
+        "lyso": 3.0,
+        "mito": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 24.0,
+      "line": "queryProtein1 extr 24, lyso 3, mito 2",
+      "readout": {
+        "extr_score": 24.0,
+        "cyto_score": 0.0,
+        "delta": 24.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 1,
+      "id": "queryProtein2",
+      "status": "predicted",
+      "sites": {
+        "extr": 22.0,
+        "lyso": 3.0,
+        "mito": 2.0,
+        "E.R.": 2.0,
+        "cyto_nucl": 2.0,
+        "E.R._mito": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 22.0,
+      "line": "queryProtein2 extr 22, lyso 3, mito 2, E.R. 2, cyto_nucl 2, E.R._mito 2",
+      "readout": {
+        "extr_score": 22.0,
+        "cyto_score": 0.0,
+        "delta": 22.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    }
+  ],
+  "summary_sha256": "7c3fa5f47303c788679f678313398876b9f65b520980ffd6271d7fd4581d0247"
+}

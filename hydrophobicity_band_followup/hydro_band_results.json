@@ -1,0 +1,148 @@
+{
+ "label": "FOLLOW-UP on previously examined P4 development data; not a fresh test set",
+ "property": "mean Kyte-Doolittle hydrophobicity over residues 1..min(30,L)",
+ "saved_predictions_only": true,
+ "refit": false,
+ "extraction": false,
+ "P0_accessed": false,
+ "band_definition": {
+  "cuts_defined_on": "discovery P1+P2 observed values only, quantiles .2/.4/.6/.8",
+  "cuts_exact_rational": [
+   "-5/6",
+   "-41/100",
+   "3/100",
+   "173/300"
+  ],
+  "cuts_float_view": [
+   -0.8333333333333334,
+   -0.41,
+   0.03,
+   0.5766666666666667
+  ],
+  "arithmetic": "EXACT rational (Fraction); float64 misassigns 8 P4 proteins that sit exactly on a cut, because the summed mean and the quantile carry different rounding error",
+  "interval_rule": "lower inclusive, upper exclusive; outer intervals unbounded",
+  "n_P4_total": 2366,
+  "n_eligible": 2365,
+  "n_missing_excluded": 1,
+  "missing_accessions": [
+   "P63301"
+  ],
+  "missing_reason": "Kyte-Doolittle undefined for a residue in the first-30 window; the protein is kept in the cohort and excluded only from this comparison",
+  "every_eligible_protein_in_exactly_one_band": true,
+  "band_counts": {
+   "1": 443,
+   "2": 501,
+   "3": 512,
+   "4": 383,
+   "5": 526
+  }
+ },
+ "primary": {
+  "definition": "pair-weighted mean of within-band AUROCs; only extracellular-cytoplasmic pairs from the SAME band contribute",
+  "weight": "w_b = n_extracellular_b * n_cytoplasmic_b",
+  "total_eligible_pairs": 90815,
+  "auroc_layer26_esm": 0.947938,
+  "auroc_composition": 0.881572,
+  "delta_auroc_esm_minus_composition": 0.066366,
+  "ci95_lo": 0.039119,
+  "ci95_hi": 0.099529,
+  "ci95_excludes_zero": 1
+ },
+ "bootstrap": {
+  "unit": "30% identity cluster, drawn whole with replacement",
+  "same_draw_for_both_models_and_all_bands": true,
+  "pair_weights_recomputed_each_draw": true,
+  "B": 10000,
+  "seed": 42,
+  "interval": "percentile 95%",
+  "n_clusters_resampled": 1546,
+  "n_resamples_undefined_excluded": 0,
+  "n_valid_resamples": 10000,
+  "draws_in_which_a_band_was_degenerate": {
+   "1": 57,
+   "2": 1
+  }
+ },
+ "bands": [
+  {
+   "band": 1,
+   "lower": "",
+   "upper": "-0.8333333333",
+   "n": 443,
+   "n_extracellular": 17,
+   "n_cytoplasm": 426,
+   "n_eligible_pairs": 7242,
+   "pair_weight_share_pct": 7.974,
+   "n_clusters_id30": 352,
+   "largest_cluster_n": 13,
+   "auroc_layer26_esm": 0.911903,
+   "auroc_composition": 0.902375,
+   "support": "sparse",
+   "delta_auroc": 0.009528
+  },
+  {
+   "band": 2,
+   "lower": "-0.8333333333",
+   "upper": "-0.4100000000",
+   "n": 501,
+   "n_extracellular": 14,
+   "n_cytoplasm": 487,
+   "n_eligible_pairs": 6818,
+   "pair_weight_share_pct": 7.508,
+   "n_clusters_id30": 396,
+   "largest_cluster_n": 5,
+   "auroc_layer26_esm": 0.960106,
+   "auroc_composition": 0.98768,
+   "support": "sparse",
+   "delta_auroc": -0.027574
+  },
+  {
+   "band": 3,
+   "lower": "-0.4100000000",
+   "upper": "0.0300000000",
+   "n": 512,
+   "n_extracellular": 12,
+   "n_cytoplasm": 500,
+   "n_eligible_pairs": 6000,
+   "pair_weight_share_pct": 6.607,
+   "n_clusters_id30": 417,
+   "largest_cluster_n": 5,
+   "auroc_layer26_esm": 0.901167,
+   "auroc_composition": 0.78,
+   "support": "sparse",
+   "delta_auroc": 0.121167
+  },
+  {
+   "band": 4,
+   "lower": "0.0300000000",
+   "upper": "0.5766666667",
+   "n": 383,
+   "n_extracellular": 101,
+   "n_cytoplasm": 282,
+   "n_eligible_pairs": 28482,
+   "pair_weight_share_pct": 31.363,
+   "n_clusters_id30": 291,
+   "largest_cluster_n": 7,
+   "auroc_layer26_esm": 0.975072,
+   "auroc_composition": 0.908644,
+   "support": "ok",
+   "delta_auroc": 0.066428
+  },
+  {
+   "band": 5,
+   "lower": "0.5766666667",
+   "upper": "",
+   "n": 526,
+   "n_extracellular": 427,
+   "n_cytoplasm": 99,
+   "n_eligible_pairs": 42273,
+   "pair_weight_share_pct": 46.548,
+   "n_clusters_id30": 300,
+   "largest_cluster_n": 92,
+   "auroc_layer26_esm": 0.940506,
+   "auroc_composition": 0.857072,
+   "support": "ok",
+   "delta_auroc": 0.083434
+  }
+ ]
+}

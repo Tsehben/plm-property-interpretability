@@ -1,0 +1,31 @@
+property	stratum	lower	upper	role	n	n_Extracellular	n_Cytoplasm	both_classes	n_clusters_id30
+hydrophobicity_kd_30	1		-0.833333	discovery	1031	10	1021	1	821
+hydrophobicity_kd_30	1		-0.833333	tuning	496	4	492	1	388
+hydrophobicity_kd_30	1		-0.833333	evaluation	443	17	426	1	352
+hydrophobicity_kd_30	2	-0.833333	-0.41	discovery	1042	14	1028	1	824
+hydrophobicity_kd_30	2	-0.833333	-0.41	tuning	544	8	536	1	414
+hydrophobicity_kd_30	2	-0.833333	-0.41	evaluation	501	14	487	1	396
+hydrophobicity_kd_30	3	-0.41	0.03	discovery	1036	36	1000	1	848
+hydrophobicity_kd_30	3	-0.41	0.03	tuning	556	29	527	1	418
+hydrophobicity_kd_30	3	-0.41	0.03	evaluation	512	12	500	1	417
+hydrophobicity_kd_30	4	0.03	0.576667	discovery	1040	406	634	1	689
+hydrophobicity_kd_30	4	0.03	0.576667	tuning	432	111	321	1	339
+hydrophobicity_kd_30	4	0.03	0.576667	evaluation	383	101	282	1	291
+hydrophobicity_kd_30	5	0.576667		discovery	1040	869	171	1	621
+hydrophobicity_kd_30	5	0.576667		tuning	520	432	88	1	325
+hydrophobicity_kd_30	5	0.576667		evaluation	526	427	99	1	300
+charge_balance_30	1		-0.066667	discovery	957	62	895	1	743
+charge_balance_30	1		-0.066667	tuning	495	43	452	1	366
+charge_balance_30	1		-0.066667	evaluation	475	26	449	1	370
+charge_balance_30	2	-0.066667	-0.033333	discovery	578	191	387	1	416
+charge_balance_30	2	-0.066667	-0.033333	tuning	234	55	179	1	201
+charge_balance_30	2	-0.066667	-0.033333	evaluation	248	32	216	1	211
+charge_balance_30	3	-0.033333	0.033333	discovery	1557	552	1005	1	1122
+charge_balance_30	3	-0.033333	0.033333	tuning	727	214	513	1	534
+charge_balance_30	3	-0.033333	0.033333	evaluation	638	215	423	1	471
+charge_balance_30	4	0.033333	0.066667	discovery	694	248	446	1	563
+charge_balance_30	4	0.033333	0.066667	tuning	361	122	239	1	309
+charge_balance_30	4	0.033333	0.066667	evaluation	342	135	207	1	263
+charge_balance_30	5	0.066667		discovery	1403	282	1121	1	1046
+charge_balance_30	5	0.066667		tuning	731	150	581	1	520
+charge_balance_30	5	0.066667		evaluation	663	163	500	1	494

@@ -1,0 +1,35 @@
+{
+  "case": "mode_plant",
+  "organism": "plant",
+  "seconds": 2.9,
+  "k_used_for_knn": 14.0,
+  "n_input": 1,
+  "n_predicted": 1,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "A1AG_HUMAN",
+      "status": "predicted",
+      "sites": {
+        "chlo": 13.0
+      },
+      "top_site": "chlo",
+      "top_score": 13.0,
+      "line": "A1AG_HUMAN chlo 13",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 0.0,
+        "delta": 0.0,
+        "top_site": "chlo",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": true
+      }
+    }
+  ],
+  "summary_sha256": "62e66ec020f3936433d8296ffee363dc49769ca04e8a8fe2b3ab42c89f85513d"
+}

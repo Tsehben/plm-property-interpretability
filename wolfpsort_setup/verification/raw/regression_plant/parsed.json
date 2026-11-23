@@ -1,0 +1,118 @@
+{
+  "case": "regression_plant",
+  "organism": "plant",
+  "seconds": 3.0,
+  "k_used_for_knn": 14.0,
+  "n_input": 4,
+  "n_predicted": 4,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "RCC1_YEAST",
+      "status": "predicted",
+      "sites": {
+        "chlo": 4.0,
+        "nucl": 4.0,
+        "mito": 4.0,
+        "chlo_mito": 4.0
+      },
+      "top_site": "chlo",
+      "top_score": 4.0,
+      "line": "RCC1_YEAST chlo 4, nucl 4, mito 4, chlo_mito 4",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 0.0,
+        "delta": 0.0,
+        "top_site": "chlo",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 1,
+      "id": "RCL1_YEAST",
+      "status": "predicted",
+      "sites": {
+        "chlo": 7.0,
+        "cyto": 2.0,
+        "mito": 2.0,
+        "nucl": 1.0,
+        "plas": 1.0,
+        "extr": 1.0,
+        "cyto_mito": 1.0,
+        "nucl_plas": 1.0,
+        "cyto_pero": 1.0,
+        "cyto_E.R.": 1.0
+      },
+      "top_site": "chlo",
+      "top_score": 7.0,
+      "line": "RCL1_YEAST chlo 7, cyto 2, mito 2, nucl 1, plas 1, extr 1, cyto_mito 1, nucl_plas 1, cyto_pero 1, cyto_E.R. 1",
+      "readout": {
+        "extr_score": 1.0,
+        "cyto_score": 2.0,
+        "delta": -1.0,
+        "top_site": "chlo",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 2,
+      "id": "RT04_YEAST",
+      "status": "predicted",
+      "sites": {
+        "mito": 7.0,
+        "chlo": 3.0,
+        "nucl": 3.0
+      },
+      "top_site": "mito",
+      "top_score": 7.0,
+      "line": "RT04_YEAST mito 7, chlo 3, nucl 3",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 0.0,
+        "delta": 0.0,
+        "top_site": "mito",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 3,
+      "id": "EF1A_ASHGO",
+      "status": "predicted",
+      "sites": {
+        "cyto": 14.0
+      },
+      "top_site": "cyto",
+      "top_score": 14.0,
+      "line": "EF1A_ASHGO cyto 14",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 14.0,
+        "delta": -14.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    }
+  ],
+  "summary_sha256": "2d4b4e46ac09682cac7b90e483497a078105775c6e951b9cfb0d42e45f7f0958"
+}

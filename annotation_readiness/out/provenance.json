@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-11-21T05:46:11.230563+00:00",
+  "finished_at": "2026-11-21T05:46:12.750489+00:00",
+  "elapsed_s": 1.5,
+  "script": "fetch_annotations.py",
+  "script_sha256": "1e28d3f00be0950a6e5ed30a5e85811863dd78557768bace3a3a6006a9a6f784",
+  "endpoint_base": "https://rest.uniprot.org/uniprotkb",
+  "fields_requested": "accession,id,reviewed,protein_name,organism_name,organism_id,lineage,length,sequence,ft_signal,ft_transit,xref_pfam,xref_interpro,cc_subcellular_location,cc_alternative_products,protein_families,date_created,date_modified,date_sequence_modified,version",
+  "user_agent": "annotation-readiness-fetch/1.0 (python-urllib)",
+  "authentication": "none required or used; UniProt REST is public",
+  "batch_size": 100,
+  "max_retries": 5,
+  "backoff": "exponential from 1.5s with jitter; Retry-After honoured",
+  "cache_dir": "annotation_readiness/cache",
+  "cache_hits": 375,
+  "network_requests": 0,
+  "n_base_accessions_queried": 10017,
+  "n_isoform_sequences_requested": 268,
+  "n_individual_entry_lookups": 6,
+  "inputs": {
+    "manifest": "DeepLoc2/baseline/deeploc_binary_manifest.tsv",
+    "manifest_sha256": "be9447dd4df185607ea211160db7015056a2bdcb52d2f3b4e86ce9c8890f885d",
+    "sequences": "DeepLoc2/raw/Swissprot_Train_Validation_dataset.csv",
+    "sequences_sha256_note": "per-protein sha256 re-verified against the manifest"
+  },
+  "network_log_sample": [],
+  "n_network_log_entries": 0
+}

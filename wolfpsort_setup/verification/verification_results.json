@@ -1,0 +1,237 @@
+{
+  "image": "wolfpsort:0.2",
+  "platform": "linux/386 under Docker on macOS arm64",
+  "network": "container started with --network none",
+  "n_checks": 37,
+  "n_pass": 37,
+  "n_fail": 0,
+  "k_by_organism": {
+    "animal": 32.0,
+    "fungi": 27.0,
+    "plant": 14.0
+  },
+  "checks": [
+    {
+      "group": "1. packaged regression",
+      "check": "animal: output matches REGRESSION exactly",
+      "result": "PASS",
+      "detail": "5 lines; expected 5"
+    },
+    {
+      "group": "1. packaged regression",
+      "check": "animal: stderr empty",
+      "result": "PASS",
+      "detail": "(empty)"
+    },
+    {
+      "group": "1. packaged regression",
+      "check": "fungi: output matches REGRESSION exactly",
+      "result": "PASS",
+      "detail": "5 lines; expected 5"
+    },
+    {
+      "group": "1. packaged regression",
+      "check": "fungi: stderr empty",
+      "result": "PASS",
+      "detail": "(empty)"
+    },
+    {
+      "group": "1. packaged regression",
+      "check": "plant: output matches REGRESSION exactly",
+      "result": "PASS",
+      "detail": "5 lines; expected 5"
+    },
+    {
+      "group": "1. packaged regression",
+      "check": "plant: stderr empty",
+      "result": "PASS",
+      "detail": "(empty)"
+    },
+    {
+      "group": "2. input forms",
+      "check": "single-sequence FASTA yields exactly one record",
+      "result": "PASS",
+      "detail": "n_input=1 n_predicted=1"
+    },
+    {
+      "group": "2. input forms",
+      "check": "multi-sequence FASTA yields one record per input, in order",
+      "result": "PASS",
+      "detail": "n_input=10 n_predicted=10"
+    },
+    {
+      "group": "2. input forms",
+      "check": "single-sequence result identical inside the multi-sequence run",
+      "result": "PASS",
+      "detail": "compared separately in check group 6"
+    },
+    {
+      "group": "3. identifiers",
+      "check": "identifiers preserved verbatim up to first whitespace",
+      "result": "PASS",
+      "detail": "got=['plain_id', 'sp|P12345|NAME_HUMAN', 'id.with.dots-and_underscores:colons', 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA']"
+    },
+    {
+      "group": "3. identifiers",
+      "check": "free-text description is not absorbed into the identifier",
+      "result": "PASS",
+      "detail": "got=['plain_id', 'sp|P12345|NAME_HUMAN', 'id.with.dots-and_underscores:colons', 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA']"
+    },
+    {
+      "group": "3. identifiers",
+      "check": "no record is unexplained or unparsable",
+      "result": "PASS",
+      "detail": "[('plain_id', 'predicted'), ('sp|P12345|NAME_HUMAN', 'predicted'), ('id.with.dots-and_underscores:colons', 'predicted'), ('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', 'predicted')]"
+    },
+    {
+      "group": "4. organism modes",
+      "check": "animal mode runs and reports k",
+      "result": "PASS",
+      "detail": "k=32.0 top=extr"
+    },
+    {
+      "group": "4. organism modes",
+      "check": "fungi mode runs and reports k",
+      "result": "PASS",
+      "detail": "k=27.0 top=nucl"
+    },
+    {
+      "group": "4. organism modes",
+      "check": "plant mode runs and reports k",
+      "result": "PASS",
+      "detail": "k=14.0 top=chlo"
+    },
+    {
+      "group": "4. organism modes",
+      "check": "k differs by organism model (scores are not comparable across models)",
+      "result": "PASS",
+      "detail": "{\"animal\": 32.0, \"fungi\": 27.0, \"plant\": 14.0}"
+    },
+    {
+      "group": "5. output parsing",
+      "check": "every reference-set query produced a parsable line",
+      "result": "PASS",
+      "detail": "[('A1AG_HUMAN|extr', 'predicted'), ('A1AG_MUSCR|extr', 'predicted'), ('A1AH_HUMAN|extr', 'predicted'), ('143B_BOVIN|cyto', 'predicted'), ('143B_HUMAN|cyto', 'predicted'), ('143B_RAT|cyto', 'predicted'), ('EDA_HUMAN|extr_plas', 'predicted'), ('T13B_HUMAN|extr_plas', 'predicted'), ('A32E_MOUSE|cyto_nucl', 'predicted'), ('AIPL_HUMAN|cyto_nucl', 'predicted')]"
+    },
+    {
+      "group": "5. output parsing",
+      "check": "extracellular-labelled queries parse with a positive extr score",
+      "result": "PASS",
+      "detail": "[{\"id\": \"A1AG_HUMAN|extr\", \"top_site\": \"extr\", \"extr\": 22.0, \"cyto\": 0.0, \"delta\": 22.0}, {\"id\": \"A1AG_MUSCR|extr\", \"top_site\": \"extr\", \"extr\": 24.0, \"cyto\": 0.0, \"delta\": 24.0}, {\"id\": \"A1AH_HUMAN|extr\", \"top_site\": \"extr\", \"extr\": 23.0, \"cyto\": 0.0, \"delta\": 23.0}]"
+    },
+    {
+      "group": "5. output parsing",
+      "check": "cytoplasm-labelled queries parse with a positive cyto score",
+      "result": "PASS",
+      "detail": "[{\"id\": \"143B_BOVIN|cyto\", \"top_site\": \"cyto\", \"extr\": 0.0, \"cyto\": 25.0, \"delta\": -25.0}, {\"id\": \"143B_HUMAN|cyto\", \"top_site\": \"cyto\", \"extr\": 0.0, \"cyto\": 25.0, \"delta\": -25.0}, {\"id\": \"143B_RAT|cyto\", \"top_site\": \"cyto\", \"extr\": 0.0, \"cyto\": 24.0, \"delta\": -24.0}]"
+    },
+    {
+      "group": "5. output parsing",
+      "check": "dual-localisation classes appear and parse as single tokens",
+      "result": "PASS",
+      "detail": "compound top sites seen: []"
+    },
+    {
+      "group": "5. output parsing",
+      "check": "readout never sums a compound score into extr or cyto",
+      "result": "PASS",
+      "detail": "by construction; verified against raw sites"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "sequences under 30 residues are reported as skipped, not lost",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "a 30-residue sequence is accepted (boundary)",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "a sequence containing 'O' is reported as skipped",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "digits and '*' are stripped rather than rejected",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "lowercase input is accepted",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "a sequence not starting with M is predicted, not dropped",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "duplicate identifiers are kept as two records, not collapsed",
+      "result": "PASS",
+      "detail": "[('DUPLICATE_ID', 'predicted', 'DUPLICATE_ID extr 27, mito 2, lyso 2'), ('DUPLICATE_ID', 'predicted', 'DUPLICATE_ID extr 24, lyso 3, mito 2')]"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "no record is left unexplained",
+      "result": "PASS",
+      "detail": "{\"EMPTY_SEQ\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_1\": \"skipped: shorter than 30 residues\", \"TOO_SHORT_29\": \"skipped: shorter than 30 residues\", \"EXACTLY_30\": \"predicted\", \"HAS_O_RESIDUE\": \"skipped: contains residue 'O'\", \"DIGITS_AND_STAR\": \"predicted\", \"LOWERCASE\": \"predicted\", \"NO_MET_START\": \"predicted\", \"DUPLICATE_ID\": \"predicted\"}"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "the program itself gives no sign of the dropped records (why reconciliation is required)",
+      "result": "PASS",
+      "detail": "10 input records, 6 output lines, wrapper exit 0"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "empty input produces no prediction and a diagnostic",
+      "result": "PASS",
+      "detail": "Error: empty input\nModification of non-creatable array value attempted, subscript -1 at /opt/wolfpsort/bin/psortModifiedForWolfFiles/psortModules/PsortFastaReader.pm line 440.\n"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "headerless raw sequence is given the synthetic id 'queryProtein'",
+      "result": "PASS",
+      "detail": "['queryProtein']"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "bare '>' headers become queryProtein1..N",
+      "result": "PASS",
+      "detail": "['queryProtein1', 'queryProtein2']"
+    },
+    {
+      "group": "6. failure handling",
+      "check": "non-FASTA prose yields no prediction",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "group": "7. determinism",
+      "check": "three identical runs give byte-identical output",
+      "result": "PASS",
+      "detail": "sha256=ccad3e4098c8f151eba66136ed1bf97eac8b45b9e958401423814c6569c94008"
+    },
+    {
+      "group": "7. determinism",
+      "check": "determinism holds across the regression query too",
+      "result": "PASS",
+      "detail": "re-hashed from disk"
+    },
+    {
+      "group": "7. determinism",
+      "check": "a sequence scores identically alone and in a multi-FASTA batch",
+      "result": "PASS",
+      "detail": "single='extr 22, E.R. 6, mito 2, lyso 2' multi='extr 22, E.R. 6, mito 2, lyso 2'"
+    }
+  ]
+}

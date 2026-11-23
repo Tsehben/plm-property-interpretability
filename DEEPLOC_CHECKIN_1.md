@@ -1,6 +1,6 @@
 # DeepLoc Check-in 1 
 
-**6.3930 Final Project · Ebenezer Tseh and Hoi · 2026-11-08**
+**6.3930 Final Project · 2026-11-08**
 Scope: the DeepLoc subcellular localisation contrast only. Solubility work is covered
 separately in [`CHECKIN_1.md`](CHECKIN_1.md).
 
@@ -228,7 +228,7 @@ covary in the data without either driving the model's output, and **other explan
 coexist** with a targeting-signal one. Testing causation requires intervention: the feature
 ablations and sequence-variant work planned for Phase 2.
 
-**Bottom line for the meeting.** Counting amino acids at the beginning of a protein already
+**Bottom line.** Counting amino acids at the beginning of a protein already
 tells us a lot about its localisation. When we gave our classifier that information and then
 added ESM-2's layer-8 features, mean validation AUROC rose from 0.9610 to 0.9789. The gain
 also persisted among proteins with only one recorded location. We have shown that ESM-2 helps

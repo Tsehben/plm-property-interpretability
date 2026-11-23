@@ -1,0 +1,40 @@
+PASS  1. packaged regression        animal: output matches REGRESSION exactly
+PASS  1. packaged regression        animal: stderr empty
+PASS  1. packaged regression        fungi: output matches REGRESSION exactly
+PASS  1. packaged regression        fungi: stderr empty
+PASS  1. packaged regression        plant: output matches REGRESSION exactly
+PASS  1. packaged regression        plant: stderr empty
+PASS  2. input forms                single-sequence FASTA yields exactly one record
+PASS  2. input forms                multi-sequence FASTA yields one record per input, in order
+PASS  2. input forms                single-sequence result identical inside the multi-sequence run
+PASS  3. identifiers                identifiers preserved verbatim up to first whitespace
+PASS  3. identifiers                free-text description is not absorbed into the identifier
+PASS  3. identifiers                no record is unexplained or unparsable
+PASS  4. organism modes             animal mode runs and reports k
+PASS  4. organism modes             fungi mode runs and reports k
+PASS  4. organism modes             plant mode runs and reports k
+PASS  4. organism modes             k differs by organism model (scores are not comparable across models)
+PASS  5. output parsing             every reference-set query produced a parsable line
+PASS  5. output parsing             extracellular-labelled queries parse with a positive extr score
+PASS  5. output parsing             cytoplasm-labelled queries parse with a positive cyto score
+PASS  5. output parsing             dual-localisation classes appear and parse as single tokens
+PASS  5. output parsing             readout never sums a compound score into extr or cyto
+PASS  6. failure handling           sequences under 30 residues are reported as skipped, not lost
+PASS  6. failure handling           a 30-residue sequence is accepted (boundary)
+PASS  6. failure handling           a sequence containing 'O' is reported as skipped
+PASS  6. failure handling           digits and '*' are stripped rather than rejected
+PASS  6. failure handling           lowercase input is accepted
+PASS  6. failure handling           a sequence not starting with M is predicted, not dropped
+PASS  6. failure handling           duplicate identifiers are kept as two records, not collapsed
+PASS  6. failure handling           no record is left unexplained
+PASS  6. failure handling           the program itself gives no sign of the dropped records (why reconciliation is required)
+PASS  6. failure handling           empty input produces no prediction and a diagnostic
+PASS  6. failure handling           headerless raw sequence is given the synthetic id 'queryProtein'
+PASS  6. failure handling           bare '>' headers become queryProtein1..N
+PASS  6. failure handling           non-FASTA prose yields no prediction
+PASS  7. determinism                three identical runs give byte-identical output
+PASS  7. determinism                determinism holds across the regression query too
+PASS  7. determinism                a sequence scores identically alone and in a multi-FASTA batch
+
+37/37 passed, 0 failed
+EXIT=0

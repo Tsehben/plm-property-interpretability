@@ -1,0 +1,112 @@
+{
+  "case": "regression_fungi",
+  "organism": "fungi",
+  "seconds": 2.8,
+  "k_used_for_knn": 27.0,
+  "n_input": 4,
+  "n_predicted": 4,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "RCC1_YEAST",
+      "status": "predicted",
+      "sites": {
+        "nucl": 12.5,
+        "mito_nucl": 11.5,
+        "mito": 9.5,
+        "cyto": 3.0
+      },
+      "top_site": "nucl",
+      "top_score": 12.5,
+      "line": "RCC1_YEAST nucl 12.5, mito_nucl 11.5, mito 9.5, cyto 3",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 3.0,
+        "delta": -3.0,
+        "top_site": "nucl",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 1,
+      "id": "RCL1_YEAST",
+      "status": "predicted",
+      "sites": {
+        "mito": 15.5,
+        "cyto_mito": 12.833,
+        "cyto": 9.0,
+        "cyto_nucl": 5.833
+      },
+      "top_site": "mito",
+      "top_score": 15.5,
+      "line": "RCL1_YEAST mito 15.5, cyto_mito 12.833, cyto 9, cyto_nucl 5.833",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 9.0,
+        "delta": -9.0,
+        "top_site": "mito",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 2,
+      "id": "RT04_YEAST",
+      "status": "predicted",
+      "sites": {
+        "mito": 16.0,
+        "nucl": 8.0,
+        "cyto": 3.0
+      },
+      "top_site": "mito",
+      "top_score": 16.0,
+      "line": "RT04_YEAST mito 16, nucl 8, cyto 3",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 3.0,
+        "delta": -3.0,
+        "top_site": "mito",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    },
+    {
+      "input_index": 3,
+      "id": "EF1A_ASHGO",
+      "status": "predicted",
+      "sites": {
+        "cyto": 27.0
+      },
+      "top_site": "cyto",
+      "top_score": 27.0,
+      "line": "EF1A_ASHGO cyto 27",
+      "readout": {
+        "extr_score": 0.0,
+        "cyto_score": 27.0,
+        "delta": -27.0,
+        "top_site": "cyto",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": true,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": true,
+        "cyto_class_absent": false
+      }
+    }
+  ],
+  "summary_sha256": "9bd26d3a769223cbe92e447c1b97f623f11c622af358fd7a5fec963effe0efb3"
+}

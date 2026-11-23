@@ -1,0 +1,34 @@
+{
+  "norm_tolerance": 1e-05,
+  "tolerance_justification": "Derived from fp32 precision and the validated edit implementation, not from any observed effect. The intervention validation measured the direct decoder-delta against a float64 reference at median relative L2 error 3.367e-07 and maximum 9.829e-07, with a minimum of 6.01 significant digits against fp32's ~7.2. 1e-5 is about an order of magnitude above that worst case: it admits fp32 rounding and rejects construction error.",
+  "construction": "delta_a_control = sign * T / (||w_dec[control]|| * std[p])",
+  "candidates_rerun": [
+    2564,
+    3900
+  ],
+  "candidate_outputs": "reused unchanged from v1 (inputs and configuration verified identical by SHA-256)",
+  "feature_1446": "descriptive only; no eligible matched control exists",
+  "reuse_checks": {
+    "config_hash_v1": "ad59f46e0356dba6a2067e5f758f0275c31513d5cd97f9eaa6ef040cd0e28cf1",
+    "inclusion_manifest": true,
+    "eligible_feature_ranking": true,
+    "selected_feature_ids": true,
+    "deeploc_manifest": true,
+    "sae_file": true
+  },
+  "forward_passes": 884,
+  "seconds": 182.53328371047974,
+  "decoder_row_norms": {
+    "2564": 0.5956847667694092,
+    "3900": 0.5993129014968872,
+    "1634": 0.5633145570755005,
+    "1574": 0.6326985955238342,
+    "2": 0.5868651866912842,
+    "2871": 0.5986739993095398,
+    "1034": 0.623412549495697,
+    "431": 0.424338698387146,
+    "2255": 0.3872063457965851,
+    "2326": 0.55380779504776,
+    "2914": 0.4210484027862549
+  }
+}

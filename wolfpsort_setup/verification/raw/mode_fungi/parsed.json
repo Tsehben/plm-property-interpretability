@@ -1,0 +1,42 @@
+{
+  "case": "mode_fungi",
+  "organism": "fungi",
+  "seconds": 2.7,
+  "k_used_for_knn": 27.0,
+  "n_input": 1,
+  "n_predicted": 1,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "A1AG_HUMAN",
+      "status": "predicted",
+      "sites": {
+        "nucl": 17.0,
+        "cyto": 3.0,
+        "mito": 2.0,
+        "plas": 1.0,
+        "extr": 1.0,
+        "E.R.": 1.0,
+        "golg": 1.0,
+        "vacu": 1.0
+      },
+      "top_site": "nucl",
+      "top_score": 17.0,
+      "line": "A1AG_HUMAN nucl 17, cyto 3, mito 2, plas 1, extr 1, E.R. 1, golg 1, vacu 1",
+      "readout": {
+        "extr_score": 1.0,
+        "cyto_score": 3.0,
+        "delta": -2.0,
+        "top_site": "nucl",
+        "top_is_compound": false,
+        "top_mentions_extr": false,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": false
+      }
+    }
+  ],
+  "summary_sha256": "c4b44be45559f3e23b5cd9ffd77975b1e6309bdd48bda905821b0c5d3770aae0"
+}

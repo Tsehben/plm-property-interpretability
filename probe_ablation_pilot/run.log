@@ -1,0 +1,106 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+device=mps  probe=layer26 ESM-only  feature=1446  positions=[10, 20, 30]
+hook-site check: encoder.layer[7] output == hidden_states[8] -> True (max abs diff 0.000e+00)
+  downstream blocks after the hook: 25; probe reads hidden_states[26]
+/Users/ebenezertseh/Desktop/MIT 6.393 Project/probe_ablation_pilot/run_probe_ablation.py:107: RuntimeWarning: divide by zero encountered in matmul
+  return float(z @ coef + intercept), feat
+/Users/ebenezertseh/Desktop/MIT 6.393 Project/probe_ablation_pilot/run_probe_ablation.py:107: RuntimeWarning: overflow encountered in matmul
+  return float(z @ coef + intercept), feat
+/Users/ebenezertseh/Desktop/MIT 6.393 Project/probe_ablation_pilot/run_probe_ablation.py:107: RuntimeWarning: invalid value encountered in matmul
+  return float(z @ coef + intercept), feat
+  [ 1/24] Q9Y749  clean_lo=+14.0353  active=3/3  mean_d_abl=+0.00195  mean_d_rnd=-0.00282
+  [ 2/24] Q90YK5  clean_lo=+11.8140  active=2/3  mean_d_abl=+0.00709  mean_d_rnd=-0.00243
+  [ 3/24] Q9NL39  clean_lo=+8.4020  active=2/3  mean_d_abl=+0.00333  mean_d_rnd=-0.00211
+  [ 4/24] H2A0L1  clean_lo=+6.2395  active=3/3  mean_d_abl=+0.00277  mean_d_rnd=+0.00603
+  [ 5/24] A0A3B7TLV2  clean_lo=+39.4157  active=2/3  mean_d_abl=+0.01615  mean_d_rnd=-0.01575
+  [ 6/24] A0A097PTA8  clean_lo=+11.8489  active=2/3  mean_d_abl=+0.00774  mean_d_rnd=-0.00220
+  [ 7/24] Q9ZVA2  clean_lo=+5.0056  active=2/3  mean_d_abl=+0.01151  mean_d_rnd=+0.00202
+  [ 8/24] D2DGD3  clean_lo=+14.6459  active=1/3  mean_d_abl=+0.00437  mean_d_rnd=+0.00305
+  [ 9/24] L8FSM5  clean_lo=+16.2968  active=2/3  mean_d_abl=+0.03928  mean_d_rnd=-0.04841
+  [10/24] P61366  clean_lo=+11.3407  active=2/3  mean_d_abl=+0.00209  mean_d_rnd=+0.01329
+  [11/24] P30623  clean_lo=+13.8708  active=2/3  mean_d_abl=+0.01414  mean_d_rnd=+0.01089
+  [12/24] P0CV05  clean_lo=+18.8145  active=2/3  mean_d_abl=+0.00025  mean_d_rnd=+0.00373
+  [13/24] Q7JRE4  clean_lo=-9.1245  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [14/24] O95295  clean_lo=-16.1340  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [15/24] Q08925  clean_lo=-10.7908  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [16/24] O14047  clean_lo=-16.0184  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [17/24] Q9UTG2  clean_lo=-13.3003  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [18/24] P40023  clean_lo=-9.7870  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [19/24] P0DME0  clean_lo=-8.5736  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [20/24] Q501Q9  clean_lo=-9.2124  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [21/24] Q96301  clean_lo=-10.7724  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [22/24] Q15436  clean_lo=-19.6324  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [23/24] Q09780  clean_lo=-9.7581  active=0/3  mean_d_abl=+0.00000  mean_d_rnd=+0.00000
+  [24/24] Q10447  clean_lo=-11.0685  active=1/3  mean_d_abl=-0.00184  mean_d_rnd=+0.00029
+
+{
+ "label": "exploratory P3 tuning pilot; NOT an evaluation and NOT a held-out result",
+ "n_proteins": 24,
+ "positions": [
+  10,
+  20,
+  30
+ ],
+ "feature": 1446,
+ "P4_accessed": false,
+ "P0_accessed": false,
+ "masking_used": false,
+ "hook_site_verified_equals_hidden_states_8": true,
+ "n_downstream_blocks_after_hook": 25,
+ "verification": {
+  "clean_vs_saved": {
+   "n": 24,
+   "max_abs_prob_diff": 5.0952368861989505e-05,
+   "median_abs_prob_diff": 2.5945499804169714e-08,
+   "max_abs_logodds_diff": 0.3387061033525889,
+   "median_abs_logodds_diff": 0.005131549093940535,
+   "tolerance_prob_max": 0.02,
+   "tolerance_logodds_median": 0.1,
+   "tolerance_logodds_max": 0.5,
+   "passes_prob": true,
+   "passes_logodds_median": true,
+   "passes_logodds_max": true
+  },
+  "no_op_vs_clean": {
+   "max_abs_logodds_diff": 0.0,
+   "max_delta_h_l2": 0.0,
+   "tolerance": 1e-06,
+   "passes": true
+  }
+ },
+ "activity_of_1446": {
+  "by_position": {
+   "10": 12,
+   "20": 12,
+   "30": 2
+  },
+  "total_active_cases": 26,
+  "total_cases": 72,
+  "proteins_with_any_active": 13,
+  "proteins_with_all_three_active": 2
+ },
+ "primary": {
+  "readout": "change in extracellular log-odds, edited minus clean, averaged over the 3 positions within each protein",
+  "mean_d_ablate": 0.004534000000000001,
+  "median_d_ablate": 0.0001235,
+  "mean_d_random": -0.0014341250000000003,
+  "median_d_random": 0.0,
+  "paired_candidate_minus_control_mean": 0.005968291666666667,
+  "paired_candidate_minus_control_median": 0.0,
+  "paired_sd": 0.019052904394547137,
+  "paired_min": -0.011202,
+  "paired_max": 0.087691,
+  "n_positive": 9,
+  "n_negative": 4,
+  "n_zero": 11
+ },
+ "descriptive_auroc": {
+  "clean": 1.0,
+  "ablated": 1.0,
+  "delta": 0.0,
+  "n": 24,
+  "note": "descriptive only; 24 proteins, a manipulation check on our own probe"
+ }
+}

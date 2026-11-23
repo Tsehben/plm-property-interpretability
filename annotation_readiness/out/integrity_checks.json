@@ -1,0 +1,68 @@
+{
+  "n_primary_rows": 10139,
+  "n_primary_rows_expected": 10139,
+  "n_unique_accessions": 10139,
+  "one_row_per_protein": true,
+  "labels_and_partitions_unchanged": true,
+  "label_partition_fingerprint": "18d36b292945049971decc2430a8ab50cc9f27e7a2bc7e366a82118318015ca8",
+  "manifest_sha256": "be9447dd4df185607ea211160db7015056a2bdcb52d2f3b4e86ce9c8890f885d",
+  "frozen_sequence_reverification": {
+    "match": 10139,
+    "mismatch": [],
+    "missing": []
+  },
+  "p0_requests": {
+    "p0_rows_requested_as_annotation_targets": 0,
+    "rule": "request sources are development_P1_4 rows only; the queried set is the set of their base accessions",
+    "development_isoform_parents_that_are_themselves_P0_rows": [
+      "O35426",
+      "O75410",
+      "O95278",
+      "O95831",
+      "P60484",
+      "Q12955",
+      "Q6NYC8",
+      "Q9BXL6",
+      "Q9HDD0",
+      "Q9QZU4",
+      "Q9UMS6"
+    ],
+    "n_development_isoform_parents_that_are_themselves_P0_rows": 11,
+    "development_parents_sharing_a_base_with_a_P0_isoform": [
+      "F1MAB7",
+      "O00165",
+      "P17693",
+      "P30279",
+      "P55957",
+      "Q03001",
+      "Q86W56",
+      "Q8WU39"
+    ],
+    "n_development_parents_sharing_a_base_with_a_P0_isoform": 8,
+    "note": "These parent records were retrieved because a DEVELOPMENT isoform requires its parent entry. No P0 row received an annotation row. Affected development rows carry p0_base_collision != none."
+  },
+  "retrieval_status_counts": {
+    "ok": 10133,
+    "resolved_via_merged_accession": 5,
+    "inactive_deleted": 1
+  },
+  "sequence_match_counts": {
+    "exact": 10019,
+    "mismatch": 117,
+    "unverifiable": 3
+  },
+  "signal_status_counts": {
+    "not_annotated": 7319,
+    "annotated_present": 2439,
+    "unverifiable": 381
+  },
+  "failures_accounted": true,
+  "n_failure_rows": 122,
+  "engineering_proteins_flagged": 8,
+  "role_counts": {
+    "evaluation": 2382,
+    "discovery": 5201,
+    "tuning": 2556
+  },
+  "hpa_files_read": []
+}

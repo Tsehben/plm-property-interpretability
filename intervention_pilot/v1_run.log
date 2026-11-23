@@ -1,0 +1,73 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+{
+  "config_hash": "ad59f46e0356dba6a2067e5f758f0275c31513d5cd97f9eaa6ef040cd0e28cf1",
+  "n": 24,
+  "pool": {
+    "pool_size": 2287,
+    "pool_Extracellular": 559,
+    "pool_Cytoplasm": 1728,
+    "exclusions": {
+      "not_P3": 7583,
+      "length_outside_60_1022": 261,
+      "excluded_by_view:E2_p0_base_collision": 7,
+      "excluded_by_view:E1_engineering_protein": 1
+    },
+    "quota_shortfalls": "none"
+  },
+  "controls": {
+    "1446": [],
+    "2564": [
+      1634,
+      1574,
+      2,
+      2871,
+      1034
+    ],
+    "3900": [
+      431,
+      2255,
+      2326,
+      2914
+    ]
+  },
+  "control_shortfall": {
+    "1446": {
+      "requested": 5,
+      "found": 0
+    },
+    "3900": {
+      "requested": 5,
+      "found": 4
+    }
+  }
+}
+`torch_dtype` is deprecated! Use `dtype` instead!
+  [1/24] Q9Y749 L=397 pos=[10, 20, 30, 198] rows=240 passes=29 5s
+  [2/24] Q90YK5 L=523 pos=[10, 20, 30, 261] rows=240 passes=78 17s
+  [3/24] Q9NL39 L=140 pos=[10, 20, 30, 70] rows=240 passes=100 19s
+  [4/24] H2A0L1 L=456 pos=[10, 20, 30, 228] rows=240 passes=129 24s
+  [5/24] A0A3B7TLV2 L=502 pos=[10, 20, 30, 251] rows=240 passes=172 121s
+  [6/24] A0A097PTA8 L=184 pos=[10, 20, 30, 92] rows=240 passes=206 126s
+  [7/24] Q9ZVA2 L=455 pos=[10, 20, 30, 227] rows=240 passes=260 137s
+  [8/24] D2DGD3 L=80 pos=[10, 20, 30, 40] rows=240 passes=291 139s
+  [9/24] L8FSM5 L=400 pos=[10, 20, 30, 200] rows=240 passes=320 144s
+  [10/24] P61366 L=133 pos=[10, 20, 30, 66] rows=240 passes=369 148s
+  [11/24] P30623 L=150 pos=[10, 20, 30, 75] rows=240 passes=393 149s
+  [12/24] P0CV05 L=399 pos=[10, 20, 30, 199] rows=240 passes=470 163s
+  [13/24] Q7JRE4 L=650 pos=[10, 20, 30, 325] rows=240 passes=523 178s
+  [14/24] O95295 L=136 pos=[10, 20, 30, 68] rows=240 passes=603 184s
+  [15/24] Q08925 L=612 pos=[10, 20, 30, 306] rows=240 passes=672 203s
+  [16/24] O14047 L=312 pos=[10, 20, 30, 156] rows=240 passes=738 212s
+  [17/24] Q9UTG2 L=671 pos=[10, 20, 30, 335] rows=240 passes=799 230s
+  [18/24] P40023 L=145 pos=[10, 20, 30, 72] rows=240 passes=867 236s
+  [19/24] P0DME0 L=302 pos=[10, 20, 30, 151] rows=240 passes=931 245s
+  [20/24] Q501Q9 L=586 pos=[10, 20, 30, 293] rows=240 passes=997 262s
+  [21/24] Q96301 L=914 pos=[10, 20, 30, 457] rows=240 passes=1067 291s
+  [22/24] Q15436 L=765 pos=[10, 20, 30, 382] rows=240 passes=1119 308s
+  [23/24] Q09780 L=404 pos=[10, 20, 30, 202] rows=240 passes=1184 320s
+  [24/24] Q10447 L=665 pos=[10, 20, 30, 332] rows=240 passes=1243 338s
+{
+  "forward_passes": 1243,
+  "seconds": 337.6564109325409
+}

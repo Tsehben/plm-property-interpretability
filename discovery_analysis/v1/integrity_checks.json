@@ -1,0 +1,73 @@
+{
+  "view_version": "v1",
+  "generated_from": {
+    "manifest": {
+      "path": "DeepLoc2/baseline/deeploc_binary_manifest.tsv",
+      "sha256": "be9447dd4df185607ea211160db7015056a2bdcb52d2f3b4e86ce9c8890f885d"
+    },
+    "annotation_primary": {
+      "path": "annotation_readiness/out/annotation_primary.tsv",
+      "sha256": "de7dfe52dd2eacfb881ce2053b3d4dc94ed5d67a485c6ca80ae7ebce48097e67"
+    },
+    "annotation_domains": {
+      "path": "annotation_readiness/out/annotation_domains.tsv",
+      "sha256": "22fdc65e9c66ee90442abd5368067b39e9197509083bf601edd05ddcb5f1a684"
+    }
+  },
+  "network_requests": 0,
+  "source_files_modified": [],
+  "n_cohort_rows": 10139,
+  "n_unique_accessions": 10139,
+  "p0_rows_in_any_sample": 0,
+  "labels_from": "frozen DeepLoc binary target in the manifest",
+  "subcellular_location_text_used": false,
+  "forbidden_fields_absent_from_view": [
+    "subcellular_location_text"
+  ],
+  "exclusion_accounting": {
+    "cohort": 10139,
+    "criterion_sizes": {
+      "E1_engineering": 8,
+      "E2_p0_collision": 27,
+      "E3_coords_not_transferable": 381
+    },
+    "pairwise_overlaps": {
+      "E1_and_E2": 0,
+      "E1_and_E3": 1,
+      "E2_and_E3": 21,
+      "E1_and_E2_and_E3": 0
+    },
+    "union_E1_E2": 35,
+    "naive_sum_E1_E2": 35,
+    "union_E1_E2_E3": 394,
+    "naive_sum_E1_E2_E3": 416,
+    "core_sample": 10104,
+    "core_check": true,
+    "annotated_sample": 9745,
+    "annotated_check": true
+  },
+  "discovery_core_n": 5190,
+  "homology": {
+    "cluster_identifier_columns_found": [],
+    "cluster_files_found": [],
+    "clusters_exist": false,
+    "consequence": "No sequence-identity clustering has been computed for this cohort. Independent homology-group counts cannot be reported, and no family-controlled generalisation claim can be verified. Pfam/InterPro co-membership is not a homology cluster and partition preservation is not family-disjointness."
+  },
+  "domain_applicability": [
+    {
+      "applies_to": "entry_matches_frozen_sequence",
+      "n_proteins": 5008,
+      "pct_of_discovery_core": "96.5"
+    },
+    {
+      "applies_to": "parent_entry_unresolved_isoform",
+      "n_proteins": 115,
+      "pct_of_discovery_core": "2.2"
+    },
+    {
+      "applies_to": "parent_entry_sequence_differs_from_frozen",
+      "n_proteins": 67,
+      "pct_of_discovery_core": "1.3"
+    }
+  ]
+}

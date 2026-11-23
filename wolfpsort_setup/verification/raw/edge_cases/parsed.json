@@ -1,0 +1,202 @@
+{
+  "case": "edge_cases",
+  "organism": "animal",
+  "seconds": 13.7,
+  "k_used_for_knn": 32.0,
+  "n_input": 10,
+  "n_predicted": 6,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "EMPTY_SEQ",
+      "status": "skipped: shorter than 30 residues",
+      "sites": {},
+      "top_site": null,
+      "top_score": null,
+      "line": "",
+      "readout": null
+    },
+    {
+      "input_index": 1,
+      "id": "TOO_SHORT_1",
+      "status": "skipped: shorter than 30 residues",
+      "sites": {},
+      "top_site": null,
+      "top_score": null,
+      "line": "",
+      "readout": null
+    },
+    {
+      "input_index": 2,
+      "id": "TOO_SHORT_29",
+      "status": "skipped: shorter than 30 residues",
+      "sites": {},
+      "top_site": null,
+      "top_score": null,
+      "line": "",
+      "readout": null
+    },
+    {
+      "input_index": 3,
+      "id": "EXACTLY_30",
+      "status": "predicted",
+      "sites": {
+        "extr": 32.0
+      },
+      "top_site": "extr",
+      "top_score": 32.0,
+      "line": "EXACTLY_30 extr 32",
+      "readout": {
+        "extr_score": 32.0,
+        "cyto_score": 0.0,
+        "delta": 32.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 4,
+      "id": "HAS_O_RESIDUE",
+      "status": "skipped: contains residue 'O'",
+      "sites": {},
+      "top_site": null,
+      "top_score": null,
+      "line": "",
+      "readout": null
+    },
+    {
+      "input_index": 5,
+      "id": "DIGITS_AND_STAR",
+      "status": "predicted",
+      "sites": {
+        "extr": 27.0,
+        "cyto_nucl": 2.5,
+        "nucl": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 27.0,
+      "line": "DIGITS_AND_STAR extr 27, cyto_nucl 2.5, nucl 2",
+      "readout": {
+        "extr_score": 27.0,
+        "cyto_score": 0.0,
+        "delta": 27.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 6,
+      "id": "LOWERCASE",
+      "status": "predicted",
+      "sites": {
+        "extr": 22.0,
+        "E.R.": 6.0,
+        "mito": 2.0,
+        "lyso": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 22.0,
+      "line": "LOWERCASE extr 22, E.R. 6, mito 2, lyso 2",
+      "readout": {
+        "extr_score": 22.0,
+        "cyto_score": 0.0,
+        "delta": 22.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 7,
+      "id": "NO_MET_START",
+      "status": "predicted",
+      "sites": {
+        "extr": 22.0,
+        "E.R.": 6.0,
+        "mito": 2.0,
+        "lyso": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 22.0,
+      "line": "NO_MET_START extr 22, E.R. 6, mito 2, lyso 2",
+      "readout": {
+        "extr_score": 22.0,
+        "cyto_score": 0.0,
+        "delta": 22.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 8,
+      "id": "DUPLICATE_ID",
+      "status": "predicted",
+      "sites": {
+        "extr": 27.0,
+        "mito": 2.0,
+        "lyso": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 27.0,
+      "line": "DUPLICATE_ID extr 27, mito 2, lyso 2",
+      "readout": {
+        "extr_score": 27.0,
+        "cyto_score": 0.0,
+        "delta": 27.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    },
+    {
+      "input_index": 9,
+      "id": "DUPLICATE_ID",
+      "status": "predicted",
+      "sites": {
+        "extr": 24.0,
+        "lyso": 3.0,
+        "mito": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 24.0,
+      "line": "DUPLICATE_ID extr 24, lyso 3, mito 2",
+      "readout": {
+        "extr_score": 24.0,
+        "cyto_score": 0.0,
+        "delta": 24.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    }
+  ],
+  "summary_sha256": "601e40ba8639fce26d1d7c97cc7c57d5cc9e9378be35976fdad9cb2661400c1a"
+}

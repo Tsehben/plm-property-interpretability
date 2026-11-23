@@ -1,0 +1,5 @@
+# k used for kNN is: 32
+lowercase_seq extr 32
+dup_id extr 32
+dup_id extr 32
+a_very_long_identifier_with_many_characters_0123456789_ABCDEFGHIJKLMNOP|pipe|and.dots extr 30.5, extr_plas 16

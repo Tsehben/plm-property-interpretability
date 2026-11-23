@@ -1,0 +1,33 @@
+{
+ "label": "FOLLOW-UP on previously analysed P4 development data; not a fresh test set",
+ "frozen_before_results": true,
+ "inputs": {
+  "predictions": "layer_sweep/v1/p4_predictions.npz (saved; esm_L26 = layer-26 ESM-only probe, comp_L26 = composition baseline)",
+  "annotation_status": "discovery_analysis/v1/inclusion_manifest.tsv, column signal_status (UniProt signal-peptide annotation for the frozen sequence)",
+  "clusters": "cluster array saved in p4_predictions.npz (30% identity MMseqs2 clusters)"
+ },
+ "population": "all 2,366 core P4 proteins; P0 not accessed; no refitting, no extraction",
+ "groups": {
+  "annotated_present": "UniProt records a signal peptide for the frozen sequence",
+  "not_annotated": "a matching UniProt record carries no signal-peptide annotation; biological presence is UNKNOWN, not confirmed absent",
+  "unverifiable": "kept separate; excluded from the primary estimate; count reported; never pooled with not_annotated"
+ },
+ "per_group_report": ["n", "n_extracellular", "n_cytoplasm", "n_eligible_pairs", "pair_weight_share_pct",
+   "n_clusters_id30 (all members)", "n_clusters_extracellular", "n_clusters_cytoplasm", "largest_cluster_n",
+   "auroc_layer26_esm", "auroc_composition", "delta_auroc (ESM minus composition)"],
+ "primary": {
+  "definition": "pair-weighted mean of within-group AUROCs over annotated_present and not_annotated; only extracellular-cytoplasmic pairs from the SAME group contribute",
+  "weight": "w_g = n_extracellular_g * n_cytoplasm_g",
+  "difference": "layer26_esm minus composition"
+ },
+ "bootstrap": {
+  "unit": "30% identity cluster across all of P4, drawn whole with replacement",
+  "same_draw_for_both_models_and_both_groups": true,
+  "pair_weights_recomputed_each_draw": true,
+  "B": 10000, "seed": 42, "interval": "percentile 95%",
+  "undefined_draws": "excluded and counted"
+ },
+ "auroc": "tie-aware mid-rank AUROC, identical to charge_band_followup/within_charge_band.py",
+ "sparse_flag": "a group is flagged SPARSE if either class has fewer than 30 proteins or fewer than 20 distinct clusters",
+ "unverifiable_reporting": "counts by class only; AUROCs shown descriptively if both classes present, never in the primary"
+}

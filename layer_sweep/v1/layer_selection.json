@@ -1,0 +1,11 @@
+{
+ "criterion": "highest comp_plus_esm AUROC on P3; lower layer index breaks exact ties",
+ "selected_layer": 26,
+ "selected_P3_auroc": 0.988768,
+ "layer_8_P3_auroc": 0.98381,
+ "frozen_before_any_P4_prediction": true,
+ "n_nonconverged_fits": 0,
+ "nonconverged": [],
+ "max_n_iter_observed": 159,
+ "p3_elapsed_s": 18.4
+}

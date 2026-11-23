@@ -1,0 +1,82 @@
+{
+ "population": "existing eligible core, in_core==1",
+ "n": 10104,
+ "partitions_and_roles": "carried through UNCHANGED from the frozen manifest",
+ "downsampled": false,
+ "probes_refitted": false,
+ "esm_rerun": false,
+ "P0_accessed": false,
+ "frozen_before_property_conditioned_analysis": true,
+ "window": 30,
+ "hydrophobicity": {
+  "scale": "Kyte-Doolittle",
+  "window": "residues 1..min(30,L)",
+  "defined_for": "the 20 standard amino acids only",
+  "missing_rule": "any residue outside the 20 standard AAs makes the score missing; the protein is kept and the offending residues are named; nothing imputed"
+ },
+ "charge_balance": {
+  "formula": "(count(K)+count(R)-count(D)-count(E))/window_length",
+  "window": "residues 1..min(30,L)",
+  "name": "charge balance - NOT a pH-dependent net charge",
+  "omissions": [
+   "histidine (pKa ~6.0, partially protonated at physiological pH)",
+   "free alpha-amino and alpha-carboxyl terminal charges",
+   "any pKa model, pH term or ionic-strength term"
+  ],
+  "missing_rule": "missing only if the window contains X, B or Z (ambiguous w.r.t. membership of {K,R,D,E}); U (selenocysteine) and O (pyrrolysine) are specific residues outside {K,R,D,E}, each contributing exactly zero, and NEITHER triggers missing"
+ },
+ "pfam": {
+  "all_ids_retained": true,
+  "single_family_label_taken": false,
+  "entry_type_source": "InterPro entry catalogue, queried by Pfam accession",
+  "sequences_transmitted": false,
+  "n_entries_in_type_cache": 53275
+ },
+ "homology": {
+  "source": "homology_audit/v1/cluster_membership.tsv",
+  "thresholds": [
+   30,
+   50,
+   80
+  ],
+  "recomputed": false
+ },
+ "signal": {
+  "source": "existing UniProt annotations",
+  "fields": [
+   "status",
+   "intervals",
+   "evidence categories",
+   "applicability flag"
+  ],
+  "predictions_made_here": false
+ },
+ "signalp6": {
+  "run": false,
+  "reason": "no local installation found",
+  "substituted_with_uniprot": false
+ },
+ "input_sha256": {
+  "manifest": "783931349700b3082cac37edc5a2729e9b439cdb98bb7824a8c30e206ab2adb1",
+  "clusters": "79b4d7205ea3c3dd6c5a896ab0904242b4ca31b2cd49718340f16a5bc39189ac",
+  "pairs": "14ac8cf53befa02955d42a26cf04757e0ccc3248e6bf7486c8e2ec1cba562e54",
+  "primary": "de7dfe52dd2eacfb881ce2053b3d4dc94ed5d67a485c6ca80ae7ebce48097e67",
+  "domains": "22fdc65e9c66ee90442abd5368067b39e9197509083bf601edd05ddcb5f1a684",
+  "features": "711fd45a47ad34c6f35acd84b55f2a1f94ab314b0ec613e9d4513b77931a21fd",
+  "pfam_types": "0bed671336a6cf017b964645a8e4f83daf1ac89d8bd1d4c519bc5eb6d2eb28e2"
+ },
+ "output_sha256": {
+  "concept_table.tsv": "61e5ce227bb9887307be5dae65dfe307936cbc5cd48a82271b4c703869d20b37",
+  "concept_pfam_long.tsv": "6d1db15f95c2c0b9e48cfc3f7b2424a87d4a9edeb5f8aaab30afbf66f1d4951b",
+  "concept_signal_long.tsv": "3616efdddca4e2c05f817648f5a49863c32ccfc957a716bbe25c5773bd076055"
+ },
+ "missing_counts": {
+  "hydrophobicity": 2,
+  "charge_balance": 1
+ },
+ "row_counts": {
+  "concept_table.tsv": 10104,
+  "concept_pfam_long.tsv": 17037,
+  "concept_signal_long.tsv": 2674
+ }
+}

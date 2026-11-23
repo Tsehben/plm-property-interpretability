@@ -1,0 +1,83 @@
+{
+ "frozen_before_any_intervention_outcome_was_read": true,
+ "date": "2026-11-23",
+ "scope": "bounded localisation-PROBE ablation pilot on the existing 24 P3 pilot proteins",
+ "label": "exploratory P3 tuning pilot; NOT an evaluation and NOT a held-out result",
+
+ "population": {
+  "source": "intervention_pilot/v1/pilot_sample.tsv (unchanged)",
+  "n": 24, "partition": "P3 only",
+  "sequences": "ORIGINAL, UNMASKED sequences; no masking token is introduced anywhere",
+  "P4_reserved": true, "P0_reserved": true
+ },
+
+ "model": {
+  "checkpoint": "facebook/esm2_t33_650M_UR50D", "implementation": "transformers.EsmModel",
+  "frozen": true, "eval_mode": true, "compute_dtype": "float32",
+  "max_residues": 1022
+ },
+
+ "sae": {
+  "file": "interprot_ref/raw/esm2_plm1280_l8_sae4096.safetensors",
+  "class": "SparseAutoencoder(d_model=1280, d_hidden=4096, k=128)",
+  "layer": 8,
+  "validated": "reference agreement 0.000e+00, active counts exactly k=128 (intervention_validation)"
+ },
+
+ "edit": {
+  "mechanism": "validated DIRECT decoder-delta, unchanged from intervention_pilot/run_pilot.py",
+  "formula": "delta_h = ((topK(a_edited) - topK(a)) @ w_dec) * std ;  h' = h + delta_h",
+  "hook": "forward hook on esm.encoder.layer[7], whose output IS hidden_states[8]",
+  "applied_at": "one residue position at a time; no other position is touched"
+ },
+
+ "positions": {
+  "values": [10, 20, 30],
+  "indexing": "one-based residue positions, as previously specified",
+  "one_at_a_time": true
+ },
+
+ "conditions": [
+  {"name": "clean", "desc": "no hook registered"},
+  {"name": "no_op", "desc": "hook registered, latent 1446 set to its OWN current value; delta must be exactly zero"},
+  {"name": "ablate_1446", "desc": "latent 1446 set to 0 at the position"},
+  {"name": "random_direction_matched", "desc": "a seeded random unit direction in R^1280 scaled to the L2 norm of the ablation's delta_h, added at the same position only"}
+ ],
+ "random_control": {
+  "purpose": "tests DIRECTION at matched magnitude",
+  "draw": "standard normal in R^1280, normalised to unit L2, scaled to ||delta_h_ablation||",
+  "seed_rule": "deterministic per (accession, position): SHA-256 of 'ACC:pos' truncated to 64 bits",
+  "note": "feature 1446 still has NO eligible activation-matched SAE control; this is a direction control, not an activation-matched feature control"
+ },
+ "inactive_policy": "if latent 1446 is exactly 0 at the position, the ablation is a ZERO edit; the matched random control then also has norm 0 and is a ZERO edit. The case is retained and counted, never dropped and never relocated.",
+
+ "readout": {
+  "probe": "frozen layer-26 ESM-only localisation probe from layer_sweep/v1/probe_parameters.npz",
+  "parameters": "coef__P3_esm_L26, intercept__P3_esm_L26, scaler_mean__P3_esm_L26, scaler_scale__P3_esm_L26",
+  "features": "concat(mean over all visible residue tokens, mean over first min(30,L) residue tokens) of hidden_states[26]",
+  "pooling_rules": "residue tokens only; <cls>, <eos> and padding excluded - unchanged from the sweep",
+  "primary": "change in the probe's EXTRACELLULAR LOG-ODDS, edited minus clean",
+  "aggregation": "average the three position-level changes within each protein, THEN take the paired candidate-minus-control difference across proteins"
+ },
+
+ "verification": {
+  "clean_vs_saved": "clean log-odds must reproduce the saved P3 predictions (layer_sweep/v1/p3_predictions.npz, esm_L26) within the tolerance below",
+  "tolerance_log_odds": {"median_abs": 0.10, "max_abs": 0.50},
+  "tolerance_probability": {"max_abs": 0.02},
+  "tolerance_rationale": "the saved predictions came from batched extraction with float16 compute and float16 pooled storage; this pilot runs single-sequence float32 forwards, so exact equality is not expected. Any exceedance is reported, not suppressed.",
+  "no_op_vs_clean": "the no-op must reproduce the clean run; required delta_h L2 exactly 0.0 and log-odds difference below 1e-6"
+ },
+
+ "descriptive": ["clean AUROC over the 24 proteins", "ablated AUROC over the 24 proteins",
+                 "how often latent 1446 was active at each position"],
+
+ "forbidden": ["P4 access", "P0 access", "masking", "refitting any probe", "re-selecting a layer",
+               "editing at any layer other than 8", "commits", "pushes"],
+
+ "interpretation_limits": [
+  "A change in our own probe's score is a MANIPULATION CHECK, not evidence about encoding (spec section 1.3, readout A).",
+  "24 proteins at 3 positions is a pilot; no interval here is a confirmatory result.",
+  "The random control tests direction at matched magnitude. It is NOT an activation-matched SAE feature control, and none exists for 1446.",
+  "Nothing here can establish that a protein's biological location changed (spec section 1.4)."
+ ]
+}

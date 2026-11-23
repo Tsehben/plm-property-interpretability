@@ -1,0 +1,167 @@
+{
+  "config": {
+    "purpose": "exploratory P3 tuning pilot; not an evaluation and not a held-out result",
+    "partition": "P3 (tuning) only; P4 and P0 never read",
+    "candidates": [
+      1446,
+      2564,
+      3900
+    ],
+    "candidate_list_source": "candidate_discovery/v1/selected_feature_ids.json (unchanged)",
+    "n_per_class": 12,
+    "length_filter": "60 <= original_len <= 1022",
+    "residue_filter": "standard 20 amino acids only (no B, U, Z, O, X)",
+    "exclusions": "engineering proteins and p0_base_collision records, inherited from discovery_analysis/v1/inclusion_manifest.tsv (in_core == 1)",
+    "selection_rule": "deterministic: within each class, sort by the frozen sequence SHA-256 hex string ascending and take the first 12. No random seed is used and no candidate activation or annotation value enters the ordering.",
+    "mask_positions": "one-based residue positions 10, 20, 30 and floor(L/2); duplicates collapsed and reported",
+    "edit": "direct decoder-delta at the masked position only",
+    "multipliers": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "no_op_multiplier": 1.0,
+    "inactive_policy": "if the candidate's latent is 0 at the masked position, record an inactive/no-edit condition; never insert the feature and never move to a different position",
+    "control_rule": "up to 5 distinct control features per candidate from P1+P2 discovery statistics only, excluding all 20 selected candidates; activation frequency and mean active magnitude matched to +/-20% relative; NO AUROC restriction",
+    "control_edit": "same masked input; latent delta matched in magnitude and sign to the candidate's latent delta; non-negativity of latents respected; unintended top-K support changes checked and reported",
+    "scope": "local masked-token sensitivity at the edited position. This pilot does not test distant propagation, downstream layers beyond the forward pass, or biological relocation.",
+    "hydrophobicity": "expected Kyte-Doolittle hydropathy over the AA-20 renormalised distribution at the masked position; a biochemical readout, not a localisation prediction. No directional hypothesis is imposed."
+  },
+  "config_hash": "ad59f46e0356dba6a2067e5f758f0275c31513d5cd97f9eaa6ef040cd0e28cf1",
+  "sample": {
+    "n": 24,
+    "n_Extracellular": 12,
+    "n_Cytoplasm": 12,
+    "accessions": [
+      "Q9Y749",
+      "Q90YK5",
+      "Q9NL39",
+      "H2A0L1",
+      "A0A3B7TLV2",
+      "A0A097PTA8",
+      "Q9ZVA2",
+      "D2DGD3",
+      "L8FSM5",
+      "P61366",
+      "P30623",
+      "P0CV05",
+      "Q7JRE4",
+      "O95295",
+      "Q08925",
+      "O14047",
+      "Q9UTG2",
+      "P40023",
+      "P0DME0",
+      "Q501Q9",
+      "Q96301",
+      "Q15436",
+      "Q09780",
+      "Q10447"
+    ],
+    "sequence_sha256": {
+      "Q9Y749": "004bbe11a67bac6d734f1907e42b7d08eda71edaaed57b868fc34560adcd03f2",
+      "Q90YK5": "008820faf511ccc55bf77f2f6dc8a09dc21f5d0fad11d1e16a0fdc5e5f427117",
+      "Q9NL39": "00988de356064a1aca5440b8b3bbf56bd63680881152fa4bbb970b1cf6ad8ae1",
+      "H2A0L1": "00f4761a530f3915d89123c2c3ee0bff9554c90d2a77da8bf914e3957ddaf642",
+      "A0A3B7TLV2": "018aa5193dcd0876238112af6cfef45cf7b4e145dca12a2b2c5f45c286bd8993",
+      "A0A097PTA8": "01c2858afa9c943da63545fa2e2d9b2d108077adab7ae48318115f9eb31cb60f",
+      "Q9ZVA2": "023a5cb11f7a0537c3e82c8237f37bbf69dcce11ae646bdb5c4b07b7bae28eda",
+      "D2DGD3": "0296838971add194fdfcba6e64f7152725d005949a8ba12551764b4bd9c8eba9",
+      "L8FSM5": "0307a22504ce5a14aeb56beded5bc56c3a452e9691318516fcd97cd47b070720",
+      "P61366": "0311397f747a24b1ddfea2d8be88cc32b305bf49005494cea2a7829268f37a37",
+      "P30623": "032afd314538a10bdde8ca447256038a1d3554dcec704f9608cf9a729121a5ec",
+      "P0CV05": "0340488d4a294c33dbbd50ca1dd2f71d62b5488ac6855fa71466e28dfa715b30",
+      "Q7JRE4": "0038d03db8c899e1cd2052e7d51c48df4014c39e31a7e177ae1f1e7601421cb1",
+      "O95295": "004c2ec770771751fdf6531bb592f8fc559d722d64b98b38b94ab0a3087bba76",
+      "Q08925": "008401f18c6d8b4f731f6998bb4f2a370c0f88a73947e47cf62fcec6850cbe55",
+      "O14047": "00a65d7d79334750b1241e82be9d84a200cb716d01ca96ba6ca53c497671a913",
+      "Q9UTG2": "00ad294c877eb6770528503e17c2ab9a36c5476b068c1a27e931f504c486a439",
+      "P40023": "00c657f29a9af47d6f38522f34b4b1de0d1bd45d161c118d1a7724ffd5b12646",
+      "P0DME0": "00e356343b133d4eefb571ec2f909f9235af6b58f4498b7cc403f38555b41026",
+      "Q501Q9": "00fa12ab68a703fa6fb0ae4362350a6ceeb131816f1cd249a8375945003a349a",
+      "Q96301": "012a28d266732562b6277167739acdf7715930cfbc1c65f33721226699d8a8f7",
+      "Q15436": "016c59e3a8d1b9dce396039892230a953410ecdd19a0ac7a0cd83e0c45537eba",
+      "Q09780": "01b8779540739875159c41e46a4e7dccccc8501813a124ced29efed7d135ad90",
+      "Q10447": "01ded240b3e78349918619e2bd330b2a93e36a592e5b4031446b4f247ffb5373"
+    },
+    "lengths": {
+      "Q9Y749": 397,
+      "Q90YK5": 523,
+      "Q9NL39": 140,
+      "H2A0L1": 456,
+      "A0A3B7TLV2": 502,
+      "A0A097PTA8": 184,
+      "Q9ZVA2": 455,
+      "D2DGD3": 80,
+      "L8FSM5": 400,
+      "P61366": 133,
+      "P30623": 150,
+      "P0CV05": 399,
+      "Q7JRE4": 650,
+      "O95295": 136,
+      "Q08925": 612,
+      "O14047": 312,
+      "Q9UTG2": 671,
+      "P40023": 145,
+      "P0DME0": 302,
+      "Q501Q9": 586,
+      "Q96301": 914,
+      "Q15436": 765,
+      "Q09780": 404,
+      "Q10447": 665
+    },
+    "pool_size": 2287,
+    "pool_Extracellular": 559,
+    "pool_Cytoplasm": 1728,
+    "exclusions": {
+      "not_P3": 7583,
+      "length_outside_60_1022": 261,
+      "excluded_by_view:E2_p0_base_collision": 7,
+      "excluded_by_view:E1_engineering_protein": 1
+    },
+    "quota_shortfalls": "none"
+  },
+  "controls": {
+    "1446": [],
+    "2564": [
+      1634,
+      1574,
+      2,
+      2871,
+      1034
+    ],
+    "3900": [
+      431,
+      2255,
+      2326,
+      2914
+    ]
+  },
+  "control_shortfall": {
+    "1446": {
+      "requested": 5,
+      "found": 0
+    },
+    "3900": {
+      "requested": 5,
+      "found": 4
+    }
+  },
+  "inputs": {
+    "inclusion_manifest": "783931349700b3082cac37edc5a2729e9b439cdb98bb7824a8c30e206ab2adb1",
+    "eligible_feature_ranking": "ff0ab17f60ead16b867a97d53967637ce6bdba4206a49e5fab49aeec4d3c3443",
+    "selected_feature_ids": "070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917",
+    "deeploc_manifest": "be9447dd4df185607ea211160db7015056a2bdcb52d2f3b4e86ce9c8890f885d",
+    "sae_file": "1172503b90c950651e787a5625d91ff1c702a04ff3d851e8e95b700201e56ebd"
+  },
+  "environment": {
+    "python": "3.9.6",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "device": "mps",
+    "platform": "macOS-26.5.1-arm64-arm-64bit"
+  }
+}

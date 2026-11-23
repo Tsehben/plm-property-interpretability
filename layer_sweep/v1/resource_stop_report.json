@@ -1,0 +1,34 @@
+{
+ "stage": "extraction",
+ "reason": "disk free 377 MB below the 524 MB floor",
+ "resources": {
+  "disk_free_bytes": 375623680,
+  "swap_free_bytes": 478276485.12,
+  "mem_free_pct": 47.0
+ },
+ "nothing_deleted": true,
+ "store_retained": true,
+ "resume_with": "python3 layer_sweep/run_sweep_v2.py . layer_sweep/v1 --batch-tokens 6144",
+ "environment": {
+  "python": "3.9.6",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "numpy": "2.0.2",
+  "torch": "2.8.0",
+  "transformers": "4.57.6",
+  "sklearn": "1.6.1"
+ },
+ "info": {
+  "reason": "disk free 377 MB below the 524 MB floor",
+  "resources": {
+   "disk_free_bytes": 376791040,
+   "swap_free_bytes": 360835973.12,
+   "mem_free_pct": 38.0
+  },
+  "new_sequences": 7990,
+  "elapsed_s": 2212.5,
+  "truncated": 1108,
+  "completed_batches": 770,
+  "total_batches": 815
+ }
+}

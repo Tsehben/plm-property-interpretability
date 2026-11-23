@@ -1,0 +1,38 @@
+{
+  "case": "mode_animal",
+  "organism": "animal",
+  "seconds": 12.2,
+  "k_used_for_knn": 32.0,
+  "n_input": 1,
+  "n_predicted": 1,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "A1AG_HUMAN",
+      "status": "predicted",
+      "sites": {
+        "extr": 22.0,
+        "E.R.": 6.0,
+        "mito": 2.0,
+        "lyso": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 22.0,
+      "line": "A1AG_HUMAN extr 22, E.R. 6, mito 2, lyso 2",
+      "readout": {
+        "extr_score": 22.0,
+        "cyto_score": 0.0,
+        "delta": 22.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    }
+  ],
+  "summary_sha256": "eb8e7fd5777f6e1ad45a264f17f3ad1e52c7b0f4023166dba0b6e09fd99d138e"
+}

@@ -1,0 +1,6 @@
+arm	candidate_group	n_edit_conditions	n_top1_aa20_changed	n_top1_full_changed	pct_top1_aa20	note
+candidate	1446	746	13	13	1.74	denominator is this arm only; arms are never pooled
+candidate	2564	664	11	11	1.66	denominator is this arm only; arms are never pooled
+candidate	3900	1412	11	11	0.78	denominator is this arm only; arms are never pooled
+control	2564	326	1	1	0.31	denominator is this arm only; arms are never pooled
+control	3900	3257	28	28	0.86	denominator is this arm only; arms are never pooled

@@ -1,0 +1,75 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+sample: 5190 proteins  device=mps  config=33a3b89d20605f4a
+`torch_dtype` is deprecated! Use `dtype` instead!
+reference SAE agreement: max|diff| = 0.000e+00
+  shard 0000: 256 proteins  |  256/5190  120s  2.14 seq/s
+  shard 0001: 256 proteins  |  512/5190  235s  2.18 seq/s
+  shard 0002: 256 proteins  |  768/5190  347s  2.22 seq/s
+  shard 0003: 256 proteins  |  1024/5190  441s  2.32 seq/s
+  shard 0004: 256 proteins  |  1280/5190  524s  2.44 seq/s
+  shard 0005: 256 proteins  |  1536/5190  599s  2.56 seq/s
+  shard 0006: 256 proteins  |  1792/5190  667s  2.69 seq/s
+  shard 0007: 256 proteins  |  2048/5190  728s  2.81 seq/s
+  shard 0008: 256 proteins  |  2304/5190  781s  2.95 seq/s
+  shard 0009: 256 proteins  |  2560/5190  830s  3.08 seq/s
+  shard 0010: 256 proteins  |  2816/5190  874s  3.22 seq/s
+  shard 0011: 256 proteins  |  3072/5190  914s  3.36 seq/s
+  shard 0012: 256 proteins  |  3328/5190  950s  3.50 seq/s
+  shard 0013: 256 proteins  |  3584/5190  982s  3.65 seq/s
+  shard 0014: 256 proteins  |  3840/5190  1010s  3.80 seq/s
+  shard 0015: 256 proteins  |  4096/5190  1035s  3.96 seq/s
+  shard 0016: 256 proteins  |  4352/5190  1056s  4.12 seq/s
+  shard 0017: 256 proteins  |  4608/5190  1073s  4.29 seq/s
+  shard 0018: 256 proteins  |  4864/5190  1087s  4.48 seq/s
+  shard 0019: 256 proteins  |  5120/5190  1097s  4.67 seq/s
+  shard 0020: 70 proteins  |  5190/5190  1100s  4.72 seq/s
+{
+  "summary": {
+    "n_proteins": 5190,
+    "n_Extracellular": 1336,
+    "n_Cytoplasm": 3854,
+    "n_features": 4096,
+    "n_eligible": 2867,
+    "n_ineligible": 1229,
+    "eligibility_rule": "feature active (>0) at least once within the first 30 positions in at least 5% of discovery proteins; the SAE's training-time dead list is NOT used",
+    "eligible_prevalence_min": 0.05009633911368015,
+    "n_features_never_active_in_window": 55,
+    "n_features_never_active_anywhere": 23,
+    "training_time_dead_list_used": false
+  },
+  "stability": {
+    "definition_top20_overlap": "|top-20 by |AUROC-0.5| computed on P1 alone  INTERSECT  top-20 computed on P2 alone|, both restricted to the eligible set defined on P1+P2 together",
+    "top20_P1_vs_P2_overlap": 19,
+    "selected_in_P1_top20": 19,
+    "selected_in_P2_top20": 19,
+    "selected_in_both_P1_and_P2_top20": 18,
+    "definition_rank_correlation": "Spearman rank correlation across all eligible features between the P1 and P2 values of the statistic named; computed on the feature-level statistics, not on proteins",
+    "spearman_signed_auroc_P1_P2": 0.899017388838117,
+    "spearman_abs_auroc_minus_half_P1_P2": 0.7370863991819092,
+    "note": "Exploratory discovery statistics. No pass quota is applied, the ranking is not altered if agreement is weak, and these are not held-out performance figures. No significance claim is made: the statistic was screened over thousands of features without multiplicity control."
+  },
+  "selected": [
+    3900,
+    642,
+    1446,
+    243,
+    963,
+    2040,
+    317,
+    250,
+    2737,
+    627,
+    1052,
+    50,
+    900,
+    2564,
+    3731,
+    1235,
+    999,
+    217,
+    1946,
+    657
+  ],
+  "selected_list_sha256": "070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917"
+}

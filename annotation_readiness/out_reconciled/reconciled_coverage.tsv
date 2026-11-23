@@ -1,0 +1,10 @@
+role	localisation_class	n_proteins	annotated_present	pct_annotated_present	not_annotated	pct_not_annotated	unverifiable	pct_unverifiable	annotated_present_experimental	pct_of_cohort_experimental
+discovery	Extracellular	1339	1254	93.7	53	4.0	32	2.4	236	17.6
+discovery	Cytoplasm	3862	59	1.5	3648	94.5	155	4.0	4	0.1
+tuning	Extracellular	584	551	94.3	22	3.8	11	1.9	94	16.1
+tuning	Cytoplasm	1972	31	1.6	1851	93.9	90	4.6	3	0.2
+evaluation	Extracellular	575	515	89.6	41	7.1	19	3.3	138	24.0
+evaluation	Cytoplasm	1807	29	1.6	1704	94.3	74	4.1	4	0.2
+ALL	Extracellular	2498	2320	92.9	116	4.6	62	2.5	468	18.7
+ALL	Cytoplasm	7641	119	1.6	7203	94.3	319	4.2	11	0.1
+ALL	ALL	10139	2439	24.1	7319	72.2	381	3.8	479	4.7

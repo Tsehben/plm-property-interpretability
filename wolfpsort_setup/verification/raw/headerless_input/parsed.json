@@ -1,0 +1,38 @@
+{
+  "case": "headerless_input",
+  "organism": "animal",
+  "seconds": 12.2,
+  "k_used_for_knn": 32.0,
+  "n_input": 1,
+  "n_predicted": 1,
+  "unexpected_output_ids": [],
+  "records": [
+    {
+      "input_index": 0,
+      "id": "queryProtein",
+      "status": "predicted",
+      "sites": {
+        "extr": 22.0,
+        "E.R.": 6.0,
+        "mito": 2.0,
+        "lyso": 2.0
+      },
+      "top_site": "extr",
+      "top_score": 22.0,
+      "line": "queryProtein extr 22, E.R. 6, mito 2, lyso 2",
+      "readout": {
+        "extr_score": 22.0,
+        "cyto_score": 0.0,
+        "delta": 22.0,
+        "top_site": "extr",
+        "top_is_compound": false,
+        "top_mentions_extr": true,
+        "top_mentions_cyto": false,
+        "top_ambiguous_for_readout": false,
+        "extr_class_absent": false,
+        "cyto_class_absent": true
+      }
+    }
+  ],
+  "summary_sha256": "594312bea017b48c5f410c47b6c5644ccaf6e91360eb74c874c2c2aa9e94e412"
+}

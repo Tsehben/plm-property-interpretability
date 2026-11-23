@@ -1,0 +1,11 @@
+{
+ "disk_free_bytes": 3066593280,
+ "store_bytes": 1707171840,
+ "expected_outputs_bytes": 7776680,
+ "floor_bytes": 524288000,
+ "total_required_bytes": 2239236520,
+ "margin_bytes": 827356760,
+ "sufficient": true,
+ "floor_lowered": false,
+ "deleted": "~/Library/Caches/pip only (pip cache dir confirmed via `pip cache dir`); HF caches, installed packages, environments and project files preserved"
+}

@@ -1,0 +1,49 @@
+{
+ "purpose": "integrity and resource check run BEFORE the full sweep, as required by the task",
+ "machine": {"platform": "Darwin arm64", "cores": 12, "ram_gb": 25.77,
+             "accelerator": "MPS (Apple Silicon)"},
+ "software": {"torch": "2.8.0", "transformers": "4.57.6", "numpy": "2.0.2",
+              "sklearn": "1.6.1",
+              "note": "torch and transformers versions are IDENTICAL to those recorded in the archived layer-8 extraction metadata"},
+
+ "pilot": {
+  "n_sequences": 64, "layers": "1..33", "batch_tokens": 12288,
+  "elapsed_s": 23, "seq_per_s": 2.81,
+  "shard_bytes_float32": 21600000,
+  "throughput_vs_layer8_only_run": "2.81 vs 4.11 seq/s; pooling 33 layers instead of 1 costs ~1.46x"
+ },
+
+ "layer8_agreement_with_archived_embeddings": {
+  "compared_against": "DeepLoc2/esm2_probe/emb (archived layer-8 extraction)",
+  "bitwise_identical": false,
+  "whole_pooling": {"max_abs_diff": 2.759e-2, "mean_abs_diff": 1.674e-4,
+                    "min_cosine_similarity": 0.9999997616},
+  "nterm_pooling": {"max_abs_diff": 3.334e-2, "mean_abs_diff": 3.003e-4,
+                    "min_cosine_similarity": 0.9999996424},
+  "cause": "the archived run transferred residue-level activations to CPU and pooled there in float32; this run pools ON DEVICE in float32 before transfer, and the length-sorted batch composition differs. Both effects change float16 reduction order.",
+  "decision": "DO NOT reuse the archived layer-8 embeddings. Numerical provenance differs, so the frozen protocol's reuse condition (input, model, pooling AND numerical provenance must match) is not met. All 33 layers come from ONE self-consistent extraction instead, so every layer in the sweep is comparable to every other."
+ },
+
+ "disk_constraint": {
+  "measured_free_bytes_at_decision": 3575924224,
+  "measured_free_gb": 3.58,
+  "float32_projected_gb": 3.43,
+  "float32_verdict": "would leave ~0.15 GB free; rejected as unsafe",
+  "float16_projected_gb": 1.71,
+  "decision": "store pooled vectors as float16; COMPUTE the pooled mean in float32 on device, then cast",
+  "not_a_reduction_of": ["cohort", "layers", "feature sets", "pooling"],
+  "applied_identically_to": "all 33 layers and both poolings",
+  "measured_effect_of_float16_storage": {
+   "max_abs_diff": 0.125, "mean_abs_diff_whole": 2.705e-4, "mean_abs_diff_nterm": 3.775e-4,
+   "min_cosine_per_layer_overall_min": 0.999999642,
+   "min_cosine_per_layer_overall_max": 0.999999881,
+   "layer_independence": "the per-layer minimum cosine spans only 0.999999642-0.999999881, i.e. the storage effect is uniform across layers and cannot reorder them",
+   "comparison": "this is the same order of magnitude as the pooling-device difference already present between this run and the archived one"
+  }
+ },
+
+ "memory_pressure_observed": {
+  "swap_used_gb": 14.28, "swap_total_gb": 15.36,
+  "note": "the host was under heavy swap pressure during the run (disk ~99% full, so swap could not grow). The extraction proceeded correctly but with the process frequently in uninterruptible wait. Recorded because it affects wall-clock timings reported here, not results."
+ }
+}

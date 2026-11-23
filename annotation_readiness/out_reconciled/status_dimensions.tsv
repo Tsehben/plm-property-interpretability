@@ -1,0 +1,15 @@
+dimension	category	n_proteins	pct_of_10139
+A. Retrieval / accession status	resolved as requested (current accession)	10131	99.9
+A. Retrieval / accession status	resolved via merged/secondary accession	5	0.0
+A. Retrieval / accession status	active entry, isoform sequence unresolved (HTTP 404)	2	0.0
+A. Retrieval / accession status	inactive_deleted (no record)	1	0.0
+B. Agreement with frozen extraction-input sequence	exact (SHA-256 identical)	10019	98.8
+B. Agreement with frozen extraction-input sequence	mismatch (entry re-sequenced since the DeepLoc snapshot)	117	1.2
+B. Agreement with frozen extraction-input sequence	unverifiable (no sequence retrieved)	3	0.0
+C. Residue-coordinate transferability	transferable (frozen sequence == the sequence coordinates are defined on)	9758	96.2
+C. Residue-coordinate transferability	not transferable: isoform matches frozen input but differs from canonical	261	2.6
+C. Residue-coordinate transferability	not transferable: retrieved sequence differs from frozen input	117	1.2
+C. Residue-coordinate transferability	not transferable: no sequence retrieved	3	0.0
+D. Signal-peptide status	not_annotated (NOT a confirmed biological negative)	7319	72.2
+D. Signal-peptide status	annotated_present	2439	24.1
+D. Signal-peptide status	unverifiable	381	3.8

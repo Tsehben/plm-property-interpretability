@@ -1,0 +1,5 @@
+contrast	description	n_proteins	n_Extracellular	n_Cytoplasm	estimate_mean	median_of_paired_differences	sd	ci95_lo	ci95_hi	ci95_method	ci95_excludes_zero	ci95_fallback_reason	bootstrap_sd	n_proteins_positive	n_proteins_negative	n_proteins_exact_zero	status
+B-A	B 1446 x2 minus A unmodified	40	20	20	0.037499999999999999	0	0.63624499393527045	-0.27728089812917694	0.16562499999999999	BCa	False		0.098522075303160248	9	3	28	RETROSPECTIVE, EXPLORATORY: not pre-registered, no error control
+C-A	C 1446 x0 minus A unmodified	40	20	20	0.037499999999999999	0	0.74850277905723928	-0.26250000000000001	0.22187499999999999	BCa	False		0.1164446290054845	8	6	26	RETROSPECTIVE, EXPLORATORY: not pre-registered, no error control
+B-D	B 1446 x2 minus D random +u	40	20	20	0.10000000000000001	0	0.73988911158084869	-0.19062499999999999	0.27812500000000001	BCa	False		0.1142218601459831	9	4	27	RETROSPECTIVE, EXPLORATORY: not pre-registered, no error control
+C-E	C 1446 x0 minus E random -u	40	20	20	0.10625	0	0.66719730484298534	-0.03125	0.44374999999999998	BCa	False		0.10457687659444283	5	5	30	RETROSPECTIVE, EXPLORATORY: not pre-registered, no error control

@@ -1,0 +1,31 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+core=10104 fit=5190 P3=2548 P4=2366 batches=815
+compat: model=facebook/esm2_t33_650M_UR50D code=20e625f90760 batchmap=01de7eefb7ae rows=dc17fca47afb
+resources: disk=3.06GB memfree=62% swapfree=1463MB
+  preallocated 33 layer files x 51.7 MB = 1.707 GB
+checkpoint: no checkpoint: starting fresh (0/815 batches)
+`torch_dtype` is deprecated! Use `dtype` instead!
+  device=mps batches_to_do=815 (store has 0/815)
+  50/815 batches  300 seqs  138s  2.17 seq/s  store=50/815  disk=1.18GB memfree=31%
+  100/815 batches  600 seqs  274s  2.19 seq/s  store=100/815  disk=1.31GB memfree=35%
+  150/815 batches  900 seqs  414s  2.17 seq/s  store=150/815  disk=1.33GB memfree=33%
+  200/815 batches  1,200 seqs  573s  2.09 seq/s  store=200/815  disk=1.33GB memfree=31%
+  250/815 batches  1,500 seqs  716s  2.10 seq/s  store=250/815  disk=1.33GB memfree=30%
+  300/815 batches  1,839 seqs  854s  2.15 seq/s  store=300/815  disk=1.31GB memfree=31%
+  350/815 batches  2,212 seqs  993s  2.23 seq/s  store=350/815  disk=1.31GB memfree=29%
+  400/815 batches  2,625 seqs  1,137s  2.31 seq/s  store=400/815  disk=1.28GB memfree=39%
+  450/815 batches  3,083 seqs  1,284s  2.40 seq/s  store=450/815  disk=1.25GB memfree=35%
+  500/815 batches  3,594 seqs  1,431s  2.51 seq/s  store=500/815  disk=1.24GB memfree=33%
+  550/815 batches  4,170 seqs  1,579s  2.64 seq/s  store=550/815  disk=0.69GB memfree=29%
+  600/815 batches  4,811 seqs  1,723s  2.79 seq/s  store=600/815  disk=0.68GB memfree=39%
+  650/815 batches  5,536 seqs  1,864s  2.97 seq/s  store=650/815  disk=0.67GB memfree=29%
+  700/815 batches  6,379 seqs  2,008s  3.18 seq/s  store=700/815  disk=0.65GB memfree=36%
+  750/815 batches  7,448 seqs  2,150s  3.46 seq/s  store=750/815  disk=0.66GB memfree=30%
+  RESOURCE STOP: disk free 377 MB below the 524 MB floor
+  released ESM model and device allocations
+extraction: stopped_resources {'reason': 'disk free 377 MB below the 524 MB floor', 'resources': {'disk_free_bytes': 376791040, 'swap_free_bytes': 360835973.12, 'mem_free_pct': 38.0}, 'new_sequences': 7990, 'elapsed_s': 2212.5, 'truncated': 1108, 'completed_batches': 770, 'total_batches': 815}
+
+*** STOPPED (extraction): disk free 377 MB below the 524 MB floor ***
+report: layer_sweep/v1/resource_stop_report.json
+store and checkpoint retained; nothing deleted.

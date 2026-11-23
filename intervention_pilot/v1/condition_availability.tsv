@@ -1,0 +1,7 @@
+arm	status	n_conditions	pct
+candidate	inactive_no_edit	985	68.4
+candidate	edited	455	31.6
+control	candidate_inactive_no_edit	2880	66.7
+control	edited	692	16.0
+control	unavailable: control inactive at this position	635	14.7
+control	unavailable: matched negative delta would make the latent negative	113	2.6

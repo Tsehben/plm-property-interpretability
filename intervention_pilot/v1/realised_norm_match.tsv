@@ -1,0 +1,9 @@
+candidate	multiplier	n_pairs	mean_candidate_delta_h_l2	mean_control_delta_h_l2	median_rel_norm_difference	p90_rel_norm_difference	max_rel_norm_difference	note
+2564	0.0	5	2.5098472833633423	2.437675356864929	0.05434128427311982	0.059018188965438895	0.06213605053464464	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+2564	0.5	7	1.964707008429936	1.9195136513028825	0.05434128427311982	0.057459258180836026	0.06213605053464464	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+2564	1.5	12	2.9985209653774896	2.972490981221199	0.014806331670450784	0.05434138413777385	0.062136389760487507	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+2564	2.0	12	5.997041672468185	5.944982121388118	0.014806056773344144	0.0543413964738519	0.06213627209619493	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+3900	0.0	73	3.5987143647180844	2.6490104378086246	0.2919578102581372	0.35391632808335094	0.3539164945398872	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+3900	0.5	124	2.3725605847374087	1.8038797128585078	0.2919578286577589	0.3539163393567923	0.3539164945398872	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+3900	1.5	149	2.6286074347144006	1.9736599510148067	0.29195788425650154	0.3539163085433266	0.3539165775055532	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported
+3900	2.0	149	5.257214800623439	3.947319913230486	0.29195783115628043	0.3539163045392998	0.3539164945398872	latent delta matched exactly in magnitude and sign; the residual-space norm is NOT matched and is reported

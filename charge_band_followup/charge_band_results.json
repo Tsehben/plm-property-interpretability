@@ -1,0 +1,134 @@
+{
+ "label": "FOLLOW-UP on previously examined P4 development data; not a fresh test set",
+ "saved_predictions_only": true,
+ "refit": false,
+ "extraction": false,
+ "P0_accessed": false,
+ "band_definition": {
+  "property": "charge_balance_30 = (K+R-D-E)/window_length over residues 1..min(30,L)",
+  "cuts_defined_on": "discovery P1+P2 observed values only, quantiles 0.20/0.40/0.60/0.80",
+  "cuts_full_precision": [
+   -0.06666666666666667,
+   -0.03333333333333333,
+   0.03333333333333333,
+   0.06666666666666667
+  ],
+  "cuts_exact": [
+   "-2/30",
+   "-1/30",
+   "1/30",
+   "2/30"
+  ],
+  "interval_rule": "lower inclusive, upper exclusive; outer intervals unbounded",
+  "every_P4_protein_in_exactly_one_band": true,
+  "n_P4_with_missing_charge": 0,
+  "band_counts": {
+   "1": 475,
+   "2": 248,
+   "3": 638,
+   "4": 342,
+   "5": 663
+  },
+  "full_precision_vs_6dp_disagreements": 0
+ },
+ "primary": {
+  "definition": "pair-weighted mean of within-band AUROCs; only extracellular-cytoplasmic pairs from the SAME charge band contribute",
+  "weight": "w_b = n_extracellular_b * n_cytoplasmic_b",
+  "total_eligible_pairs": 218976,
+  "auroc_layer26_esm": 0.981763,
+  "auroc_composition": 0.96411,
+  "delta_auroc_esm_minus_composition": 0.017653,
+  "ci95_lo": 0.008132,
+  "ci95_hi": 0.029287,
+  "ci95_excludes_zero": 1
+ },
+ "bootstrap": {
+  "unit": "30% identity cluster across all of P4, drawn whole with replacement",
+  "same_draw_for_both_models_and_all_bands": true,
+  "pair_weights_recomputed_each_draw": true,
+  "B": 10000,
+  "seed": 42,
+  "interval": "percentile 95%",
+  "n_clusters_resampled": 1547,
+  "n_resamples_undefined_excluded": 0,
+  "n_valid_resamples": 10000,
+  "draws_in_which_a_band_was_degenerate": {}
+ },
+ "bands": [
+  {
+   "band": 1,
+   "lower": "",
+   "upper": "-0.0666666667",
+   "n": 475,
+   "n_extracellular": 26,
+   "n_cytoplasm": 449,
+   "n_eligible_pairs": 11674,
+   "pair_weight_share_pct": 5.331,
+   "n_clusters_id30": 370,
+   "largest_cluster_n": 8,
+   "auroc_layer26_esm": 0.99803,
+   "auroc_composition": 0.960768,
+   "delta_auroc": 0.037262
+  },
+  {
+   "band": 2,
+   "lower": "-0.0666666667",
+   "upper": "-0.0333333333",
+   "n": 248,
+   "n_extracellular": 32,
+   "n_cytoplasm": 216,
+   "n_eligible_pairs": 6912,
+   "pair_weight_share_pct": 3.157,
+   "n_clusters_id30": 211,
+   "largest_cluster_n": 4,
+   "auroc_layer26_esm": 0.96658,
+   "auroc_composition": 0.951389,
+   "delta_auroc": 0.015191
+  },
+  {
+   "band": 3,
+   "lower": "-0.0333333333",
+   "upper": "0.0333333333",
+   "n": 638,
+   "n_extracellular": 215,
+   "n_cytoplasm": 423,
+   "n_eligible_pairs": 90945,
+   "pair_weight_share_pct": 41.532,
+   "n_clusters_id30": 471,
+   "largest_cluster_n": 47,
+   "auroc_layer26_esm": 0.984579,
+   "auroc_composition": 0.968047,
+   "delta_auroc": 0.016532
+  },
+  {
+   "band": 4,
+   "lower": "0.0333333333",
+   "upper": "0.0666666667",
+   "n": 342,
+   "n_extracellular": 135,
+   "n_cytoplasm": 207,
+   "n_eligible_pairs": 27945,
+   "pair_weight_share_pct": 12.762,
+   "n_clusters_id30": 263,
+   "largest_cluster_n": 26,
+   "auroc_layer26_esm": 0.977563,
+   "auroc_composition": 0.974307,
+   "delta_auroc": 0.003256
+  },
+  {
+   "band": 5,
+   "lower": "0.0666666667",
+   "upper": "",
+   "n": 663,
+   "n_extracellular": 163,
+   "n_cytoplasm": 500,
+   "n_eligible_pairs": 81500,
+   "pair_weight_share_pct": 37.219,
+   "n_clusters_id30": 494,
+   "largest_cluster_n": 19,
+   "auroc_layer26_esm": 0.979018,
+   "auroc_composition": 0.957779,
+   "delta_auroc": 0.021239
+  }
+ ]
+}

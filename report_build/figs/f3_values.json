@@ -1,0 +1,29 @@
+{
+ "groups": [
+  {
+   "group": "Extracellular annotated",
+   "n": 1252,
+   "mean": 4.477019665280756,
+   "prevalence": 0.9984025559105432
+  },
+  {
+   "group": "Cytoplasmic annotated",
+   "n": 59,
+   "mean": 4.448190907111107,
+   "prevalence": 0.9830508474576272
+  },
+  {
+   "group": "Extracellular not annot.",
+   "n": 53,
+   "mean": 0.9502543010661062,
+   "prevalence": 0.5094339622641509
+  },
+  {
+   "group": "Cytoplasmic not annot.",
+   "n": 3645,
+   "mean": 0.08762752817808274,
+   "prevalence": 0.21481481481481482
+  }
+ ],
+ "total": 5009
+}

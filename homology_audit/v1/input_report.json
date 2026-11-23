@@ -1,0 +1,39 @@
+{
+ "audit_population": "all 10,139 P1-P4 development proteins (exclusion flags carried, not applied)",
+ "n_sequences": 10139,
+ "n_unique_accessions": 10139,
+ "n_unique_sequences": 10139,
+ "sequence_source": "DeepLoc2/raw/Swissprot_Train_Validation_dataset.csv (original full length)",
+ "truncated_to_1022": false,
+ "all_verified_against_frozen_sha256": true,
+ "n_sequences_dropped_or_substituted": 0,
+ "length_min": 40,
+ "length_median": 414,
+ "length_max": 18141,
+ "n_proteins_with_nonstandard_residues": 22,
+ "nonstandard_residue_counts": {
+  "B": 1,
+  "U": 59,
+  "X": 18
+ },
+ "nonstandard_residue_handling": "written verbatim; MMseqs2 maps unknown codes to X at scoring time; no pre-edit, no substitution, no drop",
+ "n_isoform_accessions": 268,
+ "isoform_handling": "resolved by own accession; canonical never substituted",
+ "n_engineering_protein_E1": 8,
+ "n_p0_base_collision_E2": 27,
+ "n_in_core": 10104,
+ "role_counts": {
+  "evaluation": 2382,
+  "discovery": 5201,
+  "tuning": 2556
+ },
+ "class_counts": {
+  "Cytoplasm": 7641,
+  "Extracellular": 2498
+ },
+ "input_hashes": {
+  "inclusion_manifest.tsv": "783931349700b3082cac37edc5a2729e9b439cdb98bb7824a8c30e206ab2adb1",
+  "Swissprot_Train_Validation_dataset.csv": "29a07b293fed2994a966b70bdcd6bacc59915b8b01fa200cb2b07d8db18384a2",
+  "development_10139.fasta": "2fd9d8cc08c2745245ea9ab9dcbc213ed225e8a86ad87de8dba9fcf644497121"
+ }
+}

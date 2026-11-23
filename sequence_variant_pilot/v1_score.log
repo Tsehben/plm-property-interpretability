@@ -1,0 +1,35 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+{
+  "organism_model": "animal",
+  "k": 32.0,
+  "n_queries": 840,
+  "n_predicted": 840,
+  "n_missing": 0,
+  "n_unparsable": 0,
+  "neighbour_count_mismatches": 0,
+  "omitted_class_verdict": {
+    "question": "does a class omitted from the printed summary line truly mean zero?",
+    "answer": "NO",
+    "evidence": {
+      "records_scored": 840,
+      "records_with_at_least_one_nonzero_class_omitted": 840,
+      "max_nonzero_classes_omitted_in_one_record": 15,
+      "mean_nonzero_classes_omitted": 7.595238095238095,
+      "records_where_extr_was_nonzero_but_omitted": 119,
+      "records_where_cyto_was_nonzero_but_omitted": 89,
+      "printed_scores_verified_against_recomputation": 2650,
+      "printed_score_mismatches": 0
+    },
+    "consequence": "margin is computed from the full recomputed class-score vector, not from the printed line. Every score the program printed is asserted to match the recomputation exactly, so the recomputation is verified against the implementation rather than substituted for it.",
+    "formula": "score(c) = sum over the k neighbours n of U[c, class(n)], U = data/animal.wolfu"
+  },
+  "wolfpsort_seconds": 266.7,
+  "scores_naming": "predictor scores (similarity-weighted neighbour vote counts); not probabilities, not biological measurements",
+  "raw_preserved": {
+    "summary": "34ef240d8ec0b066832ca547bd12c97516d45031759d6511c37d7f6ad08a1b44",
+    "preflight": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "queries": "88b2bea9f2f9e24fb659d56edd3513028eb41a2aed9c874adc685777245cf10a"
+  }
+}
+EXIT=0

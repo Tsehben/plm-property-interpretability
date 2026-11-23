@@ -1,0 +1,58 @@
+[cohort] development rows: 10139  frozen-sequence re-verification: match=10139 mismatch=0 missing=0
+[plan] unique base accessions to query: 10017  (parents that are themselves P0 rows: 11; parents sharing a base with a P0 isoform: 8)
+[plan] isoform accessions needing their own sequence: 268
+[search] 100/10017 base accessions (cache hits 0, network 1)
+[search] 1100/10017 base accessions (cache hits 0, network 11)
+[search] 2100/10017 base accessions (cache hits 0, network 21)
+[search] 3100/10017 base accessions (cache hits 0, network 31)
+[search] 4100/10017 base accessions (cache hits 0, network 41)
+[search] 5100/10017 base accessions (cache hits 0, network 51)
+[search] 6100/10017 base accessions (cache hits 0, network 61)
+[search] 7100/10017 base accessions (cache hits 0, network 71)
+[search] 8100/10017 base accessions (cache hits 0, network 81)
+[search] 9100/10017 base accessions (cache hits 0, network 91)
+[search] 10017/10017 base accessions (cache hits 0, network 101)
+[resolve] base accessions not returned by search: 0
+[isoform] 50/268
+[isoform] 100/268
+[isoform] 150/268
+[isoform] 200/268
+[isoform] 250/268
+[isoform] resolved 266/268, unresolved 2
+
+=== integrity ===
+{
+  "n_primary_rows": 10139,
+  "n_primary_rows_expected": 10139,
+  "n_unique_accessions": 10139,
+  "one_row_per_protein": true,
+  "labels_and_partitions_unchanged": true,
+  "label_partition_fingerprint": "18d36b292945049971decc2430a8ab50cc9f27e7a2bc7e366a82118318015ca8",
+  "manifest_sha256": "be9447dd4df185607ea211160db7015056a2bdcb52d2f3b4e86ce9c8890f885d",
+  "retrieval_status_counts": {
+    "ok": 10139
+  },
+  "sequence_match_counts": {
+    "exact": 10017,
+    "mismatch": 114,
+    "unverifiable": 8
+  },
+  "signal_status_counts": {
+    "not_annotated": 7318,
+    "annotated_present": 2438,
+    "unverifiable": 383
+  },
+  "failures_accounted": true,
+  "n_failure_rows": 122,
+  "engineering_proteins_flagged": 8,
+  "role_counts": {
+    "evaluation": 2382,
+    "discovery": 5201,
+    "tuning": 2556
+  },
+  "hpa_files_read": []
+}
+p0_requests.p0_rows_requested_as_annotation_targets = 0
+development isoform parents that are themselves P0 rows = 11
+
+elapsed 418.9s  cache hits 0  network 369

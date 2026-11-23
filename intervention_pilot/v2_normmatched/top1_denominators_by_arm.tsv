@@ -1,0 +1,6 @@
+arm	candidate	n_edit_conditions	n_top1_aa20_changed	n_top1_full_changed	pct_top1_aa20_changed	note
+candidate	2564	96	0	0	0.00	denominator is edit conditions of THIS arm only; candidate and control edits are never pooled
+candidate	3900	168	3	3	1.79	denominator is edit conditions of THIS arm only; candidate and control edits are never pooled
+candidate	1446	100	1	1	1.00	denominator is edit conditions of THIS arm only; candidate and control edits are never pooled
+control	2564	36	0	0	0.00	denominator is edit conditions of THIS arm only; candidate and control edits are never pooled
+control	3900	464	3	3	0.65	denominator is edit conditions of THIS arm only; candidate and control edits are never pooled

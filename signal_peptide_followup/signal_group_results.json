@@ -1,0 +1,80 @@
+{
+ "label": "FOLLOW-UP on previously analysed P4 development data; not a fresh test set",
+ "frozen_rules_sha256": "ec624c436a9f6bf269c2b5a6adae26ef11a7d6fcbcb9de14f29c3aa823f15004",
+ "saved_predictions_only": true,
+ "refit": false,
+ "extraction": false,
+ "P0_accessed": false,
+ "status_counts_P4": {
+  "not_annotated": 1741,
+  "annotated_present": 542,
+  "unverifiable": 83
+ },
+ "groups": [
+  {
+   "group": "annotated_present",
+   "n": 542,
+   "n_extracellular": 513,
+   "n_cytoplasm": 29,
+   "n_eligible_pairs": 14877,
+   "pair_weight_share_pct": 17.59,
+   "n_clusters_id30": 298,
+   "n_clusters_extracellular": 278,
+   "n_clusters_cytoplasm": 25,
+   "largest_cluster_n": 92,
+   "auroc_layer26_esm": 0.796767,
+   "auroc_composition": 0.673725,
+   "delta_auroc": 0.123042,
+   "sparse": true
+  },
+  {
+   "group": "not_annotated",
+   "n": 1741,
+   "n_extracellular": 41,
+   "n_cytoplasm": 1700,
+   "n_eligible_pairs": 69700,
+   "pair_weight_share_pct": 82.41,
+   "n_clusters_id30": 1208,
+   "n_clusters_extracellular": 21,
+   "n_clusters_cytoplasm": 1192,
+   "largest_cluster_n": 18,
+   "auroc_layer26_esm": 0.853773,
+   "auroc_composition": 0.851435,
+   "delta_auroc": 0.002339,
+   "sparse": false
+  }
+ ],
+ "unverifiable": {
+  "group": "unverifiable (separate, not in primary)",
+  "n": 83,
+  "n_extracellular": 17,
+  "n_cytoplasm": 66,
+  "n_eligible_pairs": 1122,
+  "pair_weight_share_pct": "",
+  "n_clusters_id30": 74,
+  "n_clusters_extracellular": 15,
+  "n_clusters_cytoplasm": 59,
+  "largest_cluster_n": 3,
+  "auroc_layer26_esm": 0.980392,
+  "auroc_composition": 0.924242,
+  "delta_auroc": 0.05615,
+  "sparse": true
+ },
+ "primary": {
+  "auroc_layer26_esm": 0.843746,
+  "auroc_composition": 0.820176,
+  "delta_auroc_esm_minus_composition": 0.02357,
+  "ci95_lo": -0.080258,
+  "ci95_hi": 0.101046,
+  "ci95_excludes_zero": 0,
+  "total_eligible_pairs": 84577
+ },
+ "bootstrap": {
+  "B": 10000,
+  "seed": 42,
+  "n_clusters_resampled": 1547,
+  "n_resamples_undefined_excluded": 0,
+  "n_valid_resamples": 10000,
+  "draws_with_degenerate_group": {}
+ }
+}

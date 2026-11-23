@@ -1,0 +1,7 @@
+# k used for kNN is: 32
+EXACTLY_30 extr 32
+DIGITS_AND_STAR extr 27, cyto_nucl 2.5, nucl 2
+LOWERCASE extr 22, E.R. 6, mito 2, lyso 2
+NO_MET_START extr 22, E.R. 6, mito 2, lyso 2
+DUPLICATE_ID extr 27, mito 2, lyso 2
+DUPLICATE_ID extr 24, lyso 3, mito 2

@@ -1,0 +1,11 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+core=10104  fit P1+P2=5190  P3=2548  P4=2366  (extracellular 1336/584/571)
+`torch_dtype` is deprecated! Use `dtype` instead!
+device=mps batch_tokens=6144 batches=815
+  batch 1/815  6/10,104 seqs  3s  2.05 seq/s
+  batch 51/815  306/10,104 seqs  139s  2.20 seq/s
+  batch 101/815  606/10,104 seqs  273s  2.22 seq/s
+  batch 151/815  906/10,104 seqs  438s  2.07 seq/s
+  batch 201/815  1,206/10,104 seqs  1,233s  0.98 seq/s
+  batch 251/815  1,506/10,104 seqs  1,977s  0.76 seq/s

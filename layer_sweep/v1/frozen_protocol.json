@@ -1,0 +1,92 @@
+{
+ "frozen_before_any_sweep_outcome_was_computed": true,
+ "date": "2026-11-22",
+ "authorised_by": "LOCALISATION_EXPERIMENT_SPEC.md Amendment A",
+ "not_a_replication_of": "Check-in 1 four-fold layer-8 result (DeepLoc2/rerun/esm2_probe). That design held each of P1-P4 out once; this design fits once on P1+P2. Different fitting and evaluation design; numbers are not comparable as a reproduction.",
+
+ "population": {
+  "name": "eligible core",
+  "definition": "discovery_analysis/v1/inclusion_manifest.tsv, in_core == 1",
+  "n": 10104,
+  "excluded": "8 E1_engineering_protein + 27 E2_p0_base_collision = 35 of 10,139",
+  "E3_coordinates_not_transferable": "NOT excluded here: E3 concerns transfer of UniProt residue coordinates, which this probe does not use",
+  "P0": "never read, never scored"
+ },
+ "roles": {
+  "fit": {"partitions": ["1", "2"], "use": "fit scaler and probe"},
+  "compare": {"partitions": ["3"], "use": "compare layers; the layer-selection criterion is computed here"},
+  "evaluate": {"partitions": ["4"], "use": "evaluated only AFTER the P3 comparison and selection rule are frozen"}
+ },
+ "P4_status": "NOT a fresh final test set. P1-P4 are development data (spec 2.4); P4 has already carried the 400-protein intervention evaluation, and every protein in this cohort has contributed to earlier analyses. All P4 figures are development evaluations and are labelled as such.",
+
+ "layers": {"range": [1, 33], "count": 33,
+  "indexing": "HF hidden_states[i] = output of transformer block i = fair-esm representations[i]. hidden_states[0] is the pre-block embedding output and is NOT swept."},
+
+ "feature_sets": {
+  "comp": {"desc": "composition baseline only", "dims": 41,
+           "definition": "EXACTLY the existing matched_C from DeepLoc2/esm2_probe/probe_deeploc.py lines 64-67: fracs(seq[:1022]) (20) + log(min(len(seq),1022)) (1) + fracs(seq[:30]) (20)",
+           "nonstandard_residues": "counted in the denominator, in none of the 20 numerators (project convention, baseline_localization.py lines 65-76)"},
+  "esm":  {"desc": "ESM embeddings only", "dims": 2560,
+           "definition": "concat(mean over all visible residue tokens, mean over first min(30,L) residue tokens) at the layer in question"},
+  "comp_plus_esm": {"desc": "composition baseline plus ESM", "dims": 2601,
+           "definition": "concat(comp, esm) - EXACTLY the existing c_matchedC_plus_ESM construction"}
+ },
+ "held_identical_across_layers": ["proteins", "input truncation at 1022 residues", "pooling",
+   "classifier settings", "training-only preprocessing", "feature construction"],
+
+ "classifier": {
+  "estimator": "sklearn.linear_model.LogisticRegression",
+  "penalty": "l2", "C": 1.0, "solver": "lbfgs", "max_iter": 5000, "random_state": 42,
+  "class_weight": null,
+  "source_of_settings": "identical to DeepLoc2/esm2_probe/probe_deeploc.py line 87-88 and DeepLoc2/baseline/baseline_localization.py line 198-199",
+  "convergence": "n_iter_ and ConvergenceWarning recorded per (layer, feature set). Settings are NEVER altered selectively by layer. If any fit fails to converge, the correction is documented and applied identically to ALL layers and feature sets, and the pre-correction run is retained."
+ },
+ "preprocessing": {
+  "scaler": "sklearn.preprocessing.StandardScaler",
+  "fit_on": "P1+P2 training rows ONLY; applied unchanged to P3 and P4"
+ },
+
+ "layer_selection": {
+  "criterion": "highest AUROC of the comp_plus_esm probe on P3",
+  "tie_break": "lower layer index",
+  "frozen_before": "any P4 prediction is computed",
+  "P4_use": "the selected layer and layer 8 are evaluated on P4. A replacement layer is NEVER chosen on the basis of P4."
+ },
+
+ "metrics": {
+  "primary": ["AUROC", "average precision"],
+  "also_reported": ["n", "class counts", "30% cluster count", "largest-cluster share"],
+  "weighting_primary": "protein-weighted (every protein weight 1)",
+  "weighting_sensitivity": "equal-cluster-weight: every protein receives weight 1/(size of its 30% cluster within the evaluated set), so each cluster contributes total weight 1. Reported as an explicitly labelled sensitivity analysis, never as the primary."
+ },
+
+ "cluster_sensitivity": {
+  "clustering": "HOMOLOGY_AUDIT.md v1, 30% identity / 80% bidirectional coverage, homology_audit/v1/cluster_membership.tsv",
+  "fitting_set_overlap_exclusion": "sensitivity analysis excluding evaluation proteins whose 30% cluster also contains a protein in the fitting set (P1+P2)",
+  "toxin_cluster": "the selected-layer vs layer-8 P4 comparison is also reported with the 30% cluster represented by Q2VBP4 removed. This is a SENSITIVITY ANALYSIS, not a replacement primary result.",
+  "mixed_class_clusters": "kept INTACT. They are never split to obtain class-stratified resamples. Resampling is therefore unstratified at the cluster level, and the realised class counts of each resample are recorded.",
+  "undefined_metrics": "a resample in which either class is absent yields an undefined AUROC/AP. Such resamples are EXCLUDED from the interval and their count is reported. They are never imputed, and never silently dropped."
+ },
+
+ "resampling": {
+  "procedure": "paired cluster bootstrap. Clusters (30% identity) present in the evaluated set are resampled WITH REPLACEMENT, whole; every protein of a drawn cluster enters the resample, and a cluster drawn twice contributes its members twice.",
+  "pairing": "the SAME resample indices are used for both models in a comparison, so the paired difference preserves the per-protein pairing of the two models' predictions.",
+  "B": 10000,
+  "seed": 42,
+  "interval": "percentile 95% CI on the paired difference",
+  "note": "Resampling clusters makes the interval account for the operational grouping of HOMOLOGY_AUDIT.md section 2. It does NOT establish independence between clusters."
+ },
+
+ "retrospective_intervention_reanalysis": {
+  "scope": "existing four paired contrasts from evaluation_p4, saved outcomes ONLY",
+  "no_model_reruns": true,
+  "preserve": "original eligible cases, original aggregation, original intervals, original four-comparison multiplicity adjustment",
+  "add": "cluster-aware paired resampling intervals, per-contrast cluster counts and largest-cluster contributions",
+  "label": "retrospective sensitivity analysis"
+ },
+
+ "forbidden": ["P0 access", "new interventions", "sequence generation", "commits", "pushes",
+               "altering previous outputs", "choosing a layer using P4",
+               "claiming the best probe layer is the best intervention layer",
+               "claiming any result establishes direct encoding"]
+}

@@ -1,0 +1,76 @@
+{
+  "integrity": {
+    "n_rows": 5760,
+    "n_edited": 1147,
+    "n_no_op_conditions": 252,
+    "no_op_delta_h_all_exactly_zero": true,
+    "no_op_max_delta_h_l2": 0.0,
+    "no_op_max_kl_aa20": 0.0,
+    "no_op_max_kl_full": 0.0,
+    "n_latent_coords_changed_max": 1,
+    "support_evicted_unintended_total": 0,
+    "support_inserted_unintended_total": 0,
+    "delta_confined_to_edited_position_all": true,
+    "n_delta_not_confined": 0,
+    "non_finite_metric_cells": 0,
+    "token_offset_checks_all_passed": true,
+    "proteins_with_duplicate_positions": []
+  },
+  "n_proteins": 24,
+  "n_Extracellular": 12,
+  "n_Cytoplasm": 12,
+  "active_edit_denominators": [
+    {
+      "candidate": 1446,
+      "n_sampled_conditions": 384,
+      "n_active_edit_conditions": 100,
+      "pct_active": "26.0",
+      "n_protein_position_cells": 96,
+      "n_cells_with_active_candidate": 25,
+      "pct_cells_active": "26.0",
+      "n_proteins_total": 24,
+      "n_proteins_with_any_active_cell": 12
+    },
+    {
+      "candidate": 2564,
+      "n_sampled_conditions": 384,
+      "n_active_edit_conditions": 96,
+      "pct_active": "25.0",
+      "n_protein_position_cells": 96,
+      "n_cells_with_active_candidate": 24,
+      "pct_cells_active": "25.0",
+      "n_proteins_total": 24,
+      "n_proteins_with_any_active_cell": 13
+    },
+    {
+      "candidate": 3900,
+      "n_sampled_conditions": 384,
+      "n_active_edit_conditions": 168,
+      "pct_active": "43.8",
+      "n_protein_position_cells": 96,
+      "n_cells_with_active_candidate": 42,
+      "pct_cells_active": "43.8",
+      "n_proteins_total": 24,
+      "n_proteins_with_any_active_cell": 17
+    }
+  ],
+  "control_shortfall": {
+    "1446": {
+      "requested": 5,
+      "found": 0
+    },
+    "3900": {
+      "requested": 5,
+      "found": 4
+    }
+  },
+  "output_hashes": {
+    "condition_availability.tsv": "163f7695e60a77ecb7795dc2252b05540acc93024cfe0b3951296b32f6860d86",
+    "active_edit_denominators.tsv": "383318ff8710d0eab5114732991f49699c3c40c4778f94b97899226dfa09e6d7",
+    "dose_response.tsv": "34577628236a7e56f006438b537cd9b82735e7e3abe08a778379245630591350",
+    "by_mask_position.tsv": "bd55e6cf313cb8f2ea395eb0e72705e5eafac27138c909c9058bd35f3732e94b",
+    "candidate_vs_control_paired.tsv": "fa34656a5b44a92d8a493d05ecfdd25dcde003a72409db5ae6b5b72fb2122aa0",
+    "realised_norm_match.tsv": "eac03f86a738499ecd842e83805addcd053b58268a643ff7c2410cda015c580e",
+    "per_protein_summary.tsv": "e618e22e68a84f327fa0a7aa308150878e7bd6a0d268370655412d15df3fd3e7"
+  }
+}

@@ -1,0 +1,9 @@
+candidate	multiplier	n_control_conditions_total	n_available_v2	n_available_v1_latent_matched	lost_vs_v1	unavailable_control_inactive	unavailable_negative_latent	unavailable_topk	unavailable_norm_tolerance	candidate_inactive	max_rel_norm_error	median_rel_norm_error
+2564	0.0	480	5	5	0	108	7	0	0	360	2.216e-07	1.170e-07
+2564	0.5	480	7	7	0	108	5	0	0	360	2.216e-07	1.246e-07
+2564	1.5	480	12	12	0	108	0	0	0	360	3.323e-07	1.034e-07
+2564	2.0	480	12	12	0	108	0	0	0	360	2.216e-07	1.208e-07
+3900	0.0	384	57	73	16	19	92	0	0	216	5.613e-07	3.034e-07
+3900	0.5	384	109	124	15	19	40	0	0	216	7.147e-07	2.811e-07
+3900	1.5	384	149	149	0	19	0	0	0	216	5.956e-07	2.997e-07
+3900	2.0	384	149	149	0	19	0	0	0	216	5.956e-07	2.978e-07

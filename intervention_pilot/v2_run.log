@@ -1,0 +1,28 @@
+/Users/ebenezertseh/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+  [1/24] Q9Y749 rows=180 passes=18 6s
+  [2/24] Q90YK5 rows=180 passes=51 14s
+  [3/24] Q9NL39 rows=180 passes=62 15s
+  [4/24] H2A0L1 rows=180 passes=76 18s
+  [5/24] A0A3B7TLV2 rows=180 passes=105 24s
+  [6/24] A0A097PTA8 rows=180 passes=126 26s
+  [7/24] Q9ZVA2 rows=180 passes=163 34s
+  [8/24] D2DGD3 rows=180 passes=182 35s
+  [9/24] L8FSM5 rows=180 passes=200 38s
+  [10/24] P61366 rows=180 passes=234 41s
+  [11/24] P30623 rows=180 passes=248 42s
+  [12/24] P0CV05 rows=180 passes=302 51s
+  [13/24] Q7JRE4 rows=180 passes=342 63s
+  [14/24] O95295 rows=180 passes=405 68s
+  [15/24] Q08925 rows=180 passes=456 81s
+  [16/24] O14047 rows=180 passes=507 89s
+  [17/24] Q9UTG2 rows=180 passes=553 102s
+  [18/24] P40023 rows=180 passes=605 107s
+  [19/24] P0DME0 rows=180 passes=651 113s
+  [20/24] Q501Q9 rows=180 passes=701 126s
+  [21/24] Q96301 rows=180 passes=753 148s
+  [22/24] Q15436 rows=180 passes=793 162s
+  [23/24] Q09780 rows=180 passes=843 171s
+  [24/24] Q10447 rows=180 passes=884 183s
+done: 884 passes, 183s

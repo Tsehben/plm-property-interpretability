@@ -1,0 +1,7 @@
+database	threshold_per_class	n_groups_total	n_groups_mixed_class	n_groups_eligible	n_distinct_member_sets	n_eligible_groups_nested_in_another	n_eligible_with_ge2_per_class_in_both_P1_and_P2	n_eligible_with_an_empty_partition_cell	n_Extracellular_in_eligible_groups	n_Cytoplasm_in_eligible_groups	note	n_distinct_proteins_covered	n_distinct_Extracellular_covered	n_distinct_Cytoplasm_covered	pct_of_discovery_core_covered
+InterPro	5	6175	272	38	35	17	21	16	559	808	group memberships overlap; protein totals are not disjoint	704	333	371	13.6
+InterPro	10	6175	272	13	11	4	10	3	275	357	group memberships overlap; protein totals are not disjoint	423	170	253	8.2
+InterPro	20	6175	272	3	3	0	3	0	135	113	group memberships overlap; protein totals are not disjoint	246	133	113	4.7
+Pfam	5	2933	103	7	7	0	2	5	46	74	group memberships overlap; protein totals are not disjoint	93	38	55	1.8
+Pfam	10	2933	103	0	0	0	0	0	0	0	group memberships overlap; protein totals are not disjoint	0	0	0	0.0
+Pfam	20	2933	103	0	0	0	0	0	0	0	group memberships overlap; protein totals are not disjoint	0	0	0	0.0

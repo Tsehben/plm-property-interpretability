@@ -1,0 +1,101 @@
+{
+ "event": "graceful stop of run_full_sweep.py (v1 in-memory design)",
+ "signal": "SIGTERM to pid 82750; process exited",
+ "stopped_at": {
+  "batches_completed": 251,
+  "batches_total": 815,
+  "sequences_completed": 1506,
+  "sequences_total": 10104,
+  "residues_completed": 1511933,
+  "residues_total": 4805343,
+  "elapsed_s": 1977
+ },
+ "counter_reconciliation": {
+  "batching_recomputed_deterministically": true,
+  "batches": 815,
+  "sequences_covered": 10104,
+  "duplicates": 0,
+  "omissions": 0,
+  "cumulative_at_logged_marks": {
+   "101": 606,
+   "151": 906,
+   "201": 1206,
+   "251": 1506,
+   "815": 10104
+  },
+  "log_reported": {
+   "101": 606,
+   "151": 906,
+   "201": 1206,
+   "251": 1506,
+   "815": 10104
+  },
+  "counters_reconcile": true,
+  "why_batches_outpace_sequences": "batches are length-sorted descending and token-balanced, so early batches hold few long sequences: 30.8% of batches = 14.9% of sequences = 31.5% of residues"
+ },
+ "extraction_population_confirmed": {
+  "definition": "discovery_analysis/v1/inclusion_manifest.tsv, in_core==1",
+  "n": 10104,
+  "distinct_accessions": 10104,
+  "frozen_sha256_mismatches": 0,
+  "by_partition": {
+   "P1": 2484,
+   "P2": 2706,
+   "P3": 2548,
+   "P4": 2366
+  },
+  "roles": {
+   "fit_P1_P2": 5190,
+   "compare_P3": 2548,
+   "evaluate_P4": 2366
+  },
+  "classes": {
+   "Extracellular": 2491,
+   "Cytoplasm": 7613
+  },
+  "matches_discovery_analysis_core_row": true
+ },
+ "RECOVERABLE_EMBEDDINGS": 0,
+ "recoverable_embeddings_explanation": "run_full_sweep.py accumulated pooled vectors for all 33 layers in a single in-memory array and wrote its first embedding-bearing file only AFTER extraction finished. No embedding bytes ever reached disk, so the 1,506 completed sequences could not be saved and none are reusable. This is a property of the v1 design, not of the stop.",
+ "persisted_files": {
+  "extract.log": {
+   "bytes": 527,
+   "sha256": "2b8e7ddbe1dbd783c40bb1c0b8cfd55a2192f1000d26e87aec2794aeaef243fe"
+  },
+  "frozen_protocol.json": {
+   "bytes": 6580,
+   "sha256": "0d393b690ca2c8e1a467fc3b2ef8c99804258dbb1bd5838402305a082169177a"
+  },
+  "intervention_cluster_sensitivity.json": {
+   "bytes": 4528,
+   "sha256": "33da73be639bcb41a22d9287c9aa7292802e1d678d70f961a6ec999bff227213"
+  },
+  "intervention_cluster_sensitivity.tsv": {
+   "bytes": 1455,
+   "sha256": "1268b1312f68ff252b7951019d63ad4ea4d2e76f03e405dd3b225b2fa2e25ad3"
+  },
+  "resource_check.json": {
+   "bytes": 3116,
+   "sha256": "43999917656c55819d6dc053096b188edf1fafa5e9f5ed078e720c3a91e9e864"
+  },
+  "resource_plan.json": {
+   "bytes": 394,
+   "sha256": "93abfd546e8b5397f349d8a0c67b5c3f614cb261bd9025541718551a8968d449"
+  },
+  "stop_reconciliation.json": {
+   "bytes": 432,
+   "sha256": "c30750edc884a79ce1c6747ceb04191ae7419aff3c84123854648e2699a8999a"
+  },
+  "sweep.log": {
+   "bytes": 752,
+   "sha256": "4362950c668c4d092ef34e5f1f54296bfdcae220c064ea270ae7eb3e10d2fbaa"
+  }
+ },
+ "nothing_deleted": [
+  "no caches",
+  "no application data",
+  "no previous outputs"
+ ],
+ "unrelated_applications": "untouched",
+ "further_extraction_started": false
+}

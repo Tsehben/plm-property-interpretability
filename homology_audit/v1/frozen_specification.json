@@ -1,0 +1,54 @@
+{
+ "frozen_before_any_cluster_output_was_examined": true,
+ "tool": {
+  "name": "MMseqs2",
+  "version": "19-ab57c",
+  "install": "local, Homebrew bottle (arm64_tahoe); no sequence left this machine",
+  "install_command": "brew install mmseqs2",
+  "binary": "/opt/homebrew/bin/mmseqs",
+  "machine": "Darwin arm64, 12 cores"
+ },
+ "algorithm": {
+  "command": "mmseqs easy-cluster",
+  "cluster_mode": "0 (Set-Cover greedy, MMseqs2 default), run as cascaded clustering",
+  "cluster_reassign": 1,
+  "sensitivity_s": 7.5,
+  "evalue_threshold": 0.001,
+  "alignment_mode": "3 (score, end_pos, seq_id and coverage computed)",
+  "threads": 12,
+  "note": "Cascaded clustering can admit members that do not themselves meet the criteria against the representative; --cluster-reassign 1 reassigns them. -s 7.5 is the sensitive setting, chosen because 30% identity is remote and the default -s 4.0 would under-recall distant pairs. The SAME settings are used at all three identity thresholds so the three results are comparable."
+ },
+ "sequence_identity_definition": {
+  "seq_id_mode": "0",
+  "meaning": "identity counted over the ALIGNED length (identical aligned residue pairs / alignment length), not over the full or shorter sequence"
+ },
+ "coverage_requirement": {
+  "c": 0.8,
+  "cov_mode": "0",
+  "meaning": "BIDIRECTIONAL: the alignment must cover at least 80% of the query AND at least 80% of the target"
+ },
+ "thresholds": {
+  "primary": {"min_seq_id": 0.30, "c": 0.8, "cov_mode": 0},
+  "secondary": [
+   {"min_seq_id": 0.50, "c": 0.8, "cov_mode": 0},
+   {"min_seq_id": 0.80, "c": 0.8, "cov_mode": 0}
+  ]
+ },
+ "input": {
+  "file": "homology_audit/v1/development_10139.fasta",
+  "sha256": "2fd9d8cc08c2745245ea9ab9dcbc213ed225e8a86ad87de8dba9fcf644497121",
+  "n_sequences": 10139,
+  "population": "ALL P1-P4 development proteins; E1/E2/E3 exclusion flags carried as columns, NOT applied",
+  "sequences": "original full-length DeepLoc sequences, NOT ESM-truncated at 1022",
+  "nonstandard_residues": "U(59) X(18) B(1) across 22 proteins, written verbatim; MMseqs2 maps unknown codes to X at scoring time; no substitution, no drop",
+  "isoforms": "268 isoform accessions resolved by their own accession; canonical never substituted"
+ },
+ "interpretation_limits": [
+  "These are OPERATIONAL sequence-similarity clusters. They are not verified protein families and they are not proof of evolutionary independence.",
+  "Bidirectional 80% coverage requires global-ish similarity. It will MISS shared domains, partial homology, multi-domain proteins that share one domain, and homologous regions inside proteins of very different length. Two proteins in different clusters may still be substantially related.",
+  "Set-Cover clustering is greedy and representative-based. Membership is transitive through the representative, so a cluster is not guaranteed to be a clique: two members may be less similar to each other than each is to the representative.",
+  "Cluster counts are threshold- and coverage-dependent artifacts of this configuration, not intrinsic properties of the cohort.",
+  "Absence of a shared cluster is NOT evidence of absence of sequence similarity."
+ ],
+ "forbidden_in_this_step": ["P0 access", "label or partition changes", "model fitting", "embedding extraction", "interventions", "commit", "push"]
+}

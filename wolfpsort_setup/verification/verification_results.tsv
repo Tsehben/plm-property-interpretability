@@ -1,0 +1,38 @@
+group	check	result	detail
+1. packaged regression	animal: output matches REGRESSION exactly	PASS	5 lines; expected 5
+1. packaged regression	animal: stderr empty	PASS	(empty)
+1. packaged regression	fungi: output matches REGRESSION exactly	PASS	5 lines; expected 5
+1. packaged regression	fungi: stderr empty	PASS	(empty)
+1. packaged regression	plant: output matches REGRESSION exactly	PASS	5 lines; expected 5
+1. packaged regression	plant: stderr empty	PASS	(empty)
+2. input forms	single-sequence FASTA yields exactly one record	PASS	n_input=1 n_predicted=1
+2. input forms	multi-sequence FASTA yields one record per input, in order	PASS	n_input=10 n_predicted=10
+2. input forms	single-sequence result identical inside the multi-sequence run	PASS	compared separately in check group 6
+3. identifiers	identifiers preserved verbatim up to first whitespace	PASS	got=['plain_id', 'sp|P12345|NAME_HUMAN', 'id.with.dots-and_underscores:colons', 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA']
+3. identifiers	free-text description is not absorbed into the identifier	PASS	got=['plain_id', 'sp|P12345|NAME_HUMAN', 'id.with.dots-and_underscores:colons', 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA']
+3. identifiers	no record is unexplained or unparsable	PASS	[('plain_id', 'predicted'), ('sp|P12345|NAME_HUMAN', 'predicted'), ('id.with.dots-and_underscores:colons', 'predicted'), ('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', 'predicted')]
+4. organism modes	animal mode runs and reports k	PASS	k=32.0 top=extr
+4. organism modes	fungi mode runs and reports k	PASS	k=27.0 top=nucl
+4. organism modes	plant mode runs and reports k	PASS	k=14.0 top=chlo
+4. organism modes	k differs by organism model (scores are not comparable across models)	PASS	{"animal": 32.0, "fungi": 27.0, "plant": 14.0}
+5. output parsing	every reference-set query produced a parsable line	PASS	[('A1AG_HUMAN|extr', 'predicted'), ('A1AG_MUSCR|extr', 'predicted'), ('A1AH_HUMAN|extr', 'predicted'), ('143B_BOVIN|cyto', 'predicted'), ('143B_HUMAN|cyto', 'predicted'), ('143B_RAT|cyto', 'predicted'), ('EDA_HUMAN|extr_plas', 'predicted'), ('T13B_HUMAN|extr_plas', 'predicted'), ('A32E_MOUSE|cyto_nu
+5. output parsing	extracellular-labelled queries parse with a positive extr score	PASS	[{"id": "A1AG_HUMAN|extr", "top_site": "extr", "extr": 22.0, "cyto": 0.0, "delta": 22.0}, {"id": "A1AG_MUSCR|extr", "top_site": "extr", "extr": 24.0, "cyto": 0.0, "delta": 24.0}, {"id": "A1AH_HUMAN|extr", "top_site": "extr", "extr": 23.0, "cyto": 0.0, "delta": 23.0}]
+5. output parsing	cytoplasm-labelled queries parse with a positive cyto score	PASS	[{"id": "143B_BOVIN|cyto", "top_site": "cyto", "extr": 0.0, "cyto": 25.0, "delta": -25.0}, {"id": "143B_HUMAN|cyto", "top_site": "cyto", "extr": 0.0, "cyto": 25.0, "delta": -25.0}, {"id": "143B_RAT|cyto", "top_site": "cyto", "extr": 0.0, "cyto": 24.0, "delta": -24.0}]
+5. output parsing	dual-localisation classes appear and parse as single tokens	PASS	compound top sites seen: []
+5. output parsing	readout never sums a compound score into extr or cyto	PASS	by construction; verified against raw sites
+6. failure handling	sequences under 30 residues are reported as skipped, not lost	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	a 30-residue sequence is accepted (boundary)	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	a sequence containing 'O' is reported as skipped	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	digits and '*' are stripped rather than rejected	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	lowercase input is accepted	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	a sequence not starting with M is predicted, not dropped	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	duplicate identifiers are kept as two records, not collapsed	PASS	[('DUPLICATE_ID', 'predicted', 'DUPLICATE_ID extr 27, mito 2, lyso 2'), ('DUPLICATE_ID', 'predicted', 'DUPLICATE_ID extr 24, lyso 3, mito 2')]
+6. failure handling	no record is left unexplained	PASS	{"EMPTY_SEQ": "skipped: shorter than 30 residues", "TOO_SHORT_1": "skipped: shorter than 30 residues", "TOO_SHORT_29": "skipped: shorter than 30 residues", "EXACTLY_30": "predicted", "HAS_O_RESIDUE": "skipped: contains residue 'O'", "DIGITS_AND_STAR": "predicted", "LOWERCASE": "predicted", "NO_MET_S
+6. failure handling	the program itself gives no sign of the dropped records (why reconciliation is required)	PASS	10 input records, 6 output lines, wrapper exit 0
+6. failure handling	empty input produces no prediction and a diagnostic	PASS	Error: empty input Modification of non-creatable array value attempted, subscript -1 at /opt/wolfpsort/bin/psortModifiedForWolfFiles/psortModules/PsortFastaReader.pm line 440. 
+6. failure handling	headerless raw sequence is given the synthetic id 'queryProtein'	PASS	['queryProtein']
+6. failure handling	bare '>' headers become queryProtein1..N	PASS	['queryProtein1', 'queryProtein2']
+6. failure handling	non-FASTA prose yields no prediction	PASS	
+7. determinism	three identical runs give byte-identical output	PASS	sha256=ccad3e4098c8f151eba66136ed1bf97eac8b45b9e958401423814c6569c94008
+7. determinism	determinism holds across the regression query too	PASS	re-hashed from disk
+7. determinism	a sequence scores identically alone and in a multi-FASTA batch	PASS	single='extr 22, E.R. 6, mito 2, lyso 2' multi='extr 22, E.R. 6, mito 2, lyso 2'

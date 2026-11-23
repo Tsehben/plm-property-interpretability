@@ -1,0 +1,17 @@
+band	lower	upper	n	n_extracellular	n_cytoplasm	n_eligible_pairs	pair_weight_share_pct	n_clusters_id30	largest_cluster_n	auroc_layer26_esm	auroc_composition	delta_auroc
+1		-0.0666666667	475	26	449	11674	5.331	370	8	0.99803	0.960768	0.037262
+2	-0.0666666667	-0.0333333333	248	32	216	6912	3.157	211	4	0.96658	0.951389	0.015191
+3	-0.0333333333	0.0333333333	638	215	423	90945	41.532	471	47	0.984579	0.968047	0.016532
+4	0.0333333333	0.0666666667	342	135	207	27945	12.762	263	26	0.977563	0.974307	0.003256
+5	0.0666666667		663	163	500	81500	37.219	494	19	0.979018	0.957779	0.021239
+
+PRIMARY (pair-weighted mean of within-band AUROCs)
+model	auroc
+layer26_esm	0.981763
+composition	0.964110
+delta_esm_minus_composition	0.017653
+ci95_lo	0.008132
+ci95_hi	0.029287
+n_clusters	1547
+n_resamples	10000
+undefined_excluded	0

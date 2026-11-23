@@ -1,0 +1,192 @@
+{
+  "inputs_read": [
+    "out/annotation_primary.tsv",
+    "out/annotation_features.tsv",
+    "out/annotation_domains.tsv",
+    "DeepLoc2/baseline/deeploc_binary_manifest.tsv"
+  ],
+  "network_requests": 0,
+  "originals_modified": [],
+  "n_primary_rows": 10139,
+  "organism_cross_check": {
+    "n_deeploc_kingdom_other": 342,
+    "n_of_those_resolved": 342,
+    "n_of_those_outside_supported_groups": 342,
+    "n_of_those_unresolved": 0,
+    "n_unresolved_outside_the_other_bucket": 1,
+    "unresolved_accessions": [
+      "Q9Y6N3"
+    ],
+    "unresolved_deeploc_kingdom": [
+      "Metazoa"
+    ]
+  },
+  "status_dimension_overlap": {
+    "n_accession_not_current": 6,
+    "n_sequence_not_exact": 120,
+    "n_in_both": 4,
+    "n_union": 122,
+    "naive_sum": 126,
+    "merged_with_exact_sequence": [
+      "A0A140G945",
+      "G0Y276"
+    ],
+    "note": "The original report's 122 is the UNION of 'accession not current' and 'sequence not exact', not a sum of independent failures. Of that union, 2 rows are merged accessions whose retrieved sequence is SHA-256 identical to the frozen input: those are provenance caveats, not annotation failures."
+  },
+  "reclassified_outcomes": {
+    "annotation_not_transferable": 117,
+    "usable_with_provenance_caveat": 2,
+    "no_annotation_available": 3
+  },
+  "signal_counting": {
+    "n_proteins_with_signal_annotation": 2439,
+    "n_signal_feature_records": 2507,
+    "n_signal_feature_records_on_annotated_proteins": 2439,
+    "n_signal_evidence_rows": 2680,
+    "n_proteins_with_more_than_one_evidence_category": 20,
+    "note": "2,439 counts PROTEINS whose signal status is annotated_present. Each has exactly one signal feature. annotation_features.tsv holds one row per (feature, evidence) pair, so its row count is larger."
+  },
+  "n_unverifiable": 381,
+  "eco255_tool_attribution": {
+    "n_eco255_evidence_rows": 1875,
+    "n_with_a_named_source": 2,
+    "named_sources": {
+      "HAMAP-Rule:MF_03060": 1,
+      "HAMAP-Rule:MF_03108": 1
+    },
+    "note": "ECO:0000255 is 'match to sequence model evidence used in manual assertion'. It does not name a tool. In this cohort the evidence source field is empty for 1873 of 1875 ECO:0000255 signal-peptide evidence rows, so the generating method is unidentified and must not be reported as any particular predictor."
+  },
+  "p0_accounting": {
+    "n_unique_development_proteins_affected": 27,
+    "n_in_both_groups": 0,
+    "groups": {
+      "base_is_p0_row": {
+        "n_development_proteins": 15,
+        "development_proteins": [
+          "O35426-2",
+          "O75410-10",
+          "O95278-4",
+          "O95278-5",
+          "O95278-7",
+          "O95831-4",
+          "O95831-5",
+          "P60484-2",
+          "Q12955-7",
+          "Q6NYC8-4",
+          "Q9BXL6-2",
+          "Q9BXL6-3",
+          "Q9HDD0-2",
+          "Q9QZU4-2",
+          "Q9UMS6-5"
+        ],
+        "n_unique_base_accessions": 11,
+        "unique_base_accessions": [
+          "O35426",
+          "O75410",
+          "O95278",
+          "O95831",
+          "P60484",
+          "Q12955",
+          "Q6NYC8",
+          "Q9BXL6",
+          "Q9HDD0",
+          "Q9QZU4",
+          "Q9UMS6"
+        ]
+      },
+      "base_shares_with_p0_isoform": {
+        "n_development_proteins": 12,
+        "development_proteins": [
+          "F1MAB7",
+          "F1MAB7-2",
+          "O00165",
+          "O00165-3",
+          "O00165-5",
+          "P17693-6",
+          "P30279",
+          "P55957",
+          "Q03001",
+          "Q03001-11",
+          "Q86W56-4",
+          "Q8WU39"
+        ],
+        "n_unique_base_accessions": 8,
+        "unique_base_accessions": [
+          "F1MAB7",
+          "O00165",
+          "P17693",
+          "P30279",
+          "P55957",
+          "Q03001",
+          "Q86W56",
+          "Q8WU39"
+        ]
+      }
+    },
+    "p0_cohort_rows_with_an_annotation_row": 0,
+    "p0_cohort_rows_requested_as_annotation_targets": 0,
+    "n_p0_accessions_fetched_as_parent_records": 11,
+    "p0_accessions_fetched_as_parent_records": [
+      "O35426",
+      "O75410",
+      "O95278",
+      "O95831",
+      "P60484",
+      "Q12955",
+      "Q6NYC8",
+      "Q9BXL6",
+      "Q9HDD0",
+      "Q9QZU4",
+      "Q9UMS6"
+    ],
+    "n_development_rows_carrying_parent_derived_fields_from_a_p0_accession": 15,
+    "parent_derived_fields": [
+      "organism_scientific_name",
+      "organism_taxon_id",
+      "organism_lineage",
+      "entry_version",
+      "first_public_date",
+      "last_annotation_update",
+      "last_sequence_update",
+      "n_pfam",
+      "n_interpro",
+      "pfam_ids",
+      "interpro_ids",
+      "family_similarity_text",
+      "subcellular_location_text",
+      "parent_entry_has_signal"
+    ],
+    "p0_localisation_information_used": {
+      "deeploc_p0_labels_used": false,
+      "uniprot_subcellular_location_comment_copied_from_a_p0_accession_entry": 15,
+      "affected_development_rows": [
+        "O35426-2",
+        "O75410-10",
+        "O95278-4",
+        "O95278-5",
+        "O95278-7",
+        "O95831-4",
+        "O95831-5",
+        "P60484-2",
+        "Q12955-7",
+        "Q6NYC8-4",
+        "Q9BXL6-2",
+        "Q9BXL6-3",
+        "Q9HDD0-2",
+        "Q9QZU4-2",
+        "Q9UMS6-5"
+      ],
+      "note": "The DeepLoc P0 label was never read. However, the UniProt entry for these parent accessions IS a P0 cohort row, and its entry-level comments - including SUBCELLULAR LOCATION - were copied onto the development isoform rows. This is entry-level UniProt annotation about a held-out protein reaching a development row, and it is reported rather than claimed absent. No additional P0 records were inspected for this reconciliation."
+    },
+    "flags_retained": true,
+    "rows_deleted": 0,
+    "holdout_altered": false
+  },
+  "family_domain": {
+    "n_pfam_xref_rows": 17118,
+    "n_interpro_xref_rows": 45264,
+    "n_distinct_pfam": 4828,
+    "n_distinct_interpro": 10239,
+    "caveat": "A Pfam or InterPro entry is a region-level annotation. It is not a whole-protein family assignment, and multi-domain proteins carry several. No homology clustering has been computed, and no family-disjointness between partitions is claimed."
+  }
+}

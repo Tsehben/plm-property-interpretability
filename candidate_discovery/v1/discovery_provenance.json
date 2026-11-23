@@ -1,0 +1,125 @@
+{
+  "config": {
+    "sample": "discovery core P1+P2 (engineering and p0_base_collision excluded)",
+    "expected_n": 5190,
+    "checkpoint": "facebook/esm2_t33_650M_UR50D",
+    "checkpoint_revision": "08e4846e537177426273712802403f7ba8261b6c",
+    "layer": 8,
+    "layer_indexing": "HF hidden_states[8] = output of encoder.layer[7]",
+    "dtype": "float32",
+    "mode": "eval, inference_mode, frozen",
+    "sae_repo": "liambai/InterProt-ESM2-SAEs",
+    "sae_revision": "3ded2e51641df84d6b89f25430874e3a8eb42c24",
+    "sae_file": "esm2_plm1280_l8_sae4096.safetensors",
+    "sae_sha256": "1172503b90c950651e787a5625d91ff1c702a04ff3d851e8e95b700201e56ebd",
+    "sae_d_model": 1280,
+    "sae_d_hidden": 4096,
+    "sae_k": 128,
+    "max_residues": 1022,
+    "truncation_policy": "first 1022 residues, unchanged from the existing screening policy",
+    "token_policy": "<cls> + L residue tokens + <eos>; pooling uses hidden[1:1+L] only; special tokens and padding excluded",
+    "primary_summary": "mean_nterm: mean SAE activation over the first 30 amino-acid positions",
+    "secondary_summary": "mean_visible: mean SAE activation over all visible amino-acid positions",
+    "eligibility": "feature active (>0) at least once within the first 30 positions in at least 5% of discovery proteins; the SAE's training-time dead list is NOT used",
+    "ranking_statistic": "abs(AUROC - 0.5) of the primary summary against the frozen DeepLoc binary label; ties broken by ascending feature id",
+    "n_candidates": 20,
+    "label_source": "frozen DeepLoc binary target in deeploc_binary_manifest.tsv",
+    "reserved_partitions_excluded": [
+      "0",
+      "3",
+      "4"
+    ]
+  },
+  "config_hash": "33a3b89d20605f4a80df1257ce131ee95c649dde9e04e02bab950c8e17d9cd22",
+  "sample_checks": {
+    "n_rows": 5190,
+    "expected_n": 5190,
+    "sequence_hash_mismatches": [],
+    "missing_sequences": [],
+    "label_mismatches": [],
+    "partition_violations": [],
+    "n_usable": 5190
+  },
+  "extraction": {
+    "reference_agreement": {
+      "n_sequences": 4,
+      "max_abs_difference": 0.0,
+      "accessions": [
+        "P82349",
+        "Q7L5N1",
+        "P63086",
+        "P21708"
+      ]
+    },
+    "n_proteins": 5190,
+    "n_visible_residues": 2434672,
+    "nonfinite_proteins": 0,
+    "seconds": 1099.8592598438263
+  },
+  "ranking_summary": {
+    "n_proteins": 5190,
+    "n_Extracellular": 1336,
+    "n_Cytoplasm": 3854,
+    "n_features": 4096,
+    "n_eligible": 2867,
+    "n_ineligible": 1229,
+    "eligibility_rule": "feature active (>0) at least once within the first 30 positions in at least 5% of discovery proteins; the SAE's training-time dead list is NOT used",
+    "eligible_prevalence_min": 0.05009633911368015,
+    "n_features_never_active_in_window": 55,
+    "n_features_never_active_anywhere": 23,
+    "training_time_dead_list_used": false
+  },
+  "stability": {
+    "definition_top20_overlap": "|top-20 by |AUROC-0.5| computed on P1 alone  INTERSECT  top-20 computed on P2 alone|, both restricted to the eligible set defined on P1+P2 together",
+    "top20_P1_vs_P2_overlap": 19,
+    "selected_in_P1_top20": 19,
+    "selected_in_P2_top20": 19,
+    "selected_in_both_P1_and_P2_top20": 18,
+    "definition_rank_correlation": "Spearman rank correlation across all eligible features between the P1 and P2 values of the statistic named; computed on the feature-level statistics, not on proteins",
+    "spearman_signed_auroc_P1_P2": 0.899017388838117,
+    "spearman_abs_auroc_minus_half_P1_P2": 0.7370863991819092,
+    "note": "Exploratory discovery statistics. No pass quota is applied, the ranking is not altered if agreement is weak, and these are not held-out performance figures. No significance claim is made: the statistic was screened over thousands of features without multiplicity control."
+  },
+  "selected_feature_ids": [
+    3900,
+    642,
+    1446,
+    243,
+    963,
+    2040,
+    317,
+    250,
+    2737,
+    627,
+    1052,
+    50,
+    900,
+    2564,
+    3731,
+    1235,
+    999,
+    217,
+    1946,
+    657
+  ],
+  "output_hashes": {
+    "selected_feature_ids.json": "070d0f43a9aea7a4de9102e377d7eb70b3ca7e44578ff709fddd3beecddbb917",
+    "eligible_feature_ranking.tsv": "ff0ab17f60ead16b867a97d53967637ce6bdba4206a49e5fab49aeec4d3c3443"
+  },
+  "inputs": {
+    "analysis_view_discovery.tsv": "c15c3290f37d3d72f0adc27e4f553660ba5c46d705af98b4a5a71b758b75407f",
+    "deeploc_binary_manifest.tsv": "be9447dd4df185607ea211160db7015056a2bdcb52d2f3b4e86ce9c8890f885d",
+    "esm2_plm1280_l8_sae4096.safetensors": "1172503b90c950651e787a5625d91ff1c702a04ff3d851e8e95b700201e56ebd"
+  },
+  "environment": {
+    "python": "3.9.6",
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "device": "mps",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "machine": "arm64"
+  },
+  "total_seconds": 1108.603600025177
+}

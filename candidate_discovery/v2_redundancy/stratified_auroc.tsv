@@ -1,0 +1,401 @@
+feature_id	partition	control	stratum	n	n_Extracellular	n_Cytoplasm	auroc	status
+3900	1	none (full partition)	all	2484	519	1965	0.036783	scored
+3900	1	original length <= 1022	not truncated	2207	494	1713	0.035428	scored
+3900	1	kingdom	Fungi	620	112	508	0.024852	scored
+3900	1	kingdom	Metazoa	1515	317	1198	0.042983	scored
+3900	1	kingdom	Other	81	55	26	0.009091	scored
+3900	1	kingdom	Viridiplantae	268	35	233	0.040711	scored
+3900	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.035065	scored
+3900	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.048425	scored
+3900	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.017191	scored
+3900	1	original-length quartile	Q4: len > 672	623	64	559	0.064988	scored
+3900	2	none (full partition)	all	2706	817	1889	0.014513	scored
+3900	2	original length <= 1022	not truncated	2430	792	1638	0.015448	scored
+3900	2	kingdom	Fungi	546	92	454	0.011983	scored
+3900	2	kingdom	Metazoa	1792	635	1157	0.012782	scored
+3900	2	kingdom	Other	80	52	28	0.022665	scored
+3900	2	kingdom	Viridiplantae	288	38	250	0.064211	scored
+3900	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.011244	scored
+3900	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.030446	scored
+3900	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.022609	scored
+3900	2	original-length quartile	Q4: len > 672	675	50	625	0.030752	scored
+642	1	none (full partition)	all	2484	519	1965	0.963466	scored
+642	1	original length <= 1022	not truncated	2207	494	1713	0.966313	scored
+642	1	kingdom	Fungi	620	112	508	0.975842	scored
+642	1	kingdom	Metazoa	1515	317	1198	0.957586	scored
+642	1	kingdom	Other	81	55	26	0.981818	scored
+642	1	kingdom	Viridiplantae	268	35	233	0.950950	scored
+642	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.966582	scored
+642	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.963416	scored
+642	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.985177	scored
+642	1	original-length quartile	Q4: len > 672	623	64	559	0.905188	scored
+642	2	none (full partition)	all	2706	817	1889	0.981001	scored
+642	2	original length <= 1022	not truncated	2430	792	1638	0.980859	scored
+642	2	kingdom	Fungi	546	92	454	0.984881	scored
+642	2	kingdom	Metazoa	1792	635	1157	0.982419	scored
+642	2	kingdom	Other	80	52	28	0.991071	scored
+642	2	kingdom	Viridiplantae	288	38	250	0.923474	scored
+642	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.993960	scored
+642	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.960029	scored
+642	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.966618	scored
+642	2	original-length quartile	Q4: len > 672	675	50	625	0.976976	scored
+1446	1	none (full partition)	all	2484	519	1965	0.965073	scored
+1446	1	original length <= 1022	not truncated	2207	494	1713	0.964826	scored
+1446	1	kingdom	Fungi	620	112	508	0.984498	scored
+1446	1	kingdom	Metazoa	1515	317	1198	0.957616	scored
+1446	1	kingdom	Other	81	55	26	0.979720	scored
+1446	1	kingdom	Viridiplantae	268	35	233	0.948130	scored
+1446	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.962068	scored
+1446	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.963036	scored
+1446	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.982032	scored
+1446	1	original-length quartile	Q4: len > 672	623	64	559	0.961538	scored
+1446	2	none (full partition)	all	2706	817	1889	0.978593	scored
+1446	2	original length <= 1022	not truncated	2430	792	1638	0.977791	scored
+1446	2	kingdom	Fungi	546	92	454	0.978165	scored
+1446	2	kingdom	Metazoa	1792	635	1157	0.979105	scored
+1446	2	kingdom	Other	80	52	28	0.972871	scored
+1446	2	kingdom	Viridiplantae	288	38	250	0.963737	scored
+1446	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.986512	scored
+1446	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.966083	scored
+1446	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.983352	scored
+1446	2	original-length quartile	Q4: len > 672	675	50	625	0.974768	scored
+243	1	none (full partition)	all	2484	519	1965	0.959393	scored
+243	1	original length <= 1022	not truncated	2207	494	1713	0.962444	scored
+243	1	kingdom	Fungi	620	112	508	0.971668	scored
+243	1	kingdom	Metazoa	1515	317	1198	0.953710	scored
+243	1	kingdom	Other	81	55	26	0.974825	scored
+243	1	kingdom	Viridiplantae	268	35	233	0.955365	scored
+243	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.961023	scored
+243	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.959985	scored
+243	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.984546	scored
+243	1	original-length quartile	Q4: len > 672	623	64	559	0.914160	scored
+243	2	none (full partition)	all	2706	817	1889	0.979209	scored
+243	2	original length <= 1022	not truncated	2430	792	1638	0.978695	scored
+243	2	kingdom	Fungi	546	92	454	0.982223	scored
+243	2	kingdom	Metazoa	1792	635	1157	0.982574	scored
+243	2	kingdom	Other	80	52	28	0.952610	scored
+243	2	kingdom	Viridiplantae	288	38	250	0.920842	scored
+243	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.995966	scored
+243	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.960896	scored
+243	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.964254	scored
+243	2	original-length quartile	Q4: len > 672	675	50	625	0.986496	scored
+963	1	none (full partition)	all	2484	519	1965	0.959332	scored
+963	1	original length <= 1022	not truncated	2207	494	1713	0.961193	scored
+963	1	kingdom	Fungi	620	112	508	0.970833	scored
+963	1	kingdom	Metazoa	1515	317	1198	0.957529	scored
+963	1	kingdom	Other	81	55	26	0.977622	scored
+963	1	kingdom	Viridiplantae	268	35	233	0.932986	scored
+963	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.963335	scored
+963	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.945844	scored
+963	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.976336	scored
+963	1	original-length quartile	Q4: len > 672	623	64	559	0.933503	scored
+963	2	none (full partition)	all	2706	817	1889	0.977857	scored
+963	2	original length <= 1022	not truncated	2430	792	1638	0.977406	scored
+963	2	kingdom	Fungi	546	92	454	0.975460	scored
+963	2	kingdom	Metazoa	1792	635	1157	0.981268	scored
+963	2	kingdom	Other	80	52	28	0.991758	scored
+963	2	kingdom	Viridiplantae	288	38	250	0.915368	scored
+963	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.990853	scored
+963	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.953530	scored
+963	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.961384	scored
+963	2	original-length quartile	Q4: len > 672	675	50	625	0.953536	scored
+2040	1	none (full partition)	all	2484	519	1965	0.948005	scored
+2040	1	original length <= 1022	not truncated	2207	494	1713	0.949705	scored
+2040	1	kingdom	Fungi	620	112	508	0.963688	scored
+2040	1	kingdom	Metazoa	1515	317	1198	0.944464	scored
+2040	1	kingdom	Other	81	55	26	0.981818	scored
+2040	1	kingdom	Viridiplantae	268	35	233	0.884549	scored
+2040	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.954736	scored
+2040	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.943810	scored
+2040	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.954144	scored
+2040	1	original-length quartile	Q4: len > 672	623	64	559	0.903343	scored
+2040	2	none (full partition)	all	2706	817	1889	0.979548	scored
+2040	2	original length <= 1022	not truncated	2430	792	1638	0.978392	scored
+2040	2	kingdom	Fungi	546	92	454	0.989502	scored
+2040	2	kingdom	Metazoa	1792	635	1157	0.982193	scored
+2040	2	kingdom	Other	80	52	28	0.923077	scored
+2040	2	kingdom	Viridiplantae	288	38	250	0.956053	scored
+2040	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.987536	scored
+2040	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.952488	scored
+2040	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.968656	scored
+2040	2	original-length quartile	Q4: len > 672	675	50	625	0.973216	scored
+317	1	none (full partition)	all	2484	519	1965	0.955207	scored
+317	1	original length <= 1022	not truncated	2207	494	1713	0.954315	scored
+317	1	kingdom	Fungi	620	112	508	0.966922	scored
+317	1	kingdom	Metazoa	1515	317	1198	0.950272	scored
+317	1	kingdom	Other	81	55	26	0.983217	scored
+317	1	kingdom	Viridiplantae	268	35	233	0.931637	scored
+317	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.957951	scored
+317	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.940994	scored
+317	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.969716	scored
+317	1	original-length quartile	Q4: len > 672	623	64	559	0.945578	scored
+317	2	none (full partition)	all	2706	817	1889	0.974326	scored
+317	2	original length <= 1022	not truncated	2430	792	1638	0.973198	scored
+317	2	kingdom	Fungi	546	92	454	0.976178	scored
+317	2	kingdom	Metazoa	1792	635	1157	0.973688	scored
+317	2	kingdom	Other	80	52	28	0.951923	scored
+317	2	kingdom	Viridiplantae	288	38	250	0.962632	scored
+317	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.974467	scored
+317	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.939014	scored
+317	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.969383	scored
+317	2	original-length quartile	Q4: len > 672	675	50	625	0.991264	scored
+250	1	none (full partition)	all	2484	519	1965	0.955931	scored
+250	1	original length <= 1022	not truncated	2207	494	1713	0.959441	scored
+250	1	kingdom	Fungi	620	112	508	0.980456	scored
+250	1	kingdom	Metazoa	1515	317	1198	0.946538	scored
+250	1	kingdom	Other	81	55	26	0.954545	scored
+250	1	kingdom	Viridiplantae	268	35	233	0.955242	scored
+250	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.957998	scored
+250	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.952972	scored
+250	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.986683	scored
+250	1	original-length quartile	Q4: len > 672	623	64	559	0.895097	scored
+250	2	none (full partition)	all	2706	817	1889	0.973039	scored
+250	2	original length <= 1022	not truncated	2430	792	1638	0.972979	scored
+250	2	kingdom	Fungi	546	92	454	0.991213	scored
+250	2	kingdom	Metazoa	1792	635	1157	0.972794	scored
+250	2	kingdom	Other	80	52	28	0.970810	scored
+250	2	kingdom	Viridiplantae	288	38	250	0.920158	scored
+250	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.984015	scored
+250	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.950382	scored
+250	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.958226	scored
+250	2	original-length quartile	Q4: len > 672	675	50	625	0.971056	scored
+2737	1	none (full partition)	all	2484	519	1965	0.955882	scored
+2737	1	original length <= 1022	not truncated	2207	494	1713	0.954807	scored
+2737	1	kingdom	Fungi	620	112	508	0.965288	scored
+2737	1	kingdom	Metazoa	1515	317	1198	0.951527	scored
+2737	1	kingdom	Other	81	55	26	0.990909	scored
+2737	1	kingdom	Viridiplantae	268	35	233	0.940773	scored
+2737	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.954728	scored
+2737	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.937981	scored
+2737	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.974613	scored
+2737	1	original-length quartile	Q4: len > 672	623	64	559	0.953530	scored
+2737	2	none (full partition)	all	2706	817	1889	0.969570	scored
+2737	2	original length <= 1022	not truncated	2430	792	1638	0.969434	scored
+2737	2	kingdom	Fungi	546	92	454	0.963178	scored
+2737	2	kingdom	Metazoa	1792	635	1157	0.968048	scored
+2737	2	kingdom	Other	80	52	28	0.973214	scored
+2737	2	kingdom	Viridiplantae	288	38	250	0.964211	scored
+2737	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.972258	scored
+2737	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.955273	scored
+2737	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.968770	scored
+2737	2	original-length quartile	Q4: len > 672	675	50	625	0.958304	scored
+627	1	none (full partition)	all	2484	519	1965	0.946492	scored
+627	1	original length <= 1022	not truncated	2207	494	1713	0.947045	scored
+627	1	kingdom	Fungi	620	112	508	0.961184	scored
+627	1	kingdom	Metazoa	1515	317	1198	0.945703	scored
+627	1	kingdom	Other	81	55	26	0.940210	scored
+627	1	kingdom	Viridiplantae	268	35	233	0.930288	scored
+627	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.937156	scored
+627	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.937624	scored
+627	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.975594	scored
+627	1	original-length quartile	Q4: len > 672	623	64	559	0.910499	scored
+627	2	none (full partition)	all	2706	817	1889	0.973641	scored
+627	2	original length <= 1022	not truncated	2430	792	1638	0.972506	scored
+627	2	kingdom	Fungi	546	92	454	0.968469	scored
+627	2	kingdom	Metazoa	1792	635	1157	0.976431	scored
+627	2	kingdom	Other	80	52	28	0.970124	scored
+627	2	kingdom	Viridiplantae	288	38	250	0.974526	scored
+627	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.987881	scored
+627	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.922317	scored
+627	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.969383	scored
+627	2	original-length quartile	Q4: len > 672	675	50	625	0.958128	scored
+1052	1	none (full partition)	all	2484	519	1965	0.948331	scored
+1052	1	original length <= 1022	not truncated	2207	494	1713	0.953445	scored
+1052	1	kingdom	Fungi	620	112	508	0.971492	scored
+1052	1	kingdom	Metazoa	1515	317	1198	0.937246	scored
+1052	1	kingdom	Other	81	55	26	0.964336	scored
+1052	1	kingdom	Viridiplantae	268	35	233	0.953648	scored
+1052	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.953389	scored
+1052	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.940478	scored
+1052	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.975678	scored
+1052	1	original-length quartile	Q4: len > 672	623	64	559	0.878326	scored
+1052	2	none (full partition)	all	2706	817	1889	0.968877	scored
+1052	2	original length <= 1022	not truncated	2430	792	1638	0.968643	scored
+1052	2	kingdom	Fungi	546	92	454	0.978069	scored
+1052	2	kingdom	Metazoa	1792	635	1157	0.970991	scored
+1052	2	kingdom	Other	80	52	28	0.949863	scored
+1052	2	kingdom	Viridiplantae	288	38	250	0.927579	scored
+1052	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.984178	scored
+1052	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.939821	scored
+1052	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.946468	scored
+1052	2	original-length quartile	Q4: len > 672	675	50	625	0.978768	scored
+50	1	none (full partition)	all	2484	519	1965	0.952199	scored
+50	1	original length <= 1022	not truncated	2207	494	1713	0.952651	scored
+50	1	kingdom	Fungi	620	112	508	0.980122	scored
+50	1	kingdom	Metazoa	1515	317	1198	0.940416	scored
+50	1	kingdom	Other	81	55	26	0.970629	scored
+50	1	kingdom	Viridiplantae	268	35	233	0.948620	scored
+50	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.952344	scored
+50	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.955309	scored
+50	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.983608	scored
+50	1	original-length quartile	Q4: len > 672	623	64	559	0.903497	scored
+50	2	none (full partition)	all	2706	817	1889	0.963945	scored
+50	2	original length <= 1022	not truncated	2430	792	1638	0.963482	scored
+50	2	kingdom	Fungi	546	92	454	0.981469	scored
+50	2	kingdom	Metazoa	1792	635	1157	0.957867	scored
+50	2	kingdom	Other	80	52	28	0.958104	scored
+50	2	kingdom	Viridiplantae	288	38	250	0.944579	scored
+50	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.972328	scored
+50	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.950382	scored
+50	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.979333	scored
+50	2	original-length quartile	Q4: len > 672	675	50	625	0.974272	scored
+900	1	none (full partition)	all	2484	519	1965	0.954616	scored
+900	1	original length <= 1022	not truncated	2207	494	1713	0.956965	scored
+900	1	kingdom	Fungi	620	112	508	0.949944	scored
+900	1	kingdom	Metazoa	1515	317	1198	0.953463	scored
+900	1	kingdom	Other	81	55	26	0.982168	scored
+900	1	kingdom	Viridiplantae	268	35	233	0.953280	scored
+900	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.964238	scored
+900	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.948979	scored
+900	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.973905	scored
+900	1	original-length quartile	Q4: len > 672	623	64	559	0.935432	scored
+900	2	none (full partition)	all	2706	817	1889	0.962399	scored
+900	2	original length <= 1022	not truncated	2430	792	1638	0.961066	scored
+900	2	kingdom	Fungi	546	92	454	0.930976	scored
+900	2	kingdom	Metazoa	1792	635	1157	0.961743	scored
+900	2	kingdom	Other	80	52	28	0.989011	scored
+900	2	kingdom	Viridiplantae	288	38	250	0.954105	scored
+900	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.970025	scored
+900	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.945976	scored
+900	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.955519	scored
+900	2	original-length quartile	Q4: len > 672	675	50	625	0.971200	scored
+2564	1	none (full partition)	all	2484	519	1965	0.945209	scored
+2564	1	original length <= 1022	not truncated	2207	494	1713	0.948437	scored
+2564	1	kingdom	Fungi	620	112	508	0.978118	scored
+2564	1	kingdom	Metazoa	1515	317	1198	0.931950	scored
+2564	1	kingdom	Other	81	55	26	0.950350	scored
+2564	1	kingdom	Viridiplantae	268	35	233	0.929307	scored
+2564	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.945843	scored
+2564	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.933518	scored
+2564	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.973506	scored
+2564	1	original-length quartile	Q4: len > 672	623	64	559	0.898507	scored
+2564	2	none (full partition)	all	2706	817	1889	0.964297	scored
+2564	2	original length <= 1022	not truncated	2430	792	1638	0.963914	scored
+2564	2	kingdom	Fungi	546	92	454	0.985695	scored
+2564	2	kingdom	Metazoa	1792	635	1157	0.964178	scored
+2564	2	kingdom	Other	80	52	28	0.949519	scored
+2564	2	kingdom	Viridiplantae	288	38	250	0.903632	scored
+2564	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.978633	scored
+2564	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.934950	scored
+2564	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.963795	scored
+2564	2	original-length quartile	Q4: len > 672	675	50	625	0.968688	scored
+3731	1	none (full partition)	all	2484	519	1965	0.942353	scored
+3731	1	original length <= 1022	not truncated	2207	494	1713	0.941621	scored
+3731	1	kingdom	Fungi	620	112	508	0.977309	scored
+3731	1	kingdom	Metazoa	1515	317	1198	0.935868	scored
+3731	1	kingdom	Other	81	55	26	0.899301	scored
+3731	1	kingdom	Viridiplantae	268	35	233	0.954139	scored
+3731	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.943712	scored
+3731	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.937738	scored
+3731	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.965457	scored
+3731	1	original-length quartile	Q4: len > 672	623	64	559	0.889814	scored
+3731	2	none (full partition)	all	2706	817	1889	0.962459	scored
+3731	2	original length <= 1022	not truncated	2430	792	1638	0.961211	scored
+3731	2	kingdom	Fungi	546	92	454	0.970336	scored
+3731	2	kingdom	Metazoa	1792	635	1157	0.963594	scored
+3731	2	kingdom	Other	80	52	28	0.922390	scored
+3731	2	kingdom	Viridiplantae	288	38	250	0.955211	scored
+3731	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.975951	scored
+3731	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.917111	scored
+3731	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.965823	scored
+3731	2	original-length quartile	Q4: len > 672	675	50	625	0.961984	scored
+1235	1	none (full partition)	all	2484	519	1965	0.944832	scored
+1235	1	original length <= 1022	not truncated	2207	494	1713	0.943851	scored
+1235	1	kingdom	Fungi	620	112	508	0.982125	scored
+1235	1	kingdom	Metazoa	1515	317	1198	0.943692	scored
+1235	1	kingdom	Other	81	55	26	0.839860	scored
+1235	1	kingdom	Viridiplantae	268	35	233	0.928265	scored
+1235	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.940442	scored
+1235	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.935545	scored
+1235	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.971405	scored
+1235	1	original-length quartile	Q4: len > 672	623	64	559	0.939890	scored
+1235	2	none (full partition)	all	2706	817	1889	0.958002	scored
+1235	2	original length <= 1022	not truncated	2430	792	1638	0.956688	scored
+1235	2	kingdom	Fungi	546	92	454	0.953266	scored
+1235	2	kingdom	Metazoa	1792	635	1157	0.962691	scored
+1235	2	kingdom	Other	80	52	28	0.855769	scored
+1235	2	kingdom	Viridiplantae	288	38	250	0.942789	scored
+1235	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.970283	scored
+1235	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.949319	scored
+1235	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.947998	scored
+1235	2	original-length quartile	Q4: len > 672	675	50	625	0.957376	scored
+999	1	none (full partition)	all	2484	519	1965	0.938363	scored
+999	1	original length <= 1022	not truncated	2207	494	1713	0.940935	scored
+999	1	kingdom	Fungi	620	112	508	0.972599	scored
+999	1	kingdom	Metazoa	1515	317	1198	0.921727	scored
+999	1	kingdom	Other	81	55	26	0.958042	scored
+999	1	kingdom	Viridiplantae	268	35	233	0.958921	scored
+999	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.953120	scored
+999	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.928539	scored
+999	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.947419	scored
+999	1	original-length quartile	Q4: len > 672	623	64	559	0.896677	scored
+999	2	none (full partition)	all	2706	817	1889	0.961971	scored
+999	2	original length <= 1022	not truncated	2430	792	1638	0.961001	scored
+999	2	kingdom	Fungi	546	92	454	0.973233	scored
+999	2	kingdom	Metazoa	1792	635	1157	0.962427	scored
+999	2	kingdom	Other	80	52	28	0.965316	scored
+999	2	kingdom	Viridiplantae	288	38	250	0.917632	scored
+999	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.975547	scored
+999	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.926959	scored
+999	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.932929	scored
+999	2	original-length quartile	Q4: len > 672	675	50	625	0.965792	scored
+217	1	none (full partition)	all	2484	519	1965	0.947111	scored
+217	1	original length <= 1022	not truncated	2207	494	1713	0.946729	scored
+217	1	kingdom	Fungi	620	112	508	0.945110	scored
+217	1	kingdom	Metazoa	1515	317	1198	0.946628	scored
+217	1	kingdom	Other	81	55	26	0.991608	scored
+217	1	kingdom	Viridiplantae	268	35	233	0.924709	scored
+217	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.936997	scored
+217	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.933268	scored
+217	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.951271	scored
+217	1	original-length quartile	Q4: len > 672	623	64	559	0.951057	scored
+217	2	none (full partition)	all	2706	817	1889	0.954541	scored
+217	2	original length <= 1022	not truncated	2430	792	1638	0.953408	scored
+217	2	kingdom	Fungi	546	92	454	0.923147	scored
+217	2	kingdom	Metazoa	1792	635	1157	0.959850	scored
+217	2	kingdom	Other	80	52	28	0.930632	scored
+217	2	kingdom	Viridiplantae	288	38	250	0.907789	scored
+217	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.966490	scored
+217	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.934453	scored
+217	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.929829	scored
+217	2	original-length quartile	Q4: len > 672	675	50	625	0.940224	scored
+1946	1	none (full partition)	all	2484	519	1965	0.939188	scored
+1946	1	original length <= 1022	not truncated	2207	494	1713	0.935866	scored
+1946	1	kingdom	Fungi	620	112	508	0.950366	scored
+1946	1	kingdom	Metazoa	1515	317	1198	0.946014	scored
+1946	1	kingdom	Other	81	55	26	0.883916	scored
+1946	1	kingdom	Viridiplantae	268	35	233	0.926242	scored
+1946	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.949145	scored
+1946	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.917009	scored
+1946	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.961786	scored
+1946	1	original-length quartile	Q4: len > 672	623	64	559	0.938003	scored
+1946	2	none (full partition)	all	2706	817	1889	0.960723	scored
+1946	2	original length <= 1022	not truncated	2430	792	1638	0.960364	scored
+1946	2	kingdom	Fungi	546	92	454	0.934435	scored
+1946	2	kingdom	Metazoa	1792	635	1157	0.968133	scored
+1946	2	kingdom	Other	80	52	28	0.947802	scored
+1946	2	kingdom	Viridiplantae	288	38	250	0.942211	scored
+1946	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.972488	scored
+1946	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.941180	scored
+1946	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.949367	scored
+1946	2	original-length quartile	Q4: len > 672	675	50	625	0.922272	scored
+657	1	none (full partition)	all	2484	519	1965	0.937196	scored
+657	1	original length <= 1022	not truncated	2207	494	1713	0.938298	scored
+657	1	kingdom	Fungi	620	112	508	0.947386	scored
+657	1	kingdom	Metazoa	1515	317	1198	0.935516	scored
+657	1	kingdom	Other	81	55	26	0.952797	scored
+657	1	kingdom	Viridiplantae	268	35	233	0.927468	scored
+657	1	original-length quartile	Q1: 0 < len <= 223	513	205	308	0.946880	scored
+657	1	original-length quartile	Q2: 223 < len <= 407	652	125	527	0.908827	scored
+657	1	original-length quartile	Q3: 407 < len <= 672	696	125	571	0.969695	scored
+657	1	original-length quartile	Q4: len > 672	623	64	559	0.896998	scored
+657	2	none (full partition)	all	2706	817	1889	0.960087	scored
+657	2	original length <= 1022	not truncated	2430	792	1638	0.958529	scored
+657	2	kingdom	Fungi	546	92	454	0.968349	scored
+657	2	kingdom	Metazoa	1792	635	1157	0.955582	scored
+657	2	kingdom	Other	80	52	28	0.975962	scored
+657	2	kingdom	Viridiplantae	288	38	250	0.935895	scored
+657	2	original-length quartile	Q1: 0 < len <= 223	791	509	282	0.963313	scored
+657	2	original-length quartile	Q2: 223 < len <= 407	641	152	489	0.944220	scored
+657	2	original-length quartile	Q3: 407 < len <= 672	599	106	493	0.950917	scored
+657	2	original-length quartile	Q4: len > 672	675	50	625	0.956512	scored

@@ -1,0 +1,180 @@
+{
+  "corrected": "control arm rebuilt with residual-space norm matching",
+  "candidate_arm": "reused unchanged from v1",
+  "feature_1446": "descriptive only, no eligible matched control",
+  "availability": [
+    {
+      "candidate": 2564,
+      "multiplier": 0.0,
+      "n_control_conditions_total": 480,
+      "n_available_v2": 5,
+      "n_available_v1_latent_matched": 5,
+      "lost_vs_v1": 0,
+      "unavailable_control_inactive": 108,
+      "unavailable_negative_latent": 7,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 360,
+      "max_rel_norm_error": "2.216e-07",
+      "median_rel_norm_error": "1.170e-07"
+    },
+    {
+      "candidate": 2564,
+      "multiplier": 0.5,
+      "n_control_conditions_total": 480,
+      "n_available_v2": 7,
+      "n_available_v1_latent_matched": 7,
+      "lost_vs_v1": 0,
+      "unavailable_control_inactive": 108,
+      "unavailable_negative_latent": 5,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 360,
+      "max_rel_norm_error": "2.216e-07",
+      "median_rel_norm_error": "1.246e-07"
+    },
+    {
+      "candidate": 2564,
+      "multiplier": 1.5,
+      "n_control_conditions_total": 480,
+      "n_available_v2": 12,
+      "n_available_v1_latent_matched": 12,
+      "lost_vs_v1": 0,
+      "unavailable_control_inactive": 108,
+      "unavailable_negative_latent": 0,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 360,
+      "max_rel_norm_error": "3.323e-07",
+      "median_rel_norm_error": "1.034e-07"
+    },
+    {
+      "candidate": 2564,
+      "multiplier": 2.0,
+      "n_control_conditions_total": 480,
+      "n_available_v2": 12,
+      "n_available_v1_latent_matched": 12,
+      "lost_vs_v1": 0,
+      "unavailable_control_inactive": 108,
+      "unavailable_negative_latent": 0,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 360,
+      "max_rel_norm_error": "2.216e-07",
+      "median_rel_norm_error": "1.208e-07"
+    },
+    {
+      "candidate": 3900,
+      "multiplier": 0.0,
+      "n_control_conditions_total": 384,
+      "n_available_v2": 57,
+      "n_available_v1_latent_matched": 73,
+      "lost_vs_v1": 16,
+      "unavailable_control_inactive": 19,
+      "unavailable_negative_latent": 92,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 216,
+      "max_rel_norm_error": "5.613e-07",
+      "median_rel_norm_error": "3.034e-07"
+    },
+    {
+      "candidate": 3900,
+      "multiplier": 0.5,
+      "n_control_conditions_total": 384,
+      "n_available_v2": 109,
+      "n_available_v1_latent_matched": 124,
+      "lost_vs_v1": 15,
+      "unavailable_control_inactive": 19,
+      "unavailable_negative_latent": 40,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 216,
+      "max_rel_norm_error": "7.147e-07",
+      "median_rel_norm_error": "2.811e-07"
+    },
+    {
+      "candidate": 3900,
+      "multiplier": 1.5,
+      "n_control_conditions_total": 384,
+      "n_available_v2": 149,
+      "n_available_v1_latent_matched": 149,
+      "lost_vs_v1": 0,
+      "unavailable_control_inactive": 19,
+      "unavailable_negative_latent": 0,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 216,
+      "max_rel_norm_error": "5.956e-07",
+      "median_rel_norm_error": "2.997e-07"
+    },
+    {
+      "candidate": 3900,
+      "multiplier": 2.0,
+      "n_control_conditions_total": 384,
+      "n_available_v2": 149,
+      "n_available_v1_latent_matched": 149,
+      "lost_vs_v1": 0,
+      "unavailable_control_inactive": 19,
+      "unavailable_negative_latent": 0,
+      "unavailable_topk": 0,
+      "unavailable_norm_tolerance": 0,
+      "candidate_inactive": 216,
+      "max_rel_norm_error": "5.956e-07",
+      "median_rel_norm_error": "2.978e-07"
+    }
+  ],
+  "top1": [
+    {
+      "arm": "candidate",
+      "candidate": 2564,
+      "n_edit_conditions": 96,
+      "n_top1_aa20_changed": 0,
+      "n_top1_full_changed": 0,
+      "pct_top1_aa20_changed": "0.00",
+      "note": "denominator is edit conditions of THIS arm only; candidate and control edits are never pooled"
+    },
+    {
+      "arm": "candidate",
+      "candidate": 3900,
+      "n_edit_conditions": 168,
+      "n_top1_aa20_changed": 3,
+      "n_top1_full_changed": 3,
+      "pct_top1_aa20_changed": "1.79",
+      "note": "denominator is edit conditions of THIS arm only; candidate and control edits are never pooled"
+    },
+    {
+      "arm": "candidate",
+      "candidate": 1446,
+      "n_edit_conditions": 100,
+      "n_top1_aa20_changed": 1,
+      "n_top1_full_changed": 1,
+      "pct_top1_aa20_changed": "1.00",
+      "note": "denominator is edit conditions of THIS arm only; candidate and control edits are never pooled"
+    },
+    {
+      "arm": "control",
+      "candidate": 2564,
+      "n_edit_conditions": 36,
+      "n_top1_aa20_changed": 0,
+      "n_top1_full_changed": 0,
+      "pct_top1_aa20_changed": "0.00",
+      "note": "denominator is edit conditions of THIS arm only; candidate and control edits are never pooled"
+    },
+    {
+      "arm": "control",
+      "candidate": 3900,
+      "n_edit_conditions": 464,
+      "n_top1_aa20_changed": 3,
+      "n_top1_full_changed": 3,
+      "pct_top1_aa20_changed": "0.65",
+      "note": "denominator is edit conditions of THIS arm only; candidate and control edits are never pooled"
+    }
+  ],
+  "output_hashes": {
+    "control_availability_v2.tsv": "5af88eddf04dc60ed39696f9a5f80a52b3ee638af51c8638d77afff506b75b57",
+    "paired_contrasts_v2.tsv": "c95a8621f011f915d50000aa5c3290551dc3fccba8820ff9e09dd848cfe684a4",
+    "paired_per_protein_v2.tsv": "59fe71e2d5fac7d677462c5a9179f9e63edcb68149264f3227f2bab8312a1701",
+    "top1_denominators_by_arm.tsv": "53557ab7599facf1b7d533be5a11c7307096642420240d3324399f709e6a6362"
+  }
+}

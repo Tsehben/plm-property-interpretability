@@ -1,0 +1,12 @@
+{
+ "population_n": 10104,
+ "batches": 815,
+ "batch_tokens": 6144,
+ "counters_reconcile": true,
+ "completed_batches": 251,
+ "completed_sequences": 1506,
+ "completed_residues": 1511933,
+ "total_residues": 4805343,
+ "embeddings_recoverable": 0,
+ "embeddings_recoverable_reason": "run_full_sweep.py held pooled vectors in RAM and wrote no embedding file before extraction completed; SIGTERM therefore left zero recoverable embeddings"
+}

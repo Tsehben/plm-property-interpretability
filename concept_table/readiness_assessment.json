@@ -1,0 +1,528 @@
+{
+ "integrity_checks": {
+  "n_rows": 10104,
+  "n_distinct_accessions": 10104,
+  "one_row_per_protein": true,
+  "accession_set_equals_core_manifest": true,
+  "pfam_long_accessions_subset_of_table": true,
+  "signal_long_accessions_subset_of_table": true,
+  "frozen_sha256_matches_manifest": true,
+  "frozen_sha256_matches_actual_sequence": true,
+  "targets_unchanged": true,
+  "partitions_unchanged": true,
+  "roles_unchanged": true,
+  "complete_accounting": true,
+  "pfam_long_join_is_many_to_one": true
+ },
+ "by_role": {
+  "discovery": {
+   "n": 5190,
+   "partitions": [
+    "1",
+    "2"
+   ],
+   "n_Extracellular": 1336,
+   "n_Cytoplasm": 3854,
+   "n_clusters_id30": 3304,
+   "n_clusters_id50": 3775,
+   "n_clusters_id80": 4481,
+   "hydrophobicity_kd_30_missing": 1,
+   "hydrophobicity_kd_30_missing_pct": 0.019,
+   "charge_balance_30_missing": 1,
+   "charge_balance_30_missing_pct": 0.019,
+   "pfam_no_ids_recorded": 337,
+   "pfam_recorded": 4679,
+   "pfam_recorded_applicability_uncertain": 174,
+   "signal_annotated_present": 1311,
+   "signal_not_annotated": 3698,
+   "signal_unverifiable": 181,
+   "signalp6_predictions": 0
+  },
+  "tuning": {
+   "n": 2548,
+   "partitions": [
+    "3"
+   ],
+   "n_Extracellular": 584,
+   "n_Cytoplasm": 1964,
+   "n_clusters_id30": 1637,
+   "n_clusters_id50": 1832,
+   "n_clusters_id80": 2175,
+   "hydrophobicity_kd_30_missing": 0,
+   "hydrophobicity_kd_30_missing_pct": 0.0,
+   "charge_balance_30_missing": 0,
+   "charge_balance_30_missing_pct": 0.0,
+   "pfam_no_ids_recorded": 185,
+   "pfam_recorded": 2272,
+   "pfam_recorded_applicability_uncertain": 91,
+   "signal_annotated_present": 582,
+   "signal_not_annotated": 1871,
+   "signal_unverifiable": 95,
+   "signalp6_predictions": 0
+  },
+  "evaluation": {
+   "n": 2366,
+   "partitions": [
+    "4"
+   ],
+   "n_Extracellular": 571,
+   "n_Cytoplasm": 1795,
+   "n_clusters_id30": 1547,
+   "n_clusters_id50": 1747,
+   "n_clusters_id80": 2038,
+   "hydrophobicity_kd_30_missing": 1,
+   "hydrophobicity_kd_30_missing_pct": 0.042,
+   "charge_balance_30_missing": 0,
+   "charge_balance_30_missing_pct": 0.0,
+   "pfam_no_ids_recorded": 159,
+   "pfam_recorded": 2129,
+   "pfam_recorded_applicability_uncertain": 78,
+   "signal_annotated_present": 542,
+   "signal_not_annotated": 1741,
+   "signal_unverifiable": 83,
+   "signalp6_predictions": 0
+  }
+ },
+ "pfam_id_coverage": {
+  "note": "ID-level absence over ALL Pfam signature types",
+  "n_distinct_pfam_all_roles": 4821,
+  "n_distinct_in_discovery_P1P2": 2933,
+  "n_distinct_in_tuning_P3": 1757,
+  "n_distinct_in_evaluation_P4": 1682,
+  "n_absent_from_P1P2": 1888,
+  "n_absent_from_P1P2P3": 863,
+  "n_eval_ids_absent_from_P1P2": 994,
+  "n_eval_ids_absent_from_P1P2P3": 863
+ },
+ "pfam_family_type_id_coverage": {
+  "note": "restricted to Pfam signatures whose OWN entry type is 'family'",
+  "n_distinct_family_signatures_all_roles": 1187,
+  "n_distinct_in_discovery_P1P2": 665,
+  "n_distinct_in_tuning_P3": 401,
+  "n_distinct_in_evaluation_P4": 377,
+  "n_absent_from_P1P2": 522,
+  "n_absent_from_P1P2P3": 236,
+  "n_eval_family_ids_absent_from_P1P2": 265,
+  "n_eval_family_ids_absent_from_P1P2P3": 236
+ },
+ "pfam_entry_type_distribution_in_cohort": {
+  "domain": 11569,
+  "family": 3288,
+  "repeat": 1682,
+  "coiled_coil": 290,
+  "conserved_site": 124,
+  "disordered": 79,
+  "unavailable": 5
+ },
+ "evaluation_protein_family_status_vs_P1P2": {
+  "basis": "Pfam signatures whose OWN entry type is 'family'",
+  "total_evaluation_proteins": 2366,
+  "overall": {
+   "all_seen": 222,
+   "all_unseen": 499,
+   "mixed_seen_unseen": 12,
+   "unknown:applicability_uncertain": 83,
+   "unknown:entry_type_unavailable": 1,
+   "unknown:no_pfam_recorded": 154,
+   "unknown:pfam_recorded_but_no_family_type_signature": 1395
+  },
+  "by_localisation_class": {
+   "Cytoplasm": {
+    "all_seen": 205,
+    "all_unseen": 291,
+    "mixed_seen_unseen": 12,
+    "unknown:applicability_uncertain": 66,
+    "unknown:entry_type_unavailable": 1,
+    "unknown:no_pfam_recorded": 76,
+    "unknown:pfam_recorded_but_no_family_type_signature": 1144
+   },
+   "Extracellular": {
+    "all_seen": 17,
+    "all_unseen": 208,
+    "unknown:applicability_uncertain": 17,
+    "unknown:no_pfam_recorded": 78,
+    "unknown:pfam_recorded_but_no_family_type_signature": 251
+   }
+  },
+  "ONLY_UNSEEN_family_ids_by_class": {
+   "Cytoplasm": 291,
+   "Extracellular": 208
+  }
+ },
+ "evaluation_protein_family_status_vs_P1P2P3": {
+  "basis": "Pfam signatures whose OWN entry type is 'family'",
+  "total_evaluation_proteins": 2366,
+  "overall": {
+   "all_seen": 271,
+   "all_unseen": 443,
+   "mixed_seen_unseen": 19,
+   "unknown:applicability_uncertain": 83,
+   "unknown:entry_type_unavailable": 1,
+   "unknown:no_pfam_recorded": 154,
+   "unknown:pfam_recorded_but_no_family_type_signature": 1395
+  },
+  "by_localisation_class": {
+   "Cytoplasm": {
+    "all_seen": 237,
+    "all_unseen": 260,
+    "mixed_seen_unseen": 11,
+    "unknown:applicability_uncertain": 66,
+    "unknown:entry_type_unavailable": 1,
+    "unknown:no_pfam_recorded": 76,
+    "unknown:pfam_recorded_but_no_family_type_signature": 1144
+   },
+   "Extracellular": {
+    "all_seen": 34,
+    "all_unseen": 183,
+    "mixed_seen_unseen": 8,
+    "unknown:applicability_uncertain": 17,
+    "unknown:no_pfam_recorded": 78,
+    "unknown:pfam_recorded_but_no_family_type_signature": 251
+   }
+  },
+  "ONLY_UNSEEN_family_ids_by_class": {
+   "Cytoplasm": 260,
+   "Extracellular": 183
+  }
+ },
+ "pfam_bearing_protein_counts": {
+  "before_core_exclusions_n_cohort": 10139,
+  "before_core_exclusions_n_with_pfam": 9454,
+  "after_core_exclusions_n_cohort": 10104,
+  "after_core_exclusions_n_with_pfam": 9423,
+  "difference": 31,
+  "clarification": "the previously quoted 9,454 was computed over the FULL 10,139-protein manifest, i.e. BEFORE the 35 core exclusions (8 E1 + 27 E2)",
+  "n_with_at_least_one_family_type_signature_core": 2963,
+  "n_with_pfam_but_no_family_type_signature_core": 6460
+ },
+ "prospective_strata": {
+  "hydrophobicity_kd_30": {
+   "defined_on": "discovery P1+P2 observed values only",
+   "n_training_observed": 5189,
+   "quantiles": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+   ],
+   "cut_points": [
+    -0.833333,
+    -0.41,
+    0.03,
+    0.576667
+   ],
+   "interval_rule": "lower inclusive, upper exclusive; outer intervals unbounded; tied edges collapsed",
+   "n_strata": 5,
+   "bins": [
+    {
+     "stratum": 1,
+     "lower": null,
+     "upper": -0.833333,
+     "discovery": {
+      "n": 1031,
+      "n_Extracellular": 10,
+      "n_Cytoplasm": 1021,
+      "both_classes_present": true,
+      "n_clusters_id30": 821
+     },
+     "tuning": {
+      "n": 496,
+      "n_Extracellular": 4,
+      "n_Cytoplasm": 492,
+      "both_classes_present": true,
+      "n_clusters_id30": 388
+     },
+     "evaluation": {
+      "n": 443,
+      "n_Extracellular": 17,
+      "n_Cytoplasm": 426,
+      "both_classes_present": true,
+      "n_clusters_id30": 352
+     }
+    },
+    {
+     "stratum": 2,
+     "lower": -0.833333,
+     "upper": -0.41,
+     "discovery": {
+      "n": 1042,
+      "n_Extracellular": 14,
+      "n_Cytoplasm": 1028,
+      "both_classes_present": true,
+      "n_clusters_id30": 824
+     },
+     "tuning": {
+      "n": 544,
+      "n_Extracellular": 8,
+      "n_Cytoplasm": 536,
+      "both_classes_present": true,
+      "n_clusters_id30": 414
+     },
+     "evaluation": {
+      "n": 501,
+      "n_Extracellular": 14,
+      "n_Cytoplasm": 487,
+      "both_classes_present": true,
+      "n_clusters_id30": 396
+     }
+    },
+    {
+     "stratum": 3,
+     "lower": -0.41,
+     "upper": 0.03,
+     "discovery": {
+      "n": 1036,
+      "n_Extracellular": 36,
+      "n_Cytoplasm": 1000,
+      "both_classes_present": true,
+      "n_clusters_id30": 848
+     },
+     "tuning": {
+      "n": 556,
+      "n_Extracellular": 29,
+      "n_Cytoplasm": 527,
+      "both_classes_present": true,
+      "n_clusters_id30": 418
+     },
+     "evaluation": {
+      "n": 512,
+      "n_Extracellular": 12,
+      "n_Cytoplasm": 500,
+      "both_classes_present": true,
+      "n_clusters_id30": 417
+     }
+    },
+    {
+     "stratum": 4,
+     "lower": 0.03,
+     "upper": 0.576667,
+     "discovery": {
+      "n": 1040,
+      "n_Extracellular": 406,
+      "n_Cytoplasm": 634,
+      "both_classes_present": true,
+      "n_clusters_id30": 689
+     },
+     "tuning": {
+      "n": 432,
+      "n_Extracellular": 111,
+      "n_Cytoplasm": 321,
+      "both_classes_present": true,
+      "n_clusters_id30": 339
+     },
+     "evaluation": {
+      "n": 383,
+      "n_Extracellular": 101,
+      "n_Cytoplasm": 282,
+      "both_classes_present": true,
+      "n_clusters_id30": 291
+     }
+    },
+    {
+     "stratum": 5,
+     "lower": 0.576667,
+     "upper": null,
+     "discovery": {
+      "n": 1040,
+      "n_Extracellular": 869,
+      "n_Cytoplasm": 171,
+      "both_classes_present": true,
+      "n_clusters_id30": 621
+     },
+     "tuning": {
+      "n": 520,
+      "n_Extracellular": 432,
+      "n_Cytoplasm": 88,
+      "both_classes_present": true,
+      "n_clusters_id30": 325
+     },
+     "evaluation": {
+      "n": 526,
+      "n_Extracellular": 427,
+      "n_Cytoplasm": 99,
+      "both_classes_present": true,
+      "n_clusters_id30": 300
+     }
+    }
+   ],
+   "all_strata_have_both_classes_in_tuning": true,
+   "all_strata_have_both_classes_in_evaluation": true,
+   "min_minority_count_evaluation": 12
+  },
+  "charge_balance_30": {
+   "defined_on": "discovery P1+P2 observed values only",
+   "n_training_observed": 5189,
+   "quantiles": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+   ],
+   "cut_points": [
+    -0.066667,
+    -0.033333,
+    0.033333,
+    0.066667
+   ],
+   "interval_rule": "lower inclusive, upper exclusive; outer intervals unbounded; tied edges collapsed",
+   "n_strata": 5,
+   "bins": [
+    {
+     "stratum": 1,
+     "lower": null,
+     "upper": -0.066667,
+     "discovery": {
+      "n": 957,
+      "n_Extracellular": 62,
+      "n_Cytoplasm": 895,
+      "both_classes_present": true,
+      "n_clusters_id30": 743
+     },
+     "tuning": {
+      "n": 495,
+      "n_Extracellular": 43,
+      "n_Cytoplasm": 452,
+      "both_classes_present": true,
+      "n_clusters_id30": 366
+     },
+     "evaluation": {
+      "n": 475,
+      "n_Extracellular": 26,
+      "n_Cytoplasm": 449,
+      "both_classes_present": true,
+      "n_clusters_id30": 370
+     }
+    },
+    {
+     "stratum": 2,
+     "lower": -0.066667,
+     "upper": -0.033333,
+     "discovery": {
+      "n": 578,
+      "n_Extracellular": 191,
+      "n_Cytoplasm": 387,
+      "both_classes_present": true,
+      "n_clusters_id30": 416
+     },
+     "tuning": {
+      "n": 234,
+      "n_Extracellular": 55,
+      "n_Cytoplasm": 179,
+      "both_classes_present": true,
+      "n_clusters_id30": 201
+     },
+     "evaluation": {
+      "n": 248,
+      "n_Extracellular": 32,
+      "n_Cytoplasm": 216,
+      "both_classes_present": true,
+      "n_clusters_id30": 211
+     }
+    },
+    {
+     "stratum": 3,
+     "lower": -0.033333,
+     "upper": 0.033333,
+     "discovery": {
+      "n": 1557,
+      "n_Extracellular": 552,
+      "n_Cytoplasm": 1005,
+      "both_classes_present": true,
+      "n_clusters_id30": 1122
+     },
+     "tuning": {
+      "n": 727,
+      "n_Extracellular": 214,
+      "n_Cytoplasm": 513,
+      "both_classes_present": true,
+      "n_clusters_id30": 534
+     },
+     "evaluation": {
+      "n": 638,
+      "n_Extracellular": 215,
+      "n_Cytoplasm": 423,
+      "both_classes_present": true,
+      "n_clusters_id30": 471
+     }
+    },
+    {
+     "stratum": 4,
+     "lower": 0.033333,
+     "upper": 0.066667,
+     "discovery": {
+      "n": 694,
+      "n_Extracellular": 248,
+      "n_Cytoplasm": 446,
+      "both_classes_present": true,
+      "n_clusters_id30": 563
+     },
+     "tuning": {
+      "n": 361,
+      "n_Extracellular": 122,
+      "n_Cytoplasm": 239,
+      "both_classes_present": true,
+      "n_clusters_id30": 309
+     },
+     "evaluation": {
+      "n": 342,
+      "n_Extracellular": 135,
+      "n_Cytoplasm": 207,
+      "both_classes_present": true,
+      "n_clusters_id30": 263
+     }
+    },
+    {
+     "stratum": 5,
+     "lower": 0.066667,
+     "upper": null,
+     "discovery": {
+      "n": 1403,
+      "n_Extracellular": 282,
+      "n_Cytoplasm": 1121,
+      "both_classes_present": true,
+      "n_clusters_id30": 1046
+     },
+     "tuning": {
+      "n": 731,
+      "n_Extracellular": 150,
+      "n_Cytoplasm": 581,
+      "both_classes_present": true,
+      "n_clusters_id30": 520
+     },
+     "evaluation": {
+      "n": 663,
+      "n_Extracellular": 163,
+      "n_Cytoplasm": 500,
+      "both_classes_present": true,
+      "n_clusters_id30": 494
+     }
+    }
+   ],
+   "all_strata_have_both_classes_in_tuning": true,
+   "all_strata_have_both_classes_in_evaluation": true,
+   "min_minority_count_evaluation": 26
+  }
+ },
+ "family_strata": {
+  "basis_all_signature_types": true,
+  "n_signatures_observed_in_discovery_all_types": 2933,
+  "n_signatures_observed_in_discovery_family_type_only": 665,
+  "family_type_only": {
+   "n_with_any_evaluation_member": 112,
+   "n_with_ge2_evaluation_members": 47,
+   "n_with_both_classes_in_evaluation": 2,
+   "n_with_both_classes_in_tuning": 0
+  },
+  "n_families_observed_in_discovery": 2933,
+  "n_with_both_classes_in_evaluation": 26,
+  "n_with_any_evaluation_member": 688,
+  "n_with_ge2_evaluation_members": 374,
+  "n_with_both_classes_in_tuning": 23
+ },
+ "signalp6": {
+  "installed": false,
+  "predictions_generated": 0,
+  "all_proteins_missing": 10104,
+  "substituted_with_uniprot": false
+ }
+}

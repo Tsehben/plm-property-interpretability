@@ -1,0 +1,103 @@
+{
+ "label": "FOLLOW-UP analysis on previously examined P4 data; not a fresh test set",
+ "refitting": false,
+ "extraction": false,
+ "P0_accessed": false,
+ "subgroup": [
+  {
+   "analysis": "subgroup_443_family_unseen_vs_P1P2P3",
+   "model": "layer26_esm",
+   "n": 443,
+   "n_extracellular": 183,
+   "n_cytoplasm": 260,
+   "n_clusters_id30": 234,
+   "largest_cluster": "Q2VBP4",
+   "largest_cluster_n": 83,
+   "largest_cluster_pct": 18.736,
+   "auroc_protein_weighted": 0.986528,
+   "ap_protein_weighted": 0.985267
+  },
+  {
+   "analysis": "subgroup_443_family_unseen_vs_P1P2P3",
+   "model": "composition",
+   "n": 443,
+   "n_extracellular": 183,
+   "n_cytoplasm": 260,
+   "n_clusters_id30": 234,
+   "largest_cluster": "Q2VBP4",
+   "largest_cluster_n": 83,
+   "largest_cluster_pct": 18.736,
+   "auroc_protein_weighted": 0.975011,
+   "ap_protein_weighted": 0.963783
+  }
+ ],
+ "difference": {
+  "analysis": "subgroup_443_family_unseen_vs_P1P2P3",
+  "comparison": "layer26_esm_minus_composition",
+  "n": 443,
+  "n_clusters_id30": 234,
+  "largest_cluster_pct": 18.736,
+  "delta_auroc": 0.011517,
+  "auroc_ci95_lo": -0.005361,
+  "auroc_ci95_hi": 0.037176,
+  "auroc_ci95_excludes_zero": 0,
+  "delta_ap": 0.021484,
+  "ap_ci95_lo": 0.000276,
+  "ap_ci95_hi": 0.10882,
+  "ap_ci95_excludes_zero": 1,
+  "n_resamples": 10000,
+  "n_resamples_undefined_excluded": 0,
+  "seed": 42
+ },
+ "full_P4_context": [
+  {
+   "analysis": "full_P4_context",
+   "model": "layer26_esm",
+   "n": 2366,
+   "n_extracellular": 571,
+   "n_cytoplasm": 1795,
+   "n_clusters_id30": 1547,
+   "largest_cluster": "Q2VBP4",
+   "largest_cluster_n": 93,
+   "largest_cluster_pct": 3.931,
+   "auroc_protein_weighted": 0.982903,
+   "ap_protein_weighted": 0.963665
+  },
+  {
+   "analysis": "full_P4_context",
+   "model": "composition",
+   "n": 2366,
+   "n_extracellular": 571,
+   "n_cytoplasm": 1795,
+   "n_clusters_id30": 1547,
+   "largest_cluster": "Q2VBP4",
+   "largest_cluster_n": 93,
+   "largest_cluster_pct": 3.931,
+   "auroc_protein_weighted": 0.969604,
+   "ap_protein_weighted": 0.918208
+  },
+  {
+   "analysis": "full_P4_context",
+   "model": "layer26_esm_minus_composition",
+   "n": 2366,
+   "n_extracellular": 571,
+   "n_cytoplasm": 1795,
+   "n_clusters_id30": 1547,
+   "largest_cluster": "Q2VBP4",
+   "largest_cluster_n": 93,
+   "largest_cluster_pct": 3.931,
+   "auroc_protein_weighted": 0.013299,
+   "ap_protein_weighted": 0.045458
+  }
+ ],
+ "frozen_membership_sha256": "dacd8a55990b3f0b6bed696861f9d811226419c4e7c79fe65f75a5f430d066eb",
+ "bootstrap": {
+  "unit": "30% identity cluster, drawn whole with replacement",
+  "pairing": "same resample indices for both models",
+  "B": 10000,
+  "seed": 42,
+  "interval": "percentile 95%",
+  "mixed_class_clusters": "kept intact, never split",
+  "stratified": false
+ }
+}
