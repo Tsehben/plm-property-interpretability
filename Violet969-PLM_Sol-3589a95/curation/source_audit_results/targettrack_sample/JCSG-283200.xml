@@ -1,0 +1,136 @@
+<target id="JCSG-283200">
+          <targetId>283200</targetId>
+          <targetName>TM1338</targetName>
+          <dateCreated>2001-10-12</dateCreated>
+          <dateUpdated>2003-11-26</dateUpdated>
+          <laboratoryList>
+               <lab>GNF</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>lesley</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>1</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Structural coverage of Thermotoga maritima proteome.</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>individual organism</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <targetProteinType>single-domain protein</targetProteinType>
+          <status>cloned</status>
+          <relatedTargetIdList>
+               <relatedTargetId>
+                    <targetId>283186</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283193</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283194</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283195</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283196</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283197</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283198</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283199</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283201</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+          </relatedTargetIdList>
+          <targetSequenceList>
+               <targetSequence id="283200">
+                    <oneLetterCode>
+                      MVVLYHKAPDMQNLLTSNLKAKNSLKASFPFCLNKKIIFHQYRI
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>full length ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Thermotoga maritima msb8</scientificName>
+                         <taxDB>NCBI Taxonomy</taxDB>
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>TM1338</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=TM1338&amp;start=1&amp;end=44</url>
+          <remark>Hypothetical protein TM1338.</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>TIGR</databaseName>
+                    <databaseId>TM1338</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>0700-20793-A11</trialId>
+                    <dateUpdated>2003-11-26</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283200">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-10-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="700207935302">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2003-11-26</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <stopDetails>
+                         <stopStatus>cloning failed</stopStatus>
+                    </stopDetails>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MVVLYHKAPDMQNLLTSNLKAKNSLKASFPFCLNKKIIFHQYRI
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

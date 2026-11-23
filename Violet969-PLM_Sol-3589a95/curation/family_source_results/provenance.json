@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "pfam_annotation/annotated_cohort.tsv": "13cf4c0fc57b0e102f7037cf86f3d8696d4f8aa0c9b8fa4b53e39c2ddef7c493",
+    "pfam_annotation/memberships.tsv": "0e27586d6402ce294d60b79080dc6e87d1bf7611a7524afaf08f75b09b26b85e",
+    "pfam_annotation/domains_flagged.tsv": "32684bd91d18394e6dbfa059084cfee94d631ba1fb2387cac4f07090ca3c4015",
+    "results/cohort_manifest.tsv": "4368fe98cd9799f08461678859b1421153188ea7d47f744d3c6101be8b407059"
+  },
+  "script_sha256": "6d52be2fdc12ec3d3698b39d939d89e6a41bef8951d3c0aa05d7cf6d3c7199e7",
+  "python": "3.13.7",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "C": 1,
+  "seed": 42,
+  "train_n": 9880,
+  "validation_n": 4000,
+  "focus_families": 69,
+  "notes": [
+    "69-family focus is development-selected descriptive analysis, not pristine evaluation",
+    "All models train on heterogeneous A or explicitly declared source-transfer sensitivity",
+    "No new annotation, embedding extraction or test access"
+  ],
+  "checks": "input hashes preserved; fixed cohort; detected homology groups disjoint; models converged"
+}

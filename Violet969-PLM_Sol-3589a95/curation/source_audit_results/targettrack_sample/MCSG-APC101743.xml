@@ -1,0 +1,107 @@
+<target id="MCSG-APC101743">
+          <targetId>APC101743</targetId>
+          <targetName>replication of plasmid [Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S]</targetName>
+          <dateCreated>2010-10-05</dateCreated>
+          <dateUpdated>2011-07-22</dateUpdated>
+          <laboratoryList>
+               <lab>ANL</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>2793</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>3</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Salmonella secreted proteins identified via MS/MS</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>disease</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>individual organism</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>PSI Biology partnership</targetCategoryName>
+                    <remark>PCSEP</remark>
+               </targetCategory>
+          </targetCategoryList>
+          <targetPartnershipList>
+               <targetPartnership>
+                    <partnershipName>Program for the Characterization of Secreted Effector Proteins</partnershipName>
+                    <partnershipRoleDetails flow="from">
+                         <partnershipRoleDetailsValue>selected target</partnershipRoleDetailsValue>
+                    </partnershipRoleDetails>
+                    <partnershipTargetId>
+                         <partnershipTargetIdSource>none</partnershipTargetIdSource>
+                         <partnershipTargetIdValue />
+                    </partnershipTargetId>
+               </targetPartnership>
+          </targetPartnershipList>
+          <status>selected</status>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MLRKFQYLFLWHLLLPCIVSAGRSD
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>full length ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S</scientificName>
+                         <taxDB>NCBI</taxDB>
+                         <taxId>588858</taxId>
+                    </sourceOrganism>
+                    <sequenceName>replication of plasmid [Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S]</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://kiemlicz.med.virginia.edu/mcsg/space_tree/view/APC101743</url>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>GenBank</databaseName>
+                    <databaseId>267990043</databaseId>
+               </databaseRef>
+               <databaseRef>
+                    <databaseName>MCSG</databaseName>
+                    <databaseId>APC101743</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>APC101743</trialId>
+                    <dateUpdated>2010-10-05</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>2793</contactInfoId>
+                    </contactInfoRefList>
+                    <status>selected</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MLRKFQYLFLWHLLLPCIVSAGRSD
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

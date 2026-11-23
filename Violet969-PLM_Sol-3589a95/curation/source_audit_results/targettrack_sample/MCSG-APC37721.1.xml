@@ -1,0 +1,100 @@
+<target id="MCSG-APC37721.1">
+          <targetId>APC37721.1</targetId>
+          <dateCreated>2009-03-10</dateCreated>
+          <dateUpdated>2009-03-15</dateUpdated>
+          <laboratoryList>
+               <lab>MCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>mcsgdb_1</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>2</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>expressed</status>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MPISSSSARRAEPAPRPLAEFHPVVRQWFERHFAAPTPAQVEAWPAIREGLSTLVAAPTGSGKTLTAFLAAIDALVVEGLAAGGELADATQVVYVSPLKALSNDIRINLEQPLAGIREELARLGLPDVDIRSAVRTGDTPQVERGAMRKRPPHILVTTPESLYILLGSESGRQMLAGVRSVIVDEIHALAGSKRGSHLALSLERLQALCPRPLLRIGLSATQKPIEKVARFLVGASGNPRDPACRIVDVGYTRPRDLGIEVPPVALEAVMSNDTWELVYDRLAHLAGEHRTTLVFVNTRRMAERVTRFLAERLGSRQVAAHHGSLAKELRLDAEQRLKAGQLKVLVATASLELGIDIGDVELVCQLSSPRSIAAFLQRVGRSGHSVGGTPKGRLFPTSRDDLVECAALLDSVRRGELDSLVLPRQPLDVLAQQIVAEVACQEWREDDLYRLVIRAEPYAGLERERFDEVLRMLAEGYHSRLGVRGAYLHRDALNGLLRGRRGARLTALTSGGTIPDTGDYSVLLEPQGLLVGTVNEDFAVESLAGDVFQLGNTSYRIIRIEPGRVRVEDAQGQPPNIPFWLGEAPGRSDELSASVARLRDTLDELLGEGQALPEGRRLEPAIAWLGATLGLDDGAARQIVEYLARARQALGGLPGSRRLVLERFFDESGGMQLIIHSPHGSRLNRAWGLALRKRFCRSFNFELQAAATEDAIILSLSTSHSFPLDEVWRYLHSASAEHLLVQAVLDAPLFGVRWRWNLTTSLGLPRYAGGRKVPPQLLRMKSEDLLASVFPDQVACLENIVGEREVPDHPLVAQTLDDCLHEAMDCEGWLALLRDMESGAVDLLARDLPAPSALAAEILTARPYAYLDDAPLEERRTQAVQNRRWSDPESADDLGALDLEAIEAVRGEAWPEASNADEMHEALNSLGFLTSGEAEANPGWGEWLAQLSEQRRAGRLDCAGSTLWLAAERLPAMRLVHPAAKVPDAFQAPRGYPPPDSAEAATVELTRARLGGFGPRTAGQLAADLGIGLADQQYALAALEREGYVLRGRFSPGATEEEWCERHLLARIHRYTVKRLRREIEPVERADFMRFLFDWQRLAPGTRGRGAESLATVVEQLEGFQAAAAAWESELLAARVADYASHWLDQLCRSGRIVWARLAGRSKAAGGPLRSAPIVLLPRRELGLWSVLQRDAPEPELSPRAARVLEVLREQGASFFDELSQDAHLLRSELENALGELVSVGRVNADSFAGLRTLLMPADKRSRQERRSRGLPGGMQDAGRWAPLRRAKAEEAGQRLPAEVLEHVARTLLRRYGVVAWRLLEREADWLPPWRELLRVYHRLEARGEIRGGRFIAGLAGEQFALAEAVGLLREVRKRPPDGAMLVVSAVDPLNLVGGLLPGERVPAVTGNRLLYRDGAPLAALVAGKVRMLAEVDGETAQQIRALLI
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Pseudomonas aeruginosa PA01</scientificName>
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>NP_251962.1putative ATP-dependent DNA helicase</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <remark>putative ATP-dependent DNA helicase (gi 15598468) ;  targeted domain 1...1445</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>NCBI</databaseName>
+                    <databaseId>NP_251962.1</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <dateUpdated>2009-03-15</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>14</contactInfoId>
+                    </contactInfoRefList>
+                    <status>expressed</status>
+                    <statusHistoryList>
+                         <statusHistory id="3">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>selected</status>
+                              <dateComplete>2009-03-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>cloned</status>
+                              <dateComplete>2009-03-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>expressed</status>
+                              <dateComplete>2009-03-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MPISSSSARRAEPAPRPLAEFHPVVRQWFERHFAAPTPAQVEAWPAIREGLSTLVAAPTGSGKTLTAFLAAIDALVVEGLAAGGELADATQVVYVSPLKALSNDIRINLEQPLAGIREELARLGLPDVDIRSAVRTGDTPQVERGAMRKRPPHILVTTPESLYILLGSESGRQMLAGVRSVIVDEIHALAGSKRGSHLALSLERLQALCPRPLLRIGLSATQKPIEKVARFLVGASGNPRDPACRIVDVGYTRPRDLGIEVPPVALEAVMSNDTWELVYDRLAHLAGEHRTTLVFVNTRRMAERVTRFLAERLGSRQVAAHHGSLAKELRLDAEQRLKAGQLKVLVATASLELGIDIGDVELVCQLSSPRSIAAFLQRVGRSGHSVGGTPKGRLFPTSRDDLVECAALLDSVRRGELDSLVLPRQPLDVLAQQIVAEVACQEWREDDLYRLVIRAEPYAGLERERFDEVLRMLAEGYHSRLGVRGAYLHRDALNGLLRGRRGARLTALTSGGTIPDTGDYSVLLEPQGLLVGTVNEDFAVESLAGDVFQLGNTSYRIIRIEPGRVRVEDAQGQPPNIPFWLGEAPGRSDELSASVARLRDTLDELLGEGQALPEGRRLEPAIAWLGATLGLDDGAARQIVEYLARARQALGGLPGSRRLVLERFFDESGGMQLIIHSPHGSRLNRAWGLALRKRFCRSFNFELQAAATEDAIILSLSTSHSFPLDEVWRYLHSASAEHLLVQAVLDAPLFGVRWRWNLTTSLGLPRYAGGRKVPPQLLRMKSEDLLASVFPDQVACLENIVGEREVPDHPLVAQTLDDCLHEAMDCEGWLALLRDMESGAVDLLARDLPAPSALAAEILTARPYAYLDDAPLEERRTQAVQNRRWSDPESADDLGALDLEAIEAVRGEAWPEASNADEMHEALNSLGFLTSGEAEANPGWGEWLAQLSEQRRAGRLDCAGSTLWLAAERLPAMRLVHPAAKVPDAFQAPRGYPPPDSAEAATVELTRARLGGFGPRTAGQLAADLGIGLADQQYALAALEREGYVLRGRFSPGATEEEWCERHLLARIHRYTVKRLRREIEPVERADFMRFLFDWQRLAPGTRGRGAESLATVVEQLEGFQAAAAAWESELLAARVADYASHWLDQLCRSGRIVWARLAGRSKAAGGPLRSAPIVLLPRRELGLWSVLQRDAPEPELSPRAARVLEVLREQGASFFDELSQDAHLLRSELENALGELVSVGRVNADSFAGLRTLLMPADKRSRQERRSRGLPGGMQDAGRWAPLRRAKAEEAGQRLPAEVLEHVARTLLRRYGVVAWRLLEREADWLPPWRELLRVYHRLEARGEIRGGRFIAGLAGEQFALAEAVGLLREVRKRPPDGAMLVVSAVDPLNLVGGLLPGERVPAVTGNRLLYRDGAPLAALVAGKVRMLAEVDGETAQQIRALLI
+                              </oneLetterCode>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>anl_cloning_1</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21Magic cloning vector: pMCSG32</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>anl_SOPHighDExprn</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21Magic vector: pMCSG32 induction chemical: IPTG expression temperature: 37</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>mcsg_selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

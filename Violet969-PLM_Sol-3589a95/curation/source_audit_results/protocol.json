@@ -1,0 +1,20 @@
+{
+  "scope": "clean cached UESolDS: 9880 train, 4000 validation; independent test never opened",
+  "seed": 42,
+  "source_target": "existing header-derived center proxy, all 17 classes; not verified experimental origins",
+  "source_models": ["training_prior", "composition", "Pfam", "ESM_layer8", "composition_plus_ESM"],
+  "composition": "20 amino acid fractions and natural log length, first 1022 residues matched to ESM",
+  "Pfam": "all existing GA-passing memberships; train-only vocabulary; no-hit indicator; full sequence",
+  "logistic_regression": {"C": 1.0, "penalty": "L2", "solver": "lbfgs", "max_iter": 5000, "tol": 0.0001, "class_weight": null},
+  "preprocessing": "standardization on fitting training rows only for dense sequence features; no scaling binary Pfam",
+  "source_conditional_families": "at least two sources with >=3 train and >=3 validation proteins in same family/source cells; exploratory support selection, report all qualifying families",
+  "solubility_models": ["composition", "ESM_layer8"],
+  "solubility_pooled": "reuse existing clean_all_sources predictions; new fits only for source-transfer sensitivity",
+  "source_transfer": "leave each source out of training, evaluate ALL fixed 4000 validation records and each existing centre; single-centre training JCSG and MCSG evaluated on all same validation strata",
+  "solubility_family_strata": "training >=3/class; validation >=3/class for reporting supported AUROC; same rule for family x source; report feasibility",
+  "confidence_intervals": "200 validation homology-group bootstrap draws, seed42, fitted-model conditional, same draws paired comparisons, no validation balancing",
+  "diversity": "all memberships deduplicated per protein/family or protein/clan; observed MMseqs groups are not evolutionary independence guarantees",
+  "biochemical_space": "3D quintile grid of log full length, full charge proxy, full mean KD hydropathy; bin boundaries fitted training only; tails included; descriptive coarse occupancy, no label fitting",
+  "policy_selection": "label evidence and biological support only; AUROC must not select sources",
+  "reference_recovery": "24 JCSG/MCSG records: 3 length-ranked records (low/median/high) per source/split/label, deterministic ties raw_uid; exact sequence checks required"
+}

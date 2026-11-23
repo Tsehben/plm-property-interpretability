@@ -1,0 +1,56 @@
+center	split	label	label_reliability	n
+BSGC	train	0	workflow-derived; record-level outcome unverified	46
+BSGC	train	1	workflow-derived; record-level outcome unverified	57
+BSGI	train	0	workflow-derived; record-level outcome unverified	72
+BSGI	train	1	workflow-derived; record-level outcome unverified	133
+BSGI	validation	0	workflow-derived; record-level outcome unverified	35
+CESG	train	0	workflow-derived; record-level outcome unverified	119
+CESG	train	1	workflow-derived; record-level outcome unverified	18
+DNASU_clone	train	0	explicit-outcome candidate; record-level status unverified	254
+DNASU_clone	train	1	explicit-outcome candidate; record-level status unverified	2077
+DNASU_clone	validation	0	explicit-outcome candidate; record-level status unverified	16
+DNASU_clone	validation	1	explicit-outcome candidate; record-level status unverified	110
+EFI	train	0	workflow-derived; record-level outcome unverified	521
+EFI	train	1	workflow-derived; record-level outcome unverified	311
+EFI	validation	0	workflow-derived; record-level outcome unverified	71
+EFI	validation	1	workflow-derived; record-level outcome unverified	21
+JCSG	train	0	workflow-derived; record-level outcome unverified	5858
+JCSG	train	1	workflow-derived; record-level outcome unverified	5662
+JCSG	validation	0	workflow-derived; record-level outcome unverified	269
+JCSG	validation	1	workflow-derived; record-level outcome unverified	621
+MCSG	train	0	workflow-derived; record-level outcome unverified	3958
+MCSG	train	1	workflow-derived; record-level outcome unverified	8115
+MCSG	validation	0	workflow-derived; record-level outcome unverified	367
+MCSG	validation	1	workflow-derived; record-level outcome unverified	160
+MPP	train	1	workflow-derived; record-level outcome unverified	35
+MPP	validation	0	workflow-derived; record-level outcome unverified	57
+NESG	train	0	workflow-derived; record-level outcome unverified	1944
+NESG	train	1	workflow-derived; record-level outcome unverified	1292
+NESG	validation	0	workflow-derived; record-level outcome unverified	152
+NYSGRC	train	0	workflow-derived; record-level outcome unverified	4895
+NYSGRC	train	1	workflow-derived; record-level outcome unverified	1530
+NYSGRC	validation	0	workflow-derived; record-level outcome unverified	384
+PDB_serial	train	1	structure-selected positive; no standardized assay	14964
+PDB_serial	validation	1	structure-selected positive; no standardized assay	748
+RefSeq	train	1	original source/measurement unresolved	549
+RefSeq	validation	1	original source/measurement unresolved	32
+SECSG	train	0	workflow-derived; record-level outcome unverified	2914
+SECSG	train	1	workflow-derived; record-level outcome unverified	2989
+SECSG	validation	0	workflow-derived; record-level outcome unverified	208
+SECSG	validation	1	workflow-derived; record-level outcome unverified	92
+SGPP	train	0	workflow-derived; record-level outcome unverified	5204
+SGPP	train	1	workflow-derived; record-level outcome unverified	2457
+SGPP	validation	0	workflow-derived; record-level outcome unverified	361
+SGPP	validation	1	workflow-derived; record-level outcome unverified	94
+SSGCID	train	0	workflow-derived; record-level outcome unverified	1274
+SSGCID	train	1	workflow-derived; record-level outcome unverified	1512
+SSGCID	validation	0	workflow-derived; record-level outcome unverified	1
+SSGCID	validation	1	workflow-derived; record-level outcome unverified	66
+TB_Rv	train	0	original source/measurement unresolved	122
+TB_Rv	train	1	original source/measurement unresolved	203
+TB_Rv	validation	0	original source/measurement unresolved	53
+TB_Rv	validation	1	original source/measurement unresolved	47
+other	train	0	original source/measurement unresolved	85
+other	train	1	original source/measurement unresolved	78
+other	validation	0	original source/measurement unresolved	26
+other	validation	1	original source/measurement unresolved	9

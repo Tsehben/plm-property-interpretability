@@ -1,0 +1,13 @@
+protocol	policy	model	n_train	n_features	iterations	validation_unseen_family_proteins
+published_split	GA_all	family	9880	4920	30	1055
+published_split	GA_all	source	9880	23	26	1055
+published_split	GA_all	family_plus_source	9880	4943	62	1055
+published_split	no_clan_competition	family	9880	4341	39	1028
+published_split	no_clan_competition	source	9880	23	26	1028
+published_split	no_clan_competition	family_plus_source	9880	4364	47	1028
+leave_JCSG_out	GA_all	family	8241	4470	44	1149
+leave_JCSG_out	GA_all	source	8241	22	30	1149
+leave_JCSG_out	GA_all	family_plus_source	8241	4492	50	1149
+leave_MCSG_out	GA_all	family	8162	4421	36	1135
+leave_MCSG_out	GA_all	source	8162	22	28	1135
+leave_MCSG_out	GA_all	family_plus_source	8162	4443	52	1135

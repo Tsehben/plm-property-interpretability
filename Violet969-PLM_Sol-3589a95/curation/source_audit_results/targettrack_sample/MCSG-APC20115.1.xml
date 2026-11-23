@@ -1,0 +1,89 @@
+<target id="MCSG-APC20115.1">
+          <targetId>APC20115.1</targetId>
+          <dateCreated>2007-10-10</dateCreated>
+          <dateUpdated>2007-10-25</dateUpdated>
+          <laboratoryList>
+               <lab>MCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>mcsgdb_1</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>2</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>metagenomic</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>cloned</status>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      GTDFQTYTLLYELAGDYQNVWQIFGFGTAKTATDPGFTALLWLMNFITEDPQ
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Bacillus subtilis subsp. subtilis str. 168</scientificName>
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>BSU34310yveQ</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <remark>yveQ (gi 2635944) ;  targeted domain 57...108</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>NCBI</databaseName>
+                    <databaseId>CAB15436.1</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <dateUpdated>2007-10-25</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>14</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="2">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>selected</status>
+                              <dateComplete>2007-10-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>cloned</status>
+                              <dateComplete>2007-10-25</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               GTDFQTYTLLYELAGDYQNVWQIFGFGTAKTATDPGFTALLWLMNFITEDPQ
+                              </oneLetterCode>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>anl_cloning_1</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21magic cloning vector: pMCSG19B</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>mcsg_selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

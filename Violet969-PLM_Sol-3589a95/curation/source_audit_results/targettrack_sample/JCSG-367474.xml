@@ -1,0 +1,149 @@
+<target id="JCSG-367474">
+          <targetId>367474</targetId>
+          <dateCreated>2006-04-24</dateCreated>
+          <dateUpdated>2007-01-24</dateUpdated>
+          <laboratoryList>
+               <lab>JCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>gnf</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>2</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>community nominated</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>metagenomic</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>work stopped</status>
+          <targetStopDetails>
+               <stopStatus>other</stopStatus>
+               <remark>No progress</remark>
+          </targetStopDetails>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MAHQPVGTGSSIEVSVNPGHSRTSGVISHMSDTLRVAIVGDSDLQGAHVAISKSEFSPAADATDYLVLKDKPATISISRPSSQRVVGITTGSTTLIDFPEGTGSPFGINDMVTLRVIDQPYFEAAIGFGTVTKVWNAANIGGHYSTRITVNADTSGIKTDYVSTNWAELRSSFKVSSLGIGVGGKTGALYFQQVQITGE
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName />
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>GN7728A</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=GN7728A&amp;start=1&amp;end=199</url>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>GOS</databaseName>
+                    <databaseId>JCVI_PEP_1096679294015</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>0700-43914-A04</trialId>
+                    <dateUpdated>2007-01-24</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2006-04-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2007-01-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMAHQPVGTGSSIEVSVNPGHSRTSGVISHMSDTLRVAIVGDSDLQGAHVAISKSEFSPAADATDYLVLKDKPATISISRPSSQRVVGITTGSTTLIDFPEGTGSPFGINDMVTLRVIDQPYFEAAIGFGTVTKVWNAANIGGHYSTRITVNADTSGIKTDYVSTNWAELRSSFKVSSLGIGVGGKTGALYFQQVQITGE
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                              <databaseRefList>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>27590</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>27590</databaseId>
+                                  </databaseRef>
+                              </databaseRefList>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_39</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="2">
+                    <trialId>0700-40292-G01</trialId>
+                    <dateUpdated>2006-08-28</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2006-04-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2006-08-28</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMAHQPVGTGSSIEVSVNPGHSRTSGVISHMSDTLRVAIVGDSDLQGAHVAISKSEFSPAADATDYLVLKDKPATISISRPSSQRVVGITTGSTTLIDFPEGTGSPFGINDMVTLRVIDQPYFEAAIGFGTVTKVWNAANIGGHYSTRITVNADTSGIKTDYVSTNWAELRSSFKVSSLGIGVGGKTGALYFQQVQITGE
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                              <databaseRefList>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>27590</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>27590</databaseId>
+                                  </databaseRef>
+                              </databaseRefList>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_39</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

@@ -594,3 +594,137 @@ before making stronger solubility claims. Earlier claims that provenance was ful
 "mitigated", that unmatched records were necessarily constructs, or that homology affects
 all models equally should be qualified by this report. CHECKIN_1 is preserved as the
 historical check-in, not rewritten retrospectively.
+
+---
+
+## UESolDS — heterogeneous and within-family design feasibility — 2026-11-08
+
+Additional requirements now separate **A: heterogeneous primary probing** from
+**B: controlled within-Pfam contrasts drawn from the same A cohort**.
+See [family feasibility report](Violet969-PLM_Sol-3589a95/curation/FAMILY_FEASIBILITY.md)
+and [audit script](Violet969-PLM_Sol-3589a95/curation/family_feasibility.py).
+
+**Updated recommendation:** use `clean_all_sources` restricted to existing cached
+records (9,880 training + 4,000 validation) as the operational primary cohort. Keep
+single-class families, unannotated proteins and the inherited class/source
+proportions; no family balancing. Its full cleaned parent has 73,248 records.
+The previous source-controlled cohort remains a sensitivity and a source-matching
+option for B. This recommendation reflects the heterogeneous biological-concept
+question, not AUROC; no model was rerun or selected in this extension.
+
+**Observed feasibility:** parent annotations cover 49 proteins / 66 distinct Pfam
+accessions; the cached primary has only 7 proteins / 11 accessions. All assignments
+are in training. All observed families are single-class. At both ≥3 and ≥5 per
+class there are **zero** evidenced qualifying families, eligible proteins, or
+eligible homology groups, also after same-source matching. This is a lower bound
+under extremely sparse annotation, not proof that mixed-label families are absent.
+The parent has 100 attempted annotations, leaving 73,148 unqueried; validation has
+zero attempts. No unqueried annotation is encoded as biological absence.
+
+Source restriction, terminal-artifact exclusion, ESM-length restriction,
+confident-organism restriction, exact-full-sequence Pfam evidence and strict-label
+filters all have saved counts. None establishes B feasibility with current evidence.
+Pfam assignments are not MMseqs2 clusters: membership, unique proteins, detected
+clusters per class, shared-label clusters and class-exclusive clusters are separately
+reported. Multi-Pfam proteins are deduplicated when counting union eligibility.
+Record-level label reliability remains unverified even for annotated proteins.
+
+**Verdict:** A is available for exploratory property/sequence probing, but family
+and organism overlap analysis is annotation-limited; B is not currently supported.
+Uniformly annotate the entire cached primary before choosing families, then reassess
+training and validation support at both thresholds. Do not train exclusively on B.
+No new Pfam scan or external annotation retrieval was performed; full-cohort family
+feasibility remains unresolved. Original datasets, prior results and test stay intact.
+
+---
+
+## UESolDS — uniform sequence-based Pfam annotation — 2026-11-08
+
+Completed uniform annotation of **all 13,880** cached `clean_all_sources` proteins
+(9,880 train / 4,000 validation), using **Pfam 37.0**, **PyHMMER 0.11.2**, and both
+per-model sequence/domain gathering cutoffs. All 21,979 profiles completed against
+full sequences; reference archives pass release MD5 checks and have recorded
+SHA-256 hashes. No label/source/performance-based annotation selection, tag
+stripping, split changes, test access or model fitting occurred.
+
+[Full report](Violet969-PLM_Sol-3589a95/curation/UNIFORM_PFAM_REPORT.md) ·
+[Methods and reproduction](Violet969-PLM_Sol-3589a95/curation/PFAM_METHODS.md).
+
+- **Coverage:** 10,467/13,880 (75.41%), 19,347 domain instances, 6,043 distinct
+  Pfam accessions. 3,413 proteins have explicit searched/no-GA-hit status.
+  Coverage differs by label/source: train label 0/1 = 70.75%/79.70%; validation
+  = 70.25%/76.75%. Annotation availability must remain an explicit limitation.
+- **Heterogeneity:** 1,660 mixed-label and 4,383 single-class observed families.
+  All proteins, including single-class and no-hit records, remain in primary A.
+- **≥3/class:** 395 pooled-development families; 257 training-eligible; 164 also
+  have both validation labels; 69 reach ≥3 in both splits, and 65 reach ≥3
+  class-exclusive detected homology groups per class in each split.
+- **≥5/class:** 205 pooled-development families; 116 training-eligible; 92 also
+  have both validation labels; 23 reach ≥5 in both splits, and 22 reach ≥5
+  class-exclusive groups per class in each split.
+- **Same source:** only 4 family/source pairs reach ≥3/class in both splits;
+  none reaches ≥5. The four involve PF08241/PF13489/PF13649, related
+  methyltransferase models in CL0063. They are not independent confirmations.
+- **Ambiguity sensitivity:** 2,381 proteins have competing overlapping domains
+  from different families in the same clan. Excluding both competing domains
+  leaves 10 families at ≥3/class in both splits and 3 at ≥5 (PF00076, PF00400,
+  PF04055), but zero same-source pairs reach either threshold in both splits.
+  This is conservative, not official PfamScan overlap resolution.
+
+**Recommendation:** retain heterogeneous A unchanged and use B only as exploratory
+within-Pfam evaluation, reporting annotation ambiguity and source sensitivity.
+Uniform annotation resolves the pilot's unknown-family-support problem, but a
+well-supported, source-matched B remains limited. Solubility outcomes themselves
+remain unverified; Pfam hits cannot repair workflow-derived labels. Do not train
+only on B or select cohorts using AUROC.
+
+Validation: all original IDs, sequence hashes, labels, splits and cluster assignments
+preserved; B is a view of A; detected groups remain split-disjoint; per-domain
+thresholds and coordinates validated; first 50 profiles (57 included domains)
+reproduced with one thread, matching the six-thread scores and coordinates;
+independent cross-tabulations reproduce family threshold counts.
+
+---
+
+## UESolDS — focused family × source × label analysis — 2026-11-09
+
+[Report](Violet969-PLM_Sol-3589a95/curation/FAMILY_SOURCE_REPORT.md) ·
+[Reproducible analysis](Violet969-PLM_Sol-3589a95/curation/family_source_analysis.py).
+Existing annotations/manifests were reused; no new annotation, embedding extraction,
+SAE work, test access, class balancing or changes to primary A occurred.
+
+- The 69 previously qualifying families cover 1,139 training / 609 validation
+  proteins. Complete source × label tables, including zero cells, are saved for
+  each split. In validation, **24/69 families have no source with both labels**.
+- With each protein's weight divided among its focus-family memberships,
+  family-first label-variance decomposition is **10.4% between families,
+  39.6% between sources within families, 50.0% within both** in training;
+  validation is **16.2%, 64.1%, 19.8%**. These are descriptive, order-dependent
+  finite-sample partitions, not causal effects or a reason to remove correlations.
+- Fixed-C metadata probes train on **all 9,880 heterogeneous training records**.
+  Pooled validation AUROC: family **0.5556**, source **0.7791**, additive family +
+  source **0.7747**. Macro over the 69 families: **0.4922 / 0.7761 / 0.7565**.
+  Thus within-family scoring alone leaves strong source-associated predictability.
+  Exact full Pfam-set + source strata make all primary metadata predictors constant
+  (AUROC 0.5). Per-centre, family/source, annotation-sensitivity and leave-centre-out
+  results, group-bootstrap intervals and predictions are retained.
+- JCSG has 1,639 training / 890 validation records; MCSG 1,718 / 527.
+  Positive prevalence shifts **49.2%→69.8%** for JCSG and **67.3%→30.4%** for
+  MCSG. Both retain unverified workflow-derived outcomes; no reliability winner
+  can be established. Neither has an ambiguity-filtered validation family at
+  ≥3/class, so narrowing to one centre does not repair B.
+- The larger cleaned pool adds **59,368 training records / 53,491 new detected
+  groups** beyond cached training. Their uniform Pfam membership is unknown.
+  Cluster links identify 283 follow-up candidates for the 69 families, but those
+  lie in already represented groups and are **not transferred Pfam annotations**.
+- **Fixed-validation ceiling:** even perfect additional training support can raise
+  all-source families qualifying in both splits only **69→79** at ≥3/class and
+  **23→25** at ≥5. JCSG's ceilings are 5/2; MCSG's 3/0. After conservative
+  overlapping-clan exclusion, both centres' ceilings are **zero** at both thresholds.
+
+Recommendation: keep **all-source A with controlled subsets and multiple
+source-stratified evaluations**. Preserve natural family associations. JCSG/MCSG
+are complementary diagnostics, not cleaner replacements. Do not initiate large
+embedding expansion to solve a validation/label-evidence bottleneck. Metadata probe
+AUROC is diagnostic and did not select the cohort. The 69-family focus is explicitly
+development-selected, not a pristine held-out result; test remains locked.

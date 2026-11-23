@@ -23,6 +23,7 @@ env/
 .ipynb_checkpoints/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
 
 # --- Credentials (never commit) -------------------------------------------
 *.pem

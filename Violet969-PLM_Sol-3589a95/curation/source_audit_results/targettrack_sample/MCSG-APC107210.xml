@@ -1,0 +1,638 @@
+<target id="MCSG-APC107210">
+          <targetId>APC107210</targetId>
+          <targetName>putative transcriptional regulator, TetR family [Halomicrobium mukohataei DSM 12286]</targetName>
+          <dateCreated>2010-10-05</dateCreated>
+          <dateUpdated>2011-11-18</dateUpdated>
+          <laboratoryList>
+               <lab>ANL</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>204</contactInfoId>
+               <contactInfoId>221</contactInfoId>
+               <contactInfoId>7</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>3</projectId>
+               </project>
+          </projectList>
+          <targetRationale>MEGA coverage with functional annotation from GEBA genomes</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>individual organism</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>structural coverage</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>purified</status>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>full length ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Halomicrobium mukohataei DSM 12286</scientificName>
+                         <taxDB>NCBI</taxDB>
+                         <taxId>485914</taxId>
+                    </sourceOrganism>
+                    <sequenceName>putative transcriptional regulator, TetR family [Halomicrobium mukohataei DSM 12286]</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://kiemlicz.med.virginia.edu/mcsg/space_tree/view/APC107210</url>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>GenBank</databaseName>
+                    <databaseId>257169238</databaseId>
+               </databaseRef>
+               <databaseRef>
+                    <databaseName>MCSG</databaseName>
+                    <databaseId>APC107210</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>APC107210_5328_6015</trialId>
+                    <dateUpdated>2012-02-16</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>204</contactInfoId>
+                         <contactInfoId>7</contactInfoId>
+                    </contactInfoRefList>
+                    <status>soluble</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>ANL</lab>
+                              <status>cloned</status>
+                              <dateComplete>2011-11-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>1</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>ANL</lab>
+                              <status>expression tested</status>
+                              <dateComplete>2012-02-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>ANL</lab>
+                              <status>soluble</status>
+                              <dateComplete>2012-02-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                              <trialOutcomeId>1</trialOutcomeId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                              <sequenceDetails>Sequence start: 1
+Sequence end: 206
+PCR primer forward: TACTTCCAATCCAATGCCATGTCTGGGAAGAAAAGACCGACC
+PCR primer backward: TTATCCACTTCCAATGTTAGTGGACCTGCTCGGCAGGT</sequenceDetails>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>standard cloning_ANL</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>Vector : pMCSG73</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="2">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Media type        : M9 minimal
+Media volume      : 5.0
+Growth temperature: 37.0
+Induction temp.   : 18.0
+Induction reagent : 1 mM IPTG
+Induction temp.   : 18.0
+Experiment type   : assay</protocolDetails>
+                         </protocolRef>
+                    </trialProtocolList>
+                    <trialOutcomeList>
+                         <trialOutcome id="0">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Expression level  : 90 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="1">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Solubility level  : 90 %</outcomeDetails>
+                         </trialOutcome>
+                    </trialOutcomeList>
+               </trial>
+               <trial id="2">
+                    <trialId>APC107210_5232_12283_6697</trialId>
+                    <dateUpdated>2012-03-16</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>204</contactInfoId>
+                         <contactInfoId>221</contactInfoId>
+                         <contactInfoId>7</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>ANL</lab>
+                              <status>cloned</status>
+                              <dateComplete>2011-11-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>1</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>ANL</lab>
+                              <status>expressed</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>ANL</lab>
+                              <status>soluble</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                              <trialOutcomeId>1</trialOutcomeId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>ANL</lab>
+                              <status>purified</status>
+                              <dateComplete>2012-03-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>3</trialProtocolId>
+                              <trialOutcomeId>2</trialOutcomeId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                              <sequenceDetails>Sequence start: 1
+Sequence end: 206
+PCR primer forward: TACTTCCAATCCAATGCCATGTCTGGGAAGAAAAGACCGACC
+PCR primer backward: TTATCCACTTCCAATGTTAGTGGACCTGCTCGGCAGGT</sequenceDetails>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>standard cloning_ANL</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>Vector : pMCSG57</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="2">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Media type        : M9 minimal + semet
+Media volume      : 1000.0
+Growth temperature: 37.0
+Induction temp.   : 18.0
+Induction reagent : 1 mM IPTG
+Induction temp.   : 18.0
+Experiment type   : production</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <protocolType>purification</protocolType>
+                              <protocolDetails>SeMet status       : semet</protocolDetails>
+                         </protocolRef>
+                    </trialProtocolList>
+                    <trialOutcomeList>
+                         <trialOutcome id="0">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Expression level  : 100 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="1">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Solubility level  : 50 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="2">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <outcomeDetails>Affinity tag status: na
+Final concentration: 106.0 mg/mL
+Final volume:        450.0 uL</outcomeDetails>
+                         </trialOutcome>
+                    </trialOutcomeList>
+               </trial>
+               <trial id="3">
+                    <trialId>APC107210_5232_12283_6698</trialId>
+                    <dateUpdated>2012-03-16</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>204</contactInfoId>
+                         <contactInfoId>221</contactInfoId>
+                         <contactInfoId>7</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>ANL</lab>
+                              <status>cloned</status>
+                              <dateComplete>2011-11-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>1</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>ANL</lab>
+                              <status>expressed</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>ANL</lab>
+                              <status>soluble</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                              <trialOutcomeId>1</trialOutcomeId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>ANL</lab>
+                              <status>purified</status>
+                              <dateComplete>2012-03-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>3</trialProtocolId>
+                              <trialOutcomeId>2</trialOutcomeId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                              <sequenceDetails>Sequence start: 1
+Sequence end: 206
+PCR primer forward: TACTTCCAATCCAATGCCATGTCTGGGAAGAAAAGACCGACC
+PCR primer backward: TTATCCACTTCCAATGTTAGTGGACCTGCTCGGCAGGT</sequenceDetails>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>standard cloning_ANL</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>Vector : pMCSG57</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="2">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Media type        : M9 minimal + semet
+Media volume      : 1000.0
+Growth temperature: 37.0
+Induction temp.   : 18.0
+Induction reagent : 1 mM IPTG
+Induction temp.   : 18.0
+Experiment type   : production</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <protocolType>purification</protocolType>
+                              <protocolDetails>SeMet status       : semet</protocolDetails>
+                         </protocolRef>
+                    </trialProtocolList>
+                    <trialOutcomeList>
+                         <trialOutcome id="0">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Expression level  : 100 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="1">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Solubility level  : 50 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="2">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <outcomeDetails>Affinity tag status: na
+Final concentration: 106.0 mg/mL
+Final volume:        450.0 uL</outcomeDetails>
+                         </trialOutcome>
+                    </trialOutcomeList>
+               </trial>
+               <trial id="4">
+                    <trialId>APC107210_5232_12283_6621</trialId>
+                    <dateUpdated>2012-03-16</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>204</contactInfoId>
+                         <contactInfoId>221</contactInfoId>
+                         <contactInfoId>7</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>ANL</lab>
+                              <status>cloned</status>
+                              <dateComplete>2011-11-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>1</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>ANL</lab>
+                              <status>expressed</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>ANL</lab>
+                              <status>soluble</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                              <trialOutcomeId>1</trialOutcomeId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>ANL</lab>
+                              <status>purified</status>
+                              <dateComplete>2012-03-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>3</trialProtocolId>
+                              <trialOutcomeId>2</trialOutcomeId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                              <sequenceDetails>Sequence start: 1
+Sequence end: 206
+PCR primer forward: TACTTCCAATCCAATGCCATGTCTGGGAAGAAAAGACCGACC
+PCR primer backward: TTATCCACTTCCAATGTTAGTGGACCTGCTCGGCAGGT</sequenceDetails>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>standard cloning_ANL</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>Vector : pMCSG57</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="2">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Media type        : M9 minimal + semet
+Media volume      : 1000.0
+Growth temperature: 37.0
+Induction temp.   : 18.0
+Induction reagent : 1 mM IPTG
+Induction temp.   : 18.0
+Experiment type   : production</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <protocolType>purification</protocolType>
+                              <protocolDetails>SeMet status       : semet</protocolDetails>
+                         </protocolRef>
+                    </trialProtocolList>
+                    <trialOutcomeList>
+                         <trialOutcome id="0">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Expression level  : 100 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="1">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Solubility level  : 50 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="2">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <outcomeDetails>Affinity tag status: na
+Final concentration: 1.0 mg/mL
+Final volume:        20000.0 uL</outcomeDetails>
+                         </trialOutcome>
+                    </trialOutcomeList>
+               </trial>
+               <trial id="5">
+                    <trialId>APC107210_5232_12283_6622</trialId>
+                    <dateUpdated>2012-03-16</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>204</contactInfoId>
+                         <contactInfoId>221</contactInfoId>
+                         <contactInfoId>7</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>ANL</lab>
+                              <status>cloned</status>
+                              <dateComplete>2011-11-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>1</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>ANL</lab>
+                              <status>expressed</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>ANL</lab>
+                              <status>soluble</status>
+                              <dateComplete>2012-02-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                              <trialOutcomeId>1</trialOutcomeId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>ANL</lab>
+                              <status>purified</status>
+                              <dateComplete>2012-03-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>3</trialProtocolId>
+                              <trialOutcomeId>2</trialOutcomeId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                              <sequenceDetails>Sequence start: 1
+Sequence end: 206
+PCR primer forward: TACTTCCAATCCAATGCCATGTCTGGGAAGAAAAGACCGACC
+PCR primer backward: TTATCCACTTCCAATGTTAGTGGACCTGCTCGGCAGGT</sequenceDetails>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>standard cloning_ANL</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>Vector : pMCSG57</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="2">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Media type        : M9 minimal + semet
+Media volume      : 1000.0
+Growth temperature: 37.0
+Induction temp.   : 18.0
+Induction reagent : 1 mM IPTG
+Induction temp.   : 18.0
+Experiment type   : production</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <protocolType>purification</protocolType>
+                              <protocolDetails>SeMet status       : semet</protocolDetails>
+                         </protocolRef>
+                    </trialProtocolList>
+                    <trialOutcomeList>
+                         <trialOutcome id="0">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Expression level  : 100 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="1">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Solubility level  : 50 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="2">
+                              <protocolId>standard purification_ANL</protocolId>
+                              <outcomeDetails>Affinity tag status: na
+Final concentration: 1.0 mg/mL
+Final volume:        20000.0 uL</outcomeDetails>
+                         </trialOutcome>
+                    </trialOutcomeList>
+               </trial>
+               <trial id="6">
+                    <trialId>APC107210_5232_5919</trialId>
+                    <dateUpdated>2012-02-16</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>204</contactInfoId>
+                         <contactInfoId>7</contactInfoId>
+                    </contactInfoRefList>
+                    <status>soluble</status>
+                    <statusHistoryList>
+                         <statusHistory id="0">
+                              <lab>ANL</lab>
+                              <status>selected</status>
+                              <dateComplete>2010-10-05</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>ANL</lab>
+                              <status>cloned</status>
+                              <dateComplete>2011-11-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>1</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>ANL</lab>
+                              <status>expression tested</status>
+                              <dateComplete>2012-02-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>ANL</lab>
+                              <status>soluble</status>
+                              <dateComplete>2012-02-16</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                              <trialProtocolId>2</trialProtocolId>
+                              <trialOutcomeId>1</trialOutcomeId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MSGKKRPTDATLREGFVEAGRSLVLDSDPEAIDGADVAAELGVDEDRFYRCFDSTGELLLEIYSREVESFTEQLRAELSEIGDDSEAIRLFFERYLAFFAENPYMDAARSIDDAFGLALETPERARAFERTLLEQQLPLIEQVQQHSDGPIAEMDPAIVFGFLRPLRSLHSDVQTSDRAYFEAVLDALVDVLVRGLTSNGPAEQVH
+                              </oneLetterCode>
+                              <sequenceChemicalType>protein</sequenceChemicalType>
+                              <sequenceDetails>Sequence start: 1
+Sequence end: 206
+PCR primer forward: TACTTCCAATCCAATGCCATGTCTGGGAAGAAAAGACCGACC
+PCR primer backward: TTATCCACTTCCAATGTTAGTGGACCTGCTCGGCAGGT</sequenceDetails>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="0">
+                              <protocolId>MCSG-Biology internal target selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>standard cloning_ANL</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>Vector : pMCSG57</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="2">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Media type        : M9 minimal
+Media volume      : 5.0
+Growth temperature: 37.0
+Induction temp.   : 18.0
+Induction reagent : 1 mM IPTG
+Induction temp.   : 18.0
+Experiment type   : assay</protocolDetails>
+                         </protocolRef>
+                    </trialProtocolList>
+                    <trialOutcomeList>
+                         <trialOutcome id="0">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Expression level  : 90 %</outcomeDetails>
+                         </trialOutcome>
+                         <trialOutcome id="1">
+                              <protocolId>standard expression_ANL</protocolId>
+                              <outcomeDetails>Solubility level  : 90 %</outcomeDetails>
+                         </trialOutcome>
+                    </trialOutcomeList>
+               </trial>
+          </trialList>
+     </target>
+     

@@ -1,0 +1,107 @@
+<target id="JCSG-418980">
+          <targetId>418980</targetId>
+          <targetName>SP2008B</targetName>
+          <dateCreated>2009-11-12</dateCreated>
+          <dateUpdated>2010-09-29</dateUpdated>
+          <laboratoryList>
+               <lab>GNF</lab>
+               <lab>UCSD</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>jcsgdb</contactInfoId>
+               <contactInfoId>lesley</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>2</projectId>
+               </project>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>3</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Proteins with predicted signal peptides selected mostly from genomes of commensal human gut flora and pathogens. Mostly members of PfamA families of unknown function and proteins without Pfam assignment. Proposed by Lesley Lab.</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <targetProteinType>single-domain protein</targetProteinType>
+          <status>purified</status>
+          <targetSequenceList>
+               <targetSequence id="418980">
+                    <oneLetterCode>
+                      AFHDIETFDVSLQTCKDFQHTDKNCHYDKRWDQSDLHISDQTDTKGTVCSPFALFAVLENTGEKLKKSKWKWELHKLENARKPLKDGNVIEKGFVSNQIGDSLYKIETKKKMKPGIYAFKVYKPAGYPANGSTFEWSEPMRLAKCDEKPTVPKKETKSDVKKENETTQKDIPEKTMKEETSQEAVTKEKETQSDQKESGEEDEKSNEADQ
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>truncated ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Bacillus subtilis subsp. subtilis str. 168</scientificName>
+                         <taxDB>NCBI Taxonomy</taxDB>
+                         <taxId>224308</taxId>
+                    </sourceOrganism>
+                    <sequenceName>SP2008B</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=SP2008B&amp;start=44&amp;end=253</url>
+          <remark>SP2008B</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>NCBI RefSeq</databaseName>
+                    <databaseId>NP_390344.1</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>1000-94439-H06</trialId>
+                    <dateUpdated>2010-09-27</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>expressed</status>
+                    <statusHistoryList>
+                         <statusHistory id="100418980">
+                              <lab>UCSD</lab>
+                              <status>selected</status>
+                              <dateComplete>2009-11-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7008884644106">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2010-02-19</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="10009443944107">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2010-09-27</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               AFHDIETFDVSLQTCKDFQHTDKNCHYDKRWDQSDLHISDQTDTKGTVCSPFALFAVLENTGEKLKKSKWKWELHKLENARKPLKDGNVIEKGFVSNQIGDSLYKIETKKKMKPGIYAFKVYKPAGYPANGSTFEWSEPMRLAKCDEKPTVPKKETKSDVKKENETTQKDIPEKTMKEETSQEAVTKEKETQSDQKESGEEDEKSNEADQ
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: SpeedET
+							Media: Small-scale (Mod. TB)</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_87</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

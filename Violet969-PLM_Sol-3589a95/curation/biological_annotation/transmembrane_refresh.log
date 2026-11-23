@@ -1,0 +1,60 @@
+biochemistry/merge 2000/13880
+biochemistry/merge 4000/13880
+biochemistry/merge 6000/13880
+biochemistry/merge 8000/13880
+biochemistry/merge 10000/13880
+biochemistry/merge 12000/13880
+Annotation table written; unavailable predictors remain explicitly missing.
+/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/summarize_biology.py:58: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  original_domains=pd.read_csv(ROOT/'pfam_annotation/domains.tsv',sep='\t',float_precision='round_trip')
+/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/summarize_biology.py:59: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  preserved_domains=pd.read_csv(out/'pfam_domains.tsv',sep='\t',float_precision='round_trip')
+{
+  "records": 13880,
+  "splits": {
+    "train": 9880,
+    "validation": 4000
+  },
+  "labels": "{('train', 0): 3884, ('train', 1): 5996, ('validation', 0): 2000, ('validation', 1): 2000}",
+  "truncation_records": 218,
+  "regions_by_concept": {
+    "aggregation": 135518,
+    "disorder": 14094,
+    "DeepTMHMM2_Beta sheet": 1423,
+    "DeepTMHMM2_signal": 802,
+    "DeepTMHMM2_TMhelix": 593,
+    "DeepTMHMM2_transit_peptide": 239,
+    "DeepTMHMM2_interfacial": 129,
+    "DeepTMHMM2_reentrant": 3
+  },
+  "aggregation_terminal_sensitive_records": 1110,
+  "aggregation_length_extrapolation_records": 11,
+  "pfam_assigned": 10467,
+  "taxonomy_statuses": {
+    "assigned_exact_species_consensus": 6386,
+    "no_exact_match": 4440,
+    "exact_match_ambiguous_taxonomy": 3018,
+    "exact_match_engineered_taxon": 36
+  },
+  "qualified_family_split_strata": 673,
+  "same_source_family_label_contrasts": 90,
+  "features_prespecified": [
+    "full_length",
+    "full_entropy_bits",
+    "full_charge_density_ph7p0",
+    "full_pi_estimate",
+    "full_frac_charged",
+    "full_frac_polar_uncharged",
+    "full_frac_aromatic",
+    "full_hydropathy_mean",
+    "full_hydropathy_w9_max",
+    "full_hydropathy_w19_max",
+    "full_aggregation_fraction",
+    "full_aggregation_mean",
+    "full_disorder_fraction",
+    "full_disorder_mean",
+    "full_tm_fraction",
+    "full_membrane_associated_fraction"
+  ]
+}
+/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/BIOLOGICAL_ANNOTATION_REPORT.md

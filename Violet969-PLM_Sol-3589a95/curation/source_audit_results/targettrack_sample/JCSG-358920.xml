@@ -1,0 +1,361 @@
+<target id="JCSG-358920">
+          <targetId>358920</targetId>
+          <dateCreated>2005-01-24</dateCreated>
+          <dateUpdated>2005-03-02</dateUpdated>
+          <laboratoryList>
+               <lab>JCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>gnf</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>1</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>structural coverage</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>work stopped</status>
+          <targetStopDetails>
+               <stopStatus>other</stopStatus>
+               <remark>Stopped old GNF target from PSI-1</remark>
+          </targetStopDetails>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MARVKEEADRISEQANSHIENIRRQIEQEKNDWAAEKQKLIEEAKAEGFEQGVALGKAEAMKQYAELIGQANTITEMSRKAVEDKLEDANEEIVELAVALAKKVWQQKSDDKEAFLLLVQQVINEVKEYDDISIYVDPYYYETIFQQKDEIQQLLYKECRLGIYADEKAQKGTCYIETPFGRVDASVDTQLMQLKDKLLTALEAGAAE
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Bacillus subtilis subsp. subtilis str. 168</scientificName>
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>2633995</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=2633995&amp;start=1&amp;end=208</url>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>NCBI</databaseName>
+                    <databaseId>2633995</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>1100-29691-E04</trialId>
+                    <dateUpdated>2005-03-02</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2005-01-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2005-02-17</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2005-03-01</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2005-03-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMARVKEEADRISEQANSHIENIRRQIEQEKNDWAAEKQKLIEEAKAEGFEQGVALGKAEAMKQYAELIGQANTITEMSRKAVEDKLEDANEEIVELAVALAKKVWQQKSDDKEAFLLLVQQVINEVKEYDDISIYVDPYYYETIFQQKDEIQQLLYKECRLGIYADEKAQKGTCYIETPFGRVDASVDTQLMQLKDKLLTALEAGAAE
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                              <databaseRefList>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                              </databaseRefList>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH4a
+							Media: Met-Inhibition</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_31</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="2">
+                    <trialId>1100-29691-E07</trialId>
+                    <dateUpdated>2005-03-02</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2005-01-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2005-02-17</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2005-03-01</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2005-03-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMARVKEEADRISEQANSHIENIRRQIEQEKNDWAAEKQKLIEEAKAEGFEQGVALGKAEAMKQYAELIGQANTITEMSRKAVEDKLEDANEEIVELAVALAKKVWQQKSDDKEAFLLLVQQVINEVKEYDDISIYVDPYYYETIFQQKDEIQQLLYKECRLGIYADEKAQKGTCYIETPFGRVDASVDTQLMQLKDKLLTALEAGAAE
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                              <databaseRefList>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                              </databaseRefList>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH4a
+							Media: Met-Inhibition</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_31</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="3">
+                    <trialId>1100-29691-E01</trialId>
+                    <dateUpdated>2005-03-02</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2005-01-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2005-02-17</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2005-03-01</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2005-03-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMARVKEEADRISEQANSHIENIRRQIEQEKNDWAAEKQKLIEEAKAEGFEQGVALGKAEAMKQYAELIGQANTITEMSRKAVEDKLEDANEEIVELAVALAKKVWQQKSDDKEAFLLLVQQVINEVKEYDDISIYVDPYYYETIFQQKDEIQQLLYKECRLGIYADEKAQKGTCYIETPFGRVDASVDTQLMQLKDKLLTALEAGAAE
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                              <databaseRefList>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                              </databaseRefList>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH4a
+							Media: Met-Inhibition</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_31</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="4">
+                    <trialId>1100-29691-E10</trialId>
+                    <dateUpdated>2005-03-02</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2005-01-24</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2005-02-17</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2005-03-01</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="4">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2005-03-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMARVKEEADRISEQANSHIENIRRQIEQEKNDWAAEKQKLIEEAKAEGFEQGVALGKAEAMKQYAELIGQANTITEMSRKAVEDKLEDANEEIVELAVALAKKVWQQKSDDKEAFLLLVQQVINEVKEYDDISIYVDPYYYETIFQQKDEIQQLLYKECRLGIYADEKAQKGTCYIETPFGRVDASVDTQLMQLKDKLLTALEAGAAE
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                              <databaseRefList>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                                  <databaseRef>
+                                      <databaseName>PepcDB-CloneId</databaseName>
+                                      <databaseId>18823</databaseId>
+                                  </databaseRef>
+                              </databaseRefList>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH4a
+							Media: Met-Inhibition</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_31</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

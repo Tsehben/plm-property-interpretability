@@ -1,0 +1,6 @@
+{
+  "script_sha256": "9815a128574cef505cd3120999f7f76682205d357a8deb8c0ebaa448aad72a62",
+  "features": "full sequence log length and 20 AA fractions; train-only StandardScaler",
+  "distance": "Euclidean; nearest protein outside query MMseqs group",
+  "note": "Descriptive coverage sensitivity, not a population support bound; no labels used for geometry"
+}

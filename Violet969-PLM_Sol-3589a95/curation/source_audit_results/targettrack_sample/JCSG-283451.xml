@@ -1,0 +1,134 @@
+<target id="JCSG-283451">
+          <targetId>283451</targetId>
+          <targetName>TM1594</targetName>
+          <dateCreated>2001-10-12</dateCreated>
+          <dateUpdated>2001-10-12</dateUpdated>
+          <laboratoryList>
+               <lab>GNF</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>lesley</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>1</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Structural coverage of Thermotoga maritima proteome.</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>individual organism</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>structural coverage</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <targetProteinType>multidomain protein</targetProteinType>
+          <status>selected</status>
+          <relatedTargetIdList>
+               <relatedTargetId>
+                    <targetId>283447</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283448</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283449</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283450</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283452</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283453</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283454</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283455</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283456</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+          </relatedTargetIdList>
+          <targetSequenceList>
+               <targetSequence id="283451">
+                    <oneLetterCode>
+                      MWKVRVKKFLRETYWGDEFLIEDDGEDQVLKIVRAPVDRSFFFNEYAKLKRLNLPNVLLPEKLKISDGKFLLFYPYYHNLAPLENLSDQVAKQLLKLFLFLSKVGVTIPALGMDDILVNDGVFLIPALISNIPDDVKGVVFSPERSSRATEEVCRRFLKIHGIEPHLETREPSFDSREIRIPYIHRKEEELIKRDIEIAQKFPFFILITGEQRVGKTKLASVLVDGLREQGYMVHQITSLEDLRVWYDASDELDLLTKLDDGQKKVILIDDLFEGSDLLSFLEEFSGLSTITKIIVLTTSTKAFQFFHKVYRLSPFTVEETRIFLERAIGKISEDQVKLIHSLSKGLPGYMVELLKFFNKSNLRENIVGIFKPLLRELDSPEIRELSVLGQKFTGTELKVLEKITGKDYHDTLMSAYDSGVITTEEGLYRFALREFWKYYYNKLSENKKKNLHEKLFENLPDDLAIKHALSLEDPRLKFFYVLRYVRKHFWDYEKTRSLIEYLRRLEEFFEKPYYSIESLKMKLIFRIDPLGVEKENFHFRRFKTLRNPDVESILQKDSLSYYDLYNLVVLSRFHIRAGKKAPQEILNTIKRELKEKNFSTRERLYLKAHLLYDLFSSTEDREALKEMMNIATSEGFLDLQVMGYRALGVLSRTRAMSNYYFHHSLELSRKIDPSLSIVDESNLTWSLLYEGKITNFLVQLERLRKQARLFEDMPILSYTYFLEGLYYIHKKDFQKAEEVFRTELELEEKHGIERRALRGLVMNYLFSGDVESAKSLLEKDEPEFDRFGFNFLKRLVLAKDDSELLKIWKERLETPQKFFNEEIAYVFTERLAKLDPEGFEEFLLELERENVENSSNLTLALVYETFYKFYSALGENFKAKRYLRRAIFVYNLIGLREVSVKPEVEEKTQIEEKKAPFYLLLGFIETEKEFSDMMEFASARLSEVIPYEVFSIRIIERTTKKVMEEYSTSPITPPMEKDFLEISPFRTVMSFHLDMKHDMIVGVETNLECDEKTAWELVETLEQFGNILTTILRERLYRDRSMKDPLTGVLSRWYFMERLEEEAYKSSRYKSPLSIIMCDADDFKKINDQFGHVAGDKTLGWLGRKMKSVLRKSDLVGRYGGEEFIIALPGTSLEEAKIVAEKLRKAVMEDPENTYHITLSFGVAEYKNGEDPFETIKRADEALYLAKILGKNSVVTEKVLSRRSS
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>full length ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Thermotoga maritima msb8</scientificName>
+                         <taxDB>NCBI Taxonomy</taxDB>
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>TM1594</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=TM1594&amp;start=1&amp;end=1206</url>
+          <remark>Conserved hypothetical protein, GGDEF domain.</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>PFAM</databaseName>
+                    <databaseId>PF01637</databaseId>
+               </databaseRef>
+               <databaseRef>
+                    <databaseName>TIGR</databaseName>
+                    <databaseId>TM1594</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>0010-0-283451</trialId>
+                    <dateUpdated>2001-10-12</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>selected</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283451">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-10-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MWKVRVKKFLRETYWGDEFLIEDDGEDQVLKIVRAPVDRSFFFNEYAKLKRLNLPNVLLPEKLKISDGKFLLFYPYYHNLAPLENLSDQVAKQLLKLFLFLSKVGVTIPALGMDDILVNDGVFLIPALISNIPDDVKGVVFSPERSSRATEEVCRRFLKIHGIEPHLETREPSFDSREIRIPYIHRKEEELIKRDIEIAQKFPFFILITGEQRVGKTKLASVLVDGLREQGYMVHQITSLEDLRVWYDASDELDLLTKLDDGQKKVILIDDLFEGSDLLSFLEEFSGLSTITKIIVLTTSTKAFQFFHKVYRLSPFTVEETRIFLERAIGKISEDQVKLIHSLSKGLPGYMVELLKFFNKSNLRENIVGIFKPLLRELDSPEIRELSVLGQKFTGTELKVLEKITGKDYHDTLMSAYDSGVITTEEGLYRFALREFWKYYYNKLSENKKKNLHEKLFENLPDDLAIKHALSLEDPRLKFFYVLRYVRKHFWDYEKTRSLIEYLRRLEEFFEKPYYSIESLKMKLIFRIDPLGVEKENFHFRRFKTLRNPDVESILQKDSLSYYDLYNLVVLSRFHIRAGKKAPQEILNTIKRELKEKNFSTRERLYLKAHLLYDLFSSTEDREALKEMMNIATSEGFLDLQVMGYRALGVLSRTRAMSNYYFHHSLELSRKIDPSLSIVDESNLTWSLLYEGKITNFLVQLERLRKQARLFEDMPILSYTYFLEGLYYIHKKDFQKAEEVFRTELELEEKHGIERRALRGLVMNYLFSGDVESAKSLLEKDEPEFDRFGFNFLKRLVLAKDDSELLKIWKERLETPQKFFNEEIAYVFTERLAKLDPEGFEEFLLELERENVENSSNLTLALVYETFYKFYSALGENFKAKRYLRRAIFVYNLIGLREVSVKPEVEEKTQIEEKKAPFYLLLGFIETEKEFSDMMEFASARLSEVIPYEVFSIRIIERTTKKVMEEYSTSPITPPMEKDFLEISPFRTVMSFHLDMKHDMIVGVETNLECDEKTAWELVETLEQFGNILTTILRERLYRDRSMKDPLTGVLSRWYFMERLEEEAYKSSRYKSPLSIIMCDADDFKKINDQFGHVAGDKTLGWLGRKMKSVLRKSDLVGRYGGEEFIIALPGTSLEEAKIVAEKLRKAVMEDPENTYHITLSFGVAEYKNGEDPFETIKRADEALYLAKILGKNSVVTEKVLSRRSS
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

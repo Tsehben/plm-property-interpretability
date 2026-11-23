@@ -1,0 +1,199 @@
+<target id="JCSG-283682">
+          <targetId>283682</targetId>
+          <targetName>TM1829</targetName>
+          <dateCreated>2001-08-10</dateCreated>
+          <dateUpdated>2002-08-21</dateUpdated>
+          <laboratoryList>
+               <lab>GNF</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>lesley</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>1</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Structural coverage of Thermotoga maritima proteome.</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>individual organism</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <targetProteinType>single-domain protein</targetProteinType>
+          <status>purified</status>
+          <relatedTargetIdList>
+               <relatedTargetId>
+                    <targetId>283673</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283674</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283675</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283676</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283677</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283678</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283679</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283680</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283681</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+          </relatedTargetIdList>
+          <targetSequenceList>
+               <targetSequence id="283682">
+                    <oneLetterCode>
+                      MEKTEYKRNALGAGWNSRPAVKAREPSQEG
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>full length ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Thermotoga maritima msb8</scientificName>
+                         <taxDB>NCBI Taxonomy</taxDB>
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>TM1829</sequenceName>
+                    <databaseRefList>
+                         <databaseRef>
+                              <databaseName>PSI-MR</databaseName>
+                              <databaseId>89541</databaseId>
+                         </databaseRef>
+                    </databaseRefList>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=TM1829&amp;start=1&amp;end=30</url>
+          <remark>Hypothetical protein TM1829.</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>TIGR</databaseName>
+                    <databaseId>TM1829</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>1000-8454-H8</trialId>
+                    <dateUpdated>2002-08-21</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>expressed</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283682">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7006395655">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="100084545656">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2002-08-21</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MEKTEYKRNALGAGWNSRPAVKAREPSQEG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="2">
+                    <trialId>1000-690-F11</trialId>
+                    <dateUpdated>2001-10-01</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>expressed</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283682">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7006395657">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="10006905658">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2001-10-01</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MEKTEYKRNALGAGWNSRPAVKAREPSQEG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

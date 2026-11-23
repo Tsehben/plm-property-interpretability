@@ -1,0 +1,89 @@
+<target id="MCSG-APC26040">
+          <targetId>APC26040</targetId>
+          <dateCreated>2004-02-15</dateCreated>
+          <dateUpdated>2004-02-15</dateUpdated>
+          <laboratoryList>
+               <lab>MCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>mcsgdb_1</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>2</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>cloned</status>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MSLVMKILRKPKIEDIVCNIQNNEEDKEAFIVQYQPFIRKSISSVCRRYITEQDDEYSIGLFAFNEAIEQYSYTKGKSFLAFADLLIKRDVIDYIRKESKHNFVFLKEDEQEEMLEMQVSLTEYMKEMENSNRKEEILHFQSVLAEFKITFSELAKESPKHRDTREHLIEIVKIIIKEEEMMEELFRKKKLPLKHIEPRVRVSRKTLERHRKYIIAMCIIFANNYTYILDYIRGEKHDE
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Bacillus cereus</scientificName>
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>BC3426RNA polymerase sigma-I factor</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <remark>RNA polymerase sigma-I factor (gi 29897084)</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>NCBI</databaseName>
+                    <databaseId>AAP10361</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <dateUpdated>2004-02-15</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>14</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="2">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>selected</status>
+                              <dateComplete>2004-02-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>cloned</status>
+                              <dateComplete>2004-02-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MSLVMKILRKPKIEDIVCNIQNNEEDKEAFIVQYQPFIRKSISSVCRRYITEQDDEYSIGLFAFNEAIEQYSYTKGKSFLAFADLLIKRDVIDYIRKESKHNFVFLKEDEQEEMLEMQVSLTEYMKEMENSNRKEEILHFQSVLAEFKITFSELAKESPKHRDTREHLIEIVKIIIKEEEMMEELFRKKKLPLKHIEPRVRVSRKTLERHRKYIIAMCIIFANNYTYILDYIRGEKHDE
+                              </oneLetterCode>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>anl_cloning_1</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21magic cloning vector: pMCSG7</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>mcsg_selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

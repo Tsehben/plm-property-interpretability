@@ -1,0 +1,48 @@
+{
+  "aggregation_length_extrapolation_records": 11,
+  "aggregation_terminal_sensitive_records": 1110,
+  "features_prespecified": [
+    "full_length",
+    "full_entropy_bits",
+    "full_charge_density_ph7p0",
+    "full_pi_estimate",
+    "full_frac_charged",
+    "full_frac_polar_uncharged",
+    "full_frac_aromatic",
+    "full_hydropathy_mean",
+    "full_hydropathy_w9_max",
+    "full_hydropathy_w19_max",
+    "full_aggregation_fraction",
+    "full_aggregation_mean",
+    "full_disorder_fraction",
+    "full_disorder_mean",
+    "full_tm_fraction",
+    "full_membrane_associated_fraction"
+  ],
+  "labels": "{('train', 0): 3884, ('train', 1): 5996, ('validation', 0): 2000, ('validation', 1): 2000}",
+  "pfam_assigned": 10467,
+  "qualified_family_split_strata": 673,
+  "records": 13880,
+  "regions_by_concept": {
+    "DeepTMHMM2_Beta sheet": 1423,
+    "DeepTMHMM2_TMhelix": 593,
+    "DeepTMHMM2_interfacial": 129,
+    "DeepTMHMM2_reentrant": 3,
+    "DeepTMHMM2_signal": 802,
+    "DeepTMHMM2_transit_peptide": 239,
+    "aggregation": 135518,
+    "disorder": 14094
+  },
+  "same_source_family_label_contrasts": 90,
+  "splits": {
+    "train": 9880,
+    "validation": 4000
+  },
+  "taxonomy_statuses": {
+    "assigned_exact_species_consensus": 6386,
+    "exact_match_ambiguous_taxonomy": 3018,
+    "exact_match_engineered_taxon": 36,
+    "no_exact_match": 4440
+  },
+  "truncation_records": 218
+}

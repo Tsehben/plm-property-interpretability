@@ -1,0 +1,672 @@
+##gff-version 3
+## validation:145 Length: 2401
+## validation:145 Number of predicted TMRs: 0
+validation:145	DeepTM	inside	1	2401	.	.	.	.
+//
+## validation:1550 Length: 1753
+## validation:1550 Number of predicted TMRs: 0
+validation:1550	DeepTM	inside	1	1753	.	.	.	.
+//
+## validation:1546 Length: 1177
+## validation:1546 Number of predicted TMRs: 20
+validation:1546	DeepTM	outside	1	108	.	.	.	.
+validation:1546	DeepTM	Beta sheet	109	113	.	.	.	.
+validation:1546	DeepTM	inside	114	125	.	.	.	.
+validation:1546	DeepTM	Beta sheet	126	130	.	.	.	.
+validation:1546	DeepTM	outside	131	196	.	.	.	.
+validation:1546	DeepTM	Beta sheet	197	201	.	.	.	.
+validation:1546	DeepTM	inside	202	207	.	.	.	.
+validation:1546	DeepTM	Beta sheet	208	213	.	.	.	.
+validation:1546	DeepTM	outside	214	311	.	.	.	.
+validation:1546	DeepTM	Beta sheet	312	318	.	.	.	.
+validation:1546	DeepTM	inside	319	324	.	.	.	.
+validation:1546	DeepTM	Beta sheet	325	329	.	.	.	.
+validation:1546	DeepTM	outside	330	348	.	.	.	.
+validation:1546	DeepTM	Beta sheet	349	353	.	.	.	.
+validation:1546	DeepTM	inside	354	360	.	.	.	.
+validation:1546	DeepTM	Beta sheet	361	365	.	.	.	.
+validation:1546	DeepTM	outside	366	738	.	.	.	.
+validation:1546	DeepTM	Beta sheet	739	743	.	.	.	.
+validation:1546	DeepTM	inside	744	764	.	.	.	.
+validation:1546	DeepTM	Beta sheet	765	769	.	.	.	.
+validation:1546	DeepTM	outside	770	777	.	.	.	.
+validation:1546	DeepTM	Beta sheet	778	783	.	.	.	.
+validation:1546	DeepTM	inside	784	788	.	.	.	.
+validation:1546	DeepTM	Beta sheet	789	794	.	.	.	.
+validation:1546	DeepTM	outside	795	809	.	.	.	.
+validation:1546	DeepTM	Beta sheet	810	817	.	.	.	.
+validation:1546	DeepTM	inside	818	834	.	.	.	.
+validation:1546	DeepTM	Beta sheet	835	842	.	.	.	.
+validation:1546	DeepTM	outside	843	1032	.	.	.	.
+validation:1546	DeepTM	Beta sheet	1033	1037	.	.	.	.
+validation:1546	DeepTM	inside	1038	1038	.	.	.	.
+validation:1546	DeepTM	Beta sheet	1039	1043	.	.	.	.
+validation:1546	DeepTM	outside	1044	1054	.	.	.	.
+validation:1546	DeepTM	Beta sheet	1055	1061	.	.	.	.
+validation:1546	DeepTM	inside	1062	1064	.	.	.	.
+validation:1546	DeepTM	Beta sheet	1065	1072	.	.	.	.
+validation:1546	DeepTM	outside	1073	1145	.	.	.	.
+validation:1546	DeepTM	Beta sheet	1146	1153	.	.	.	.
+validation:1546	DeepTM	inside	1154	1167	.	.	.	.
+validation:1546	DeepTM	Beta sheet	1168	1174	.	.	.	.
+validation:1546	DeepTM	outside	1175	1177	.	.	.	.
+//
+## validation:1548 Length: 852
+## validation:1548 Number of predicted TMRs: 0
+validation:1548	DeepTM	outside	1	852	.	.	.	.
+//
+## validation:1547 Length: 827
+## validation:1547 Number of predicted TMRs: 0
+validation:1547	DeepTM	inside	1	827	.	.	.	.
+//
+## validation:1549 Length: 788
+## validation:1549 Number of predicted TMRs: 22
+validation:1549	DeepTM	outside	1	160	.	.	.	.
+validation:1549	DeepTM	Beta sheet	161	170	.	.	.	.
+validation:1549	DeepTM	inside	171	176	.	.	.	.
+validation:1549	DeepTM	Beta sheet	177	184	.	.	.	.
+validation:1549	DeepTM	outside	185	193	.	.	.	.
+validation:1549	DeepTM	Beta sheet	194	201	.	.	.	.
+validation:1549	DeepTM	inside	202	234	.	.	.	.
+validation:1549	DeepTM	Beta sheet	235	242	.	.	.	.
+validation:1549	DeepTM	outside	243	250	.	.	.	.
+validation:1549	DeepTM	Beta sheet	251	258	.	.	.	.
+validation:1549	DeepTM	inside	259	295	.	.	.	.
+validation:1549	DeepTM	Beta sheet	296	303	.	.	.	.
+validation:1549	DeepTM	outside	304	310	.	.	.	.
+validation:1549	DeepTM	Beta sheet	311	318	.	.	.	.
+validation:1549	DeepTM	inside	319	351	.	.	.	.
+validation:1549	DeepTM	Beta sheet	352	359	.	.	.	.
+validation:1549	DeepTM	outside	360	370	.	.	.	.
+validation:1549	DeepTM	Beta sheet	371	379	.	.	.	.
+validation:1549	DeepTM	inside	380	443	.	.	.	.
+validation:1549	DeepTM	Beta sheet	444	452	.	.	.	.
+validation:1549	DeepTM	outside	453	457	.	.	.	.
+validation:1549	DeepTM	Beta sheet	458	466	.	.	.	.
+validation:1549	DeepTM	inside	467	476	.	.	.	.
+validation:1549	DeepTM	Beta sheet	477	486	.	.	.	.
+validation:1549	DeepTM	outside	487	489	.	.	.	.
+validation:1549	DeepTM	Beta sheet	490	498	.	.	.	.
+validation:1549	DeepTM	inside	499	549	.	.	.	.
+validation:1549	DeepTM	Beta sheet	550	557	.	.	.	.
+validation:1549	DeepTM	outside	558	561	.	.	.	.
+validation:1549	DeepTM	Beta sheet	562	569	.	.	.	.
+validation:1549	DeepTM	inside	570	623	.	.	.	.
+validation:1549	DeepTM	Beta sheet	624	631	.	.	.	.
+validation:1549	DeepTM	outside	632	640	.	.	.	.
+validation:1549	DeepTM	Beta sheet	641	647	.	.	.	.
+validation:1549	DeepTM	inside	648	684	.	.	.	.
+validation:1549	DeepTM	Beta sheet	685	692	.	.	.	.
+validation:1549	DeepTM	outside	693	697	.	.	.	.
+validation:1549	DeepTM	Beta sheet	698	705	.	.	.	.
+validation:1549	DeepTM	inside	706	725	.	.	.	.
+validation:1549	DeepTM	Beta sheet	726	733	.	.	.	.
+validation:1549	DeepTM	outside	734	739	.	.	.	.
+validation:1549	DeepTM	Beta sheet	740	749	.	.	.	.
+validation:1549	DeepTM	inside	750	782	.	.	.	.
+validation:1549	DeepTM	Beta sheet	783	787	.	.	.	.
+validation:1549	DeepTM	outside	788	788	.	.	.	.
+//
+## validation:155 Length: 764
+## validation:155 Number of predicted TMRs: 0
+validation:155	DeepTM	inside	1	764	.	.	.	.
+//
+## validation:154 Length: 675
+## validation:154 Number of predicted TMRs: 0
+validation:154	DeepTM	inside	1	675	.	.	.	.
+//
+## validation:1545 Length: 577
+## validation:1545 Number of predicted TMRs: 0
+validation:1545	DeepTM	outside	1	577	.	.	.	.
+//
+## validation:1544 Length: 568
+## validation:1544 Number of predicted TMRs: 0
+validation:1544	DeepTM	outside	1	568	.	.	.	.
+//
+## validation:1542 Length: 538
+## validation:1542 Number of predicted TMRs: 17
+validation:1542	DeepTM	outside	1	59	.	.	.	.
+validation:1542	DeepTM	Beta sheet	60	67	.	.	.	.
+validation:1542	DeepTM	inside	68	87	.	.	.	.
+validation:1542	DeepTM	Beta sheet	88	96	.	.	.	.
+validation:1542	DeepTM	outside	97	104	.	.	.	.
+validation:1542	DeepTM	Beta sheet	105	113	.	.	.	.
+validation:1542	DeepTM	inside	114	142	.	.	.	.
+validation:1542	DeepTM	Beta sheet	143	151	.	.	.	.
+validation:1542	DeepTM	outside	152	157	.	.	.	.
+validation:1542	DeepTM	Beta sheet	158	166	.	.	.	.
+validation:1542	DeepTM	inside	167	205	.	.	.	.
+validation:1542	DeepTM	Beta sheet	206	214	.	.	.	.
+validation:1542	DeepTM	outside	215	219	.	.	.	.
+validation:1542	DeepTM	Beta sheet	220	227	.	.	.	.
+validation:1542	DeepTM	inside	228	262	.	.	.	.
+validation:1542	DeepTM	Beta sheet	263	270	.	.	.	.
+validation:1542	DeepTM	outside	271	280	.	.	.	.
+validation:1542	DeepTM	Beta sheet	281	288	.	.	.	.
+validation:1542	DeepTM	inside	289	334	.	.	.	.
+validation:1542	DeepTM	Beta sheet	335	343	.	.	.	.
+validation:1542	DeepTM	outside	344	347	.	.	.	.
+validation:1542	DeepTM	Beta sheet	348	355	.	.	.	.
+validation:1542	DeepTM	inside	356	366	.	.	.	.
+validation:1542	DeepTM	Beta sheet	367	374	.	.	.	.
+validation:1542	DeepTM	outside	375	379	.	.	.	.
+validation:1542	DeepTM	Beta sheet	380	387	.	.	.	.
+validation:1542	DeepTM	inside	388	444	.	.	.	.
+validation:1542	DeepTM	Beta sheet	445	452	.	.	.	.
+validation:1542	DeepTM	outside	453	455	.	.	.	.
+validation:1542	DeepTM	Beta sheet	456	463	.	.	.	.
+validation:1542	DeepTM	inside	464	515	.	.	.	.
+validation:1542	DeepTM	Beta sheet	516	522	.	.	.	.
+validation:1542	DeepTM	outside	523	532	.	.	.	.
+validation:1542	DeepTM	Beta sheet	533	537	.	.	.	.
+validation:1542	DeepTM	inside	538	538	.	.	.	.
+//
+## validation:1519 Length: 507
+## validation:1519 Number of predicted TMRs: 0
+validation:1519	DeepTM	inside	1	507	.	.	.	.
+//
+## validation:1450 Length: 488
+## validation:1450 Number of predicted TMRs: 2
+validation:1450	DeepTM	inside	1	412	.	.	.	.
+validation:1450	DeepTM	TMhelix	413	430	.	.	.	.
+validation:1450	DeepTM	outside	431	439	.	.	.	.
+validation:1450	DeepTM	TMhelix	440	460	.	.	.	.
+validation:1450	DeepTM	inside	461	488	.	.	.	.
+//
+## validation:1541 Length: 481
+## validation:1541 Number of predicted TMRs: 4
+validation:1541	DeepTM	outside	1	337	.	.	.	.
+validation:1541	DeepTM	Beta sheet	338	344	.	.	.	.
+validation:1541	DeepTM	inside	345	350	.	.	.	.
+validation:1541	DeepTM	Beta sheet	351	357	.	.	.	.
+validation:1541	DeepTM	outside	358	386	.	.	.	.
+validation:1541	DeepTM	Beta sheet	387	393	.	.	.	.
+validation:1541	DeepTM	inside	394	397	.	.	.	.
+validation:1541	DeepTM	Beta sheet	398	405	.	.	.	.
+validation:1541	DeepTM	outside	406	481	.	.	.	.
+//
+## validation:1523 Length: 458
+## validation:1523 Number of predicted TMRs: 0
+validation:1523	DeepTM	inside	1	458	.	.	.	.
+//
+## validation:1508 Length: 443
+## validation:1508 Number of predicted TMRs: 0
+validation:1508	DeepTM	inside	1	443	.	.	.	.
+//
+## validation:149 Length: 442
+## validation:149 Number of predicted TMRs: 0
+validation:149	DeepTM	inside	1	442	.	.	.	.
+//
+## validation:1467 Length: 442
+## validation:1467 Number of predicted TMRs: 0
+validation:1467	DeepTM	inside	1	442	.	.	.	.
+//
+## validation:1525 Length: 439
+## validation:1525 Number of predicted TMRs: 0
+validation:1525	DeepTM	inside	1	439	.	.	.	.
+//
+## validation:1472 Length: 425
+## validation:1472 Number of predicted TMRs: 0
+validation:1472	DeepTM	inside	1	425	.	.	.	.
+//
+## validation:152 Length: 413
+## validation:152 Number of predicted TMRs: 0
+validation:152	DeepTM	inside	1	413	.	.	.	.
+//
+## validation:1482 Length: 412
+## validation:1482 Number of predicted TMRs: 0
+validation:1482	DeepTM	inside	1	412	.	.	.	.
+//
+## validation:1522 Length: 408
+## validation:1522 Number of predicted TMRs: 0
+validation:1522	DeepTM	inside	1	408	.	.	.	.
+//
+## validation:150 Length: 407
+## validation:150 Number of predicted TMRs: 0
+validation:150	DeepTM	inside	1	407	.	.	.	.
+//
+## validation:151 Length: 405
+## validation:151 Number of predicted TMRs: 2
+validation:151	DeepTM	inside	1	67	.	.	.	.
+validation:151	DeepTM	TMhelix	68	77	.	.	.	.
+validation:151	DeepTM	outside	78	80	.	.	.	.
+validation:151	DeepTM	TMhelix	81	91	.	.	.	.
+validation:151	DeepTM	inside	92	405	.	.	.	.
+//
+## validation:1469 Length: 404
+## validation:1469 Number of predicted TMRs: 0
+validation:1469	DeepTM	signal	1	24	.	.	.	.
+validation:1469	DeepTM	outside	25	404	.	.	.	.
+//
+## validation:1533 Length: 391
+## validation:1533 Number of predicted TMRs: 0
+validation:1533	DeepTM	inside	1	391	.	.	.	.
+//
+## validation:148 Length: 389
+## validation:148 Number of predicted TMRs: 0
+validation:148	DeepTM	inside	1	389	.	.	.	.
+//
+## validation:144 Length: 384
+## validation:144 Number of predicted TMRs: 0
+validation:144	DeepTM	inside	1	384	.	.	.	.
+//
+## validation:153 Length: 368
+## validation:153 Number of predicted TMRs: 0
+validation:153	DeepTM	inside	1	368	.	.	.	.
+//
+## validation:1484 Length: 352
+## validation:1484 Number of predicted TMRs: 0
+validation:1484	DeepTM	inside	1	352	.	.	.	.
+//
+## validation:146 Length: 349
+## validation:146 Number of predicted TMRs: 0
+validation:146	DeepTM	inside	1	349	.	.	.	.
+//
+## validation:1471 Length: 347
+## validation:1471 Number of predicted TMRs: 0
+validation:1471	DeepTM	inside	1	347	.	.	.	.
+//
+## validation:1470 Length: 347
+## validation:1470 Number of predicted TMRs: 0
+validation:1470	DeepTM	inside	1	347	.	.	.	.
+//
+## validation:1520 Length: 342
+## validation:1520 Number of predicted TMRs: 0
+validation:1520	DeepTM	inside	1	342	.	.	.	.
+//
+## validation:1521 Length: 335
+## validation:1521 Number of predicted TMRs: 0
+validation:1521	DeepTM	inside	1	335	.	.	.	.
+//
+## validation:1473 Length: 329
+## validation:1473 Number of predicted TMRs: 0
+validation:1473	DeepTM	inside	1	329	.	.	.	.
+//
+## validation:1466 Length: 328
+## validation:1466 Number of predicted TMRs: 0
+validation:1466	DeepTM	inside	1	328	.	.	.	.
+//
+## validation:1529 Length: 325
+## validation:1529 Number of predicted TMRs: 0
+validation:1529	DeepTM	inside	1	325	.	.	.	.
+//
+## validation:1539 Length: 322
+## validation:1539 Number of predicted TMRs: 0
+validation:1539	DeepTM	inside	1	322	.	.	.	.
+//
+## validation:147 Length: 318
+## validation:147 Number of predicted TMRs: 0
+validation:147	DeepTM	inside	1	318	.	.	.	.
+//
+## validation:1518 Length: 314
+## validation:1518 Number of predicted TMRs: 0
+validation:1518	DeepTM	inside	1	314	.	.	.	.
+//
+## validation:1462 Length: 286
+## validation:1462 Number of predicted TMRs: 0
+validation:1462	DeepTM	inside	1	286	.	.	.	.
+//
+## validation:1475 Length: 280
+## validation:1475 Number of predicted TMRs: 0
+validation:1475	DeepTM	inside	1	280	.	.	.	.
+//
+## validation:1551 Length: 276
+## validation:1551 Number of predicted TMRs: 10
+validation:1551	DeepTM	inside	1	14	.	.	.	.
+validation:1551	DeepTM	Beta sheet	15	22	.	.	.	.
+validation:1551	DeepTM	outside	23	32	.	.	.	.
+validation:1551	DeepTM	Beta sheet	33	41	.	.	.	.
+validation:1551	DeepTM	inside	42	80	.	.	.	.
+validation:1551	DeepTM	Beta sheet	81	88	.	.	.	.
+validation:1551	DeepTM	outside	89	93	.	.	.	.
+validation:1551	DeepTM	Beta sheet	94	101	.	.	.	.
+validation:1551	DeepTM	inside	102	112	.	.	.	.
+validation:1551	DeepTM	Beta sheet	113	120	.	.	.	.
+validation:1551	DeepTM	outside	121	125	.	.	.	.
+validation:1551	DeepTM	Beta sheet	126	133	.	.	.	.
+validation:1551	DeepTM	inside	134	182	.	.	.	.
+validation:1551	DeepTM	Beta sheet	183	190	.	.	.	.
+validation:1551	DeepTM	outside	191	194	.	.	.	.
+validation:1551	DeepTM	Beta sheet	195	202	.	.	.	.
+validation:1551	DeepTM	inside	203	254	.	.	.	.
+validation:1551	DeepTM	Beta sheet	255	261	.	.	.	.
+validation:1551	DeepTM	outside	262	270	.	.	.	.
+validation:1551	DeepTM	Beta sheet	271	275	.	.	.	.
+validation:1551	DeepTM	inside	276	276	.	.	.	.
+//
+## validation:1457 Length: 272
+## validation:1457 Number of predicted TMRs: 0
+validation:1457	DeepTM	inside	1	272	.	.	.	.
+//
+## validation:1476 Length: 271
+## validation:1476 Number of predicted TMRs: 0
+validation:1476	DeepTM	inside	1	271	.	.	.	.
+//
+## validation:1465 Length: 267
+## validation:1465 Number of predicted TMRs: 0
+validation:1465	DeepTM	inside	1	267	.	.	.	.
+//
+## validation:1439 Length: 262
+## validation:1439 Number of predicted TMRs: 0
+validation:1439	DeepTM	signal	1	25	.	.	.	.
+validation:1439	DeepTM	outside	26	262	.	.	.	.
+//
+## validation:1481 Length: 258
+## validation:1481 Number of predicted TMRs: 0
+validation:1481	DeepTM	inside	1	258	.	.	.	.
+//
+## validation:1535 Length: 254
+## validation:1535 Number of predicted TMRs: 0
+validation:1535	DeepTM	inside	1	254	.	.	.	.
+//
+## validation:1528 Length: 250
+## validation:1528 Number of predicted TMRs: 0
+validation:1528	DeepTM	inside	1	250	.	.	.	.
+//
+## validation:1495 Length: 243
+## validation:1495 Number of predicted TMRs: 0
+validation:1495	DeepTM	inside	1	243	.	.	.	.
+//
+## validation:1512 Length: 234
+## validation:1512 Number of predicted TMRs: 0
+validation:1512	DeepTM	inside	1	234	.	.	.	.
+//
+## validation:1504 Length: 233
+## validation:1504 Number of predicted TMRs: 0
+validation:1504	DeepTM	inside	1	233	.	.	.	.
+//
+## validation:1516 Length: 224
+## validation:1516 Number of predicted TMRs: 0
+validation:1516	DeepTM	inside	1	224	.	.	.	.
+//
+## validation:1536 Length: 223
+## validation:1536 Number of predicted TMRs: 0
+validation:1536	DeepTM	inside	1	223	.	.	.	.
+//
+## validation:1501 Length: 222
+## validation:1501 Number of predicted TMRs: 0
+validation:1501	DeepTM	inside	1	222	.	.	.	.
+//
+## validation:1538 Length: 221
+## validation:1538 Number of predicted TMRs: 0
+validation:1538	DeepTM	inside	1	221	.	.	.	.
+//
+## validation:1526 Length: 221
+## validation:1526 Number of predicted TMRs: 0
+validation:1526	DeepTM	inside	1	221	.	.	.	.
+//
+## validation:1517 Length: 220
+## validation:1517 Number of predicted TMRs: 0
+validation:1517	DeepTM	inside	1	220	.	.	.	.
+//
+## validation:1505 Length: 217
+## validation:1505 Number of predicted TMRs: 0
+validation:1505	DeepTM	inside	1	217	.	.	.	.
+//
+## validation:1468 Length: 217
+## validation:1468 Number of predicted TMRs: 0
+validation:1468	DeepTM	inside	1	217	.	.	.	.
+//
+## validation:1510 Length: 212
+## validation:1510 Number of predicted TMRs: 0
+validation:1510	DeepTM	inside	1	212	.	.	.	.
+//
+## validation:1464 Length: 212
+## validation:1464 Number of predicted TMRs: 0
+validation:1464	DeepTM	inside	1	212	.	.	.	.
+//
+## validation:1492 Length: 209
+## validation:1492 Number of predicted TMRs: 0
+validation:1492	DeepTM	inside	1	209	.	.	.	.
+//
+## validation:1534 Length: 206
+## validation:1534 Number of predicted TMRs: 0
+validation:1534	DeepTM	inside	1	206	.	.	.	.
+//
+## validation:1515 Length: 201
+## validation:1515 Number of predicted TMRs: 0
+validation:1515	DeepTM	inside	1	201	.	.	.	.
+//
+## validation:1532 Length: 190
+## validation:1532 Number of predicted TMRs: 0
+validation:1532	DeepTM	inside	1	190	.	.	.	.
+//
+## validation:1494 Length: 189
+## validation:1494 Number of predicted TMRs: 0
+validation:1494	DeepTM	inside	1	189	.	.	.	.
+//
+## validation:1480 Length: 189
+## validation:1480 Number of predicted TMRs: 0
+validation:1480	DeepTM	inside	1	189	.	.	.	.
+//
+## validation:1531 Length: 176
+## validation:1531 Number of predicted TMRs: 0
+validation:1531	DeepTM	inside	1	176	.	.	.	.
+//
+## validation:1507 Length: 175
+## validation:1507 Number of predicted TMRs: 0
+validation:1507	DeepTM	inside	1	175	.	.	.	.
+//
+## validation:1493 Length: 174
+## validation:1493 Number of predicted TMRs: 0
+validation:1493	DeepTM	inside	1	174	.	.	.	.
+//
+## validation:1474 Length: 173
+## validation:1474 Number of predicted TMRs: 0
+validation:1474	DeepTM	inside	1	173	.	.	.	.
+//
+## validation:1440 Length: 173
+## validation:1440 Number of predicted TMRs: 0
+validation:1440	DeepTM	inside	1	173	.	.	.	.
+//
+## validation:1537 Length: 171
+## validation:1537 Number of predicted TMRs: 0
+validation:1537	DeepTM	inside	1	171	.	.	.	.
+//
+## validation:1500 Length: 165
+## validation:1500 Number of predicted TMRs: 0
+validation:1500	DeepTM	inside	1	165	.	.	.	.
+//
+## validation:1530 Length: 164
+## validation:1530 Number of predicted TMRs: 0
+validation:1530	DeepTM	inside	1	164	.	.	.	.
+//
+## validation:1509 Length: 163
+## validation:1509 Number of predicted TMRs: 0
+validation:1509	DeepTM	inside	1	163	.	.	.	.
+//
+## validation:1497 Length: 163
+## validation:1497 Number of predicted TMRs: 0
+validation:1497	DeepTM	inside	1	163	.	.	.	.
+//
+## validation:1490 Length: 158
+## validation:1490 Number of predicted TMRs: 0
+validation:1490	DeepTM	inside	1	158	.	.	.	.
+//
+## validation:1478 Length: 155
+## validation:1478 Number of predicted TMRs: 0
+validation:1478	DeepTM	inside	1	155	.	.	.	.
+//
+## validation:1527 Length: 149
+## validation:1527 Number of predicted TMRs: 0
+validation:1527	DeepTM	inside	1	149	.	.	.	.
+//
+## validation:1511 Length: 146
+## validation:1511 Number of predicted TMRs: 0
+validation:1511	DeepTM	inside	1	146	.	.	.	.
+//
+## validation:1543 Length: 145
+## validation:1543 Number of predicted TMRs: 0
+validation:1543	DeepTM	inside	1	145	.	.	.	.
+//
+## validation:1491 Length: 145
+## validation:1491 Number of predicted TMRs: 0
+validation:1491	DeepTM	inside	1	145	.	.	.	.
+//
+## validation:1445 Length: 145
+## validation:1445 Number of predicted TMRs: 0
+validation:1445	DeepTM	inside	1	145	.	.	.	.
+//
+## validation:1485 Length: 142
+## validation:1485 Number of predicted TMRs: 0
+validation:1485	DeepTM	inside	1	142	.	.	.	.
+//
+## validation:1479 Length: 141
+## validation:1479 Number of predicted TMRs: 0
+validation:1479	DeepTM	inside	1	141	.	.	.	.
+//
+## validation:1477 Length: 130
+## validation:1477 Number of predicted TMRs: 0
+validation:1477	DeepTM	inside	1	130	.	.	.	.
+//
+## validation:1503 Length: 124
+## validation:1503 Number of predicted TMRs: 0
+validation:1503	DeepTM	inside	1	124	.	.	.	.
+//
+## validation:1524 Length: 123
+## validation:1524 Number of predicted TMRs: 0
+validation:1524	DeepTM	inside	1	123	.	.	.	.
+//
+## validation:1489 Length: 123
+## validation:1489 Number of predicted TMRs: 0
+validation:1489	DeepTM	inside	1	123	.	.	.	.
+//
+## validation:1499 Length: 119
+## validation:1499 Number of predicted TMRs: 0
+validation:1499	DeepTM	inside	1	119	.	.	.	.
+//
+## validation:1514 Length: 118
+## validation:1514 Number of predicted TMRs: 0
+validation:1514	DeepTM	inside	1	118	.	.	.	.
+//
+## validation:1506 Length: 111
+## validation:1506 Number of predicted TMRs: 0
+validation:1506	DeepTM	inside	1	111	.	.	.	.
+//
+## validation:1496 Length: 109
+## validation:1496 Number of predicted TMRs: 0
+validation:1496	DeepTM	inside	1	109	.	.	.	.
+//
+## validation:1441 Length: 108
+## validation:1441 Number of predicted TMRs: 0
+validation:1441	DeepTM	inside	1	108	.	.	.	.
+//
+## validation:1458 Length: 106
+## validation:1458 Number of predicted TMRs: 0
+validation:1458	DeepTM	inside	1	106	.	.	.	.
+//
+## validation:1456 Length: 106
+## validation:1456 Number of predicted TMRs: 0
+validation:1456	DeepTM	inside	1	106	.	.	.	.
+//
+## validation:1540 Length: 90
+## validation:1540 Number of predicted TMRs: 0
+validation:1540	DeepTM	inside	1	90	.	.	.	.
+//
+## validation:1448 Length: 88
+## validation:1448 Number of predicted TMRs: 0
+validation:1448	DeepTM	inside	1	88	.	.	.	.
+//
+## validation:1453 Length: 87
+## validation:1453 Number of predicted TMRs: 0
+validation:1453	DeepTM	signal	1	20	.	.	.	.
+validation:1453	DeepTM	outside	21	87	.	.	.	.
+//
+## validation:15 Length: 86
+## validation:15 Number of predicted TMRs: 0
+validation:15	DeepTM	outside	1	86	.	.	.	.
+//
+## validation:1513 Length: 85
+## validation:1513 Number of predicted TMRs: 0
+validation:1513	DeepTM	inside	1	85	.	.	.	.
+//
+## validation:1502 Length: 84
+## validation:1502 Number of predicted TMRs: 0
+validation:1502	DeepTM	inside	1	84	.	.	.	.
+//
+## validation:1447 Length: 82
+## validation:1447 Number of predicted TMRs: 0
+validation:1447	DeepTM	signal	1	21	.	.	.	.
+validation:1447	DeepTM	outside	22	82	.	.	.	.
+//
+## validation:1442 Length: 82
+## validation:1442 Number of predicted TMRs: 0
+validation:1442	DeepTM	inside	1	82	.	.	.	.
+//
+## validation:1486 Length: 80
+## validation:1486 Number of predicted TMRs: 0
+validation:1486	DeepTM	inside	1	80	.	.	.	.
+//
+## validation:1463 Length: 79
+## validation:1463 Number of predicted TMRs: 0
+validation:1463	DeepTM	inside	1	79	.	.	.	.
+//
+## validation:1454 Length: 77
+## validation:1454 Number of predicted TMRs: 0
+validation:1454	DeepTM	outside	1	77	.	.	.	.
+//
+## validation:1483 Length: 76
+## validation:1483 Number of predicted TMRs: 0
+validation:1483	DeepTM	inside	1	76	.	.	.	.
+//
+## validation:1498 Length: 75
+## validation:1498 Number of predicted TMRs: 0
+validation:1498	DeepTM	inside	1	75	.	.	.	.
+//
+## validation:1487 Length: 74
+## validation:1487 Number of predicted TMRs: 0
+validation:1487	DeepTM	inside	1	74	.	.	.	.
+//
+## validation:1488 Length: 72
+## validation:1488 Number of predicted TMRs: 0
+validation:1488	DeepTM	inside	1	72	.	.	.	.
+//
+## validation:1444 Length: 68
+## validation:1444 Number of predicted TMRs: 0
+validation:1444	DeepTM	outside	1	68	.	.	.	.
+//
+## validation:1451 Length: 56
+## validation:1451 Number of predicted TMRs: 0
+validation:1451	DeepTM	inside	1	56	.	.	.	.
+//
+## validation:1452 Length: 50
+## validation:1452 Number of predicted TMRs: 0
+validation:1452	DeepTM	inside	1	50	.	.	.	.
+//
+## validation:1446 Length: 49
+## validation:1446 Number of predicted TMRs: 0
+validation:1446	DeepTM	outside	1	49	.	.	.	.
+//
+## validation:1459 Length: 47
+## validation:1459 Number of predicted TMRs: 0
+validation:1459	DeepTM	inside	1	47	.	.	.	.
+//
+## validation:1455 Length: 47
+## validation:1455 Number of predicted TMRs: 0
+validation:1455	DeepTM	outside	1	47	.	.	.	.
+//
+## validation:1438 Length: 41
+## validation:1438 Number of predicted TMRs: 0
+validation:1438	DeepTM	outside	1	41	.	.	.	.
+//
+## validation:1443 Length: 39
+## validation:1443 Number of predicted TMRs: 0
+validation:1443	DeepTM	outside	1	39	.	.	.	.
+//
+## validation:1437 Length: 37
+## validation:1437 Number of predicted TMRs: 0
+validation:1437	DeepTM	inside	1	37	.	.	.	.
+//
+## validation:1460 Length: 36
+## validation:1460 Number of predicted TMRs: 0
+validation:1460	DeepTM	inside	1	36	.	.	.	.
+//
+## validation:1449 Length: 33
+## validation:1449 Number of predicted TMRs: 0
+validation:1449	DeepTM	inside	1	33	.	.	.	.
+//
+## validation:1461 Length: 25
+## validation:1461 Number of predicted TMRs: 0
+validation:1461	DeepTM	signal	1	21	.	.	.	.
+validation:1461	DeepTM	outside	22	25	.	.	.	.
+//

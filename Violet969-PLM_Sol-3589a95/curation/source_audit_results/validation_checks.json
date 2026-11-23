@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "all frozen input hashes unchanged",
+    "all report-local links resolve",
+    "conditional source point estimates reproduced",
+    "all conditional CIs have >=20 valid group draws",
+    "8 unit tests passed"
+  ],
+  "independent_test_accessed": false,
+  "n_proteins": 13880,
+  "script_sha256": {
+    "source_audit_supplement.py": "9815a128574cef505cd3120999f7f76682205d357a8deb8c0ebaa448aad72a62",
+    "source_audit_uncertainty.py": "cc1965ab40d88ac0dac225de4a09c698ad104d307131451be9b400da45614ab8",
+    "test_source_validity_audit.py": "3ea64b069b02554ee1850559844d7d19f7518e2f48627e887d2bdfc013fa16cf",
+    "source_validity_audit.py": "6aa3360036bff2ee2a82115f64f293db6767a37f2f172a0b32ad8be16f0d2892",
+    "source_audit_evidence.py": "b832f9e542b562aef7fd21502570b715d4bd75801ee046d1676531610a8180e1",
+    "render_source_audit.py": "73b1da74a188744375d7141273517751e96930b47bffa1c728a13ad00ea7e7c6"
+  }
+}

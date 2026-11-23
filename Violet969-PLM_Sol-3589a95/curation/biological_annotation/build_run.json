@@ -1,0 +1,29 @@
+{
+  "all_requested_annotations_complete": false,
+  "coordinates_checked": true,
+  "esm_truncated_records": 218,
+  "features_sha256": "bd54089966e473b542b8fd0370f046f5a21bf43c95b1f410534902df88c695f7",
+  "input_identity_checks_passed": true,
+  "missing_tools": [
+    "NetSurfP3.0",
+    "SignalP6.0"
+  ],
+  "nonstandard_records": 0,
+  "packages": {
+    "biopython": "1.86",
+    "metapredict": "3.1.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "torch": "2.15.0"
+  },
+  "python": "3.13.7",
+  "records": 13880,
+  "residues": 4128344,
+  "script_sha256": "022c6e27c4c8ff61eb37b19cdda312d6ebfe1c96319d4e526f40019b135f5c70",
+  "splits": {
+    "train": 9880,
+    "validation": 4000
+  },
+  "transmembrane_cohort_predictions": 13880
+}

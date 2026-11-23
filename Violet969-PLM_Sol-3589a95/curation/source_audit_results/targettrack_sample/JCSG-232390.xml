@@ -1,0 +1,87 @@
+<target id="JCSG-232390">
+          <targetId>232390</targetId>
+          <dateCreated>2001-07-23</dateCreated>
+          <dateUpdated>2001-07-23</dateUpdated>
+          <laboratoryList>
+               <lab>JCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>grittini</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>1</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>structural coverage</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>work stopped</status>
+          <targetStopDetails>
+               <stopStatus>other</stopStatus>
+               <remark>end of PSI-1</remark>
+          </targetStopDetails>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MTTVRLHLRRIMCNSSRAQTAQHTEEERKRTIISLQGGKSFGRATTNDVIFLDGTEHVELEPQFISRCHARVHHTNQDGVEEYLVEDISENGTYINDRRLSKDKREILKSGDTIKFGHKNGSQHVADQKYDHPDADFAFCVEMSTAGEPAYQLVEQIRDSRVKVFAGTACAKDIGPREPSTTNKVLQQEADSTNGGPEMENNRASSASSATPEDTQMPSTSQYFCSIPKKTPFRKEFDSPLHNYIYRTSRHSPLYRKKLAEQAQRMAVKNGTFVNDSGVIELLSHLLDINVAYENLVTKNEKLEIIGTFCEKNKGSFKVDELSRRKEELAVMMEEEEPQTIEIRELLVSLSEKAQDVQSNDFTISASSAFTVISTSGVLCPTASLANESEDSYIQHLKSINISSEKSRKIADELKTVRNSEVAPIENKPLSPEMMVVLHRLVKAKEHNNKVAHVYTGNYASTVSRVMEMVPITSQVAVITTAGTPKHTSKGSAETAPMEVDDERHSASSGSTENNYRRRTDSEESEILDVVGTDEPDKDEKGGTETETPTPSPEDHGRQTQNKIDKNVRMSSTPRIDAQSTPSAVVSALPTPMNSPLPRVTSSKSAQDVSTPSTTPNPVSRSPDPVALVKDSVSSESTVSGIVSLEKIGSPAAQSVASVLPSVSNTTSSTSASLTTSSVAEEEETSSKENTDQKRAVDDSSDESARLVKQIKALSATPSSTPAESSKRKQKDTSSRKMKQLDESSADSDSEDDGRSGDKSTKRRDKARRSTRIGKSTPAKKVGKKEKVVEDEDETDDVQEEEKVTPRGGRRKNMKRTASQSAIKERKTKDKDVEPEEAPKKKRGRKKATPTEEEEPPKTEPSKERCGVAKGHCISAKYEKRKNLQWVSCSICNQWFHVWCVRLDNVCYREDETFLCCGSHPSKEAKDALAGRVYARYQAMPNKKPIPQASEA
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Caenorhabditis elegans</scientificName>
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>CE00867</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=CE00867&amp;start=1&amp;end=952</url>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>WormBase</databaseName>
+                    <databaseId>CE00867</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>0010-0-232390</trialId>
+                    <dateUpdated>2001-07-23</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>grittini</contactInfoId>
+                    </contactInfoRefList>
+                    <status>selected</status>
+                    <statusHistoryList>
+                         <statusHistory id="1">
+                              <lab>TSRI</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-07-23</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MGSDKIHHHHHHMTTVRLHLRRIMCNSSRAQTAQHTEEERKRTIISLQGGKSFGRATTNDVIFLDGTEHVELEPQFISRCHARVHHTNQDGVEEYLVEDISENGTYINDRRLSKDKREILKSGDTIKFGHKNGSQHVADQKYDHPDADFAFCVEMSTAGEPAYQLVEQIRDSRVKVFAGTACAKDIGPREPSTTNKVLQQEADSTNGGPEMENNRASSASSATPEDTQMPSTSQYFCSIPKKTPFRKEFDSPLHNYIYRTSRHSPLYRKKLAEQAQRMAVKNGTFVNDSGVIELLSHLLDINVAYENLVTKNEKLEIIGTFCEKNKGSFKVDELSRRKEELAVMMEEEEPQTIEIRELLVSLSEKAQDVQSNDFTISASSAFTVISTSGVLCPTASLANESEDSYIQHLKSINISSEKSRKIADELKTVRNSEVAPIENKPLSPEMMVVLHRLVKAKEHNNKVAHVYTGNYASTVSRVMEMVPITSQVAVITTAGTPKHTSKGSAETAPMEVDDERHSASSGSTENNYRRRTDSEESEILDVVGTDEPDKDEKGGTETETPTPSPEDHGRQTQNKIDKNVRMSSTPRIDAQSTPSAVVSALPTPMNSPLPRVTSSKSAQDVSTPSTTPNPVSRSPDPVALVKDSVSSESTVSGIVSLEKIGSPAAQSVASVLPSVSNTTSSTSASLTTSSVAEEEETSSKENTDQKRAVDDSSDESARLVKQIKALSATPSSTPAESSKRKQKDTSSRKMKQLDESSADSDSEDDGRSGDKSTKRRDKARRSTRIGKSTPAKKVGKKEKVVEDEDETDDVQEEEKVTPRGGRRKNMKRTASQSAIKERKTKDKDVEPEEAPKKKRGRKKATPTEEEEPPKTEPSKERCGVAKGHCISAKYEKRKNLQWVSCSICNQWFHVWCVRLDNVCYREDETFLCCGSHPSKEAKDALAGRVYARYQAMPNKKPIPQASEA
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_5</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

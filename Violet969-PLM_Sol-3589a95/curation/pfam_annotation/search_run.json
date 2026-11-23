@@ -1,0 +1,46 @@
+{
+  "inputs": {
+    "curation/results/cohort_manifest.tsv": "4368fe98cd9799f08461678859b1421153188ea7d47f744d3c6101be8b407059",
+    "esm2_probe/uesolds_pairs.tsv": "d403774ddb405cd8f6339b4853e7013f6e9837bfd98a1f65ce2f5c0ce9612829"
+  },
+  "references": {
+    "Pfam-A.hmm.gz": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/Pfam-A.hmm.gz",
+      "md5": "8272c3f18626bc300ed7cc00e86bad40",
+      "sha256": "66f57012fe5825c82f2e31447d7a8026367e1ca9e5e91b4b716c594c268db69b"
+    },
+    "Pfam.version.gz": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/Pfam.version.gz",
+      "md5": "6dbe0f1048c02cad0442730ff5dcb720",
+      "sha256": "8e4de54729bb767d68271b440c91ebb3049f89108422833d8b15ae729dba7dfc"
+    },
+    "Pfam-A.clans.tsv.gz": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/Pfam-A.clans.tsv.gz",
+      "md5": "fb751b5e70cadd34af1b3bf7ef77f5b9",
+      "sha256": "1d9d7f054b017733935aae50c69e2c99037461617a0244ef6c188292474fdcd5"
+    }
+  },
+  "settings": {
+    "Pfam_release": "37.0",
+    "PyHMMER": "0.11.2",
+    "cpus": 6,
+    "parallel": "queries",
+    "bit_cutoffs": "gathering",
+    "seed": 42,
+    "Z": 13880,
+    "F1": 0.02,
+    "F2": 0.001,
+    "F3": 1e-05,
+    "bias_filter": true,
+    "null2": true
+  },
+  "n_sequences": 13880,
+  "n_profiles": 21979,
+  "n_domains": 19347,
+  "elapsed_seconds": 85.63739408302354,
+  "python": "3.13.7",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "script_sha256": "31bfb150e1328f7f1b8fc53764a2d64a605b62242a29bdaf34522c1a27bd9af7",
+  "domains_sha256": "559c1a062e9eccb22a524395d150f7d4bcbcb4b429057a4a8babeeddaab5e653",
+  "completed": true
+}

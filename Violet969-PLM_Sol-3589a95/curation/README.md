@@ -1,5 +1,12 @@
 # UESolDS development curation
 
+The additive **biological annotation phase** is documented in
+[BIOLOGICAL_ANNOTATION_REPORT.md](BIOLOGICAL_ANNOTATION_REPORT.md) and
+[BIOLOGICAL_ANNOTATION_METHODS.md](BIOLOGICAL_ANNOTATION_METHODS.md).
+Its scripts and `biological_annotation/` outputs preserve the frozen 13,880-protein
+heterogeneous cohort. This phase trains no probes. The report distinguishes
+completed annotations, the running DeepTMHMM2 batch job and pending server outputs.
+
 This additive analysis implements the 2026-11-08 review. Read `EDA_REPORT.md` for conclusions. The proposal, `FINDINGS.md`, `CHECKIN_1.md`, cohort builder, annotation pilot, baseline and embedding code were reviewed first. No original data, cached embeddings or old results are overwritten. The independent test file is never opened, including for hashing or homology searches.
 
 ## Reproduction
@@ -38,3 +45,44 @@ The optional report-rendering script reads the default results directory. Use th
 - PNG figures and `summary.json`; input hashes and environment/MMseqs provenance.
 
 The workflow asserts input preservation, cache alignment, unique embedding keys, finite features, model convergence and cleaned train–validation separation by exact sequence, detected homology, cluster and identifier. Search against the locked independent test is deliberately deferred to the final evaluation protocol.
+
+## Updated design: heterogeneous A and within-family B
+
+The additional family-design requirements are implemented in
+[`FAMILY_FEASIBILITY.md`](FAMILY_FEASIBILITY.md),
+[`family_feasibility.py`](family_feasibility.py) and `family_results/`.
+That report updates the primary recommendation: use the cached subset of
+`clean_all_sources` for heterogeneous A, preserving single-class and unknown families;
+derive B within the same cohort and retain source-controlled analysis as sensitivity.
+It does not alter earlier cohort manifests, probes or their run-provenance snapshots.
+
+The available Pfam pilot currently establishes zero qualifying families at ≥3 or ≥5
+proteins per class. This means B is not yet supported by the available annotations;
+it does not mean the unannotated cohort lacks such families. Uniform annotation is
+needed before the two-part design can be assessed fully. Reproduction commands,
+coverage denominators, independent-group criteria and quality sensitivities are in
+the new report. No generated FASTA restoration or locked-test access is needed.
+
+## Uniform Pfam run supersedes the pilot-only feasibility limit
+
+All 13,880 primary cached records have now been searched uniformly using pinned
+Pfam 37.0 / PyHMMER 0.11.2 and model-specific gathering thresholds. See
+[`UNIFORM_PFAM_REPORT.md`](UNIFORM_PFAM_REPORT.md) for coverage, family/cluster
+support, same-source contrasts and ambiguity sensitivities;
+[`PFAM_METHODS.md`](PFAM_METHODS.md) documents reproduction. Results and domain
+evidence are in `pfam_annotation/`. The previous pilot-based report is retained
+as a historical snapshot. The annotation run preserves primary A and original
+splits; family-conditioned B gains exploratory support, but robust same-source
+support remains sparse and annotation-dependent. The large reference profiles
+live outside the checkout and no generated FASTA is left in the working tree.
+
+## Focused family × source analysis
+
+[`FAMILY_SOURCE_REPORT.md`](FAMILY_SOURCE_REPORT.md) adds the 69-family contingency
+analysis, fixed-C family/source/additive metadata probes on heterogeneous A,
+source-transfer sensitivities, JCSG/MCSG comparison and fixed-validation ceilings
+for expanding the training pool. Results are in `family_source_results/`; reproduce
+with `family_source_analysis.py` then `render_family_source_report.py`. No new
+annotation or embeddings are required. Existing artifacts remain historical
+snapshots. The recommended design remains all-source A plus controlled subsets
+and multiple source strata, not exclusive training on one centre or mixed families.

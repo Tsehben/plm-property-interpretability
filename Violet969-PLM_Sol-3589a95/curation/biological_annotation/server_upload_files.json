@@ -1,0 +1,698 @@
+[
+  {
+    "file": "all_development.fasta",
+    "proteins": 13880,
+    "residues": 4128344,
+    "setting": "all_13880_do_not_submit_as_one_server_job",
+    "sha256": "a594175f60dc4826d4b85c1b7f8340538cdf7a7be3c40ffc2a9b939d406127a8",
+    "tool": "archive"
+  },
+  {
+    "file": "netsurfp/train_le1022_01.fasta",
+    "proteins": 1000,
+    "residues": 326188,
+    "setting": "full_sequence",
+    "sha256": "2f525af7a5292d842e3ff98a20d175b4564ceb7951ead00500585c163726c4fa",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_02.fasta",
+    "proteins": 1000,
+    "residues": 310694,
+    "setting": "full_sequence",
+    "sha256": "9e12d5ee286b9adf3a89179c8820354e5c91255b14ce153beac2719ad0d1c764",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_03.fasta",
+    "proteins": 1000,
+    "residues": 299563,
+    "setting": "full_sequence",
+    "sha256": "81cc4a5ba24d3cfbd566f5ca9de5ce11f600f659c9c8668ce583f0e224e89ff6",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_04.fasta",
+    "proteins": 1000,
+    "residues": 260728,
+    "setting": "full_sequence",
+    "sha256": "50bbf968d5bc14046849cb4bb5c90e59f5bc400440c6a88f160040a855fae5ca",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_05.fasta",
+    "proteins": 1000,
+    "residues": 253307,
+    "setting": "full_sequence",
+    "sha256": "0e19f5ce05d63e90f2eb3aef99462e24d6f6a2059e90f38829d714071edb8117",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_06.fasta",
+    "proteins": 1000,
+    "residues": 269257,
+    "setting": "full_sequence",
+    "sha256": "257b71fde76915d929f6a20b3740f5a8b4b7a04a0a45c6d1e699f1f2cc88a2ea",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_07.fasta",
+    "proteins": 1000,
+    "residues": 260589,
+    "setting": "full_sequence",
+    "sha256": "ad84a1a4b8a4d215b27f6ae9040d318bd1a4d866fb151f3b5bfe7a886b5470c4",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_08.fasta",
+    "proteins": 1000,
+    "residues": 254694,
+    "setting": "full_sequence",
+    "sha256": "15d3a1ea022dd39b670cdb5cb06ef3229eb24fca912d0816a50d5c47882c4b9c",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_09.fasta",
+    "proteins": 1000,
+    "residues": 257698,
+    "setting": "full_sequence",
+    "sha256": "2119fc0f67d07b8847ba8f70186d5127f78f0ee7162db3c1cfacd2ac1172d8d3",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_le1022_10.fasta",
+    "proteins": 723,
+    "residues": 215559,
+    "setting": "full_sequence",
+    "sha256": "1b91404709df15d84192e764c75dc43dc353b1c650bd5a35fb74bee3a975da23",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_gt1022_01.fasta",
+    "proteins": 40,
+    "residues": 52403,
+    "setting": "full_sequence",
+    "sha256": "535ea1f47f13cd74aabe7971dbd59b406ea1a3e9b106a142c33e04b2ce854bc1",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_gt1022_02.fasta",
+    "proteins": 40,
+    "residues": 56472,
+    "setting": "full_sequence",
+    "sha256": "55acc7c9041e1d9c7b2283294c6cbe23f54e615eb578f84e6eed351026cdc9b7",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_gt1022_03.fasta",
+    "proteins": 40,
+    "residues": 53584,
+    "setting": "full_sequence",
+    "sha256": "2695b3cf1d0ad61341c4782f527201519e8e609d25aa188a9f7e8a634a8080dc",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/train_gt1022_04.fasta",
+    "proteins": 37,
+    "residues": 49727,
+    "setting": "full_sequence",
+    "sha256": "c2dc201d96eb1fbdba73d932f0d19ef6a44b54918e4658f95419015609133e38",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "signalp/train_eukarya_01.fasta",
+    "proteins": 100,
+    "residues": 44881,
+    "setting": "eukarya",
+    "sha256": "6d6c6b48ecd1fa95abdc9e9e419d87434b0368f94860092f70dd814c5ffe1294",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_02.fasta",
+    "proteins": 100,
+    "residues": 44117,
+    "setting": "eukarya",
+    "sha256": "33d9b598846a690dcc30b6538de7c3c2753f981727ff0806aee8a39d8901c509",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_03.fasta",
+    "proteins": 100,
+    "residues": 51682,
+    "setting": "eukarya",
+    "sha256": "8e2bababc3fee64eb941f24a8450e47347b311019c6f25914168842f6528bc1c",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_04.fasta",
+    "proteins": 100,
+    "residues": 41421,
+    "setting": "eukarya",
+    "sha256": "1f47c005b1ebdc811fa96bd8e34206d62dc476461152a90cf401c5488e2ada6d",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_05.fasta",
+    "proteins": 100,
+    "residues": 48710,
+    "setting": "eukarya",
+    "sha256": "cd5c1d17504fd43a50b11a92c44b930697b8d229919399359d8a2eb5bd38c1b7",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_06.fasta",
+    "proteins": 100,
+    "residues": 43918,
+    "setting": "eukarya",
+    "sha256": "a3fd048069740f2f76c2671d7b439bd76b708ff0ca1e16e9716af154c5fefd9d",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_07.fasta",
+    "proteins": 100,
+    "residues": 48531,
+    "setting": "eukarya",
+    "sha256": "d6978d163e4733c6a0be4c10f39ad227261fe3a6e3a28a039e28aaee2a4f4093",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_08.fasta",
+    "proteins": 100,
+    "residues": 30950,
+    "setting": "eukarya",
+    "sha256": "b9a41bf0ed5b422e6ddd8669cde4a5fff9c5ae947349afae26265c8946b939c9",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_09.fasta",
+    "proteins": 100,
+    "residues": 28141,
+    "setting": "eukarya",
+    "sha256": "a9cc06200eac789ce03cc5336ec8f7ee229283bf035c7554a4096e4c7b462e6b",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_10.fasta",
+    "proteins": 100,
+    "residues": 28455,
+    "setting": "eukarya",
+    "sha256": "17e1d08404ad7b4b495aa74f6a396cbe683abb97404dd303cc898994d21ef7e4",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_11.fasta",
+    "proteins": 100,
+    "residues": 31940,
+    "setting": "eukarya",
+    "sha256": "cc9a90b240b833f82b2909725421f119f07416367cd9d59bce793ab49ed17121",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_12.fasta",
+    "proteins": 100,
+    "residues": 30135,
+    "setting": "eukarya",
+    "sha256": "5a28c3474281914e739dd7179c28863e0e5118e115a2de0bd4e80edfd64bf54f",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_13.fasta",
+    "proteins": 100,
+    "residues": 27816,
+    "setting": "eukarya",
+    "sha256": "4bdefcde950608c2d46b54f7386b90d12a7e68ed8db4e87b1f24744fdef52702",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_14.fasta",
+    "proteins": 100,
+    "residues": 33367,
+    "setting": "eukarya",
+    "sha256": "220e82eecb4f9da4631cc9ed39480507d41dc2c73b9ba70745322c6732db42e4",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_15.fasta",
+    "proteins": 100,
+    "residues": 28652,
+    "setting": "eukarya",
+    "sha256": "204f774dea24a9847b0af9b98f82a6847610f467a7d6ba9481a6387684ae760e",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_16.fasta",
+    "proteins": 100,
+    "residues": 28332,
+    "setting": "eukarya",
+    "sha256": "242fbf390941d2fd638e8a09724057aa7bfc20381518077485b50ca42398a68f",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_17.fasta",
+    "proteins": 100,
+    "residues": 32800,
+    "setting": "eukarya",
+    "sha256": "d6ba46214882a0372c8b103c7b3114b6191c951dfa343e651ca820fdbc21b4d0",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_18.fasta",
+    "proteins": 100,
+    "residues": 31383,
+    "setting": "eukarya",
+    "sha256": "67313944be8d2cb46d0560696670848984b10ac08f56967c11923e68e28dbe37",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_19.fasta",
+    "proteins": 100,
+    "residues": 24867,
+    "setting": "eukarya",
+    "sha256": "702be7b433258b0dff880517d331d41860667fd2b9df9519873b75f8c1bdae72",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_20.fasta",
+    "proteins": 100,
+    "residues": 25703,
+    "setting": "eukarya",
+    "sha256": "239532f047c981cc78d89c8de2ce8b2d557e13c8986cd28bb72cd4dcce924ea3",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_21.fasta",
+    "proteins": 100,
+    "residues": 43421,
+    "setting": "eukarya",
+    "sha256": "91b00f08f40e8f2421212bbe9bfcffdf1183a1ad35fcc1dcf602a64af2705228",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_22.fasta",
+    "proteins": 100,
+    "residues": 28675,
+    "setting": "eukarya",
+    "sha256": "5d0d5058c2126b12c11dbeea6121904ec64332811d73a9958b59724060971138",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_eukarya_23.fasta",
+    "proteins": 96,
+    "residues": 43329,
+    "setting": "eukarya",
+    "sha256": "82ccb926cddf97ab84ad21eda0887a49be356b4c93572b0060bd00f5fcbbb443",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_01.fasta",
+    "proteins": 100,
+    "residues": 33713,
+    "setting": "other",
+    "sha256": "a7247f38cc025692019696ae2ff08bb3ae3acbd87b49f4bcf2c5a76b69d1f4ba",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_02.fasta",
+    "proteins": 100,
+    "residues": 33605,
+    "setting": "other",
+    "sha256": "68521a389ee1c15c0eb85e75fa3cdb80c2d7d524e076fd7c19e22add9e78e4ab",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_03.fasta",
+    "proteins": 100,
+    "residues": 29092,
+    "setting": "other",
+    "sha256": "a526c0e16b632ad561ce6d8d873f460b8d9cddecb219cc3d2467434ffedf0d8c",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_04.fasta",
+    "proteins": 100,
+    "residues": 32280,
+    "setting": "other",
+    "sha256": "8ca165a50c408cb3da74e8729afbf822dbc8e5a26f9627dd71f26c31478aadf2",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_05.fasta",
+    "proteins": 100,
+    "residues": 33285,
+    "setting": "other",
+    "sha256": "0441472dcfb902b89ab6986d9607bec4ec7b51d6c8c96d7cbab4b170f85b8b6d",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_06.fasta",
+    "proteins": 100,
+    "residues": 37209,
+    "setting": "other",
+    "sha256": "e2cdebed1f26ee968dd19934de57989f9855093ed3e791e67ffcb45f90e51f5d",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_07.fasta",
+    "proteins": 100,
+    "residues": 26283,
+    "setting": "other",
+    "sha256": "8425bc7f862f34908e0d3ee0d81d5014fdbb284f4c22c79cab2c180b6292d350",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_08.fasta",
+    "proteins": 100,
+    "residues": 28273,
+    "setting": "other",
+    "sha256": "aea3f2380dee1f4921c83e01300a25cdafbc61f37fac0fce38bae345716f7359",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_09.fasta",
+    "proteins": 100,
+    "residues": 26425,
+    "setting": "other",
+    "sha256": "14891e2c3e9cf54f12a5aad39ec7c7e70e44ebd0ab00ed78a09cd54684e51743",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_10.fasta",
+    "proteins": 100,
+    "residues": 24670,
+    "setting": "other",
+    "sha256": "d28bb84afef04a257e3b1e8fdf519ed9c54d088d7251258a6b8b4070c66137c5",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_11.fasta",
+    "proteins": 100,
+    "residues": 31300,
+    "setting": "other",
+    "sha256": "c760f4c956bcea042e40628c8baafb14193e3d881388e72428e3b204def86d4c",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_12.fasta",
+    "proteins": 100,
+    "residues": 29225,
+    "setting": "other",
+    "sha256": "023bb51200fa9227c5da547cf906d55a2f9c1b3e8a31b8d3288c2d6d2331c880",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_13.fasta",
+    "proteins": 100,
+    "residues": 24870,
+    "setting": "other",
+    "sha256": "3fb842c98c47ab1e5c10c01e7906998a8e076e284c4a05e6242a421fbda81466",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_14.fasta",
+    "proteins": 100,
+    "residues": 28631,
+    "setting": "other",
+    "sha256": "f650215d5f973e5daef41eebfaa214fc48b5517daaa0f6f4cf246531c8ced15e",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_15.fasta",
+    "proteins": 100,
+    "residues": 23496,
+    "setting": "other",
+    "sha256": "2ba19fabd172d24a8464e3618bd8011204b445a1384d6420e808a913e320ce21",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_16.fasta",
+    "proteins": 100,
+    "residues": 25760,
+    "setting": "other",
+    "sha256": "ddd53b64fffcf1546ac6b79ab16178a72fe44b335d1a048c1dbf7c3e185138b7",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_17.fasta",
+    "proteins": 100,
+    "residues": 26261,
+    "setting": "other",
+    "sha256": "d9e930615c5d9d4084e6b42b3e91ce10a6d8b8e9499d0faf507fab67b05b58d8",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_18.fasta",
+    "proteins": 100,
+    "residues": 31609,
+    "setting": "other",
+    "sha256": "e963d38cefa2a8b177e4e0e0e68bbd3e48a2fafd81ffb432820c0fa58ef7af3a",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_19.fasta",
+    "proteins": 100,
+    "residues": 26075,
+    "setting": "other",
+    "sha256": "ac3664d63c6e47d10ff8aa99b3a47dc67619644b81bf6f61275a1566fe6faf20",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_20.fasta",
+    "proteins": 100,
+    "residues": 26296,
+    "setting": "other",
+    "sha256": "5b95910272d0e53a37fdd8947eea48eccc3566a45ca8ce0c0d05eed249e5b4bc",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_21.fasta",
+    "proteins": 100,
+    "residues": 29290,
+    "setting": "other",
+    "sha256": "054bfe79a3d4941bb800e46b582d7425d75ebd9f9806475d74e78e12c0de82a6",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_22.fasta",
+    "proteins": 100,
+    "residues": 32289,
+    "setting": "other",
+    "sha256": "6325c82d378c733aad5e296441d636358d605cb27f94c9a21288cbdca461c2e4",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/train_other_23.fasta",
+    "proteins": 6,
+    "residues": 1717,
+    "setting": "other",
+    "sha256": "2a3b3597c68f09622fb989e9cebf8c00e83a7384805154611d23fb2238382b44",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp_unresolved/train.fasta",
+    "proteins": 5378,
+    "residues": 1457583,
+    "setting": "unresolved_do_not_guess",
+    "sha256": "1a94c5f41ca41f30806d736e41a044ce2556e4c3ec32de936697b41f99420d8c",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "netsurfp/validation_le1022_01.fasta",
+    "proteins": 1000,
+    "residues": 339715,
+    "setting": "full_sequence",
+    "sha256": "36f5f60d146ee5783ed3227c49bd882e504a229578694e9a1471a9b047a14ba6",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/validation_le1022_02.fasta",
+    "proteins": 1000,
+    "residues": 257793,
+    "setting": "full_sequence",
+    "sha256": "18cad1497270b3ffa16647fa4b88babbb7a12afe61e6ab27ac5fa3ab498471ff",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/validation_le1022_03.fasta",
+    "proteins": 1000,
+    "residues": 255316,
+    "setting": "full_sequence",
+    "sha256": "966ef8b9ea510653223d13a06b6d303fc0a271acfb67e0683058e153737a98cc",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/validation_le1022_04.fasta",
+    "proteins": 939,
+    "residues": 272843,
+    "setting": "full_sequence",
+    "sha256": "2d5d5fee04bdaa746938576486f432942f17d72a80a5d862a4f86d5474667538",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/validation_gt1022_01.fasta",
+    "proteins": 40,
+    "residues": 53744,
+    "setting": "full_sequence",
+    "sha256": "05db68f7f30eb0dcf87512dc5da83f50f5bcd6f82f0d68a6675bf1c067a348f3",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "netsurfp/validation_gt1022_02.fasta",
+    "proteins": 21,
+    "residues": 28470,
+    "setting": "full_sequence",
+    "sha256": "a55f07f237c188fe26e0a63be6464941e61d6886ec221a709151874a73e8b501",
+    "tool": "NetSurfP3.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_01.fasta",
+    "proteins": 100,
+    "residues": 61864,
+    "setting": "eukarya",
+    "sha256": "aba8a3eb55696a7c4e906003e39a409d3a6a694bbf4b7f0f18a5ee3c0b22aa2b",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_02.fasta",
+    "proteins": 100,
+    "residues": 40600,
+    "setting": "eukarya",
+    "sha256": "a171dd73fb2653c21c10c0575a615a3ac848f778bdfda6cda42bac380007d83a",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_03.fasta",
+    "proteins": 100,
+    "residues": 25323,
+    "setting": "eukarya",
+    "sha256": "e1a573711d0f0cd90b2b04fdeda8549063a3fb09dd742785006415278b769375",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_04.fasta",
+    "proteins": 100,
+    "residues": 34970,
+    "setting": "eukarya",
+    "sha256": "1672948535eec4930a285eaffae9ce4bee44ea52ee2256ac6afaa61cf0ad5302",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_05.fasta",
+    "proteins": 100,
+    "residues": 21860,
+    "setting": "eukarya",
+    "sha256": "4ca490bc2fdc5ae36e850d07d00f4bd61da59f2e7dbdf1006d716d4ace576954",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_06.fasta",
+    "proteins": 100,
+    "residues": 32314,
+    "setting": "eukarya",
+    "sha256": "524f2752933c1bb501dd634183faad67b0420c2aea2dab79993e09d4416908dc",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_07.fasta",
+    "proteins": 100,
+    "residues": 38602,
+    "setting": "eukarya",
+    "sha256": "a70e722536289becba44f0a5beda297787eebf147bb52cf28ddded43d8b50b2e",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_eukarya_08.fasta",
+    "proteins": 18,
+    "residues": 7514,
+    "setting": "eukarya",
+    "sha256": "55290f42a2ea34cfb50087062a37608ee9f8e641e528e56806dd788c4595c8be",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_01.fasta",
+    "proteins": 100,
+    "residues": 42687,
+    "setting": "other",
+    "sha256": "ffadca3caa9c462070b6a6bc241e0d6f7d23c3f0187944662a9e9043c2849a24",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_02.fasta",
+    "proteins": 100,
+    "residues": 38284,
+    "setting": "other",
+    "sha256": "deec5b31d97f08dcd00e164ce1eda59a8ade1713f1e7f252592009c4c8352a23",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_03.fasta",
+    "proteins": 100,
+    "residues": 30987,
+    "setting": "other",
+    "sha256": "37b10384a3d31efaaf24c793e715d9a768374041249ad089aaeee7b843ae10ce",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_04.fasta",
+    "proteins": 100,
+    "residues": 25082,
+    "setting": "other",
+    "sha256": "204ded2d5e9673a8e01c74efa31684c9b226b2af55b548ae6b043f55bd45526f",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_05.fasta",
+    "proteins": 100,
+    "residues": 27350,
+    "setting": "other",
+    "sha256": "e100c09a54a6da14b0fcd781ac1f7680f919655031dd1d1f71a00bb6d438ebb2",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_06.fasta",
+    "proteins": 100,
+    "residues": 25105,
+    "setting": "other",
+    "sha256": "626443373809fdd853ecde5a3f947404787082a5e963a85f3dfceecf2aad2c59",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_07.fasta",
+    "proteins": 100,
+    "residues": 24404,
+    "setting": "other",
+    "sha256": "876130393318a8c76399818e514eb4cd30ac01a9eafedc632147f1916adfd0c8",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_08.fasta",
+    "proteins": 100,
+    "residues": 26309,
+    "setting": "other",
+    "sha256": "ef765312009d99e0424d852225fe5f4e4b17e1d9cfd4a173c11a4abe8fe50b8a",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_09.fasta",
+    "proteins": 100,
+    "residues": 29337,
+    "setting": "other",
+    "sha256": "f4e6b317d391c15a11b122cc54ae76c249ce39b4486bd1100382a3d4de65c795",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp/validation_other_10.fasta",
+    "proteins": 76,
+    "residues": 24078,
+    "setting": "other",
+    "sha256": "8b8eeec3b6a4f216b4386e8f09005c71c228ef0dbaa689ac390df80cf82c0c08",
+    "tool": "SignalP6.0"
+  },
+  {
+    "file": "signalp_unresolved/validation.fasta",
+    "proteins": 2306,
+    "residues": 651211,
+    "setting": "unresolved_do_not_guess",
+    "sha256": "dcc7d1efb9b77cf0d22b20bcd68aa8085a6e4771d3f77ae5c011e7bbdfd6befa",
+    "tool": "SignalP6.0"
+  }
+]

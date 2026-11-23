@@ -1,0 +1,7 @@
+policy	model	replicates	unit	auroc	low	high
+GA_all	family	200	detected validation homology cluster	0.55558312499999996	0.53905240529884024	0.57131448945974317
+GA_all	source	200	detected validation homology cluster	0.77905712500000002	0.76638625801019566	0.79145383283076731
+GA_all	family_plus_source	200	detected validation homology cluster	0.77467237499999997	0.76195747069450792	0.78559533054591779
+no_clan_competition	family	200	detected validation homology cluster	0.56838050000000007	0.55214537002363229	0.58687233077885448
+no_clan_competition	source	200	detected validation homology cluster	0.77905712500000002	0.76638625801019566	0.79145383283076731
+no_clan_competition	family_plus_source	200	detected validation homology cluster	0.78683225000000001	0.77459237941026382	0.79856831868845279

@@ -1,0 +1,173 @@
+<target id="MCSG-APC92021">
+          <targetId>APC92021</targetId>
+          <dateCreated>2007-02-12</dateCreated>
+          <dateUpdated>2007-02-26</dateUpdated>
+          <laboratoryList>
+               <lab>MCSG</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>mcsgdb_1</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>2</projectId>
+               </project>
+          </projectList>
+          <targetRationale />
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>community nominated</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <status>purified</status>
+          <targetSequenceList>
+               <targetSequence id="1">
+                    <oneLetterCode>
+                      MALDNRHRLIVGKLAEAFGLPENVIEKTLTQDKQAVNSFFTPAGPPSLVFVYQVKEDKLKDGSVGPVDNKPTLHRIGPHERIHNKGVYFTRLNPKGINEKTLEADMGSGELSGGALENFKAIVSDLYLPIMQEQQQWGKMSTEYLEDFLSSTAKFGSMLTEAVATVSGGVELRMPDPRYIDQYGDLRPAGITQAAGDDDTLQEMEECLTEWCREAELLLNQTNKIKDGEEPGPDTELEYWRTRMSNFNSITEHLKTKECKLVLGICSHAKTKAYLRWRALDVQITDAANESKDNVKYLATLEKSMEPMYQGRVTDITESLPALMTNVRMMYTIARFYSTAEHMTRLFTKITNQLVRRCKEQIMENGKIWDQDKVTLIGNMKVSVELANVYRQQYRLAKETLAAQPKSKQFDFDEQAIFLKFDLFSKRLHKLIDMFTTIHQFSSLEQHTHIEGLDTMLKSLNNIIDDVKRKPYDLLDYSRNAFDRDFLEFNVQINDLELQLQGFVNASFEHITSTEHALSLLAQFQAIMQRETLQQDLENKYMVIFQNYAKDLDAVQKLYEKNKYEPPVPRNAPPVAGNIMWARQLLRRIEAPMQRFAQNKNLLAAKESKKIIKTYNKVAKALIEFETLWHQAWIKSIEQCKAGLAAPLLVQHPDTGKILVNFDKEIMQLVREAKYMQRFNIAVPESAQMVLLQEEKFKFYHNQLTHLVREYEHVLGRVAPTIKPLLRPHLDDMERKIAPGFAVLTWTSLNIDGYLHRFKQGLARLEELVRKVVDLTENRVDSNLGAISSTLLVELPTDRSFTYEEFVSTQNRFQKKQAELLAIRNEEVRRAIEDLLTLVRNYPRENTEDVLDEKEVSLFVRHYSKNMYNAIMQCTLNSLQAMKRRLGSKTTTGIFFMERPFFDVDVELKVPSVCMNPTLEEIQAAINQCAKKVLTISKQLPAWGMDNVATYHEMIAGDKEVVKAVLRLTGSVEGIKTQVGEYIRTFDKYDFLWKEDLQAAYDHFMRSNPTLEAFEAELKKYMAIETEVTMINGVNNIGALSLETMPLKNSLKAEAVSWKTQFAQNLHKQCSDDLKAFDNYIRDTNSKFHRKIEDLEDVRNVMAVLKEVREKESEIDNLIGPIEEMYGLLMRYEVRVPKEETTMVSDLRYGWKKLKKVATEVSDNLTRLQVGFKRELIKEVKTFVVDAQMFRKDWEANGPMVPGLDPQEAVDRLRKFQQMFEVRKRKWENYSSGEELFGLPVTQYPELEQTEKEIQMLDRLYSLYVAVITTIKGYGDYFWVDVVEKIDEMGEQVQQYQNQSKKLPKALRDWPAYNACRKTIDDFLEMLPLFQALTHKSMRERHWKEVMRVTGHELNLAEDHFKLQHLLDCNVLRYREDIEDLTGAAVKEEIIEVKLNQLKADWATANLAFAEYKNRGPVILKPSDTSELMEKLEESQMTLGSMATNRYSAPFRDEVQAWSIKLSTVSEIIEQWLMVQSMWQYMEAVF
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>not provided</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Chlamydomonas reinhardtii</scientificName>
+                         <taxDB />
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>outer arm dynein gamma heavy chain N-terminal regionouter arm dynein gamma heavy chain N-terminal region no annotation</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <remark>outer arm dynein gamma heavy chain N-terminal region no annotation</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>seguid</databaseName>
+                    <databaseId>j4KktmCkZs9VIqcut0YHg9gZqTY</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <dateUpdated>2007-02-26</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>14</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="4">
+                              <lab>University College London</lab>
+                              <status>selected</status>
+                              <dateComplete>2007-02-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>cloned</status>
+                              <dateComplete>2007-02-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>expressed</status>
+                              <dateComplete>2007-02-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>purified</status>
+                              <dateComplete>2007-02-26</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MALDNRHRLIVGKLAEAFGLPENVIEKTLTQDKQAVNSFFTPAGPPSLVFVYQVKEDKLKDGSVGPVDNKPTLHRIGPHERIHNKGVYFTRLNPKGINEKTLEADMGSGELSGGALENFKAIVSDLYLPIMQEQQQWGKMSTEYLEDFLSSTAKFGSMLTEAVATVSGGVELRMPDPRYIDQYGDLRPAGITQAAGDDDTLQEMEECLTEWCREAELLLNQTNKIKDGEEPGPDTELEYWRTRMSNFNSITEHLKTKECKLVLGICSHAKTKAYLRWRALDVQITDAANESKDNVKYLATLEKSMEPMYQGRVTDITESLPALMTNVRMMYTIARFYSTAEHMTRLFTKITNQLVRRCKEQIMENGKIWDQDKVTLIGNMKVSVELANVYRQQYRLAKETLAAQPKSKQFDFDEQAIFLKFDLFSKRLHKLIDMFTTIHQFSSLEQHTHIEGLDTMLKSLNNIIDDVKRKPYDLLDYSRNAFDRDFLEFNVQINDLELQLQGFVNASFEHITSTEHALSLLAQFQAIMQRETLQQDLENKYMVIFQNYAKDLDAVQKLYEKNKYEPPVPRNAPPVAGNIMWARQLLRRIEAPMQRFAQNKNLLAAKESKKIIKTYNKVAKALIEFETLWHQAWIKSIEQCKAGLAAPLLVQHPDTGKILVNFDKEIMQLVREAKYMQRFNIAVPESAQMVLLQEEKFKFYHNQLTHLVREYEHVLGRVAPTIKPLLRPHLDDMERKIAPGFAVLTWTSLNIDGYLHRFKQGLARLEELVRKVVDLTENRVDSNLGAISSTLLVELPTDRSFTYEEFVSTQNRFQKKQAELLAIRNEEVRRAIEDLLTLVRNYPRENTEDVLDEKEVSLFVRHYSKNMYNAIMQCTLNSLQAMKRRLGSKTTTGIFFMERPFFDVDVELKVPSVCMNPTLEEIQAAINQCAKKVLTISKQLPAWGMDNVATYHEMIAGDKEVVKAVLRLTGSVEGIKTQVGEYIRTFDKYDFLWKEDLQAAYDHFMRSNPTLEAFEAELKKYMAIETEVTMINGVNNIGALSLETMPLKNSLKAEAVSWKTQFAQNLHKQCSDDLKAFDNYIRDTNSKFHRKIEDLEDVRNVMAVLKEVREKESEIDNLIGPIEEMYGLLMRYEVRVPKEETTMVSDLRYGWKKLKKVATEVSDNLTRLQVGFKRELIKEVKTFVVDAQMFRKDWEANGPMVPGLDPQEAVDRLRKFQQMFEVRKRKWENYSSGEELFGLPVTQYPELEQTEKEIQMLDRLYSLYVAVITTIKGYGDYFWVDVVEKIDEMGEQVQQYQNQSKKLPKALRDWPAYNACRKTIDDFLEMLPLFQALTHKSMRERHWKEVMRVTGHELNLAEDHFKLQHLLDCNVLRYREDIEDLTGAAVKEEIIEVKLNQLKADWATANLAFAEYKNRGPVILKPSDTSELMEKLEESQMTLGSMATNRYSAPFRDEVQAWSIKLSTVSEIIEQWLMVQSMWQYMEAVF
+                              </oneLetterCode>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>anl_cloning_1</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21/PRK1037 cloning vector: pMCSG19</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="4">
+                              <protocolId>anl_PreInfo-Low Density</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>anl_SOPHighDExprn</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21/PRK1037 vector: pMCSG19 induction chemical: IPTG expression temperature: 37</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>mcsg_selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="2">
+                    <dateUpdated>2007-02-26</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>14</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="4">
+                              <lab>University College London</lab>
+                              <status>selected</status>
+                              <dateComplete>2007-02-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="3">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>cloned</status>
+                              <dateComplete>2007-02-12</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="2">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>expressed</status>
+                              <dateComplete>2007-02-15</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1">
+                              <lab>Argonne National Laboratory</lab>
+                              <status>purified</status>
+                              <dateComplete>2007-02-26</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="1">
+                              <oneLetterCode>
+                               MALDNRHRLIVGKLAEAFGLPENVIEKTLTQDKQAVNSFFTPAGPPSLVFVYQVKEDKLKDGSVGPVDNKPTLHRIGPHERIHNKGVYFTRLNPKGINEKTLEADMGSGELSGGALENFKAIVSDLYLPIMQEQQQWGKMSTEYLEDFLSSTAKFGSMLTEAVATVSGGVELRMPDPRYIDQYGDLRPAGITQAAGDDDTLQEMEECLTEWCREAELLLNQTNKIKDGEEPGPDTELEYWRTRMSNFNSITEHLKTKECKLVLGICSHAKTKAYLRWRALDVQITDAANESKDNVKYLATLEKSMEPMYQGRVTDITESLPALMTNVRMMYTIARFYSTAEHMTRLFTKITNQLVRRCKEQIMENGKIWDQDKVTLIGNMKVSVELANVYRQQYRLAKETLAAQPKSKQFDFDEQAIFLKFDLFSKRLHKLIDMFTTIHQFSSLEQHTHIEGLDTMLKSLNNIIDDVKRKPYDLLDYSRNAFDRDFLEFNVQINDLELQLQGFVNASFEHITSTEHALSLLAQFQAIMQRETLQQDLENKYMVIFQNYAKDLDAVQKLYEKNKYEPPVPRNAPPVAGNIMWARQLLRRIEAPMQRFAQNKNLLAAKESKKIIKTYNKVAKALIEFETLWHQAWIKSIEQCKAGLAAPLLVQHPDTGKILVNFDKEIMQLVREAKYMQRFNIAVPESAQMVLLQEEKFKFYHNQLTHLVREYEHVLGRVAPTIKPLLRPHLDDMERKIAPGFAVLTWTSLNIDGYLHRFKQGLARLEELVRKVVDLTENRVDSNLGAISSTLLVELPTDRSFTYEEFVSTQNRFQKKQAELLAIRNEEVRRAIEDLLTLVRNYPRENTEDVLDEKEVSLFVRHYSKNMYNAIMQCTLNSLQAMKRRLGSKTTTGIFFMERPFFDVDVELKVPSVCMNPTLEEIQAAINQCAKKVLTISKQLPAWGMDNVATYHEMIAGDKEVVKAVLRLTGSVEGIKTQVGEYIRTFDKYDFLWKEDLQAAYDHFMRSNPTLEAFEAELKKYMAIETEVTMINGVNNIGALSLETMPLKNSLKAEAVSWKTQFAQNLHKQCSDDLKAFDNYIRDTNSKFHRKIEDLEDVRNVMAVLKEVREKESEIDNLIGPIEEMYGLLMRYEVRVPKEETTMVSDLRYGWKKLKKVATEVSDNLTRLQVGFKRELIKEVKTFVVDAQMFRKDWEANGPMVPGLDPQEAVDRLRKFQQMFEVRKRKWENYSSGEELFGLPVTQYPELEQTEKEIQMLDRLYSLYVAVITTIKGYGDYFWVDVVEKIDEMGEQVQQYQNQSKKLPKALRDWPAYNACRKTIDDFLEMLPLFQALTHKSMRERHWKEVMRVTGHELNLAEDHFKLQHLLDCNVLRYREDIEDLTGAAVKEEIIEVKLNQLKADWATANLAFAEYKNRGPVILKPSDTSELMEKLEESQMTLGSMATNRYSAPFRDEVQAWSIKLSTVSEIIEQWLMVQSMWQYMEAVF
+                              </oneLetterCode>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="2">
+                              <protocolId>anl_cloning_1</protocolId>
+                              <protocolType>cloning</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21/PRK1037 cloning vector: pMCSG19</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="4">
+                              <protocolId>anl_PreInfo-Low Density</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="3">
+                              <protocolId>anl_SOPHighDExprn</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>host: Escherichia Coli strain: BL21/PRK1037 vector: pMCSG19 induction chemical: IPTG expression temperature: 37</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>mcsg_selection</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

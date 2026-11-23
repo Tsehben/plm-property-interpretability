@@ -1,0 +1,523 @@
+policy	scope	split	center	label	n	attempted	not_queried	attempted_no_assignment	assigned_original	usable_pfam	coverage	success_among_attempted
+primary_clean_all_sources	full	train	BSGC	0	46	0	46	0	0	0	0	
+primary_clean_all_sources	full	train	BSGC	1	57	0	57	0	0	0	0	
+primary_clean_all_sources	full	train	BSGI	0	72	0	72	0	0	0	0	
+primary_clean_all_sources	full	train	BSGI	1	133	0	133	0	0	0	0	
+primary_clean_all_sources	full	train	CESG	0	119	1	118	0	1	1	0.0084033613	1
+primary_clean_all_sources	full	train	CESG	1	18	0	18	0	0	0	0	
+primary_clean_all_sources	full	train	DNASU_clone	0	254	0	254	0	0	0	0	
+primary_clean_all_sources	full	train	DNASU_clone	1	2077	3	2074	3	0	0	0	0
+primary_clean_all_sources	full	train	EFI	0	521	0	521	0	0	0	0	
+primary_clean_all_sources	full	train	EFI	1	311	0	311	0	0	0	0	
+primary_clean_all_sources	full	train	JCSG	0	5858	8	5850	5	3	3	0.00051212018	0.375
+primary_clean_all_sources	full	train	JCSG	1	5662	8	5654	5	3	3	0.00052984811	0.375
+primary_clean_all_sources	full	train	MCSG	0	3958	6	3952	4	2	2	0.00050530571	0.33333333
+primary_clean_all_sources	full	train	MCSG	1	8115	13	8102	6	7	7	0.00086260012	0.53846154
+primary_clean_all_sources	full	train	MPP	1	35	0	35	0	0	0	0	
+primary_clean_all_sources	full	train	NESG	0	1944	7	1937	3	4	4	0.0020576132	0.57142857
+primary_clean_all_sources	full	train	NESG	1	1292	2	1290	2	0	0	0	0
+primary_clean_all_sources	full	train	NYSGRC	0	4895	5	4890	1	4	4	0.00081716037	0.8
+primary_clean_all_sources	full	train	NYSGRC	1	1530	0	1530	0	0	0	0	
+primary_clean_all_sources	full	train	PDB_serial	1	14964	22	14942	6	16	16	0.0010692328	0.72727273
+primary_clean_all_sources	full	train	RefSeq	1	549	1	548	1	0	0	0	0
+primary_clean_all_sources	full	train	SECSG	0	2914	4	2910	2	2	2	0.0006863418	0.5
+primary_clean_all_sources	full	train	SECSG	1	2989	3	2986	2	1	1	0.00033456005	0.33333333
+primary_clean_all_sources	full	train	SGPP	0	5204	5	5199	4	1	1	0.00019215988	0.2
+primary_clean_all_sources	full	train	SGPP	1	2457	6	2451	4	2	2	0.00081400081	0.33333333
+primary_clean_all_sources	full	train	SSGCID	0	1274	3	1271	0	3	3	0.0023547881	1
+primary_clean_all_sources	full	train	SSGCID	1	1512	3	1509	3	0	0	0	0
+primary_clean_all_sources	full	train	TB_Rv	0	122	0	122	0	0	0	0	
+primary_clean_all_sources	full	train	TB_Rv	1	203	0	203	0	0	0	0	
+primary_clean_all_sources	full	train	other	0	85	0	85	0	0	0	0	
+primary_clean_all_sources	full	train	other	1	78	0	78	0	0	0	0	
+primary_clean_all_sources	full	validation	BSGI	0	35	0	35	0	0	0	0	
+primary_clean_all_sources	full	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+primary_clean_all_sources	full	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+primary_clean_all_sources	full	validation	EFI	0	71	0	71	0	0	0	0	
+primary_clean_all_sources	full	validation	EFI	1	21	0	21	0	0	0	0	
+primary_clean_all_sources	full	validation	JCSG	0	269	0	269	0	0	0	0	
+primary_clean_all_sources	full	validation	JCSG	1	621	0	621	0	0	0	0	
+primary_clean_all_sources	full	validation	MCSG	0	367	0	367	0	0	0	0	
+primary_clean_all_sources	full	validation	MCSG	1	160	0	160	0	0	0	0	
+primary_clean_all_sources	full	validation	MPP	0	57	0	57	0	0	0	0	
+primary_clean_all_sources	full	validation	NESG	0	152	0	152	0	0	0	0	
+primary_clean_all_sources	full	validation	NYSGRC	0	384	0	384	0	0	0	0	
+primary_clean_all_sources	full	validation	PDB_serial	1	748	0	748	0	0	0	0	
+primary_clean_all_sources	full	validation	RefSeq	1	32	0	32	0	0	0	0	
+primary_clean_all_sources	full	validation	SECSG	0	208	0	208	0	0	0	0	
+primary_clean_all_sources	full	validation	SECSG	1	92	0	92	0	0	0	0	
+primary_clean_all_sources	full	validation	SGPP	0	361	0	361	0	0	0	0	
+primary_clean_all_sources	full	validation	SGPP	1	94	0	94	0	0	0	0	
+primary_clean_all_sources	full	validation	SSGCID	0	1	0	1	0	0	0	0	
+primary_clean_all_sources	full	validation	SSGCID	1	66	0	66	0	0	0	0	
+primary_clean_all_sources	full	validation	TB_Rv	0	53	0	53	0	0	0	0	
+primary_clean_all_sources	full	validation	TB_Rv	1	47	0	47	0	0	0	0	
+primary_clean_all_sources	full	validation	other	0	26	0	26	0	0	0	0	
+primary_clean_all_sources	full	validation	other	1	9	0	9	0	0	0	0	
+primary_clean_all_sources	cached	train	BSGC	0	7	0	7	0	0	0	0	
+primary_clean_all_sources	cached	train	BSGC	1	8	0	8	0	0	0	0	
+primary_clean_all_sources	cached	train	BSGI	0	9	0	9	0	0	0	0	
+primary_clean_all_sources	cached	train	BSGI	1	20	0	20	0	0	0	0	
+primary_clean_all_sources	cached	train	CESG	0	17	0	17	0	0	0	0	
+primary_clean_all_sources	cached	train	CESG	1	3	0	3	0	0	0	0	
+primary_clean_all_sources	cached	train	DNASU_clone	0	35	0	35	0	0	0	0	
+primary_clean_all_sources	cached	train	DNASU_clone	1	299	1	298	1	0	0	0	0
+primary_clean_all_sources	cached	train	EFI	0	76	0	76	0	0	0	0	
+primary_clean_all_sources	cached	train	EFI	1	45	0	45	0	0	0	0	
+primary_clean_all_sources	cached	train	JCSG	0	832	1	831	1	0	0	0	0
+primary_clean_all_sources	cached	train	JCSG	1	807	0	807	0	0	0	0	
+primary_clean_all_sources	cached	train	MCSG	0	561	1	560	0	1	1	0.0017825312	1
+primary_clean_all_sources	cached	train	MCSG	1	1157	4	1153	3	1	1	0.00086430424	0.25
+primary_clean_all_sources	cached	train	MPP	1	5	0	5	0	0	0	0	
+primary_clean_all_sources	cached	train	NESG	0	279	1	278	0	1	1	0.0035842294	1
+primary_clean_all_sources	cached	train	NESG	1	185	1	184	1	0	0	0	0
+primary_clean_all_sources	cached	train	NYSGRC	0	696	2	694	0	2	2	0.0028735632	1
+primary_clean_all_sources	cached	train	NYSGRC	1	217	0	217	0	0	0	0	
+primary_clean_all_sources	cached	train	PDB_serial	1	2138	1	2137	0	1	1	0.00046772685	1
+primary_clean_all_sources	cached	train	RefSeq	1	79	0	79	0	0	0	0	
+primary_clean_all_sources	cached	train	SECSG	0	419	0	419	0	0	0	0	
+primary_clean_all_sources	cached	train	SECSG	1	426	0	426	0	0	0	0	
+primary_clean_all_sources	cached	train	SGPP	0	743	0	743	0	0	0	0	
+primary_clean_all_sources	cached	train	SGPP	1	349	0	349	0	0	0	0	
+primary_clean_all_sources	cached	train	SSGCID	0	182	1	181	0	1	1	0.0054945055	1
+primary_clean_all_sources	cached	train	SSGCID	1	217	0	217	0	0	0	0	
+primary_clean_all_sources	cached	train	TB_Rv	0	16	0	16	0	0	0	0	
+primary_clean_all_sources	cached	train	TB_Rv	1	30	0	30	0	0	0	0	
+primary_clean_all_sources	cached	train	other	0	12	0	12	0	0	0	0	
+primary_clean_all_sources	cached	train	other	1	11	0	11	0	0	0	0	
+primary_clean_all_sources	cached	validation	BSGI	0	35	0	35	0	0	0	0	
+primary_clean_all_sources	cached	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+primary_clean_all_sources	cached	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+primary_clean_all_sources	cached	validation	EFI	0	71	0	71	0	0	0	0	
+primary_clean_all_sources	cached	validation	EFI	1	21	0	21	0	0	0	0	
+primary_clean_all_sources	cached	validation	JCSG	0	269	0	269	0	0	0	0	
+primary_clean_all_sources	cached	validation	JCSG	1	621	0	621	0	0	0	0	
+primary_clean_all_sources	cached	validation	MCSG	0	367	0	367	0	0	0	0	
+primary_clean_all_sources	cached	validation	MCSG	1	160	0	160	0	0	0	0	
+primary_clean_all_sources	cached	validation	MPP	0	57	0	57	0	0	0	0	
+primary_clean_all_sources	cached	validation	NESG	0	152	0	152	0	0	0	0	
+primary_clean_all_sources	cached	validation	NYSGRC	0	384	0	384	0	0	0	0	
+primary_clean_all_sources	cached	validation	PDB_serial	1	748	0	748	0	0	0	0	
+primary_clean_all_sources	cached	validation	RefSeq	1	32	0	32	0	0	0	0	
+primary_clean_all_sources	cached	validation	SECSG	0	208	0	208	0	0	0	0	
+primary_clean_all_sources	cached	validation	SECSG	1	92	0	92	0	0	0	0	
+primary_clean_all_sources	cached	validation	SGPP	0	361	0	361	0	0	0	0	
+primary_clean_all_sources	cached	validation	SGPP	1	94	0	94	0	0	0	0	
+primary_clean_all_sources	cached	validation	SSGCID	0	1	0	1	0	0	0	0	
+primary_clean_all_sources	cached	validation	SSGCID	1	66	0	66	0	0	0	0	
+primary_clean_all_sources	cached	validation	TB_Rv	0	53	0	53	0	0	0	0	
+primary_clean_all_sources	cached	validation	TB_Rv	1	47	0	47	0	0	0	0	
+primary_clean_all_sources	cached	validation	other	0	26	0	26	0	0	0	0	
+primary_clean_all_sources	cached	validation	other	1	9	0	9	0	0	0	0	
+source_controlled_sensitivity	full	train	EFI	0	521	0	521	0	0	0	0	
+source_controlled_sensitivity	full	train	EFI	1	311	0	311	0	0	0	0	
+source_controlled_sensitivity	full	train	JCSG	0	5858	8	5850	5	3	3	0.00051212018	0.375
+source_controlled_sensitivity	full	train	JCSG	1	5662	8	5654	5	3	3	0.00052984811	0.375
+source_controlled_sensitivity	full	train	MCSG	0	3958	6	3952	4	2	2	0.00050530571	0.33333333
+source_controlled_sensitivity	full	train	MCSG	1	8115	13	8102	6	7	7	0.00086260012	0.53846154
+source_controlled_sensitivity	full	train	NESG	0	1944	7	1937	3	4	4	0.0020576132	0.57142857
+source_controlled_sensitivity	full	train	NESG	1	1292	2	1290	2	0	0	0	0
+source_controlled_sensitivity	full	train	NYSGRC	0	4895	5	4890	1	4	4	0.00081716037	0.8
+source_controlled_sensitivity	full	train	NYSGRC	1	1530	0	1530	0	0	0	0	
+source_controlled_sensitivity	full	train	SECSG	0	2914	4	2910	2	2	2	0.0006863418	0.5
+source_controlled_sensitivity	full	train	SECSG	1	2989	3	2986	2	1	1	0.00033456005	0.33333333
+source_controlled_sensitivity	full	train	SGPP	0	5204	5	5199	4	1	1	0.00019215988	0.2
+source_controlled_sensitivity	full	train	SGPP	1	2457	6	2451	4	2	2	0.00081400081	0.33333333
+source_controlled_sensitivity	full	train	SSGCID	0	1274	3	1271	0	3	3	0.0023547881	1
+source_controlled_sensitivity	full	train	SSGCID	1	1512	3	1509	3	0	0	0	0
+source_controlled_sensitivity	full	validation	EFI	0	71	0	71	0	0	0	0	
+source_controlled_sensitivity	full	validation	EFI	1	21	0	21	0	0	0	0	
+source_controlled_sensitivity	full	validation	JCSG	0	269	0	269	0	0	0	0	
+source_controlled_sensitivity	full	validation	JCSG	1	621	0	621	0	0	0	0	
+source_controlled_sensitivity	full	validation	MCSG	0	367	0	367	0	0	0	0	
+source_controlled_sensitivity	full	validation	MCSG	1	160	0	160	0	0	0	0	
+source_controlled_sensitivity	full	validation	NESG	0	152	0	152	0	0	0	0	
+source_controlled_sensitivity	full	validation	NYSGRC	0	384	0	384	0	0	0	0	
+source_controlled_sensitivity	full	validation	SECSG	0	208	0	208	0	0	0	0	
+source_controlled_sensitivity	full	validation	SECSG	1	92	0	92	0	0	0	0	
+source_controlled_sensitivity	full	validation	SGPP	0	361	0	361	0	0	0	0	
+source_controlled_sensitivity	full	validation	SGPP	1	94	0	94	0	0	0	0	
+source_controlled_sensitivity	full	validation	SSGCID	0	1	0	1	0	0	0	0	
+source_controlled_sensitivity	full	validation	SSGCID	1	66	0	66	0	0	0	0	
+source_controlled_sensitivity	cached	train	EFI	0	76	0	76	0	0	0	0	
+source_controlled_sensitivity	cached	train	EFI	1	45	0	45	0	0	0	0	
+source_controlled_sensitivity	cached	train	JCSG	0	832	1	831	1	0	0	0	0
+source_controlled_sensitivity	cached	train	JCSG	1	807	0	807	0	0	0	0	
+source_controlled_sensitivity	cached	train	MCSG	0	561	1	560	0	1	1	0.0017825312	1
+source_controlled_sensitivity	cached	train	MCSG	1	1157	4	1153	3	1	1	0.00086430424	0.25
+source_controlled_sensitivity	cached	train	NESG	0	279	1	278	0	1	1	0.0035842294	1
+source_controlled_sensitivity	cached	train	NESG	1	185	1	184	1	0	0	0	0
+source_controlled_sensitivity	cached	train	NYSGRC	0	696	2	694	0	2	2	0.0028735632	1
+source_controlled_sensitivity	cached	train	NYSGRC	1	217	0	217	0	0	0	0	
+source_controlled_sensitivity	cached	train	SECSG	0	419	0	419	0	0	0	0	
+source_controlled_sensitivity	cached	train	SECSG	1	426	0	426	0	0	0	0	
+source_controlled_sensitivity	cached	train	SGPP	0	743	0	743	0	0	0	0	
+source_controlled_sensitivity	cached	train	SGPP	1	349	0	349	0	0	0	0	
+source_controlled_sensitivity	cached	train	SSGCID	0	182	1	181	0	1	1	0.0054945055	1
+source_controlled_sensitivity	cached	train	SSGCID	1	217	0	217	0	0	0	0	
+source_controlled_sensitivity	cached	validation	EFI	0	71	0	71	0	0	0	0	
+source_controlled_sensitivity	cached	validation	EFI	1	21	0	21	0	0	0	0	
+source_controlled_sensitivity	cached	validation	JCSG	0	269	0	269	0	0	0	0	
+source_controlled_sensitivity	cached	validation	JCSG	1	621	0	621	0	0	0	0	
+source_controlled_sensitivity	cached	validation	MCSG	0	367	0	367	0	0	0	0	
+source_controlled_sensitivity	cached	validation	MCSG	1	160	0	160	0	0	0	0	
+source_controlled_sensitivity	cached	validation	NESG	0	152	0	152	0	0	0	0	
+source_controlled_sensitivity	cached	validation	NYSGRC	0	384	0	384	0	0	0	0	
+source_controlled_sensitivity	cached	validation	SECSG	0	208	0	208	0	0	0	0	
+source_controlled_sensitivity	cached	validation	SECSG	1	92	0	92	0	0	0	0	
+source_controlled_sensitivity	cached	validation	SGPP	0	361	0	361	0	0	0	0	
+source_controlled_sensitivity	cached	validation	SGPP	1	94	0	94	0	0	0	0	
+source_controlled_sensitivity	cached	validation	SSGCID	0	1	0	1	0	0	0	0	
+source_controlled_sensitivity	cached	validation	SSGCID	1	66	0	66	0	0	0	0	
+no_terminal_artifact_flags	full	train	BSGC	0	46	0	46	0	0	0	0	
+no_terminal_artifact_flags	full	train	BSGC	1	57	0	57	0	0	0	0	
+no_terminal_artifact_flags	full	train	BSGI	0	72	0	72	0	0	0	0	
+no_terminal_artifact_flags	full	train	BSGI	1	133	0	133	0	0	0	0	
+no_terminal_artifact_flags	full	train	CESG	0	119	1	118	0	1	1	0.0084033613	1
+no_terminal_artifact_flags	full	train	CESG	1	18	0	18	0	0	0	0	
+no_terminal_artifact_flags	full	train	DNASU_clone	0	254	0	254	0	0	0	0	
+no_terminal_artifact_flags	full	train	DNASU_clone	1	2075	3	2072	3	0	0	0	0
+no_terminal_artifact_flags	full	train	EFI	0	513	0	513	0	0	0	0	
+no_terminal_artifact_flags	full	train	EFI	1	301	0	301	0	0	0	0	
+no_terminal_artifact_flags	full	train	JCSG	0	5854	8	5846	5	3	3	0.00051247011	0.375
+no_terminal_artifact_flags	full	train	JCSG	1	5654	8	5646	5	3	3	0.00053059781	0.375
+no_terminal_artifact_flags	full	train	MCSG	0	3955	6	3949	4	2	2	0.000505689	0.33333333
+no_terminal_artifact_flags	full	train	MCSG	1	8113	13	8100	6	7	7	0.00086281277	0.53846154
+no_terminal_artifact_flags	full	train	MPP	1	35	0	35	0	0	0	0	
+no_terminal_artifact_flags	full	train	NESG	0	1731	6	1725	2	4	4	0.002310803	0.66666667
+no_terminal_artifact_flags	full	train	NESG	1	697	2	695	2	0	0	0	0
+no_terminal_artifact_flags	full	train	NYSGRC	0	4874	5	4869	1	4	4	0.00082068117	0.8
+no_terminal_artifact_flags	full	train	NYSGRC	1	1419	0	1419	0	0	0	0	
+no_terminal_artifact_flags	full	train	PDB_serial	1	11574	19	11555	3	16	16	0.0013824088	0.84210526
+no_terminal_artifact_flags	full	train	RefSeq	1	548	1	547	1	0	0	0	0
+no_terminal_artifact_flags	full	train	SECSG	0	2428	3	2425	1	2	2	0.00082372323	0.66666667
+no_terminal_artifact_flags	full	train	SECSG	1	2844	3	2841	2	1	1	0.00035161744	0.33333333
+no_terminal_artifact_flags	full	train	SGPP	0	5142	5	5137	4	1	1	0.00019447686	0.2
+no_terminal_artifact_flags	full	train	SGPP	1	2421	6	2415	4	2	2	0.00082610492	0.33333333
+no_terminal_artifact_flags	full	train	SSGCID	0	1268	3	1265	0	3	3	0.0023659306	1
+no_terminal_artifact_flags	full	train	SSGCID	1	1466	3	1463	3	0	0	0	0
+no_terminal_artifact_flags	full	train	TB_Rv	0	122	0	122	0	0	0	0	
+no_terminal_artifact_flags	full	train	TB_Rv	1	203	0	203	0	0	0	0	
+no_terminal_artifact_flags	full	train	other	0	85	0	85	0	0	0	0	
+no_terminal_artifact_flags	full	train	other	1	78	0	78	0	0	0	0	
+no_terminal_artifact_flags	full	validation	BSGI	0	35	0	35	0	0	0	0	
+no_terminal_artifact_flags	full	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+no_terminal_artifact_flags	full	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+no_terminal_artifact_flags	full	validation	EFI	0	71	0	71	0	0	0	0	
+no_terminal_artifact_flags	full	validation	EFI	1	18	0	18	0	0	0	0	
+no_terminal_artifact_flags	full	validation	JCSG	0	269	0	269	0	0	0	0	
+no_terminal_artifact_flags	full	validation	JCSG	1	621	0	621	0	0	0	0	
+no_terminal_artifact_flags	full	validation	MCSG	0	367	0	367	0	0	0	0	
+no_terminal_artifact_flags	full	validation	MCSG	1	160	0	160	0	0	0	0	
+no_terminal_artifact_flags	full	validation	MPP	0	57	0	57	0	0	0	0	
+no_terminal_artifact_flags	full	validation	NESG	0	143	0	143	0	0	0	0	
+no_terminal_artifact_flags	full	validation	NYSGRC	0	384	0	384	0	0	0	0	
+no_terminal_artifact_flags	full	validation	PDB_serial	1	539	0	539	0	0	0	0	
+no_terminal_artifact_flags	full	validation	RefSeq	1	32	0	32	0	0	0	0	
+no_terminal_artifact_flags	full	validation	SECSG	0	207	0	207	0	0	0	0	
+no_terminal_artifact_flags	full	validation	SECSG	1	92	0	92	0	0	0	0	
+no_terminal_artifact_flags	full	validation	SGPP	0	357	0	357	0	0	0	0	
+no_terminal_artifact_flags	full	validation	SGPP	1	94	0	94	0	0	0	0	
+no_terminal_artifact_flags	full	validation	SSGCID	0	1	0	1	0	0	0	0	
+no_terminal_artifact_flags	full	validation	SSGCID	1	66	0	66	0	0	0	0	
+no_terminal_artifact_flags	full	validation	TB_Rv	0	53	0	53	0	0	0	0	
+no_terminal_artifact_flags	full	validation	TB_Rv	1	46	0	46	0	0	0	0	
+no_terminal_artifact_flags	full	validation	other	0	26	0	26	0	0	0	0	
+no_terminal_artifact_flags	full	validation	other	1	9	0	9	0	0	0	0	
+no_terminal_artifact_flags	cached	train	BSGC	0	7	0	7	0	0	0	0	
+no_terminal_artifact_flags	cached	train	BSGC	1	8	0	8	0	0	0	0	
+no_terminal_artifact_flags	cached	train	BSGI	0	9	0	9	0	0	0	0	
+no_terminal_artifact_flags	cached	train	BSGI	1	20	0	20	0	0	0	0	
+no_terminal_artifact_flags	cached	train	CESG	0	17	0	17	0	0	0	0	
+no_terminal_artifact_flags	cached	train	CESG	1	3	0	3	0	0	0	0	
+no_terminal_artifact_flags	cached	train	DNASU_clone	0	35	0	35	0	0	0	0	
+no_terminal_artifact_flags	cached	train	DNASU_clone	1	299	1	298	1	0	0	0	0
+no_terminal_artifact_flags	cached	train	EFI	0	74	0	74	0	0	0	0	
+no_terminal_artifact_flags	cached	train	EFI	1	44	0	44	0	0	0	0	
+no_terminal_artifact_flags	cached	train	JCSG	0	832	1	831	1	0	0	0	0
+no_terminal_artifact_flags	cached	train	JCSG	1	807	0	807	0	0	0	0	
+no_terminal_artifact_flags	cached	train	MCSG	0	559	1	558	0	1	1	0.0017889088	1
+no_terminal_artifact_flags	cached	train	MCSG	1	1157	4	1153	3	1	1	0.00086430424	0.25
+no_terminal_artifact_flags	cached	train	MPP	1	5	0	5	0	0	0	0	
+no_terminal_artifact_flags	cached	train	NESG	0	257	1	256	0	1	1	0.0038910506	1
+no_terminal_artifact_flags	cached	train	NESG	1	96	1	95	1	0	0	0	0
+no_terminal_artifact_flags	cached	train	NYSGRC	0	694	2	692	0	2	2	0.0028818444	1
+no_terminal_artifact_flags	cached	train	NYSGRC	1	195	0	195	0	0	0	0	
+no_terminal_artifact_flags	cached	train	PDB_serial	1	1667	1	1666	0	1	1	0.00059988002	1
+no_terminal_artifact_flags	cached	train	RefSeq	1	79	0	79	0	0	0	0	
+no_terminal_artifact_flags	cached	train	SECSG	0	348	0	348	0	0	0	0	
+no_terminal_artifact_flags	cached	train	SECSG	1	410	0	410	0	0	0	0	
+no_terminal_artifact_flags	cached	train	SGPP	0	733	0	733	0	0	0	0	
+no_terminal_artifact_flags	cached	train	SGPP	1	338	0	338	0	0	0	0	
+no_terminal_artifact_flags	cached	train	SSGCID	0	179	1	178	0	1	1	0.0055865922	1
+no_terminal_artifact_flags	cached	train	SSGCID	1	209	0	209	0	0	0	0	
+no_terminal_artifact_flags	cached	train	TB_Rv	0	16	0	16	0	0	0	0	
+no_terminal_artifact_flags	cached	train	TB_Rv	1	30	0	30	0	0	0	0	
+no_terminal_artifact_flags	cached	train	other	0	12	0	12	0	0	0	0	
+no_terminal_artifact_flags	cached	train	other	1	11	0	11	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	BSGI	0	35	0	35	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	EFI	0	71	0	71	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	EFI	1	18	0	18	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	JCSG	0	269	0	269	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	JCSG	1	621	0	621	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	MCSG	0	367	0	367	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	MCSG	1	160	0	160	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	MPP	0	57	0	57	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	NESG	0	143	0	143	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	NYSGRC	0	384	0	384	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	PDB_serial	1	539	0	539	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	RefSeq	1	32	0	32	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	SECSG	0	207	0	207	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	SECSG	1	92	0	92	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	SGPP	0	357	0	357	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	SGPP	1	94	0	94	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	SSGCID	0	1	0	1	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	SSGCID	1	66	0	66	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	TB_Rv	0	53	0	53	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	TB_Rv	1	46	0	46	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	other	0	26	0	26	0	0	0	0	
+no_terminal_artifact_flags	cached	validation	other	1	9	0	9	0	0	0	0	
+within_ESM_context	full	train	BSGC	0	46	0	46	0	0	0	0	
+within_ESM_context	full	train	BSGC	1	57	0	57	0	0	0	0	
+within_ESM_context	full	train	BSGI	0	72	0	72	0	0	0	0	
+within_ESM_context	full	train	BSGI	1	131	0	131	0	0	0	0	
+within_ESM_context	full	train	CESG	0	118	1	117	0	1	1	0.0084745763	1
+within_ESM_context	full	train	CESG	1	18	0	18	0	0	0	0	
+within_ESM_context	full	train	DNASU_clone	0	254	0	254	0	0	0	0	
+within_ESM_context	full	train	DNASU_clone	1	2077	3	2074	3	0	0	0	0
+within_ESM_context	full	train	EFI	0	514	0	514	0	0	0	0	
+within_ESM_context	full	train	EFI	1	310	0	310	0	0	0	0	
+within_ESM_context	full	train	JCSG	0	5845	8	5837	5	3	3	0.0005132592	0.375
+within_ESM_context	full	train	JCSG	1	5659	8	5651	5	3	3	0.000530129	0.375
+within_ESM_context	full	train	MCSG	0	3935	6	3929	4	2	2	0.00050825921	0.33333333
+within_ESM_context	full	train	MCSG	1	8090	13	8077	6	7	7	0.00086526576	0.53846154
+within_ESM_context	full	train	MPP	1	35	0	35	0	0	0	0	
+within_ESM_context	full	train	NESG	0	1796	7	1789	3	4	4	0.0022271715	0.57142857
+within_ESM_context	full	train	NESG	1	1278	2	1276	2	0	0	0	0
+within_ESM_context	full	train	NYSGRC	0	4625	5	4620	1	4	4	0.00086486486	0.8
+within_ESM_context	full	train	NYSGRC	1	1506	0	1506	0	0	0	0	
+within_ESM_context	full	train	PDB_serial	1	14783	22	14761	6	16	16	0.0010823243	0.72727273
+within_ESM_context	full	train	RefSeq	1	544	1	543	1	0	0	0	0
+within_ESM_context	full	train	SECSG	0	2818	2	2816	2	0	0	0	0
+within_ESM_context	full	train	SECSG	1	2879	3	2876	2	1	1	0.00034734283	0.33333333
+within_ESM_context	full	train	SGPP	0	5121	5	5116	4	1	1	0.00019527436	0.2
+within_ESM_context	full	train	SGPP	1	2453	6	2447	4	2	2	0.00081532817	0.33333333
+within_ESM_context	full	train	SSGCID	0	1232	2	1230	0	2	2	0.0016233766	1
+within_ESM_context	full	train	SSGCID	1	1497	3	1494	3	0	0	0	0
+within_ESM_context	full	train	TB_Rv	0	121	0	121	0	0	0	0	
+within_ESM_context	full	train	TB_Rv	1	201	0	201	0	0	0	0	
+within_ESM_context	full	train	other	0	85	0	85	0	0	0	0	
+within_ESM_context	full	train	other	1	77	0	77	0	0	0	0	
+within_ESM_context	full	validation	BSGI	0	35	0	35	0	0	0	0	
+within_ESM_context	full	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+within_ESM_context	full	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+within_ESM_context	full	validation	EFI	0	71	0	71	0	0	0	0	
+within_ESM_context	full	validation	EFI	1	21	0	21	0	0	0	0	
+within_ESM_context	full	validation	JCSG	0	268	0	268	0	0	0	0	
+within_ESM_context	full	validation	JCSG	1	621	0	621	0	0	0	0	
+within_ESM_context	full	validation	MCSG	0	363	0	363	0	0	0	0	
+within_ESM_context	full	validation	MCSG	1	157	0	157	0	0	0	0	
+within_ESM_context	full	validation	MPP	0	56	0	56	0	0	0	0	
+within_ESM_context	full	validation	NESG	0	146	0	146	0	0	0	0	
+within_ESM_context	full	validation	NYSGRC	0	360	0	360	0	0	0	0	
+within_ESM_context	full	validation	PDB_serial	1	742	0	742	0	0	0	0	
+within_ESM_context	full	validation	RefSeq	1	31	0	31	0	0	0	0	
+within_ESM_context	full	validation	SECSG	0	203	0	203	0	0	0	0	
+within_ESM_context	full	validation	SECSG	1	89	0	89	0	0	0	0	
+within_ESM_context	full	validation	SGPP	0	359	0	359	0	0	0	0	
+within_ESM_context	full	validation	SGPP	1	94	0	94	0	0	0	0	
+within_ESM_context	full	validation	SSGCID	0	1	0	1	0	0	0	0	
+within_ESM_context	full	validation	SSGCID	1	66	0	66	0	0	0	0	
+within_ESM_context	full	validation	TB_Rv	0	51	0	51	0	0	0	0	
+within_ESM_context	full	validation	TB_Rv	1	47	0	47	0	0	0	0	
+within_ESM_context	full	validation	other	0	23	0	23	0	0	0	0	
+within_ESM_context	full	validation	other	1	9	0	9	0	0	0	0	
+within_ESM_context	cached	train	BSGC	0	7	0	7	0	0	0	0	
+within_ESM_context	cached	train	BSGC	1	8	0	8	0	0	0	0	
+within_ESM_context	cached	train	BSGI	0	9	0	9	0	0	0	0	
+within_ESM_context	cached	train	BSGI	1	20	0	20	0	0	0	0	
+within_ESM_context	cached	train	CESG	0	17	0	17	0	0	0	0	
+within_ESM_context	cached	train	CESG	1	3	0	3	0	0	0	0	
+within_ESM_context	cached	train	DNASU_clone	0	35	0	35	0	0	0	0	
+within_ESM_context	cached	train	DNASU_clone	1	299	1	298	1	0	0	0	0
+within_ESM_context	cached	train	EFI	0	75	0	75	0	0	0	0	
+within_ESM_context	cached	train	EFI	1	44	0	44	0	0	0	0	
+within_ESM_context	cached	train	JCSG	0	832	1	831	1	0	0	0	0
+within_ESM_context	cached	train	JCSG	1	807	0	807	0	0	0	0	
+within_ESM_context	cached	train	MCSG	0	558	1	557	0	1	1	0.0017921147	1
+within_ESM_context	cached	train	MCSG	1	1153	4	1149	3	1	1	0.00086730269	0.25
+within_ESM_context	cached	train	MPP	1	5	0	5	0	0	0	0	
+within_ESM_context	cached	train	NESG	0	261	1	260	0	1	1	0.0038314176	1
+within_ESM_context	cached	train	NESG	1	184	1	183	1	0	0	0	0
+within_ESM_context	cached	train	NYSGRC	0	655	2	653	0	2	2	0.0030534351	1
+within_ESM_context	cached	train	NYSGRC	1	213	0	213	0	0	0	0	
+within_ESM_context	cached	train	PDB_serial	1	2111	1	2110	0	1	1	0.00047370914	1
+within_ESM_context	cached	train	RefSeq	1	79	0	79	0	0	0	0	
+within_ESM_context	cached	train	SECSG	0	405	0	405	0	0	0	0	
+within_ESM_context	cached	train	SECSG	1	412	0	412	0	0	0	0	
+within_ESM_context	cached	train	SGPP	0	732	0	732	0	0	0	0	
+within_ESM_context	cached	train	SGPP	1	347	0	347	0	0	0	0	
+within_ESM_context	cached	train	SSGCID	0	173	1	172	0	1	1	0.0057803468	1
+within_ESM_context	cached	train	SSGCID	1	211	0	211	0	0	0	0	
+within_ESM_context	cached	train	TB_Rv	0	16	0	16	0	0	0	0	
+within_ESM_context	cached	train	TB_Rv	1	29	0	29	0	0	0	0	
+within_ESM_context	cached	train	other	0	12	0	12	0	0	0	0	
+within_ESM_context	cached	train	other	1	11	0	11	0	0	0	0	
+within_ESM_context	cached	validation	BSGI	0	35	0	35	0	0	0	0	
+within_ESM_context	cached	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+within_ESM_context	cached	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+within_ESM_context	cached	validation	EFI	0	71	0	71	0	0	0	0	
+within_ESM_context	cached	validation	EFI	1	21	0	21	0	0	0	0	
+within_ESM_context	cached	validation	JCSG	0	268	0	268	0	0	0	0	
+within_ESM_context	cached	validation	JCSG	1	621	0	621	0	0	0	0	
+within_ESM_context	cached	validation	MCSG	0	363	0	363	0	0	0	0	
+within_ESM_context	cached	validation	MCSG	1	157	0	157	0	0	0	0	
+within_ESM_context	cached	validation	MPP	0	56	0	56	0	0	0	0	
+within_ESM_context	cached	validation	NESG	0	146	0	146	0	0	0	0	
+within_ESM_context	cached	validation	NYSGRC	0	360	0	360	0	0	0	0	
+within_ESM_context	cached	validation	PDB_serial	1	742	0	742	0	0	0	0	
+within_ESM_context	cached	validation	RefSeq	1	31	0	31	0	0	0	0	
+within_ESM_context	cached	validation	SECSG	0	203	0	203	0	0	0	0	
+within_ESM_context	cached	validation	SECSG	1	89	0	89	0	0	0	0	
+within_ESM_context	cached	validation	SGPP	0	359	0	359	0	0	0	0	
+within_ESM_context	cached	validation	SGPP	1	94	0	94	0	0	0	0	
+within_ESM_context	cached	validation	SSGCID	0	1	0	1	0	0	0	0	
+within_ESM_context	cached	validation	SSGCID	1	66	0	66	0	0	0	0	
+within_ESM_context	cached	validation	TB_Rv	0	51	0	51	0	0	0	0	
+within_ESM_context	cached	validation	TB_Rv	1	47	0	47	0	0	0	0	
+within_ESM_context	cached	validation	other	0	23	0	23	0	0	0	0	
+within_ESM_context	cached	validation	other	1	9	0	9	0	0	0	0	
+confident_organism_only	full	train	CESG	0	1	1	0	0	1	1	1	1
+confident_organism_only	full	train	JCSG	0	6	6	0	3	3	3	0.5	0.5
+confident_organism_only	full	train	JCSG	1	4	4	0	1	3	3	0.75	0.75
+confident_organism_only	full	train	MCSG	0	3	3	0	1	2	2	0.66666667	0.66666667
+confident_organism_only	full	train	MCSG	1	10	10	0	3	7	7	0.7	0.7
+confident_organism_only	full	train	NESG	0	6	6	0	2	4	4	0.66666667	0.66666667
+confident_organism_only	full	train	NYSGRC	0	4	4	0	0	4	4	1	1
+confident_organism_only	full	train	PDB_serial	1	20	20	0	5	15	15	0.75	0.75
+confident_organism_only	full	train	RefSeq	1	1	1	0	1	0	0	0	0
+confident_organism_only	full	train	SECSG	0	3	3	0	1	2	2	0.66666667	0.66666667
+confident_organism_only	full	train	SECSG	1	3	3	0	2	1	1	0.33333333	0.33333333
+confident_organism_only	full	train	SGPP	0	2	2	0	1	1	1	0.5	0.5
+confident_organism_only	full	train	SGPP	1	2	2	0	0	2	2	1	1
+confident_organism_only	full	train	SSGCID	0	3	3	0	0	3	3	1	1
+confident_organism_only	full	train	SSGCID	1	1	1	0	1	0	0	0	0
+confident_organism_only	cached	train	JCSG	0	1	1	0	1	0	0	0	0
+confident_organism_only	cached	train	MCSG	0	1	1	0	0	1	1	1	1
+confident_organism_only	cached	train	MCSG	1	3	3	0	2	1	1	0.33333333	0.33333333
+confident_organism_only	cached	train	NESG	0	1	1	0	0	1	1	1	1
+confident_organism_only	cached	train	NYSGRC	0	2	2	0	0	2	2	1	1
+confident_organism_only	cached	train	PDB_serial	1	1	1	0	0	1	1	1	1
+confident_organism_only	cached	train	SSGCID	0	1	1	0	0	1	1	1	1
+full_sequence_Pfam_evidence	full	train	BSGC	0	46	0	46	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	BSGC	1	57	0	57	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	BSGI	0	72	0	72	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	BSGI	1	133	0	133	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	CESG	0	119	1	118	0	1	1	0.0084033613	1
+full_sequence_Pfam_evidence	full	train	CESG	1	18	0	18	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	DNASU_clone	0	254	0	254	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	DNASU_clone	1	2077	3	2074	3	0	0	0	0
+full_sequence_Pfam_evidence	full	train	EFI	0	521	0	521	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	EFI	1	311	0	311	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	JCSG	0	5858	8	5850	5	3	3	0.00051212018	0.375
+full_sequence_Pfam_evidence	full	train	JCSG	1	5662	8	5654	5	3	3	0.00052984811	0.375
+full_sequence_Pfam_evidence	full	train	MCSG	0	3958	6	3952	4	2	2	0.00050530571	0.33333333
+full_sequence_Pfam_evidence	full	train	MCSG	1	8115	13	8102	6	7	7	0.00086260012	0.53846154
+full_sequence_Pfam_evidence	full	train	MPP	1	35	0	35	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	NESG	0	1944	7	1937	3	4	4	0.0020576132	0.57142857
+full_sequence_Pfam_evidence	full	train	NESG	1	1292	2	1290	2	0	0	0	0
+full_sequence_Pfam_evidence	full	train	NYSGRC	0	4895	5	4890	1	4	4	0.00081716037	0.8
+full_sequence_Pfam_evidence	full	train	NYSGRC	1	1530	0	1530	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	PDB_serial	1	14964	22	14942	6	16	16	0.0010692328	0.72727273
+full_sequence_Pfam_evidence	full	train	RefSeq	1	549	1	548	1	0	0	0	0
+full_sequence_Pfam_evidence	full	train	SECSG	0	2914	4	2910	2	2	2	0.0006863418	0.5
+full_sequence_Pfam_evidence	full	train	SECSG	1	2989	3	2986	2	1	1	0.00033456005	0.33333333
+full_sequence_Pfam_evidence	full	train	SGPP	0	5204	5	5199	4	1	1	0.00019215988	0.2
+full_sequence_Pfam_evidence	full	train	SGPP	1	2457	6	2451	4	2	2	0.00081400081	0.33333333
+full_sequence_Pfam_evidence	full	train	SSGCID	0	1274	3	1271	0	3	3	0.0023547881	1
+full_sequence_Pfam_evidence	full	train	SSGCID	1	1512	3	1509	3	0	0	0	0
+full_sequence_Pfam_evidence	full	train	TB_Rv	0	122	0	122	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	TB_Rv	1	203	0	203	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	other	0	85	0	85	0	0	0	0	
+full_sequence_Pfam_evidence	full	train	other	1	78	0	78	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	BSGI	0	35	0	35	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	EFI	0	71	0	71	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	EFI	1	21	0	21	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	JCSG	0	269	0	269	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	JCSG	1	621	0	621	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	MCSG	0	367	0	367	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	MCSG	1	160	0	160	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	MPP	0	57	0	57	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	NESG	0	152	0	152	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	NYSGRC	0	384	0	384	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	PDB_serial	1	748	0	748	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	RefSeq	1	32	0	32	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	SECSG	0	208	0	208	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	SECSG	1	92	0	92	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	SGPP	0	361	0	361	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	SGPP	1	94	0	94	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	SSGCID	0	1	0	1	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	SSGCID	1	66	0	66	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	TB_Rv	0	53	0	53	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	TB_Rv	1	47	0	47	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	other	0	26	0	26	0	0	0	0	
+full_sequence_Pfam_evidence	full	validation	other	1	9	0	9	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	BSGC	0	7	0	7	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	BSGC	1	8	0	8	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	BSGI	0	9	0	9	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	BSGI	1	20	0	20	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	CESG	0	17	0	17	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	CESG	1	3	0	3	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	DNASU_clone	0	35	0	35	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	DNASU_clone	1	299	1	298	1	0	0	0	0
+full_sequence_Pfam_evidence	cached	train	EFI	0	76	0	76	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	EFI	1	45	0	45	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	JCSG	0	832	1	831	1	0	0	0	0
+full_sequence_Pfam_evidence	cached	train	JCSG	1	807	0	807	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	MCSG	0	561	1	560	0	1	1	0.0017825312	1
+full_sequence_Pfam_evidence	cached	train	MCSG	1	1157	4	1153	3	1	1	0.00086430424	0.25
+full_sequence_Pfam_evidence	cached	train	MPP	1	5	0	5	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	NESG	0	279	1	278	0	1	1	0.0035842294	1
+full_sequence_Pfam_evidence	cached	train	NESG	1	185	1	184	1	0	0	0	0
+full_sequence_Pfam_evidence	cached	train	NYSGRC	0	696	2	694	0	2	2	0.0028735632	1
+full_sequence_Pfam_evidence	cached	train	NYSGRC	1	217	0	217	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	PDB_serial	1	2138	1	2137	0	1	1	0.00046772685	1
+full_sequence_Pfam_evidence	cached	train	RefSeq	1	79	0	79	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	SECSG	0	419	0	419	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	SECSG	1	426	0	426	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	SGPP	0	743	0	743	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	SGPP	1	349	0	349	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	SSGCID	0	182	1	181	0	1	1	0.0054945055	1
+full_sequence_Pfam_evidence	cached	train	SSGCID	1	217	0	217	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	TB_Rv	0	16	0	16	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	TB_Rv	1	30	0	30	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	other	0	12	0	12	0	0	0	0	
+full_sequence_Pfam_evidence	cached	train	other	1	11	0	11	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	BSGI	0	35	0	35	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	DNASU_clone	0	16	0	16	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	DNASU_clone	1	110	0	110	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	EFI	0	71	0	71	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	EFI	1	21	0	21	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	JCSG	0	269	0	269	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	JCSG	1	621	0	621	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	MCSG	0	367	0	367	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	MCSG	1	160	0	160	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	MPP	0	57	0	57	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	NESG	0	152	0	152	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	NYSGRC	0	384	0	384	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	PDB_serial	1	748	0	748	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	RefSeq	1	32	0	32	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	SECSG	0	208	0	208	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	SECSG	1	92	0	92	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	SGPP	0	361	0	361	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	SGPP	1	94	0	94	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	SSGCID	0	1	0	1	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	SSGCID	1	66	0	66	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	TB_Rv	0	53	0	53	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	TB_Rv	1	47	0	47	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	other	0	26	0	26	0	0	0	0	
+full_sequence_Pfam_evidence	cached	validation	other	1	9	0	9	0	0	0	0	

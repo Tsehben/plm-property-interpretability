@@ -1,0 +1,68 @@
+raw_uid	pfam	pfam_set	split	label	center	cluster	cached	match_method	evidence_source	label_reliability	verified_outcome
+train:671	PF09992	PF09992	train	0	NESG	train:671	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:1077	PF00069	PF00069	train	0	SSGCID	train:1077	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:2452	PF13640	PF13640	train	0	SGPP	train:2452	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:5599	PF00034	PF00034;PF21342	train	0	NYSGRC	train:5599	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:5599	PF21342	PF00034;PF21342	train	0	NYSGRC	train:5599	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:11440	PF00076	PF00076;PF14709	train	0	CESG	train:11440	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:11440	PF14709	PF00076;PF14709	train	0	CESG	train:11440	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:13855	PF00300	PF00300	train	0	SSGCID	train:65590	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:13897	PF00249	PF00249;PF04433;PF22941;PF25299	train	0	SSGCID	train:13897	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:13897	PF04433	PF00249;PF04433;PF22941;PF25299	train	0	SSGCID	train:13897	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:13897	PF22941	PF00249;PF04433;PF22941;PF25299	train	0	SSGCID	train:13897	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:13897	PF25299	PF00249;PF04433;PF22941;PF25299	train	0	SSGCID	train:13897	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:14269	PF01464	PF01464;PF01476	train	0	NYSGRC	train:14269	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:14269	PF01476	PF01464;PF01476	train	0	NYSGRC	train:14269	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:14350	PF04693	PF04693	train	0	JCSG	train:14350	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:14524	PF08240	PF08240	train	0	NYSGRC	train:41732	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:16452	PF12790	PF12790	train	0	NYSGRC	train:16452	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:16522	PF05430	PF05430	train	0	MCSG	train:16522	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:19764	PF00582	PF00582	train	0	MCSG	train:19764	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20550	PF00881	PF00881;PF28600	train	0	JCSG	train:20550	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20550	PF28600	PF00881;PF28600	train	0	JCSG	train:20550	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20840	PF00533	PF00533;PF18428;PF24680	train	0	SECSG	train:20840	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20840	PF18428	PF00533;PF18428;PF24680	train	0	SECSG	train:20840	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20840	PF24680	PF00533;PF18428;PF24680	train	0	SECSG	train:20840	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20939	PF00623	PF00623;PF04983;PF04997;PF04998;PF05000	train	0	SECSG	train:48759	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20939	PF04983	PF00623;PF04983;PF04997;PF04998;PF05000	train	0	SECSG	train:48759	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20939	PF04997	PF00623;PF04983;PF04997;PF04998;PF05000	train	0	SECSG	train:48759	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20939	PF04998	PF00623;PF04983;PF04997;PF04998;PF05000	train	0	SECSG	train:48759	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:20939	PF05000	PF00623;PF04983;PF04997;PF04998;PF05000	train	0	SECSG	train:48759	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:25006	PF01663	PF01663	train	0	NESG	train:25006	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:25058	PF00929	PF00929;PF28843;PF28865	train	0	JCSG	train:25058	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:25058	PF28843	PF00929;PF28843;PF28865	train	0	JCSG	train:25058	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:25058	PF28865	PF00929;PF28843;PF28865	train	0	JCSG	train:25058	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:25398	PF03109	PF03109	train	0	NESG	train:25398	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:27184	PF13450	PF13450	train	0	NESG	train:38830	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:27886	PF08558	PF08558	train	1	PDB_serial	train:27886	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:29082	PF00072	PF00072	train	1	JCSG	train:29082	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:29725	PF07007	PF07007	train	1	JCSG	train:29725	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:31367	PF00701	PF00701	train	1	PDB_serial	train:31367	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	structure-selected positive; no standardized assay	False
+train:33356	PF01243	PF01243	train	1	PDB_serial	train:33356	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:33747	PF10153	PF10153	train	1	PDB_serial	train:33747	True	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:34171	PF00009	PF00009;PF21920;PF21921	train	1	PDB_serial	train:34171	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:34171	PF21920	PF00009;PF21920;PF21921	train	1	PDB_serial	train:34171	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:34171	PF21921	PF00009;PF21920;PF21921	train	1	PDB_serial	train:34171	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:34583	PF26358	PF26358	train	1	PDB_serial	train:34583	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	structure-selected positive; no standardized assay	False
+train:34852	PF01381	PF01381	train	1	MCSG	train:34852	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:35034	PF02225	PF02225	train	1	PDB_serial	train:35034	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:35482	PF13181	PF13181;PF13844	train	1	PDB_serial	train:35482	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:35482	PF13844	PF13181;PF13844	train	1	PDB_serial	train:35482	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:37802	PF01992	PF01992	train	1	SGPP	train:5142	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:44285	PF18109	PF18109	train	1	PDB_serial	train:44285	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:44815	PF00814	PF00814	train	1	MCSG	train:44815	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:46758	PF00583	PF00583	train	1	PDB_serial	train:46758	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:47788	PF12902	PF12902	train	1	PDB_serial	train:47788	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:47848	PF00566	PF00566	train	1	PDB_serial	train:47848	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:49990	PF01728	PF01728	train	1	PDB_serial	train:49990	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:50709	PF13847	PF13847	train	1	JCSG	train:50709	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:55925	PF01008	PF01008	train	1	SGPP	train:55925	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:56045	PF13774	PF13774	train	1	PDB_serial	train:56045	False	exact_full_sequence	PDB_source_organism(multi)|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:56164	PF13592	PF13592	train	1	MCSG	train:56164	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:58671	PF02065	PF02065	train	1	MCSG	train:58671	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:59643	PF07496	PF07496	train	1	PDB_serial	train:59643	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:60839	PF00041	PF00041	train	1	PDB_serial	train:60839	False	exact_full_sequence	UniParc_exact->PDB_source_organism|Pfam:RCSB_PDB_entity_annotation	structure-selected positive; no standardized assay	False
+train:63186	PF00313	PF00313	train	1	SECSG	train:63186	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:64481	PF01381	PF01381	train	1	MCSG	train:64481	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:64503	PF08346	PF08346	train	1	MCSG	train:64503	False	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False
+train:65470	PF04564	PF04564	train	1	MCSG	train:65470	True	exact_full_sequence	UniParc_exact->UniProtKB_active|Pfam:UniProt_xref	workflow-derived; record-level outcome unverified	False

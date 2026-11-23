@@ -1,0 +1,738 @@
+##gff-version 3
+## validation:1173 Length: 2182
+## validation:1173 Number of predicted TMRs: 0
+validation:1173	DeepTM	inside	1	2182	.	.	.	.
+//
+## validation:1185 Length: 1918
+## validation:1185 Number of predicted TMRs: 0
+validation:1185	DeepTM	inside	1	1918	.	.	.	.
+//
+## validation:1105 Length: 1556
+## validation:1105 Number of predicted TMRs: 0
+validation:1105	DeepTM	inside	1	1556	.	.	.	.
+//
+## validation:1093 Length: 1295
+## validation:1093 Number of predicted TMRs: 0
+validation:1093	DeepTM	inside	1	1295	.	.	.	.
+//
+## validation:1188 Length: 1281
+## validation:1188 Number of predicted TMRs: 0
+validation:1188	DeepTM	inside	1	1281	.	.	.	.
+//
+## validation:1098 Length: 1163
+## validation:1098 Number of predicted TMRs: 0
+validation:1098	DeepTM	inside	1	1163	.	.	.	.
+//
+## validation:1154 Length: 1146
+## validation:1154 Number of predicted TMRs: 0
+validation:1154	DeepTM	inside	1	1146	.	.	.	.
+//
+## validation:1106 Length: 1045
+## validation:1106 Number of predicted TMRs: 0
+validation:1106	DeepTM	inside	1	1045	.	.	.	.
+//
+## validation:1094 Length: 1002
+## validation:1094 Number of predicted TMRs: 0
+validation:1094	DeepTM	inside	1	1002	.	.	.	.
+//
+## validation:1096 Length: 996
+## validation:1096 Number of predicted TMRs: 0
+validation:1096	DeepTM	inside	1	996	.	.	.	.
+//
+## validation:1102 Length: 972
+## validation:1102 Number of predicted TMRs: 0
+validation:1102	DeepTM	inside	1	972	.	.	.	.
+//
+## validation:1186 Length: 948
+## validation:1186 Number of predicted TMRs: 0
+validation:1186	DeepTM	inside	1	948	.	.	.	.
+//
+## validation:1160 Length: 946
+## validation:1160 Number of predicted TMRs: 0
+validation:1160	DeepTM	inside	1	946	.	.	.	.
+//
+## validation:1110 Length: 924
+## validation:1110 Number of predicted TMRs: 0
+validation:1110	DeepTM	signal	1	22	.	.	.	.
+validation:1110	DeepTM	outside	23	924	.	.	.	.
+//
+## validation:1095 Length: 916
+## validation:1095 Number of predicted TMRs: 0
+validation:1095	DeepTM	inside	1	916	.	.	.	.
+//
+## validation:1097 Length: 872
+## validation:1097 Number of predicted TMRs: 0
+validation:1097	DeepTM	inside	1	872	.	.	.	.
+//
+## validation:1114 Length: 862
+## validation:1114 Number of predicted TMRs: 0
+validation:1114	DeepTM	inside	1	862	.	.	.	.
+//
+## validation:1092 Length: 847
+## validation:1092 Number of predicted TMRs: 0
+validation:1092	DeepTM	signal	1	22	.	.	.	.
+validation:1092	DeepTM	outside	23	847	.	.	.	.
+//
+## validation:1180 Length: 843
+## validation:1180 Number of predicted TMRs: 0
+validation:1180	DeepTM	inside	1	843	.	.	.	.
+//
+## validation:1152 Length: 828
+## validation:1152 Number of predicted TMRs: 0
+validation:1152	DeepTM	inside	1	377	.	.	.	.
+validation:1152	DeepTM	interfacial	378	383	.	.	.	.
+validation:1152	DeepTM	inside	384	828	.	.	.	.
+//
+## validation:115 Length: 814
+## validation:115 Number of predicted TMRs: 0
+validation:115	DeepTM	inside	1	814	.	.	.	.
+//
+## validation:1171 Length: 793
+## validation:1171 Number of predicted TMRs: 2
+validation:1171	DeepTM	transit_peptide	1	43	.	.	.	.
+validation:1171	DeepTM	inside	44	156	.	.	.	.
+validation:1171	DeepTM	TMhelix	157	166	.	.	.	.
+validation:1171	DeepTM	outside	167	167	.	.	.	.
+validation:1171	DeepTM	TMhelix	168	177	.	.	.	.
+validation:1171	DeepTM	inside	178	793	.	.	.	.
+//
+## validation:1199 Length: 735
+## validation:1199 Number of predicted TMRs: 0
+validation:1199	DeepTM	transit_peptide	1	57	.	.	.	.
+validation:1199	DeepTM	inside	58	735	.	.	.	.
+//
+## validation:1156 Length: 678
+## validation:1156 Number of predicted TMRs: 8
+validation:1156	DeepTM	inside	1	319	.	.	.	.
+validation:1156	DeepTM	TMhelix	320	329	.	.	.	.
+validation:1156	DeepTM	outside	330	330	.	.	.	.
+validation:1156	DeepTM	TMhelix	331	348	.	.	.	.
+validation:1156	DeepTM	inside	349	371	.	.	.	.
+validation:1156	DeepTM	interfacial	372	382	.	.	.	.
+validation:1156	DeepTM	inside	383	387	.	.	.	.
+validation:1156	DeepTM	TMhelix	388	414	.	.	.	.
+validation:1156	DeepTM	outside	415	425	.	.	.	.
+validation:1156	DeepTM	TMhelix	426	448	.	.	.	.
+validation:1156	DeepTM	inside	449	467	.	.	.	.
+validation:1156	DeepTM	interfacial	468	474	.	.	.	.
+validation:1156	DeepTM	inside	475	479	.	.	.	.
+validation:1156	DeepTM	TMhelix	480	506	.	.	.	.
+validation:1156	DeepTM	outside	507	517	.	.	.	.
+validation:1156	DeepTM	TMhelix	518	540	.	.	.	.
+validation:1156	DeepTM	inside	541	559	.	.	.	.
+validation:1156	DeepTM	interfacial	560	570	.	.	.	.
+validation:1156	DeepTM	inside	571	576	.	.	.	.
+validation:1156	DeepTM	TMhelix	577	586	.	.	.	.
+validation:1156	DeepTM	outside	587	587	.	.	.	.
+validation:1156	DeepTM	TMhelix	588	602	.	.	.	.
+validation:1156	DeepTM	inside	603	678	.	.	.	.
+//
+## validation:1099 Length: 625
+## validation:1099 Number of predicted TMRs: 1
+validation:1099	DeepTM	inside	1	117	.	.	.	.
+validation:1099	DeepTM	TMhelix	118	134	.	.	.	.
+validation:1099	DeepTM	outside	135	625	.	.	.	.
+//
+## validation:1202 Length: 620
+## validation:1202 Number of predicted TMRs: 0
+validation:1202	DeepTM	inside	1	620	.	.	.	.
+//
+## validation:1091 Length: 580
+## validation:1091 Number of predicted TMRs: 0
+validation:1091	DeepTM	inside	1	580	.	.	.	.
+//
+## validation:1151 Length: 578
+## validation:1151 Number of predicted TMRs: 0
+validation:1151	DeepTM	inside	1	578	.	.	.	.
+//
+## validation:114 Length: 571
+## validation:114 Number of predicted TMRs: 2
+validation:114	DeepTM	inside	1	135	.	.	.	.
+validation:114	DeepTM	interfacial	136	149	.	.	.	.
+validation:114	DeepTM	inside	150	219	.	.	.	.
+validation:114	DeepTM	interfacial	220	244	.	.	.	.
+validation:114	DeepTM	inside	245	261	.	.	.	.
+validation:114	DeepTM	interfacial	262	273	.	.	.	.
+validation:114	DeepTM	inside	274	277	.	.	.	.
+validation:114	DeepTM	TMhelix	278	293	.	.	.	.
+validation:114	DeepTM	outside	294	326	.	.	.	.
+validation:114	DeepTM	TMhelix	327	341	.	.	.	.
+validation:114	DeepTM	inside	342	571	.	.	.	.
+//
+## validation:1138 Length: 556
+## validation:1138 Number of predicted TMRs: 0
+validation:1138	DeepTM	transit_peptide	1	63	.	.	.	.
+validation:1138	DeepTM	inside	64	556	.	.	.	.
+//
+## validation:1172 Length: 540
+## validation:1172 Number of predicted TMRs: 0
+validation:1172	DeepTM	transit_peptide	1	45	.	.	.	.
+validation:1172	DeepTM	inside	46	540	.	.	.	.
+//
+## validation:1174 Length: 525
+## validation:1174 Number of predicted TMRs: 0
+validation:1174	DeepTM	inside	1	525	.	.	.	.
+//
+## validation:1175 Length: 512
+## validation:1175 Number of predicted TMRs: 0
+validation:1175	DeepTM	outside	1	512	.	.	.	.
+//
+## validation:1135 Length: 508
+## validation:1135 Number of predicted TMRs: 0
+validation:1135	DeepTM	transit_peptide	1	29	.	.	.	.
+validation:1135	DeepTM	inside	30	508	.	.	.	.
+//
+## validation:1204 Length: 507
+## validation:1204 Number of predicted TMRs: 0
+validation:1204	DeepTM	inside	1	507	.	.	.	.
+//
+## validation:1115 Length: 502
+## validation:1115 Number of predicted TMRs: 0
+validation:1115	DeepTM	inside	1	502	.	.	.	.
+//
+## validation:1200 Length: 501
+## validation:1200 Number of predicted TMRs: 1
+validation:1200	DeepTM	inside	1	43	.	.	.	.
+validation:1200	DeepTM	TMhelix	44	59	.	.	.	.
+validation:1200	DeepTM	outside	60	501	.	.	.	.
+//
+## validation:112 Length: 478
+## validation:112 Number of predicted TMRs: 0
+validation:112	DeepTM	inside	1	478	.	.	.	.
+//
+## validation:1148 Length: 477
+## validation:1148 Number of predicted TMRs: 0
+validation:1148	DeepTM	transit_peptide	1	14	.	.	.	.
+validation:1148	DeepTM	inside	15	477	.	.	.	.
+//
+## validation:1149 Length: 475
+## validation:1149 Number of predicted TMRs: 0
+validation:1149	DeepTM	transit_peptide	1	29	.	.	.	.
+validation:1149	DeepTM	inside	30	475	.	.	.	.
+//
+## validation:12 Length: 474
+## validation:12 Number of predicted TMRs: 0
+validation:12	DeepTM	inside	1	474	.	.	.	.
+//
+## validation:1133 Length: 468
+## validation:1133 Number of predicted TMRs: 7
+validation:1133	DeepTM	inside	1	189	.	.	.	.
+validation:1133	DeepTM	TMhelix	190	199	.	.	.	.
+validation:1133	DeepTM	outside	200	200	.	.	.	.
+validation:1133	DeepTM	TMhelix	201	210	.	.	.	.
+validation:1133	DeepTM	inside	211	225	.	.	.	.
+validation:1133	DeepTM	interfacial	226	233	.	.	.	.
+validation:1133	DeepTM	inside	234	245	.	.	.	.
+validation:1133	DeepTM	TMhelix	246	267	.	.	.	.
+validation:1133	DeepTM	outside	268	279	.	.	.	.
+validation:1133	DeepTM	TMhelix	280	304	.	.	.	.
+validation:1133	DeepTM	inside	305	317	.	.	.	.
+validation:1133	DeepTM	interfacial	318	328	.	.	.	.
+validation:1133	DeepTM	inside	329	338	.	.	.	.
+validation:1133	DeepTM	TMhelix	339	360	.	.	.	.
+validation:1133	DeepTM	outside	361	376	.	.	.	.
+validation:1133	DeepTM	TMhelix	377	401	.	.	.	.
+validation:1133	DeepTM	inside	402	417	.	.	.	.
+validation:1133	DeepTM	interfacial	418	427	.	.	.	.
+validation:1133	DeepTM	inside	428	438	.	.	.	.
+validation:1133	DeepTM	TMhelix	439	456	.	.	.	.
+validation:1133	DeepTM	outside	457	468	.	.	.	.
+//
+## validation:1195 Length: 457
+## validation:1195 Number of predicted TMRs: 0
+validation:1195	DeepTM	inside	1	457	.	.	.	.
+//
+## validation:1157 Length: 456
+## validation:1157 Number of predicted TMRs: 2
+validation:1157	DeepTM	inside	1	168	.	.	.	.
+validation:1157	DeepTM	TMhelix	169	178	.	.	.	.
+validation:1157	DeepTM	outside	179	179	.	.	.	.
+validation:1157	DeepTM	TMhelix	180	189	.	.	.	.
+validation:1157	DeepTM	inside	190	456	.	.	.	.
+//
+## validation:1201 Length: 455
+## validation:1201 Number of predicted TMRs: 0
+validation:1201	DeepTM	outside	1	455	.	.	.	.
+//
+## validation:1136 Length: 450
+## validation:1136 Number of predicted TMRs: 0
+validation:1136	DeepTM	inside	1	450	.	.	.	.
+//
+## validation:1169 Length: 449
+## validation:1169 Number of predicted TMRs: 1
+validation:1169	DeepTM	transit_peptide	1	127	.	.	.	.
+validation:1169	DeepTM	inside	128	430	.	.	.	.
+validation:1169	DeepTM	TMhelix	431	448	.	.	.	.
+validation:1169	DeepTM	outside	449	449	.	.	.	.
+//
+## validation:1109 Length: 442
+## validation:1109 Number of predicted TMRs: 0
+validation:1109	DeepTM	inside	1	442	.	.	.	.
+//
+## validation:1111 Length: 438
+## validation:1111 Number of predicted TMRs: 0
+validation:1111	DeepTM	inside	1	438	.	.	.	.
+//
+## validation:117 Length: 436
+## validation:117 Number of predicted TMRs: 0
+validation:117	DeepTM	inside	1	436	.	.	.	.
+//
+## validation:111 Length: 435
+## validation:111 Number of predicted TMRs: 0
+validation:111	DeepTM	signal	1	28	.	.	.	.
+validation:111	DeepTM	outside	29	435	.	.	.	.
+//
+## validation:1100 Length: 433
+## validation:1100 Number of predicted TMRs: 0
+validation:1100	DeepTM	inside	1	433	.	.	.	.
+//
+## validation:1177 Length: 418
+## validation:1177 Number of predicted TMRs: 2
+validation:1177	DeepTM	inside	1	9	.	.	.	.
+validation:1177	DeepTM	TMhelix	10	33	.	.	.	.
+validation:1177	DeepTM	outside	34	42	.	.	.	.
+validation:1177	DeepTM	TMhelix	43	65	.	.	.	.
+validation:1177	DeepTM	inside	66	418	.	.	.	.
+//
+## validation:1121 Length: 418
+## validation:1121 Number of predicted TMRs: 7
+validation:1121	DeepTM	inside	1	102	.	.	.	.
+validation:1121	DeepTM	TMhelix	103	117	.	.	.	.
+validation:1121	DeepTM	outside	118	118	.	.	.	.
+validation:1121	DeepTM	TMhelix	119	128	.	.	.	.
+validation:1121	DeepTM	inside	129	140	.	.	.	.
+validation:1121	DeepTM	interfacial	141	153	.	.	.	.
+validation:1121	DeepTM	inside	154	159	.	.	.	.
+validation:1121	DeepTM	TMhelix	160	184	.	.	.	.
+validation:1121	DeepTM	outside	185	196	.	.	.	.
+validation:1121	DeepTM	TMhelix	197	220	.	.	.	.
+validation:1121	DeepTM	inside	221	235	.	.	.	.
+validation:1121	DeepTM	interfacial	236	249	.	.	.	.
+validation:1121	DeepTM	inside	250	261	.	.	.	.
+validation:1121	DeepTM	TMhelix	262	291	.	.	.	.
+validation:1121	DeepTM	outside	292	316	.	.	.	.
+validation:1121	DeepTM	TMhelix	317	339	.	.	.	.
+validation:1121	DeepTM	inside	340	368	.	.	.	.
+validation:1121	DeepTM	interfacial	369	378	.	.	.	.
+validation:1121	DeepTM	inside	379	385	.	.	.	.
+validation:1121	DeepTM	TMhelix	386	410	.	.	.	.
+validation:1121	DeepTM	outside	411	418	.	.	.	.
+//
+## validation:1107 Length: 417
+## validation:1107 Number of predicted TMRs: 0
+validation:1107	DeepTM	signal	1	18	.	.	.	.
+validation:1107	DeepTM	outside	19	417	.	.	.	.
+//
+## validation:1182 Length: 416
+## validation:1182 Number of predicted TMRs: 0
+validation:1182	DeepTM	inside	1	416	.	.	.	.
+//
+## validation:1193 Length: 414
+## validation:1193 Number of predicted TMRs: 0
+validation:1193	DeepTM	inside	1	414	.	.	.	.
+//
+## validation:1168 Length: 413
+## validation:1168 Number of predicted TMRs: 0
+validation:1168	DeepTM	signal	1	20	.	.	.	.
+validation:1168	DeepTM	outside	21	413	.	.	.	.
+//
+## validation:119 Length: 412
+## validation:119 Number of predicted TMRs: 0
+validation:119	DeepTM	inside	1	412	.	.	.	.
+//
+## validation:1117 Length: 412
+## validation:1117 Number of predicted TMRs: 0
+validation:1117	DeepTM	signal	1	33	.	.	.	.
+validation:1117	DeepTM	outside	34	412	.	.	.	.
+//
+## validation:1189 Length: 410
+## validation:1189 Number of predicted TMRs: 0
+validation:1189	DeepTM	inside	1	410	.	.	.	.
+//
+## validation:1104 Length: 407
+## validation:1104 Number of predicted TMRs: 0
+validation:1104	DeepTM	inside	1	407	.	.	.	.
+//
+## validation:1150 Length: 406
+## validation:1150 Number of predicted TMRs: 0
+validation:1150	DeepTM	transit_peptide	1	44	.	.	.	.
+validation:1150	DeepTM	inside	45	406	.	.	.	.
+//
+## validation:1192 Length: 403
+## validation:1192 Number of predicted TMRs: 0
+validation:1192	DeepTM	inside	1	403	.	.	.	.
+//
+## validation:1176 Length: 394
+## validation:1176 Number of predicted TMRs: 0
+validation:1176	DeepTM	inside	1	394	.	.	.	.
+//
+## validation:1146 Length: 389
+## validation:1146 Number of predicted TMRs: 0
+validation:1146	DeepTM	transit_peptide	1	30	.	.	.	.
+validation:1146	DeepTM	inside	31	389	.	.	.	.
+//
+## validation:1123 Length: 388
+## validation:1123 Number of predicted TMRs: 0
+validation:1123	DeepTM	transit_peptide	1	46	.	.	.	.
+validation:1123	DeepTM	inside	47	388	.	.	.	.
+//
+## validation:116 Length: 385
+## validation:116 Number of predicted TMRs: 0
+validation:116	DeepTM	inside	1	385	.	.	.	.
+//
+## validation:1129 Length: 385
+## validation:1129 Number of predicted TMRs: 0
+validation:1129	DeepTM	transit_peptide	1	34	.	.	.	.
+validation:1129	DeepTM	inside	35	385	.	.	.	.
+//
+## validation:1118 Length: 376
+## validation:1118 Number of predicted TMRs: 0
+validation:1118	DeepTM	inside	1	376	.	.	.	.
+//
+## validation:1119 Length: 375
+## validation:1119 Number of predicted TMRs: 0
+validation:1119	DeepTM	transit_peptide	1	112	.	.	.	.
+validation:1119	DeepTM	inside	113	375	.	.	.	.
+//
+## validation:1131 Length: 364
+## validation:1131 Number of predicted TMRs: 0
+validation:1131	DeepTM	inside	1	364	.	.	.	.
+//
+## validation:1137 Length: 352
+## validation:1137 Number of predicted TMRs: 0
+validation:1137	DeepTM	transit_peptide	1	20	.	.	.	.
+validation:1137	DeepTM	inside	21	352	.	.	.	.
+//
+## validation:1120 Length: 348
+## validation:1120 Number of predicted TMRs: 0
+validation:1120	DeepTM	inside	1	348	.	.	.	.
+//
+## validation:1183 Length: 347
+## validation:1183 Number of predicted TMRs: 0
+validation:1183	DeepTM	inside	1	347	.	.	.	.
+//
+## validation:1103 Length: 345
+## validation:1103 Number of predicted TMRs: 0
+validation:1103	DeepTM	inside	1	345	.	.	.	.
+//
+## validation:1141 Length: 334
+## validation:1141 Number of predicted TMRs: 0
+validation:1141	DeepTM	transit_peptide	1	14	.	.	.	.
+validation:1141	DeepTM	inside	15	334	.	.	.	.
+//
+## validation:1101 Length: 330
+## validation:1101 Number of predicted TMRs: 0
+validation:1101	DeepTM	inside	1	330	.	.	.	.
+//
+## validation:1179 Length: 325
+## validation:1179 Number of predicted TMRs: 0
+validation:1179	DeepTM	inside	1	325	.	.	.	.
+//
+## validation:1178 Length: 321
+## validation:1178 Number of predicted TMRs: 0
+validation:1178	DeepTM	inside	1	321	.	.	.	.
+//
+## validation:1198 Length: 318
+## validation:1198 Number of predicted TMRs: 0
+validation:1198	DeepTM	inside	1	318	.	.	.	.
+//
+## validation:1142 Length: 318
+## validation:1142 Number of predicted TMRs: 6
+validation:1142	DeepTM	outside	1	33	.	.	.	.
+validation:1142	DeepTM	TMhelix	34	56	.	.	.	.
+validation:1142	DeepTM	inside	57	69	.	.	.	.
+validation:1142	DeepTM	interfacial	70	83	.	.	.	.
+validation:1142	DeepTM	inside	84	89	.	.	.	.
+validation:1142	DeepTM	TMhelix	90	119	.	.	.	.
+validation:1142	DeepTM	outside	120	131	.	.	.	.
+validation:1142	DeepTM	TMhelix	132	155	.	.	.	.
+validation:1142	DeepTM	inside	156	169	.	.	.	.
+validation:1142	DeepTM	interfacial	170	180	.	.	.	.
+validation:1142	DeepTM	inside	181	186	.	.	.	.
+validation:1142	DeepTM	TMhelix	187	216	.	.	.	.
+validation:1142	DeepTM	outside	217	226	.	.	.	.
+validation:1142	DeepTM	TMhelix	227	250	.	.	.	.
+validation:1142	DeepTM	inside	251	266	.	.	.	.
+validation:1142	DeepTM	interfacial	267	276	.	.	.	.
+validation:1142	DeepTM	inside	277	288	.	.	.	.
+validation:1142	DeepTM	TMhelix	289	313	.	.	.	.
+validation:1142	DeepTM	outside	314	318	.	.	.	.
+//
+## validation:1122 Length: 316
+## validation:1122 Number of predicted TMRs: 0
+validation:1122	DeepTM	inside	1	296	.	.	.	.
+validation:1122	DeepTM	interfacial	297	313	.	.	.	.
+validation:1122	DeepTM	inside	314	316	.	.	.	.
+//
+## validation:1144 Length: 315
+## validation:1144 Number of predicted TMRs: 0
+validation:1144	DeepTM	transit_peptide	1	38	.	.	.	.
+validation:1144	DeepTM	inside	39	315	.	.	.	.
+//
+## validation:1143 Length: 314
+## validation:1143 Number of predicted TMRs: 0
+validation:1143	DeepTM	transit_peptide	1	26	.	.	.	.
+validation:1143	DeepTM	inside	27	314	.	.	.	.
+//
+## validation:1127 Length: 314
+## validation:1127 Number of predicted TMRs: 0
+validation:1127	DeepTM	transit_peptide	1	74	.	.	.	.
+validation:1127	DeepTM	inside	75	314	.	.	.	.
+//
+## validation:1132 Length: 312
+## validation:1132 Number of predicted TMRs: 0
+validation:1132	DeepTM	transit_peptide	1	42	.	.	.	.
+validation:1132	DeepTM	inside	43	312	.	.	.	.
+//
+## validation:118 Length: 310
+## validation:118 Number of predicted TMRs: 0
+validation:118	DeepTM	inside	1	310	.	.	.	.
+//
+## validation:110 Length: 305
+## validation:110 Number of predicted TMRs: 0
+validation:110	DeepTM	inside	1	246	.	.	.	.
+validation:110	DeepTM	interfacial	247	255	.	.	.	.
+validation:110	DeepTM	inside	256	305	.	.	.	.
+//
+## validation:1126 Length: 303
+## validation:1126 Number of predicted TMRs: 5
+validation:1126	DeepTM	outside	1	5	.	.	.	.
+validation:1126	DeepTM	TMhelix	6	24	.	.	.	.
+validation:1126	DeepTM	inside	25	49	.	.	.	.
+validation:1126	DeepTM	interfacial	50	63	.	.	.	.
+validation:1126	DeepTM	inside	64	70	.	.	.	.
+validation:1126	DeepTM	TMhelix	71	92	.	.	.	.
+validation:1126	DeepTM	outside	93	123	.	.	.	.
+validation:1126	DeepTM	TMhelix	124	144	.	.	.	.
+validation:1126	DeepTM	inside	145	158	.	.	.	.
+validation:1126	DeepTM	interfacial	159	172	.	.	.	.
+validation:1126	DeepTM	inside	173	178	.	.	.	.
+validation:1126	DeepTM	TMhelix	179	203	.	.	.	.
+validation:1126	DeepTM	outside	204	220	.	.	.	.
+validation:1126	DeepTM	TMhelix	221	241	.	.	.	.
+validation:1126	DeepTM	inside	242	264	.	.	.	.
+validation:1126	DeepTM	interfacial	265	274	.	.	.	.
+validation:1126	DeepTM	inside	275	303	.	.	.	.
+//
+## validation:1155 Length: 300
+## validation:1155 Number of predicted TMRs: 3
+validation:1155	DeepTM	transit_peptide	1	44	.	.	.	.
+validation:1155	DeepTM	inside	45	60	.	.	.	.
+validation:1155	DeepTM	TMhelix	61	70	.	.	.	.
+validation:1155	DeepTM	outside	71	71	.	.	.	.
+validation:1155	DeepTM	TMhelix	72	81	.	.	.	.
+validation:1155	DeepTM	inside	82	272	.	.	.	.
+validation:1155	DeepTM	TMhelix	273	290	.	.	.	.
+validation:1155	DeepTM	outside	291	300	.	.	.	.
+//
+## validation:1125 Length: 297
+## validation:1125 Number of predicted TMRs: 6
+validation:1125	DeepTM	outside	1	31	.	.	.	.
+validation:1125	DeepTM	TMhelix	32	54	.	.	.	.
+validation:1125	DeepTM	inside	55	64	.	.	.	.
+validation:1125	DeepTM	interfacial	65	74	.	.	.	.
+validation:1125	DeepTM	inside	75	84	.	.	.	.
+validation:1125	DeepTM	TMhelix	85	110	.	.	.	.
+validation:1125	DeepTM	outside	111	118	.	.	.	.
+validation:1125	DeepTM	TMhelix	119	141	.	.	.	.
+validation:1125	DeepTM	inside	142	156	.	.	.	.
+validation:1125	DeepTM	interfacial	157	165	.	.	.	.
+validation:1125	DeepTM	inside	166	176	.	.	.	.
+validation:1125	DeepTM	TMhelix	177	201	.	.	.	.
+validation:1125	DeepTM	outside	202	211	.	.	.	.
+validation:1125	DeepTM	TMhelix	212	234	.	.	.	.
+validation:1125	DeepTM	inside	235	249	.	.	.	.
+validation:1125	DeepTM	interfacial	250	260	.	.	.	.
+validation:1125	DeepTM	inside	261	272	.	.	.	.
+validation:1125	DeepTM	TMhelix	273	294	.	.	.	.
+validation:1125	DeepTM	outside	295	297	.	.	.	.
+//
+## validation:1197 Length: 294
+## validation:1197 Number of predicted TMRs: 0
+validation:1197	DeepTM	inside	1	294	.	.	.	.
+//
+## validation:1191 Length: 288
+## validation:1191 Number of predicted TMRs: 0
+validation:1191	DeepTM	inside	1	288	.	.	.	.
+//
+## validation:1196 Length: 285
+## validation:1196 Number of predicted TMRs: 0
+validation:1196	DeepTM	inside	1	285	.	.	.	.
+//
+## validation:1140 Length: 284
+## validation:1140 Number of predicted TMRs: 0
+validation:1140	DeepTM	transit_peptide	1	27	.	.	.	.
+validation:1140	DeepTM	inside	28	284	.	.	.	.
+//
+## validation:1108 Length: 284
+## validation:1108 Number of predicted TMRs: 0
+validation:1108	DeepTM	signal	1	16	.	.	.	.
+validation:1108	DeepTM	outside	17	284	.	.	.	.
+//
+## validation:1158 Length: 274
+## validation:1158 Number of predicted TMRs: 1
+validation:1158	DeepTM	inside	1	116	.	.	.	.
+validation:1158	DeepTM	TMhelix	117	130	.	.	.	.
+validation:1158	DeepTM	outside	131	274	.	.	.	.
+//
+## validation:1139 Length: 268
+## validation:1139 Number of predicted TMRs: 0
+validation:1139	DeepTM	transit_peptide	1	41	.	.	.	.
+validation:1139	DeepTM	inside	42	268	.	.	.	.
+//
+## validation:1194 Length: 258
+## validation:1194 Number of predicted TMRs: 0
+validation:1194	DeepTM	inside	1	258	.	.	.	.
+//
+## validation:1190 Length: 258
+## validation:1190 Number of predicted TMRs: 0
+validation:1190	DeepTM	inside	1	258	.	.	.	.
+//
+## validation:120 Length: 250
+## validation:120 Number of predicted TMRs: 0
+validation:120	DeepTM	inside	1	250	.	.	.	.
+//
+## validation:113 Length: 250
+## validation:113 Number of predicted TMRs: 0
+validation:113	DeepTM	inside	1	250	.	.	.	.
+//
+## validation:1203 Length: 241
+## validation:1203 Number of predicted TMRs: 0
+validation:1203	DeepTM	transit_peptide	1	50	.	.	.	.
+validation:1203	DeepTM	inside	51	241	.	.	.	.
+//
+## validation:1113 Length: 229
+## validation:1113 Number of predicted TMRs: 0
+validation:1113	DeepTM	inside	1	229	.	.	.	.
+//
+## validation:1187 Length: 217
+## validation:1187 Number of predicted TMRs: 0
+validation:1187	DeepTM	inside	1	217	.	.	.	.
+//
+## validation:1205 Length: 214
+## validation:1205 Number of predicted TMRs: 2
+validation:1205	DeepTM	transit_peptide	1	49	.	.	.	.
+validation:1205	DeepTM	inside	50	158	.	.	.	.
+validation:1205	DeepTM	TMhelix	159	168	.	.	.	.
+validation:1205	DeepTM	outside	169	169	.	.	.	.
+validation:1205	DeepTM	TMhelix	170	179	.	.	.	.
+validation:1205	DeepTM	inside	180	214	.	.	.	.
+//
+## validation:1167 Length: 212
+## validation:1167 Number of predicted TMRs: 0
+validation:1167	DeepTM	inside	1	212	.	.	.	.
+//
+## validation:1181 Length: 209
+## validation:1181 Number of predicted TMRs: 0
+validation:1181	DeepTM	inside	1	209	.	.	.	.
+//
+## validation:1128 Length: 207
+## validation:1128 Number of predicted TMRs: 0
+validation:1128	DeepTM	inside	1	207	.	.	.	.
+//
+## validation:1124 Length: 206
+## validation:1124 Number of predicted TMRs: 5
+validation:1124	DeepTM	outside	1	4	.	.	.	.
+validation:1124	DeepTM	interfacial	5	21	.	.	.	.
+validation:1124	DeepTM	outside	22	22	.	.	.	.
+validation:1124	DeepTM	TMhelix	23	45	.	.	.	.
+validation:1124	DeepTM	inside	46	59	.	.	.	.
+validation:1124	DeepTM	TMhelix	60	84	.	.	.	.
+validation:1124	DeepTM	outside	85	94	.	.	.	.
+validation:1124	DeepTM	TMhelix	95	121	.	.	.	.
+validation:1124	DeepTM	inside	122	140	.	.	.	.
+validation:1124	DeepTM	TMhelix	141	162	.	.	.	.
+validation:1124	DeepTM	outside	163	165	.	.	.	.
+validation:1124	DeepTM	TMhelix	166	182	.	.	.	.
+validation:1124	DeepTM	inside	183	206	.	.	.	.
+//
+## validation:1112 Length: 199
+## validation:1112 Number of predicted TMRs: 0
+validation:1112	DeepTM	inside	1	199	.	.	.	.
+//
+## validation:1170 Length: 197
+## validation:1170 Number of predicted TMRs: 0
+validation:1170	DeepTM	inside	1	26	.	.	.	.
+validation:1170	DeepTM	interfacial	27	33	.	.	.	.
+validation:1170	DeepTM	inside	34	197	.	.	.	.
+//
+## validation:1147 Length: 194
+## validation:1147 Number of predicted TMRs: 0
+validation:1147	DeepTM	inside	1	194	.	.	.	.
+//
+## validation:1130 Length: 181
+## validation:1130 Number of predicted TMRs: 0
+validation:1130	DeepTM	inside	1	181	.	.	.	.
+//
+## validation:1161 Length: 179
+## validation:1161 Number of predicted TMRs: 3
+validation:1161	DeepTM	outside	1	5	.	.	.	.
+validation:1161	DeepTM	TMhelix	6	20	.	.	.	.
+validation:1161	DeepTM	inside	21	21	.	.	.	.
+validation:1161	DeepTM	interfacial	22	30	.	.	.	.
+validation:1161	DeepTM	inside	31	40	.	.	.	.
+validation:1161	DeepTM	interfacial	41	60	.	.	.	.
+validation:1161	DeepTM	inside	61	78	.	.	.	.
+validation:1161	DeepTM	TMhelix	79	88	.	.	.	.
+validation:1161	DeepTM	outside	89	89	.	.	.	.
+validation:1161	DeepTM	TMhelix	90	99	.	.	.	.
+validation:1161	DeepTM	inside	100	179	.	.	.	.
+//
+## validation:1116 Length: 166
+## validation:1116 Number of predicted TMRs: 3
+validation:1116	DeepTM	inside	1	39	.	.	.	.
+validation:1116	DeepTM	TMhelix	40	58	.	.	.	.
+validation:1116	DeepTM	outside	59	81	.	.	.	.
+validation:1116	DeepTM	TMhelix	82	111	.	.	.	.
+validation:1116	DeepTM	inside	112	124	.	.	.	.
+validation:1116	DeepTM	TMhelix	125	153	.	.	.	.
+validation:1116	DeepTM	outside	154	166	.	.	.	.
+//
+## validation:1153 Length: 151
+## validation:1153 Number of predicted TMRs: 0
+validation:1153	DeepTM	inside	1	151	.	.	.	.
+//
+## validation:1159 Length: 144
+## validation:1159 Number of predicted TMRs: 0
+validation:1159	DeepTM	inside	1	144	.	.	.	.
+//
+## validation:1166 Length: 142
+## validation:1166 Number of predicted TMRs: 0
+validation:1166	DeepTM	inside	1	142	.	.	.	.
+//
+## validation:1165 Length: 138
+## validation:1165 Number of predicted TMRs: 0
+validation:1165	DeepTM	inside	1	138	.	.	.	.
+//
+## validation:1164 Length: 125
+## validation:1164 Number of predicted TMRs: 0
+validation:1164	DeepTM	inside	1	125	.	.	.	.
+//
+## validation:1134 Length: 118
+## validation:1134 Number of predicted TMRs: 1
+validation:1134	DeepTM	inside	1	5	.	.	.	.
+validation:1134	DeepTM	TMhelix	6	25	.	.	.	.
+validation:1134	DeepTM	outside	26	79	.	.	.	.
+validation:1134	DeepTM	interfacial	80	113	.	.	.	.
+validation:1134	DeepTM	outside	114	118	.	.	.	.
+//
+## validation:1145 Length: 98
+## validation:1145 Number of predicted TMRs: 0
+validation:1145	DeepTM	inside	1	98	.	.	.	.
+//
+## validation:11 Length: 93
+## validation:11 Number of predicted TMRs: 0
+validation:11	DeepTM	inside	1	93	.	.	.	.
+//
+## validation:1163 Length: 86
+## validation:1163 Number of predicted TMRs: 0
+validation:1163	DeepTM	inside	1	86	.	.	.	.
+//
+## validation:1184 Length: 76
+## validation:1184 Number of predicted TMRs: 0
+validation:1184	DeepTM	inside	1	76	.	.	.	.
+//
+## validation:1162 Length: 74
+## validation:1162 Number of predicted TMRs: 0
+validation:1162	DeepTM	inside	1	74	.	.	.	.
+//

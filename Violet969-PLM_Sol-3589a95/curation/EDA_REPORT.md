@@ -1,5 +1,7 @@
 # UESolDS validity audit — 2026-11-08
 
+> **Design update:** Primary A now uses the cleaned all-source cached cohort. The completed [uniform Pfam report](UNIFORM_PFAM_REPORT.md) assesses within-family B: exploratory family-conditioned support is available, but robust same-source support remains limited. This updates the recommendation below; the original measurements are preserved.
+
 The defensible next step is **exploratory probing on a source-controlled, homology-filtered development cohort**, with within-centre reporting. It is not yet a verified solubility benchmark. Strict-label analysis is unavailable because record-level experimental outcomes have not been recovered. Do not interpret near-chance probes as evidence that ESM lacks biochemical solubility information, or a higher pooled score as evidence that cleaning succeeded.
 
 ## Existing work and gaps

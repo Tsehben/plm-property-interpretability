@@ -1,0 +1,529 @@
+<target id="JCSG-283700">
+          <targetId>283700</targetId>
+          <targetName>TM1848</targetName>
+          <dateCreated>2001-08-10</dateCreated>
+          <dateUpdated>2004-07-19</dateUpdated>
+          <laboratoryList>
+               <lab>GNF</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>gnf</contactInfoId>
+               <contactInfoId>lesley</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>1</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Structural coverage of T.maritima proteome. A subset of Thermotoga maritima proteins with high probability of crystallization.</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>biomedical</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>individual organism</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>legacy</targetCategoryName>
+               </targetCategory>
+               <targetCategory>
+                    <targetCategoryName>structural coverage</targetCategoryName>
+               </targetCategory>
+          </targetCategoryList>
+          <targetProteinType>multidomain protein</targetProteinType>
+          <status>purified</status>
+          <relatedTargetIdList>
+               <relatedTargetId>
+                    <targetId>283692</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283693</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283694</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283695</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283696</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283697</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283698</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283699</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>283701</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+               <relatedTargetId>
+                    <targetId>358493</targetId>
+                    <remark>Homology</remark>
+               </relatedTargetId>
+          </relatedTargetIdList>
+          <targetSequenceList>
+               <targetSequence id="283700">
+                    <oneLetterCode>
+                      MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>full length ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Thermotoga maritima msb8</scientificName>
+                         <taxDB>NCBI Taxonomy</taxDB>
+                         <taxId />
+                    </sourceOrganism>
+                    <sequenceName>TM1848</sequenceName>
+                    <databaseRefList>
+                         <databaseRef>
+                              <databaseName>PSI-MR</databaseName>
+                              <databaseId>282214</databaseId>
+                         </databaseRef>
+                    </databaseRefList>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=TM1848&amp;start=1&amp;end=813</url>
+          <remark>Cellobiose-phosphorylase.</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>TIGR</databaseName>
+                    <databaseId>TM1848</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>1100-5443-G12</trialId>
+                    <dateUpdated>2002-06-14</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="70054425653">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2002-06-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="100054435654">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2002-06-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="110054435655">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2002-06-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <stopDetails>
+                         <stopStatus>purification failed</stopStatus>
+                    </stopDetails>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="2">
+                    <trialId>1100-5443-G9</trialId>
+                    <dateUpdated>2002-06-14</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="70054425656">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2002-06-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="100054435657">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2002-06-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="110054435658">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2002-06-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <stopDetails>
+                         <stopStatus>purification failed</stopStatus>
+                    </stopDetails>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="3">
+                    <trialId>1100-5443-G3</trialId>
+                    <dateUpdated>2002-06-10</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="70054425659">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2002-06-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="100054435660">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2002-06-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="110054435661">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2002-06-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="4">
+                    <trialId>1100-5443-G6</trialId>
+                    <dateUpdated>2002-06-14</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="70054425662">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2002-06-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="100054435663">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2002-06-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="110054435664">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2002-06-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <stopDetails>
+                         <stopStatus>purification failed</stopStatus>
+                    </stopDetails>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="5">
+                    <trialId>1100-690-G7</trialId>
+                    <dateUpdated>2001-11-28</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7006395665">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="10006905666">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2001-10-01</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="11006905667">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2001-11-28</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="6">
+                    <trialId>1100-25135-A01</trialId>
+                    <dateUpdated>2004-07-19</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7006395668">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1000251355669">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2004-06-17</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1100251355670">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2004-07-19</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="7">
+                    <trialId>1100-13545-G12</trialId>
+                    <dateUpdated>2003-03-28</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>gnf</contactInfoId>
+                    </contactInfoRefList>
+                    <status>purified</status>
+                    <statusHistoryList>
+                         <statusHistory id="100283700">
+                              <lab>GNF</lab>
+                              <status>selected</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7006395671">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2001-08-10</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1000135455672">
+                              <lab>GNF</lab>
+                              <status>expressed</status>
+                              <dateComplete>2003-03-26</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="1100135455673">
+                              <lab>GNF</lab>
+                              <status>purified</status>
+                              <dateComplete>2003-03-28</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <stopDetails>
+                         <stopStatus>purification failed</stopStatus>
+                    </stopDetails>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               MRFGYFDDVNREYVITTPQTPYPWINYLGTEDFFSIISHMAGGYCFYKDARLRRITRFRYNNVPTDAGGRYFYIREENGDFWTPTWMPVRKDLSFFEARHGLGYTKITGERNGLRATITYFVPRHFTGEVHYLVLENKAEKPRKIKLFSFIEFCLWNALDDMTNFQRNYSTGEVEIEGSVIYHKTEYRERRNHYAFYSVNQPIDGFDTDRESFIGLYSGFEAPQAVVEGKPRNSVASGWAPIASHYLEIELAPSEKKELIFILGYVENPEEEKWEKPGVINKKRAKEMIEKFKTGEDVEHALKELREYWDDLLGRIQVETHDEKLNRMVNIWNQYQCMVTFNISRSASYFESGISRGIGFRDSNQDILGFVHMIPEKARQRILDLASIQFEDGSTYHQFQPLTKKGNNEIGGGFNDDPLWLILSTSAYIKETGDWSILGEEVPFDNDPNKKASLFEHLKRSFYFTVNNLGPHGLPLIGRADWNDCLNLNCFSKNPDESFQTTVNALDGRVAESVFIAGLFVLAGKEFVEICKRRGLEEEAREAEKHVNKMIETTLKYGWDGEWFLRAYDAFGRKVGSKECEEGKIFIEPQGMCVMAGIGVDNGYAEKALDSVKKYLDTPYGLVLQQPAYSRYYIELGEISSYPPGYKENAGIFCHNNPWVAIAETVIGRGDRAFEIYRKITPAYLEDISEIHRTEPYVYAQMVAGKDAPRHGEAKNSWLTGTAAWSFVAITQHILGIRPTYDSLVVDPCIPKEWEGFRITRKFRGSIYDITVKNPSHVSKGVKEIIVDGKKIEGQVLPVFEDGKVHRVEVVMG
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="10002">
+                              <protocolId>E_Ecoli_GNF_1</protocolId>
+                              <protocolType>expression</protocolType>
+                              <protocolDetails>Vector: MH2T7a
+							Media: Native-TB</protocolDetails>
+                         </protocolRef>
+                         <protocolRef id="11001">
+                              <protocolId>TPur_GNF_1</protocolId>
+                              <protocolType>purification</protocolType>
+                         </protocolRef>
+                         <protocolRef id="1">
+                              <protocolId>TSel_2</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

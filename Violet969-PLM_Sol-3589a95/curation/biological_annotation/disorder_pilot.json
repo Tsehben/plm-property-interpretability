@@ -1,0 +1,33 @@
+{
+  "active_network_checkpoint": "backend/networks/epoch099_val_loss1107.08.ckpt",
+  "code_sha256": "b550a2fc8207e959499b14b2d69e7b2753117ba1f617d0e749a679a2cea72703",
+  "device": "cpu",
+  "elapsed_seconds": 1.2346602919860743,
+  "max_repeat_difference": 0.0,
+  "network": "V3",
+  "package_version": "3.1.1",
+  "passed": true,
+  "provenance_note": "Checkpoint inventory completed after run; installed package and model unchanged.",
+  "records": 71,
+  "reported_internal_version": "3.1.01",
+  "threads": 1,
+  "torch": "2.15.0",
+  "weights": {
+    "backend/networks/epoch-49-step-42600.ckpt": "344749b9fe3456521ad24c538c43f67ef99ad4e615f6bb3e96d98ed719d0bfad",
+    "backend/networks/epoch023_val_loss1529.48.ckpt": "f2307e4a436c2176c68db2c11d309c72e3f8bae6007aeb8b7a245cc123173dde",
+    "backend/networks/epoch029_val_loss791.84.ckpt": "5d7755000755627e5c0e756efbcee3c4ddcb618185eeffc7444f19eb1a0fdd47",
+    "backend/networks/epoch029_val_loss959.58.ckpt": "7b9d86098c1e6cc778ab15de34b78e5a7d436e0ef52bb6b5b5f3527388c5ca43",
+    "backend/networks/epoch096_val_loss1584.14.ckpt": "4894832e335f9fdee9db1a4b3499391db5374893830cf96dc3f910c148d44a43",
+    "backend/networks/epoch099_val_loss1107.08.ckpt": "3209c42d91a77dc5828618c7835ebc5dd912f56d43d0111d3c3c36138d9739a8",
+    "backend/networks/epoch179_val_loss1095.24.ckpt": "77556cf64884b9a2fc9cfb662a8f029497805b5f225cae628231b52d89128138",
+    "backend/networks/metaDisorder.pt": "876691d8e78d2f40849a5c3f4b73b44f95befed80515a0e896c5366028d976d7",
+    "backend/networks/meta_predict_disorder_100e_v1.pt": "b940d2e7a7c019b5401b7c2c1d992a452f3a93fe99130ebce670fef407943167",
+    "backend/networks/metameta_2_7_22_nl2_hs20_b32_V3.pt": "32de116ad8e2edefc3abf96ea3495e90527323c6108db91dd7866391b77341bd",
+    "backend/networks/metapredict_network_v2_200epochs_nl1_hs20.pt": "d5ca8199f191f11b3287380c136b36570a778144262c573c133c8631fce6d216",
+    "backend/networks/metapredict_network_v3_200epochs_nl2_hs20.pt": "da1397faee2b05e8ee9c4790e03bdc9f08ed11d5aa21fff841f199a4f8999ea7",
+    "backend/networks/non_bin_PAE_hs40_nl2.pt": "eccbc8f37ad27739b34442419cbf950c6dc2c54977eccb2f5f75075a1a41d2e0",
+    "backend/networks/smoothed_v3_real_plddt_re.pt": "139fef1fefbbde502cbef11f8711fa602386055d1961ef2447f560b1dc6e050b",
+    "backend/ppLDDT/networks/alpha_fold_networkV7_hs100_nL2_200e_all_prot.pt": "354fb0005abfd70335e6db288b82e82ffaa8d9294650ab389197e5c08ad98ced",
+    "backend/ppLDDT/networks/epoch019_val_loss1477.45.ckpt": "369489529d69bd8edce0eae4933cd93066c431c98ccc609f3942994bd874f457"
+  }
+}

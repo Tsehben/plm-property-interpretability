@@ -1,0 +1,177 @@
+<target id="JCSG-424523">
+          <targetId>424523</targetId>
+          <targetName>RF.A20819A.MESP1</targetName>
+          <dateCreated>2011-12-02</dateCreated>
+          <dateUpdated>2012-10-27</dateUpdated>
+          <laboratoryList>
+               <lab>GNF</lab>
+               <lab>UCSD</lab>
+          </laboratoryList>
+          <contactInfoRefList>
+               <contactInfoId>lesley</contactInfoId>
+               <contactInfoId>lukasz</contactInfoId>
+          </contactInfoRefList>
+          <projectList>
+               <project>
+                    <projectName>PSI</projectName>
+                    <projectId>3</projectId>
+               </project>
+          </projectList>
+          <targetRationale>Possible role in stem cell differentiation. Proposed by Fletterick PSI-biology center.</targetRationale>
+          <targetCategoryList>
+               <targetCategory>
+                    <targetCategoryName>PSI Biology partnership</targetCategoryName>
+                    <remark>Partnership for Stem Cell Biology</remark>
+               </targetCategory>
+          </targetCategoryList>
+          <targetPartnershipList>
+               <targetPartnership>
+                    <partnershipName>Partnership for Stem Cell Biology</partnershipName>
+                    <partnershipRoleDetails flow="from">
+                         <partnershipRoleDetailsValue>selected target</partnershipRoleDetailsValue>
+                    </partnershipRoleDetails>
+                    <partnershipTargetId>
+                         <partnershipTargetIdSource>none</partnershipTargetIdSource>
+                         <partnershipTargetIdValue />
+                    </partnershipTargetId>
+               </targetPartnership>
+          </targetPartnershipList>
+          <targetProteinType>single-domain protein</targetProteinType>
+          <targetProteinType>eukaryotic protein</targetProteinType>
+          <status>cloned</status>
+          <targetSequenceList>
+               <targetSequence id="424523">
+                    <oneLetterCode>
+                      GQRQSASEREKLRMRTLARALHELRRFLPPSVAPAGQSLTKIETLRLAIRYIGHLSAVLGLS
+                    </oneLetterCode>
+                    <sequenceType>protein</sequenceType>
+                    <sequenceChemicalType>protein</sequenceChemicalType>
+                    <sequenceConstructType>truncated ORF</sequenceConstructType>
+                    <sourceOrganism>
+                         <scientificName>Homo sapiens</scientificName>
+                         <taxDB>NCBI Taxonomy</taxDB>
+                         <taxId>9606</taxId>
+                    </sourceOrganism>
+                    <sequenceName>RF.A20819A.MESP1</sequenceName>
+               </targetSequence>
+          </targetSequenceList>
+          <url>http://www1.jcsg.org/prod/newscripts/psca/targetinfo.cgi?acc=RF.A20819A.MESP1&amp;start=82&amp;end=143</url>
+          <remark>BC006219 Homo sapiens mesoderm posterior 1 homolog (mouse), mRNA (cDNA clone MGC:10676 IMAGE:3944350), complete cds, coding region:87-893</remark>
+          <databaseRefList>
+               <databaseRef>
+                    <databaseName>GNF</databaseName>
+                    <databaseId>BC006219</databaseId>
+               </databaseRef>
+          </databaseRefList>
+          <trialList>
+               <trial id="1">
+                    <trialId>0700-25095-999-CRT</trialId>
+                    <dateUpdated>2012-08-14</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="100424523">
+                              <lab>UCSD</lab>
+                              <status>selected</status>
+                              <dateComplete>2011-12-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="7002509535749">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2012-08-14</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               GQRQSASEREKLRMRTLARALHELRRFLPPSVAPAGQSLTKIETLRLAIRYIGHLSAVLGLS
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_114</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="2">
+                    <trialId>0700-110481-A01</trialId>
+                    <dateUpdated>2012-08-13</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="100424523">
+                              <lab>UCSD</lab>
+                              <status>selected</status>
+                              <dateComplete>2011-12-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="70011048135750">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2012-08-13</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               GQRQSASEREKLRMRTLARALHELRRFLPPSVAPAGQSLTKIETLRLAIRYIGHLSAVLGLS
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_114</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+               <trial id="3">
+                    <trialId>0700-110481-E10</trialId>
+                    <dateUpdated>2012-08-13</dateUpdated>
+                    <contactInfoRefList>
+                         <contactInfoId>lesley</contactInfoId>
+                    </contactInfoRefList>
+                    <status>cloned</status>
+                    <statusHistoryList>
+                         <statusHistory id="100424523">
+                              <lab>UCSD</lab>
+                              <status>selected</status>
+                              <dateComplete>2011-12-02</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                         <statusHistory id="70011048135751">
+                              <lab>GNF</lab>
+                              <status>cloned</status>
+                              <dateComplete>2012-08-13</dateComplete>
+                              <prevStatusHistoryId>0</prevStatusHistoryId>
+                         </statusHistory>
+                    </statusHistoryList>
+                    <trialSequenceList>
+                         <trialSequence id="0">
+                              <oneLetterCode>
+                               GQRQSASEREKLRMRTLARALHELRRFLPPSVAPAGQSLTKIETLRLAIRYIGHLSAVLGLS
+                              </oneLetterCode>
+                              <sequenceModifications>Leader sequence is separated by a space</sequenceModifications>
+                         </trialSequence>
+                    </trialSequenceList>
+                    <trialProtocolList>
+                         <protocolRef id="1">
+                              <protocolId>TSel_114</protocolId>
+                              <protocolType>selection</protocolType>
+                         </protocolRef>
+                    </trialProtocolList>
+               </trial>
+          </trialList>
+     </target>
+     

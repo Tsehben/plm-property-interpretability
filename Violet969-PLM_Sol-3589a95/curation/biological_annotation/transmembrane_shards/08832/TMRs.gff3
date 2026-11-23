@@ -1,0 +1,589 @@
+##gff-version 3
+## train:67074 Length: 1132
+## train:67074 Number of predicted TMRs: 0
+train:67074	DeepTM	inside	1	1132	.	.	.	.
+//
+## train:66373 Length: 729
+## train:66373 Number of predicted TMRs: 0
+train:66373	DeepTM	inside	1	729	.	.	.	.
+//
+## train:66415 Length: 705
+## train:66415 Number of predicted TMRs: 0
+train:66415	DeepTM	inside	1	705	.	.	.	.
+//
+## train:66990 Length: 574
+## train:66990 Number of predicted TMRs: 0
+train:66990	DeepTM	outside	1	574	.	.	.	.
+//
+## train:66828 Length: 555
+## train:66828 Number of predicted TMRs: 0
+train:66828	DeepTM	outside	1	555	.	.	.	.
+//
+## train:66606 Length: 532
+## train:66606 Number of predicted TMRs: 0
+train:66606	DeepTM	transit_peptide	1	34	.	.	.	.
+train:66606	DeepTM	inside	35	532	.	.	.	.
+//
+## train:66335 Length: 531
+## train:66335 Number of predicted TMRs: 0
+train:66335	DeepTM	signal	1	28	.	.	.	.
+train:66335	DeepTM	outside	29	531	.	.	.	.
+//
+## train:66720 Length: 476
+## train:66720 Number of predicted TMRs: 0
+train:66720	DeepTM	inside	1	476	.	.	.	.
+//
+## train:66384 Length: 474
+## train:66384 Number of predicted TMRs: 0
+train:66384	DeepTM	inside	1	474	.	.	.	.
+//
+## train:6641 Length: 469
+## train:6641 Number of predicted TMRs: 0
+train:6641	DeepTM	inside	1	469	.	.	.	.
+//
+## train:66503 Length: 457
+## train:66503 Number of predicted TMRs: 0
+train:66503	DeepTM	inside	1	457	.	.	.	.
+//
+## train:66553 Length: 455
+## train:66553 Number of predicted TMRs: 0
+train:66553	DeepTM	inside	1	455	.	.	.	.
+//
+## train:67085 Length: 445
+## train:67085 Number of predicted TMRs: 0
+train:67085	DeepTM	inside	1	445	.	.	.	.
+//
+## train:66593 Length: 427
+## train:66593 Number of predicted TMRs: 0
+train:66593	DeepTM	inside	1	427	.	.	.	.
+//
+## train:66905 Length: 424
+## train:66905 Number of predicted TMRs: 0
+train:66905	DeepTM	inside	1	424	.	.	.	.
+//
+## train:6686 Length: 414
+## train:6686 Number of predicted TMRs: 0
+train:6686	DeepTM	inside	1	414	.	.	.	.
+//
+## train:66476 Length: 413
+## train:66476 Number of predicted TMRs: 0
+train:66476	DeepTM	inside	1	413	.	.	.	.
+//
+## train:66615 Length: 411
+## train:66615 Number of predicted TMRs: 0
+train:66615	DeepTM	inside	1	411	.	.	.	.
+//
+## train:66987 Length: 407
+## train:66987 Number of predicted TMRs: 0
+train:66987	DeepTM	inside	1	407	.	.	.	.
+//
+## train:66915 Length: 387
+## train:66915 Number of predicted TMRs: 0
+train:66915	DeepTM	inside	1	387	.	.	.	.
+//
+## train:66800 Length: 382
+## train:66800 Number of predicted TMRs: 0
+train:66800	DeepTM	inside	1	382	.	.	.	.
+//
+## train:66884 Length: 381
+## train:66884 Number of predicted TMRs: 0
+train:66884	DeepTM	inside	1	381	.	.	.	.
+//
+## train:666 Length: 378
+## train:666 Number of predicted TMRs: 0
+train:666	DeepTM	inside	1	378	.	.	.	.
+//
+## train:66921 Length: 375
+## train:66921 Number of predicted TMRs: 0
+train:66921	DeepTM	inside	1	375	.	.	.	.
+//
+## train:66481 Length: 374
+## train:66481 Number of predicted TMRs: 0
+train:66481	DeepTM	inside	1	374	.	.	.	.
+//
+## train:66477 Length: 371
+## train:66477 Number of predicted TMRs: 0
+train:66477	DeepTM	inside	1	371	.	.	.	.
+//
+## train:66912 Length: 367
+## train:66912 Number of predicted TMRs: 0
+train:66912	DeepTM	inside	1	367	.	.	.	.
+//
+## train:67067 Length: 341
+## train:67067 Number of predicted TMRs: 16
+train:67067	DeepTM	outside	1	10	.	.	.	.
+train:67067	DeepTM	Beta sheet	11	22	.	.	.	.
+train:67067	DeepTM	inside	23	31	.	.	.	.
+train:67067	DeepTM	Beta sheet	32	43	.	.	.	.
+train:67067	DeepTM	outside	44	52	.	.	.	.
+train:67067	DeepTM	Beta sheet	53	63	.	.	.	.
+train:67067	DeepTM	inside	64	73	.	.	.	.
+train:67067	DeepTM	Beta sheet	74	84	.	.	.	.
+train:67067	DeepTM	outside	85	88	.	.	.	.
+train:67067	DeepTM	Beta sheet	89	97	.	.	.	.
+train:67067	DeepTM	inside	98	126	.	.	.	.
+train:67067	DeepTM	Beta sheet	127	139	.	.	.	.
+train:67067	DeepTM	outside	140	148	.	.	.	.
+train:67067	DeepTM	Beta sheet	149	156	.	.	.	.
+train:67067	DeepTM	inside	157	172	.	.	.	.
+train:67067	DeepTM	Beta sheet	173	180	.	.	.	.
+train:67067	DeepTM	outside	181	183	.	.	.	.
+train:67067	DeepTM	Beta sheet	184	191	.	.	.	.
+train:67067	DeepTM	inside	192	211	.	.	.	.
+train:67067	DeepTM	Beta sheet	212	219	.	.	.	.
+train:67067	DeepTM	outside	220	222	.	.	.	.
+train:67067	DeepTM	Beta sheet	223	229	.	.	.	.
+train:67067	DeepTM	inside	230	254	.	.	.	.
+train:67067	DeepTM	Beta sheet	255	261	.	.	.	.
+train:67067	DeepTM	outside	262	266	.	.	.	.
+train:67067	DeepTM	Beta sheet	267	274	.	.	.	.
+train:67067	DeepTM	inside	275	292	.	.	.	.
+train:67067	DeepTM	Beta sheet	293	300	.	.	.	.
+train:67067	DeepTM	outside	301	305	.	.	.	.
+train:67067	DeepTM	Beta sheet	306	313	.	.	.	.
+train:67067	DeepTM	inside	314	331	.	.	.	.
+train:67067	DeepTM	Beta sheet	332	340	.	.	.	.
+train:67067	DeepTM	outside	341	341	.	.	.	.
+//
+## train:66899 Length: 333
+## train:66899 Number of predicted TMRs: 0
+train:66899	DeepTM	outside	1	333	.	.	.	.
+//
+## train:66339 Length: 331
+## train:66339 Number of predicted TMRs: 0
+train:66339	DeepTM	outside	1	331	.	.	.	.
+//
+## train:66998 Length: 325
+## train:66998 Number of predicted TMRs: 0
+train:66998	DeepTM	outside	1	325	.	.	.	.
+//
+## train:66797 Length: 324
+## train:66797 Number of predicted TMRs: 0
+train:66797	DeepTM	inside	1	324	.	.	.	.
+//
+## train:66936 Length: 319
+## train:66936 Number of predicted TMRs: 0
+train:66936	DeepTM	inside	1	319	.	.	.	.
+//
+## train:66483 Length: 314
+## train:66483 Number of predicted TMRs: 0
+train:66483	DeepTM	inside	1	314	.	.	.	.
+//
+## train:66435 Length: 312
+## train:66435 Number of predicted TMRs: 0
+train:66435	DeepTM	inside	1	312	.	.	.	.
+//
+## train:6684 Length: 301
+## train:6684 Number of predicted TMRs: 0
+train:6684	DeepTM	inside	1	301	.	.	.	.
+//
+## train:66356 Length: 285
+## train:66356 Number of predicted TMRs: 0
+train:66356	DeepTM	inside	1	285	.	.	.	.
+//
+## train:66954 Length: 280
+## train:66954 Number of predicted TMRs: 0
+train:66954	DeepTM	inside	1	280	.	.	.	.
+//
+## train:66919 Length: 279
+## train:66919 Number of predicted TMRs: 0
+train:66919	DeepTM	inside	1	279	.	.	.	.
+//
+## train:66889 Length: 278
+## train:66889 Number of predicted TMRs: 0
+train:66889	DeepTM	outside	1	278	.	.	.	.
+//
+## train:66791 Length: 274
+## train:66791 Number of predicted TMRs: 0
+train:66791	DeepTM	inside	1	274	.	.	.	.
+//
+## train:66784 Length: 274
+## train:66784 Number of predicted TMRs: 0
+train:66784	DeepTM	inside	1	274	.	.	.	.
+//
+## train:67040 Length: 270
+## train:67040 Number of predicted TMRs: 0
+train:67040	DeepTM	inside	1	270	.	.	.	.
+//
+## train:66806 Length: 269
+## train:66806 Number of predicted TMRs: 0
+train:66806	DeepTM	inside	1	269	.	.	.	.
+//
+## train:67076 Length: 267
+## train:67076 Number of predicted TMRs: 0
+train:67076	DeepTM	inside	1	267	.	.	.	.
+//
+## train:66430 Length: 263
+## train:66430 Number of predicted TMRs: 0
+train:66430	DeepTM	inside	1	263	.	.	.	.
+//
+## train:6708 Length: 257
+## train:6708 Number of predicted TMRs: 0
+train:6708	DeepTM	inside	1	257	.	.	.	.
+//
+## train:66650 Length: 256
+## train:66650 Number of predicted TMRs: 0
+train:66650	DeepTM	inside	1	256	.	.	.	.
+//
+## train:66591 Length: 250
+## train:66591 Number of predicted TMRs: 0
+train:66591	DeepTM	inside	1	250	.	.	.	.
+//
+## train:66957 Length: 247
+## train:66957 Number of predicted TMRs: 0
+train:66957	DeepTM	inside	1	247	.	.	.	.
+//
+## train:66544 Length: 246
+## train:66544 Number of predicted TMRs: 0
+train:66544	DeepTM	inside	1	246	.	.	.	.
+//
+## train:66558 Length: 245
+## train:66558 Number of predicted TMRs: 0
+train:66558	DeepTM	inside	1	245	.	.	.	.
+//
+## train:66790 Length: 242
+## train:66790 Number of predicted TMRs: 0
+train:66790	DeepTM	inside	1	242	.	.	.	.
+//
+## train:67016 Length: 240
+## train:67016 Number of predicted TMRs: 0
+train:67016	DeepTM	inside	1	240	.	.	.	.
+//
+## train:66914 Length: 237
+## train:66914 Number of predicted TMRs: 0
+train:66914	DeepTM	inside	1	237	.	.	.	.
+//
+## train:66319 Length: 234
+## train:66319 Number of predicted TMRs: 0
+train:66319	DeepTM	inside	1	234	.	.	.	.
+//
+## train:67028 Length: 233
+## train:67028 Number of predicted TMRs: 0
+train:67028	DeepTM	outside	1	233	.	.	.	.
+//
+## train:66967 Length: 233
+## train:66967 Number of predicted TMRs: 0
+train:66967	DeepTM	inside	1	233	.	.	.	.
+//
+## train:66932 Length: 230
+## train:66932 Number of predicted TMRs: 0
+train:66932	DeepTM	inside	1	230	.	.	.	.
+//
+## train:66407 Length: 230
+## train:66407 Number of predicted TMRs: 0
+train:66407	DeepTM	inside	1	230	.	.	.	.
+//
+## train:66308 Length: 228
+## train:66308 Number of predicted TMRs: 0
+train:66308	DeepTM	outside	1	228	.	.	.	.
+//
+## train:66554 Length: 225
+## train:66554 Number of predicted TMRs: 0
+train:66554	DeepTM	inside	1	225	.	.	.	.
+//
+## train:66295 Length: 225
+## train:66295 Number of predicted TMRs: 0
+train:66295	DeepTM	inside	1	225	.	.	.	.
+//
+## train:67061 Length: 222
+## train:67061 Number of predicted TMRs: 0
+train:67061	DeepTM	inside	1	222	.	.	.	.
+//
+## train:6631 Length: 222
+## train:6631 Number of predicted TMRs: 0
+train:6631	DeepTM	inside	1	222	.	.	.	.
+//
+## train:67065 Length: 218
+## train:67065 Number of predicted TMRs: 0
+train:67065	DeepTM	inside	1	218	.	.	.	.
+//
+## train:66999 Length: 217
+## train:66999 Number of predicted TMRs: 12
+train:66999	DeepTM	outside	1	11	.	.	.	.
+train:66999	DeepTM	Beta sheet	12	19	.	.	.	.
+train:66999	DeepTM	inside	20	33	.	.	.	.
+train:66999	DeepTM	Beta sheet	34	41	.	.	.	.
+train:66999	DeepTM	outside	42	46	.	.	.	.
+train:66999	DeepTM	Beta sheet	47	54	.	.	.	.
+train:66999	DeepTM	inside	55	63	.	.	.	.
+train:66999	DeepTM	Beta sheet	64	71	.	.	.	.
+train:66999	DeepTM	outside	72	78	.	.	.	.
+train:66999	DeepTM	Beta sheet	79	86	.	.	.	.
+train:66999	DeepTM	inside	87	97	.	.	.	.
+train:66999	DeepTM	Beta sheet	98	105	.	.	.	.
+train:66999	DeepTM	outside	106	108	.	.	.	.
+train:66999	DeepTM	Beta sheet	109	115	.	.	.	.
+train:66999	DeepTM	inside	116	124	.	.	.	.
+train:66999	DeepTM	Beta sheet	125	132	.	.	.	.
+train:66999	DeepTM	outside	133	138	.	.	.	.
+train:66999	DeepTM	Beta sheet	139	146	.	.	.	.
+train:66999	DeepTM	inside	147	164	.	.	.	.
+train:66999	DeepTM	Beta sheet	165	172	.	.	.	.
+train:66999	DeepTM	outside	173	178	.	.	.	.
+train:66999	DeepTM	Beta sheet	179	186	.	.	.	.
+train:66999	DeepTM	inside	187	206	.	.	.	.
+train:66999	DeepTM	Beta sheet	207	214	.	.	.	.
+train:66999	DeepTM	outside	215	217	.	.	.	.
+//
+## train:66996 Length: 216
+## train:66996 Number of predicted TMRs: 8
+train:66996	DeepTM	outside	1	3	.	.	.	.
+train:66996	DeepTM	Beta sheet	4	11	.	.	.	.
+train:66996	DeepTM	inside	12	43	.	.	.	.
+train:66996	DeepTM	Beta sheet	44	51	.	.	.	.
+train:66996	DeepTM	outside	52	55	.	.	.	.
+train:66996	DeepTM	Beta sheet	56	63	.	.	.	.
+train:66996	DeepTM	inside	64	89	.	.	.	.
+train:66996	DeepTM	Beta sheet	90	99	.	.	.	.
+train:66996	DeepTM	outside	100	108	.	.	.	.
+train:66996	DeepTM	Beta sheet	109	118	.	.	.	.
+train:66996	DeepTM	inside	119	151	.	.	.	.
+train:66996	DeepTM	Beta sheet	152	161	.	.	.	.
+train:66996	DeepTM	outside	162	166	.	.	.	.
+train:66996	DeepTM	Beta sheet	167	175	.	.	.	.
+train:66996	DeepTM	inside	176	201	.	.	.	.
+train:66996	DeepTM	Beta sheet	202	211	.	.	.	.
+train:66996	DeepTM	outside	212	216	.	.	.	.
+//
+## train:67015 Length: 210
+## train:67015 Number of predicted TMRs: 0
+train:67015	DeepTM	outside	1	210	.	.	.	.
+//
+## train:66551 Length: 210
+## train:66551 Number of predicted TMRs: 0
+train:66551	DeepTM	inside	1	210	.	.	.	.
+//
+## train:66473 Length: 201
+## train:66473 Number of predicted TMRs: 0
+train:66473	DeepTM	inside	1	201	.	.	.	.
+//
+## train:66460 Length: 197
+## train:66460 Number of predicted TMRs: 0
+train:66460	DeepTM	inside	1	197	.	.	.	.
+//
+## train:66386 Length: 193
+## train:66386 Number of predicted TMRs: 0
+train:66386	DeepTM	inside	1	193	.	.	.	.
+//
+## train:67036 Length: 190
+## train:67036 Number of predicted TMRs: 0
+train:67036	DeepTM	inside	1	190	.	.	.	.
+//
+## train:66678 Length: 188
+## train:66678 Number of predicted TMRs: 0
+train:66678	DeepTM	inside	1	188	.	.	.	.
+//
+## train:67029 Length: 187
+## train:67029 Number of predicted TMRs: 0
+train:67029	DeepTM	outside	1	187	.	.	.	.
+//
+## train:66773 Length: 180
+## train:66773 Number of predicted TMRs: 0
+train:66773	DeepTM	inside	1	180	.	.	.	.
+//
+## train:66448 Length: 178
+## train:66448 Number of predicted TMRs: 0
+train:66448	DeepTM	inside	1	178	.	.	.	.
+//
+## train:66357 Length: 174
+## train:66357 Number of predicted TMRs: 0
+train:66357	DeepTM	inside	1	174	.	.	.	.
+//
+## train:67050 Length: 172
+## train:67050 Number of predicted TMRs: 0
+train:67050	DeepTM	inside	1	172	.	.	.	.
+//
+## train:66716 Length: 168
+## train:66716 Number of predicted TMRs: 0
+train:66716	DeepTM	inside	1	168	.	.	.	.
+//
+## train:66782 Length: 164
+## train:66782 Number of predicted TMRs: 0
+train:66782	DeepTM	inside	1	164	.	.	.	.
+//
+## train:66683 Length: 161
+## train:66683 Number of predicted TMRs: 0
+train:66683	DeepTM	inside	1	161	.	.	.	.
+//
+## train:6654 Length: 159
+## train:6654 Number of predicted TMRs: 0
+train:6654	DeepTM	inside	1	159	.	.	.	.
+//
+## train:66612 Length: 158
+## train:66612 Number of predicted TMRs: 0
+train:66612	DeepTM	inside	1	158	.	.	.	.
+//
+## train:66712 Length: 157
+## train:66712 Number of predicted TMRs: 0
+train:66712	DeepTM	outside	1	157	.	.	.	.
+//
+## train:66722 Length: 154
+## train:66722 Number of predicted TMRs: 0
+train:66722	DeepTM	inside	1	154	.	.	.	.
+//
+## train:66510 Length: 153
+## train:66510 Number of predicted TMRs: 0
+train:66510	DeepTM	inside	1	153	.	.	.	.
+//
+## train:66910 Length: 144
+## train:66910 Number of predicted TMRs: 0
+train:66910	DeepTM	inside	1	144	.	.	.	.
+//
+## train:66993 Length: 143
+## train:66993 Number of predicted TMRs: 0
+train:66993	DeepTM	outside	1	143	.	.	.	.
+//
+## train:66933 Length: 143
+## train:66933 Number of predicted TMRs: 0
+train:66933	DeepTM	inside	1	143	.	.	.	.
+//
+## train:67008 Length: 137
+## train:67008 Number of predicted TMRs: 0
+train:67008	DeepTM	outside	1	137	.	.	.	.
+//
+## train:66909 Length: 137
+## train:66909 Number of predicted TMRs: 0
+train:66909	DeepTM	inside	1	137	.	.	.	.
+//
+## train:66906 Length: 134
+## train:66906 Number of predicted TMRs: 0
+train:66906	DeepTM	inside	1	134	.	.	.	.
+//
+## train:6664 Length: 128
+## train:6664 Number of predicted TMRs: 0
+train:6664	DeepTM	inside	1	128	.	.	.	.
+//
+## train:66564 Length: 125
+## train:66564 Number of predicted TMRs: 0
+train:66564	DeepTM	inside	1	125	.	.	.	.
+//
+## train:66607 Length: 124
+## train:66607 Number of predicted TMRs: 0
+train:66607	DeepTM	inside	1	124	.	.	.	.
+//
+## train:66440 Length: 124
+## train:66440 Number of predicted TMRs: 0
+train:66440	DeepTM	inside	1	124	.	.	.	.
+//
+## train:66975 Length: 123
+## train:66975 Number of predicted TMRs: 0
+train:66975	DeepTM	outside	1	123	.	.	.	.
+//
+## train:66541 Length: 121
+## train:66541 Number of predicted TMRs: 0
+train:66541	DeepTM	inside	1	121	.	.	.	.
+//
+## train:66680 Length: 117
+## train:66680 Number of predicted TMRs: 0
+train:66680	DeepTM	inside	1	117	.	.	.	.
+//
+## train:66714 Length: 115
+## train:66714 Number of predicted TMRs: 0
+train:66714	DeepTM	inside	1	115	.	.	.	.
+//
+## train:66824 Length: 112
+## train:66824 Number of predicted TMRs: 0
+train:66824	DeepTM	inside	1	112	.	.	.	.
+//
+## train:66567 Length: 112
+## train:66567 Number of predicted TMRs: 0
+train:66567	DeepTM	inside	1	112	.	.	.	.
+//
+## train:66834 Length: 111
+## train:66834 Number of predicted TMRs: 0
+train:66834	DeepTM	inside	1	111	.	.	.	.
+//
+## train:66853 Length: 110
+## train:66853 Number of predicted TMRs: 0
+train:66853	DeepTM	inside	1	110	.	.	.	.
+//
+## train:66754 Length: 108
+## train:66754 Number of predicted TMRs: 0
+train:66754	DeepTM	inside	1	108	.	.	.	.
+//
+## train:66668 Length: 108
+## train:66668 Number of predicted TMRs: 0
+train:66668	DeepTM	inside	1	108	.	.	.	.
+//
+## train:67077 Length: 106
+## train:67077 Number of predicted TMRs: 0
+train:67077	DeepTM	outside	1	106	.	.	.	.
+//
+## train:67003 Length: 105
+## train:67003 Number of predicted TMRs: 0
+train:67003	DeepTM	outside	1	105	.	.	.	.
+//
+## train:66624 Length: 104
+## train:66624 Number of predicted TMRs: 0
+train:66624	DeepTM	inside	1	104	.	.	.	.
+//
+## train:66531 Length: 103
+## train:66531 Number of predicted TMRs: 0
+train:66531	DeepTM	inside	1	103	.	.	.	.
+//
+## train:66997 Length: 102
+## train:66997 Number of predicted TMRs: 0
+train:66997	DeepTM	outside	1	102	.	.	.	.
+//
+## train:66517 Length: 102
+## train:66517 Number of predicted TMRs: 0
+train:66517	DeepTM	inside	1	102	.	.	.	.
+//
+## train:66487 Length: 100
+## train:66487 Number of predicted TMRs: 0
+train:66487	DeepTM	inside	1	100	.	.	.	.
+//
+## train:66928 Length: 98
+## train:66928 Number of predicted TMRs: 0
+train:66928	DeepTM	inside	1	98	.	.	.	.
+//
+## train:66920 Length: 98
+## train:66920 Number of predicted TMRs: 0
+train:66920	DeepTM	inside	1	98	.	.	.	.
+//
+## train:66618 Length: 98
+## train:66618 Number of predicted TMRs: 0
+train:66618	DeepTM	inside	1	98	.	.	.	.
+//
+## train:66378 Length: 98
+## train:66378 Number of predicted TMRs: 0
+train:66378	DeepTM	outside	1	98	.	.	.	.
+//
+## train:66601 Length: 91
+## train:66601 Number of predicted TMRs: 0
+train:66601	DeepTM	inside	1	91	.	.	.	.
+//
+## train:67057 Length: 90
+## train:67057 Number of predicted TMRs: 0
+train:67057	DeepTM	inside	1	90	.	.	.	.
+//
+## train:6689 Length: 85
+## train:6689 Number of predicted TMRs: 1
+train:6689	DeepTM	outside	1	1	.	.	.	.
+train:6689	DeepTM	TMhelix	2	12	.	.	.	.
+train:6689	DeepTM	inside	13	85	.	.	.	.
+//
+## train:67002 Length: 84
+## train:67002 Number of predicted TMRs: 0
+train:67002	DeepTM	inside	1	84	.	.	.	.
+//
+## train:6656 Length: 78
+## train:6656 Number of predicted TMRs: 0
+train:6656	DeepTM	inside	1	78	.	.	.	.
+//
+## train:66315 Length: 77
+## train:66315 Number of predicted TMRs: 0
+train:66315	DeepTM	inside	1	77	.	.	.	.
+//
+## train:66632 Length: 75
+## train:66632 Number of predicted TMRs: 0
+train:66632	DeepTM	inside	1	75	.	.	.	.
+//
+## train:66713 Length: 74
+## train:66713 Number of predicted TMRs: 0
+train:66713	DeepTM	inside	1	74	.	.	.	.
+//
+## train:67071 Length: 69
+## train:67071 Number of predicted TMRs: 0
+train:67071	DeepTM	inside	1	69	.	.	.	.
+//

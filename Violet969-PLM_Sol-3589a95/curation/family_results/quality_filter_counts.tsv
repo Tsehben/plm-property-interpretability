@@ -1,0 +1,15 @@
+policy	scope	n	n0	n1	n_centers	confident_organisms	verified_outcomes
+primary_clean_all_sources	full	73248	29266	43982	17	51	0
+primary_clean_all_sources	cached	13880	5884	7996	17	10	0
+source_controlled_sensitivity	full	53303	28381	24922	8	37	0
+source_controlled_sensitivity	cached	10058	5601	4457	8	9	0
+no_terminal_artifact_flags	full	67872	28449	39423	17	49	0
+no_terminal_artifact_flags	cached	12923	5758	7165	17	10	0
+within_ESM_context	full	72116	28534	43582	17	51	0
+within_ESM_context	cached	13662	5739	7923	17	10	0
+confident_organism_only	full	69	28	41	10	51	0
+confident_organism_only	cached	10	6	4	6	10	0
+strict_verified_labels	full	0	0	0	0	0	0
+strict_verified_labels	cached	0	0	0	0	0	0
+full_sequence_Pfam_evidence	full	73248	29266	43982	17	51	0
+full_sequence_Pfam_evidence	cached	13880	5884	7996	17	10	0

@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "curation/results/records.tsv": "7b4e7660a97b20bf5a2c1104f2b5565a598c20b85593de0b19db618fe148fd5b",
+    "curation/results/cohort_manifest.tsv": "4368fe98cd9799f08461678859b1421153188ea7d47f744d3c6101be8b407059",
+    "pilot_annotation/uesolds_pilot_annotations.tsv": "33cbdeb806be447e0beb563648289eab54b8a701143c5337537fb7efa5450442",
+    "pilot_annotation/sample_100.json": "118ce70b639651064910f4f86cf897a36a7663da7394eb4f7d0b084d3061c772"
+  },
+  "script_sha256": "0517a21ed95784380ef04d1ecb544125bd3c46a0741376040ba1572772656a5e",
+  "pfam_method": "existing pilot UniProt/RCSB cross-references; no new domain scan or cluster propagation",
+  "pfam_release": "not pinned in historical pilot",
+  "thresholds": [
+    3,
+    5
+  ],
+  "primary": "clean_all_sources",
+  "test_access": false,
+  "assertions": "unique records; ID/hash/label joins; Pfam identifiers; B subset of A; input integrity"
+}
