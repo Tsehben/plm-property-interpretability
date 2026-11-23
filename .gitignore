@@ -48,3 +48,8 @@ Violet969-PLM_Sol-3589a95/model_param/model_param.t7
 # --- DeepLoc 2.0 raw data: no stated redistribution terms ------------------
 # Download URLs + SHA-256 in REPO_SETUP.md and FINDINGS.md.
 DeepLoc2/raw/*.csv
+
+# --- Regenerable layer-sweep embedding store, 1.6 GB -----------------------
+# 33 per-layer float16 files (~52 MB each) extracted by the layer sweep.
+# Too large for GitHub; regenerate with the committed layer_sweep/ scripts.
+layer_sweep/v1/emb_store/
