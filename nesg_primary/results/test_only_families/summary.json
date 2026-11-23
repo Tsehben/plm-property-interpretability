@@ -1,0 +1,19 @@
+{
+  "distinct_families_by_split": {
+    "train": 949,
+    "validation": 402,
+    "reserved_test": 418
+  },
+  "total_cohort_distinct_families": 1383,
+  "test_families_absent_from_train": 243,
+  "test_families_absent_from_train_but_present_in_validation": 37,
+  "test_only_families": 206,
+  "reserved_test_proteins": 710,
+  "test_only_families_pct_of_test_families": 49.282296650717704,
+  "test_proteins_with_any_test_only_family": 357,
+  "test_proteins_with_any_test_only_family_pct": 50.28169014084507,
+  "test_proteins_with_exclusively_test_only_families": 280,
+  "test_proteins_with_both_test_only_and_development_families": 77,
+  "test_proteins_with_only_development_families": 297,
+  "test_proteins_without_pfam": 56
+}

@@ -1,0 +1,10 @@
+test_file_roundtrip_preserves_axes_metadata_and_exact_fp32 (test_full_map_precision.PrecisionPilotTests.test_file_roundtrip_preserves_axes_metadata_and_exact_fp32) ... ok
+test_identical_inputs_have_identical_sae_support (test_full_map_precision.PrecisionPilotTests.test_identical_inputs_have_identical_sae_support) ... ok
+test_label_blind_sampling_is_stable_and_covers_edges (test_full_map_precision.PrecisionPilotTests.test_label_blind_sampling_is_stable_and_covers_edges) ... ok
+test_large_change_is_not_called_compatible (test_full_map_precision.PrecisionPilotTests.test_large_change_is_not_called_compatible) ... ok
+test_overflow_fails (test_full_map_precision.PrecisionPilotTests.test_overflow_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.043s
+
+OK

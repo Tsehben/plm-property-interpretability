@@ -1,0 +1,19 @@
+Restored and verified 1 shards from private HF revision frozen-commit
+test_X_not_imputed (__main__.Stage1Tests.test_X_not_imputed) ... ok
+test_bootstrap_metrics_match_sklearn_with_ties (__main__.Stage1Tests.test_bootstrap_metrics_match_sklearn_with_ties) ... ok
+test_bucketing_unique_and_bounded (__main__.Stage1Tests.test_bucketing_unique_and_bounded) ... ok
+test_credentials_and_public_repo_refusal (__main__.Stage1Tests.test_credentials_and_public_repo_refusal) ... ok
+test_frozen_data_and_folds (__main__.Stage1Tests.test_frozen_data_and_folds) ... ok
+test_group_bootstrap_keeps_members (__main__.Stage1Tests.test_group_bootstrap_keeps_members) ... ok
+test_hf_restores_partial_run_without_completed_manifest (__main__.Stage1Tests.test_hf_restores_partial_run_without_completed_manifest) ... ok
+test_hf_resume_skips_identical_and_refuses_conflicts (__main__.Stage1Tests.test_hf_resume_skips_identical_and_refuses_conflicts) ... ok
+test_hf_upload_is_atomic_and_failure_stops (__main__.Stage1Tests.test_hf_upload_is_atomic_and_failure_stops) ... ok
+test_installed_transformers_indexing_on_tiny_random_model (__main__.Stage1Tests.test_installed_transformers_indexing_on_tiny_random_model) ... ok
+test_pooling_excludes_special_and_padding (__main__.Stage1Tests.test_pooling_excludes_special_and_padding) ... ok
+test_shards_reject_corruption_and_reordering (__main__.Stage1Tests.test_shards_reject_corruption_and_reordering) ... ok
+test_tokenization_keeps_X (__main__.Stage1Tests.test_tokenization_keeps_X) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.312s
+
+OK

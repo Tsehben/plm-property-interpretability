@@ -1,0 +1,32 @@
+{
+  "tests_passed": 16,
+  "suites": [
+    "test_layerwise_auroc",
+    "test_stage1"
+  ],
+  "test_scope": "Offline synthetic engineering tests; no synthetic scientific results retained. Actual frozen-cohort composition baseline rerun separately.",
+  "actual_composition_baseline": {
+    "model": "composition",
+    "layer": 0,
+    "C": 0.1,
+    "training_n": 2361,
+    "training_fit_auroc": 0.7188339474622607,
+    "training_oof_auroc": 0.6928189366796285,
+    "validation_n": 691,
+    "auroc": 0.7216293279022403,
+    "average_precision": 0.8405897104455496,
+    "auroc_low": 0.6668892567981871,
+    "auroc_high": 0.7739194996274192,
+    "ap_low": 0.7814321556807139,
+    "ap_high": 0.8918957257049935,
+    "cv_mean": 0.6960785975494624,
+    "cv_sd": 0.04556924447063986,
+    "cv_min": 0.6181792364801818,
+    "cv_max": 0.7353271028037383,
+    "bootstrap_valid": 2000
+  },
+  "baseline_matches_previous_results": true,
+  "ESM_probes_executed_locally": false,
+  "reason": "Pooled activations and HF_TOKEN_PLM are accessible only in the user Colab runtime.",
+  "reserved_test_accessed": false
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "local_path": "/private/tmp/uesolds-pfam37/Pfam-A.hmm.gz",
+    "source_url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/Pfam-A.hmm.gz",
+    "local_sha256": "66f57012fe5825c82f2e31447d7a8026367e1ca9e5e91b4b716c594c268db69b",
+    "note": "Hash is of local file; clan metadata files are existing extracted/derived artifacts."
+  },
+  {
+    "local_path": "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/pfam_annotation/Pfam-A.clans.tsv",
+    "source_url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/Pfam-A.clans.tsv.gz",
+    "local_sha256": "6f1e3f0cd744fb1ddbda4a71c83a504037d5aa99cf58136cd58a8ad5998f6574",
+    "note": "Hash is of local file; clan metadata files are existing extracted/derived artifacts."
+  },
+  {
+    "local_path": "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/Violet969-PLM_Sol-3589a95/curation/presentation_assets/pfam37_clan_names.tsv",
+    "source_url": "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam37.0/Pfam-C.gz",
+    "local_sha256": "0f7fb39958c6a002f18425e956adb9b5990e37a65d4790ce261eec913439f77a",
+    "note": "Hash is of local file; clan metadata files are existing extracted/derived artifacts."
+  }
+]

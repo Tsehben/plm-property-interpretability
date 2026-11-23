@@ -1,0 +1,7 @@
+split	annotation_policy	split_unique_proteins	split_soluble	split_insoluble	qualifying_families	unique_proteins_in_qualifying_families	soluble_in_qualifying_families	insoluble_in_qualifying_families	qualifying_families_with_original_competing_hits
+train	all_GA	2361	1645	716	237	1334	864	470	129
+train	no_competing_overlap	2361	1645	716	150	966	645	321	3
+validation	all_GA	691	491	200	81	306	190	116	51
+validation	no_competing_overlap	691	491	200	38	204	129	75	1
+reserved_test	all_GA	710	478	232	100	360	207	153	65
+reserved_test	no_competing_overlap	710	478	232	48	182	102	80	1

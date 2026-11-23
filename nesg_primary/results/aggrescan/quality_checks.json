@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "counts": {
+    "train": {
+      "total": 2361,
+      "annotated": 2359,
+      "zero_features": 16,
+      "unsupported": 2
+    },
+    "validation": {
+      "total": 691,
+      "annotated": 690,
+      "zero_features": 0,
+      "unsupported": 1
+    },
+    "reserved_test": {
+      "total": 710,
+      "annotated": 710,
+      "zero_features": 0,
+      "unsupported": 0
+    }
+  },
+  "residue_rows": 925761,
+  "hotspot_intervals": 33092,
+  "sequence_hashes_verified": true,
+  "coordinates_and_summary_consistency_verified": true,
+  "frozen_development_artifacts_unchanged": true,
+  "test_phenotype_records_opened": false,
+  "validator_sha256": "59e3860efcdaa43860d1c67620d8d9ab9eaa601c64e0c413a1278efe2cd92f02"
+}

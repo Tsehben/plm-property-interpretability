@@ -1,0 +1,4 @@
+record_id	fasta_id	sid	sha256	split	length	status	nonstandard_residues	batch_file
+NESG_raw:4114	NESG_raw:4114	IR128	ec12ec3d8713c6d6806aa72a3e4e6df72cf6ea463896a6ad8f0c76780f38762a	train	106	nonstandard_residues	X	
+NESG_raw:4127	NESG_raw:4127	IR141	0be051622839e00433054fad90d4959ac7c33736975b8bd47f87c5e62b9c23c2	validation	304	nonstandard_residues	X	
+NESG_raw:4151	NESG_raw:4151	IR183	389c3203b6dc6fd19d81f1cbba96f767d7da15cbe96494f6ce28476a9e23bae0	train	549	nonstandard_residues	X	

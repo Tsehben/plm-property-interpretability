@@ -1,0 +1,76 @@
+{
+  "updated_UTC": "2026-11-18T17:22:37.351912+00:00",
+  "counts": {
+    "train": {
+      "ok": 2343,
+      "zero_features": 16,
+      "unsupported_input": 2,
+      "not_run": 0
+    },
+    "validation": {
+      "ok": 690,
+      "zero_features": 0,
+      "unsupported_input": 1,
+      "not_run": 0
+    },
+    "reserved_test": {
+      "ok": 710,
+      "zero_features": 0,
+      "unsupported_input": 0,
+      "not_run": 0
+    }
+  },
+  "completed_batches": 39,
+  "expected_batches": 39,
+  "solubility_labels_used": false,
+  "original_datasets_modified": false,
+  "server": "http://andromeda.uab.cat",
+  "script_sha256": "24275e48bb1355cf9979bfc9a73e7328ebb07c6c10a3f32421fd9eebae429909",
+  "inputs_sha256": {
+    "server_uploads/aggrescan/batches/train_01.fasta": "3fc8c58df20d58f7630ca01e863a28b809595e33a7b8a18513a9f9f7bd3d310d",
+    "server_uploads/aggrescan/batches/train_02.fasta": "b25adaae42be75c6729e1f2d5acef983f1076362a5fb5807cf0e006bd289db46",
+    "server_uploads/aggrescan/batches/train_03.fasta": "3ff632b7df43043deb8f9e00024c69900297aa880291d50e25f145c44a15fb24",
+    "server_uploads/aggrescan/batches/train_04.fasta": "1e06a4444d71c98c1aedaba4bf32399bd25c08a213e81a12b462f38270ef1a45",
+    "server_uploads/aggrescan/batches/train_05.fasta": "c9b4c89b3151265e9b093436873375fc104ccf8a1f191968452c9d5917922e90",
+    "server_uploads/aggrescan/batches/train_06.fasta": "78ca85623da09f5607aa4a23a73f88d6aa83a2e5a09fc67cfaa0a74e023b4903",
+    "server_uploads/aggrescan/batches/train_07.fasta": "d315fdaafc1ec7fe9178f33653b7602fbea81d68d43e3acaeaba0d996e8036ea",
+    "server_uploads/aggrescan/batches/train_08.fasta": "e640e552676cc12be51e6a3bc645b0f6d0d6128ffbdd09b4b6c3b761707aadf8",
+    "server_uploads/aggrescan/batches/train_09.fasta": "11e9bbf21e7d78488f3a84345ed4ed053b12f8f285e1304cdfabb3e6f205c04e",
+    "server_uploads/aggrescan/batches/train_10.fasta": "a6f348e74e09fdf043fa08ee6abc12cb0ebcfa4506a3392420f5ae30d0d50fed",
+    "server_uploads/aggrescan/batches/train_11.fasta": "5812dd0941d927774191b0fd107f484b8f33fa82cbc1e18f498ec0363a447c13",
+    "server_uploads/aggrescan/batches/train_12.fasta": "f0824e1b75b39acdb71c48655565226272e8f60b2c1d604dfdbf2025a1f0be1e",
+    "server_uploads/aggrescan/batches/train_13.fasta": "6d5220b741b5f6f3c5603b2d1ad356ba0c1b5a21ac3d76a294a299cbf7d69719",
+    "server_uploads/aggrescan/batches/train_14.fasta": "3d3745f46924009e953e27a732f2e25ff9a58ff8e93c2a960f4cf68e740c16de",
+    "server_uploads/aggrescan/batches/train_15.fasta": "447d4c1fa695be5bd3b8cef1d3729198a0d6b62461d1f2f35d79e7d5929f06b5",
+    "server_uploads/aggrescan/batches/train_16.fasta": "ca0b5d46c4018ab33e241b1a925782092d4bd474a8e98e79fe327ad07753217f",
+    "server_uploads/aggrescan/batches/train_17.fasta": "b9f25a461990f464327c4884c25adf6838cce44efdaf484ce7c4222a192194eb",
+    "server_uploads/aggrescan/batches/train_18.fasta": "7a9a60e7b620b758d4e4a60f4dff95fc0d2374814d10aa5546f9d09b62f0e6af",
+    "server_uploads/aggrescan/batches/train_19.fasta": "17a95826a804add7d8deb84130cbd89f63546962f5c42b254e928fc15f92252f",
+    "server_uploads/aggrescan/batches/train_20.fasta": "4c9ab721a5e194072236704193f064a472927475e29a873319a49b42a90e93f7",
+    "server_uploads/aggrescan/batches/train_21.fasta": "7261d8ecd36082bc10aa03e6231ecefd0a322391fca64551cc2ff963b38dc350",
+    "server_uploads/aggrescan/batches/train_22.fasta": "aeb0ebae73ae66e3d3f8d4f4e9364c9ef8e9ddf929d81f686126e2c288f44be1",
+    "server_uploads/aggrescan/batches/train_23.fasta": "8db7c9160f4ab8ae658cdbd2f53969613694706108e25fa7be14cf0ec3b7be00",
+    "server_uploads/aggrescan/batches/train_24.fasta": "614b7fa3d539780c9b35f6fb55fb74caf0ed9bb48156756d462fbfd03a60429c",
+    "server_uploads/aggrescan/batches/validation_01.fasta": "02c1ed6c398f947a0147933a8cfbf66c66809584d8b4bced729ecbcc4a43a300",
+    "server_uploads/aggrescan/batches/validation_02.fasta": "14428a386278508b1f0e0b78c062ad4c8af239ebb5ca08acbf8a29ee938b9909",
+    "server_uploads/aggrescan/batches/validation_03.fasta": "6e2eb37862529cba91952a2f94fb6f5644cf5f912762401f9577bed3908382dd",
+    "server_uploads/aggrescan/batches/validation_04.fasta": "7f7c83fb7c3c0708c7ea0051fbcaaff304a916eabad549445a814e0aa3bfd297",
+    "server_uploads/aggrescan/batches/validation_05.fasta": "7c880e4dae243c2a73237bd3800234917a29d72377dc511103a5fcc86ddc7441",
+    "server_uploads/aggrescan/batches/validation_06.fasta": "9961435d4db873180e4f2ff1da8a5468d5980e124d01c7264ecb3493dfc894b0",
+    "server_uploads/aggrescan/batches/validation_07.fasta": "6c86ff0125a9bdedb37608a45d485056fa91aac202e1cabd1c12b587025ddad7",
+    "server_uploads/aggrescan/test/batches/reserved_test_01.fasta": "aee8aab4298953a82f73967a17a734ed7bc24faae638fb92c29fe05455d4ac97",
+    "server_uploads/aggrescan/test/batches/reserved_test_02.fasta": "304da6a900d7c86e3c5c646c732f213e69927127f754836972694d9934debcdd",
+    "server_uploads/aggrescan/test/batches/reserved_test_03.fasta": "3d4a1b7859d130f3cddd1e6e08fbd474ab178266cee27f3e9ad4ba1c4d14d56d",
+    "server_uploads/aggrescan/test/batches/reserved_test_04.fasta": "a2ca4c23cbfd3b8d1530ba8d37e9a83ab3306cb11b49e90db3053ccc9d0a97ea",
+    "server_uploads/aggrescan/test/batches/reserved_test_05.fasta": "7186f449386a8b86cb83773cb39e6a245e6ccab0e9537fc0ff76dbf8ab49b5b2",
+    "server_uploads/aggrescan/test/batches/reserved_test_06.fasta": "de57188be113165510af6f609b208bedc9bf7ee75a494068417c9b4eafc5a593",
+    "server_uploads/aggrescan/test/batches/reserved_test_07.fasta": "1d228f0d81a3d4e5376d1ac721c084ba08cbdb63e049b3ef76d27b87f1c88bfd",
+    "server_uploads/aggrescan/test/batches/reserved_test_08.fasta": "a8d9813feafc0afe23572b5fcbfbfe32563b8737a6727f776057d14ebb657046"
+  },
+  "outputs_sha256": {
+    "protein_annotations.tsv": "7894bb42a541c241f35011317f4b5701b4ebab329b0108a22493d7ffbc72b4f1",
+    "hotspots.tsv.gz": "6388322e69ca40ee8c804860f81b58f6fe0c0a968906b3a32ab57b906ef11352",
+    "annotation_status.tsv": "ab0490de44f0233bff95f311d22c39873bbe5cff0861e6aa5eb0a2aaef7a554c",
+    "residue_scores.tsv.gz": "690075eaf03be17222848a691fddf5aca1951dc2535cbc051984228f2dc312c8"
+  }
+}

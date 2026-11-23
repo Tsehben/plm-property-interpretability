@@ -1,0 +1,126 @@
+{
+  "timestamp_UTC": "2026-11-18T15:56:57.944741+00:00",
+  "authorization": "Explicit user request for validation and reserved-test mixed-label Pfam tables, subsequently extended to training",
+  "exposure": "Reserved-test labels inspected and reported by Pfam family; no longer uninspected for family-label composition",
+  "allowed_use": "Descriptive reporting only; no cohort/split/model-selection/hypothesis revisions",
+  "inputs": {
+    "train_manifest": {
+      "path": "nesg_primary/results/training_manifest.tsv",
+      "sha256": "7289e1dfe6844d36de851c70165025335071bc7795bab2b48bced744b98be3d2"
+    },
+    "validation_manifest": {
+      "path": "nesg_primary/results/validation_manifest.tsv",
+      "sha256": "42039a4cef6dbaf1f6a7eeff7800ad0a4b517cb64369c05b1f302e3f7e95d0b5"
+    },
+    "reserved_test_manifest": {
+      "path": "nesg_primary/results/reserved_test/test_manifest.tsv",
+      "sha256": "ed06e64ba4a0df3ad35f838d0d04dbd86d850f853bcf8ba78b652bce97e11abe"
+    },
+    "domains": {
+      "path": "dataset_comparison/results/domains_with_clans.tsv.gz",
+      "sha256": "d36050bd23fed5e26ce1698ff3ac20ce77b8affaf52655d8a424263cecd5155c"
+    },
+    "test_lock": {
+      "path": "nesg_primary/results/test_lock.json",
+      "sha256": "62be886fff10e236986512cbb9379d3c0eae665de458d4706cb8a9e703f2d2dc"
+    }
+  },
+  "unchanged_inputs": true,
+  "UESolDS_independent_test_accessed": false,
+  "annotations_or_clusters_rerun": false,
+  "training_support_used": false,
+  "outputs": {
+    "results/split_mixed_label_families/overlap_sensitivity_comparison.tsv": "d591a6f9e1d43a449fbc49583f7cf93c5151745609a9470739555de89e6dc533",
+    "results/split_mixed_label_families/reserved_test_all_GA_mixed_families.csv": "0b17d8f0baa1d261ef189eebd7fb5cf53329ebf6e720622427a9cc532fb61984",
+    "results/split_mixed_label_families/reserved_test_all_GA_mixed_families.tsv": "023af3281cc24bc223587592d44ad9fcc88e08cd0fb77aefe7d8dfcd4d2d2c1b",
+    "results/split_mixed_label_families/reserved_test_no_competing_overlap_mixed_families.csv": "5e2fb77f808785ebe12631f87f3b24fe38276a18a049e52067af49657c5a5135",
+    "results/split_mixed_label_families/reserved_test_no_competing_overlap_mixed_families.tsv": "931e7c561aa5b9d3be73d094caeffb11fe18ec8cf3c6fd7a8165cec01ebdc57b",
+    "results/split_mixed_label_families/split_summary.csv": "d331f7a5fd21b1a6a733d6c9d4a191e4a426d8f2d3e84642582f95828162f653",
+    "results/split_mixed_label_families/split_summary.tsv": "a9ec3044897d32d81e29ea4358fbd40b26b1863f7d27d548b4afa73bd48cf8e9",
+    "results/split_mixed_label_families/train_all_GA_mixed_families.csv": "8564e22e696675c2ccdfd121f7c84c161b60bcd8e393e28ca4e7ac1180450b59",
+    "results/split_mixed_label_families/train_all_GA_mixed_families.tsv": "29de3854aadcbb202c5d6a6efbbdbbe42d6304c55c53b26e38935f0481be8d58",
+    "results/split_mixed_label_families/train_no_competing_overlap_mixed_families.csv": "590dfdf4426674b7a7c880e2314ab78d09108f545996d078c7b7c13d5748b9c7",
+    "results/split_mixed_label_families/train_no_competing_overlap_mixed_families.tsv": "0e600eba9f1fa398acf24916a8c20d752af3623310fca6af2a1e4d77e76b7e53",
+    "results/split_mixed_label_families/validation_all_GA_mixed_families.csv": "d6d2935f9f646505966852070a97a33154952fcbcb0f1dc2be9a1f336b772f4f",
+    "results/split_mixed_label_families/validation_all_GA_mixed_families.tsv": "eb20dc45d53386b9180a0c74d31a1fe07e38f650e9d1df31f98652f6612012c3",
+    "results/split_mixed_label_families/validation_no_competing_overlap_mixed_families.csv": "9e669939bf5df0c0b3def29f906116bbbad714d78fcb6c6eee223236507b73f9",
+    "results/split_mixed_label_families/validation_no_competing_overlap_mixed_families.tsv": "983436620fbd9d17005aa98c5110f7b1277366844244fe1a178b545460d96a75"
+  },
+  "report_sha256": "d852fb4ad4f47d64da1fbcc39ffaf195866da8b900fc98e18fe29943c311a74d",
+  "script_sha256": "be3ffe40c10079e587ca8469915b1c5eb463be9f95711e8b1207897538b33bcb",
+  "summary": [
+    {
+      "split": "train",
+      "annotation_policy": "all_GA",
+      "split_unique_proteins": 2361,
+      "split_soluble": 1645,
+      "split_insoluble": 716,
+      "qualifying_families": 237,
+      "unique_proteins_in_qualifying_families": 1334,
+      "soluble_in_qualifying_families": 864,
+      "insoluble_in_qualifying_families": 470,
+      "qualifying_families_with_original_competing_hits": 129
+    },
+    {
+      "split": "train",
+      "annotation_policy": "no_competing_overlap",
+      "split_unique_proteins": 2361,
+      "split_soluble": 1645,
+      "split_insoluble": 716,
+      "qualifying_families": 150,
+      "unique_proteins_in_qualifying_families": 966,
+      "soluble_in_qualifying_families": 645,
+      "insoluble_in_qualifying_families": 321,
+      "qualifying_families_with_original_competing_hits": 3
+    },
+    {
+      "split": "validation",
+      "annotation_policy": "all_GA",
+      "split_unique_proteins": 691,
+      "split_soluble": 491,
+      "split_insoluble": 200,
+      "qualifying_families": 81,
+      "unique_proteins_in_qualifying_families": 306,
+      "soluble_in_qualifying_families": 190,
+      "insoluble_in_qualifying_families": 116,
+      "qualifying_families_with_original_competing_hits": 51
+    },
+    {
+      "split": "validation",
+      "annotation_policy": "no_competing_overlap",
+      "split_unique_proteins": 691,
+      "split_soluble": 491,
+      "split_insoluble": 200,
+      "qualifying_families": 38,
+      "unique_proteins_in_qualifying_families": 204,
+      "soluble_in_qualifying_families": 129,
+      "insoluble_in_qualifying_families": 75,
+      "qualifying_families_with_original_competing_hits": 1
+    },
+    {
+      "split": "reserved_test",
+      "annotation_policy": "all_GA",
+      "split_unique_proteins": 710,
+      "split_soluble": 478,
+      "split_insoluble": 232,
+      "qualifying_families": 100,
+      "unique_proteins_in_qualifying_families": 360,
+      "soluble_in_qualifying_families": 207,
+      "insoluble_in_qualifying_families": 153,
+      "qualifying_families_with_original_competing_hits": 65
+    },
+    {
+      "split": "reserved_test",
+      "annotation_policy": "no_competing_overlap",
+      "split_unique_proteins": 710,
+      "split_soluble": 478,
+      "split_insoluble": 232,
+      "qualifying_families": 48,
+      "unique_proteins_in_qualifying_families": 182,
+      "soluble_in_qualifying_families": 102,
+      "insoluble_in_qualifying_families": 80,
+      "qualifying_families_with_original_competing_hits": 1
+    }
+  ],
+  "pandas_version": "2.3.3"
+}

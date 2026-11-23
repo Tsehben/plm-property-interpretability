@@ -1,0 +1,151 @@
+pfam_accession,pfam_name,biological_family_name,unique_soluble_proteins,unique_insoluble_proteins,total_unique_proteins,homology_groups_soluble,homology_groups_insoluble,homology_groups_shared_between_classes,has_competing_overlapping_assignments,unique_proteins_with_competing_assignments
+PF00455,DeoRC,DeoR C terminal sensor domain,31,26,57,1,1,1,False,0
+PF04055,Radical_SAM,Radical SAM superfamily,31,21,52,4,11,4,False,0
+PF00575,S1,S1 RNA binding domain,48,2,50,6,1,1,True,2
+PF00919,UPF0004,Uncharacterized protein family UPF0004,25,11,36,1,1,1,False,0
+PF07282,OrfB_Zn_ribbon,Putative transposase DNA-binding domain,22,6,28,10,5,1,False,0
+PF01966,HD,HD domain,22,2,24,2,1,1,False,0
+PF01588,tRNA_bind,Putative tRNA binding domain,20,2,22,2,1,1,False,0
+PF01938,TRAM,TRAM domain,15,7,22,2,1,1,False,0
+PF01368,DHH,DHH family,16,2,18,1,1,1,False,0
+PF01385,OrfB_IS605,Probable transposase,17,1,18,5,1,0,False,0
+PF13167,GTP-bdg_N,GTP-binding GTPase N-terminal,14,4,18,1,1,1,False,0
+PF16360,GTP-bdg_M,GTP-binding GTPase Middle Region,14,4,18,1,1,1,False,0
+PF02272,DHHA1,DHHA1 domain,14,2,16,1,1,1,False,0
+PF03966,Trm112p,Trm112p-like protein,15,1,16,2,1,0,False,0
+PF04390,LptE,Lipopolysaccharide-assembly,15,1,16,2,1,1,False,0
+PF08220,HTH_DeoR,DeoR-like helix-turn-helix domain,7,9,16,1,1,1,False,0
+PF00535,Glycos_transf_2,Glycosyl transferase family 2,13,2,15,8,2,1,False,0
+PF00696,AA_kinase,Amino acid kinase family,11,4,15,2,3,2,False,0
+PF01266,DAO,FAD dependent oxidoreductase,9,6,15,2,2,1,False,0
+PF16901,DAO_C,C-terminal domain of alpha-glycerophosphate oxidase,10,5,15,1,1,1,False,0
+PF01636,APH,Phosphotransferase enzyme family,8,6,14,3,4,1,False,0
+PF02666,PS_Dcarbxylase,Phosphatidylserine decarboxylase,9,5,14,2,3,2,False,0
+PF04012,PspA_IM30,PspA/IM30 family,7,7,14,1,1,1,False,0
+PF13353,Fer4_12,4Fe-4S single cluster domain,10,4,14,2,2,1,False,0
+PF01546,Peptidase_M20,Peptidase family M20/M25/M40,12,1,13,1,1,0,False,0
+PF02470,MlaD,MlaD protein,12,1,13,2,1,0,False,0
+PF02606,LpxK,Tetraacyldisaccharide-1-P 4'-kinase,8,5,13,2,1,1,False,0
+PF07687,M20_dimer,Peptidase dimerisation domain,12,1,13,1,1,0,False,0
+PF07728,AAA_5,AAA domain (dynein-related subfamily),4,9,13,3,5,2,False,0
+PF01494,FAD_binding_3,FAD binding domain,3,9,12,1,5,1,True,1
+PF01894,UPF0047,Uncharacterised protein family UPF0047,9,3,12,1,1,1,False,0
+PF05494,MlaC,MlaC protein,11,1,12,2,1,0,False,0
+PF08327,AHSA1,Activator of Hsp90 ATPase homolog 1-like protein,9,3,12,5,2,0,False,0
+PF01263,Aldose_epim,Aldose 1-epimerase,5,6,11,1,1,1,False,0
+PF04909,Amidohydro_2,Amidohydrolase,3,8,11,3,5,1,False,0
+PF04432,FrhB_FdhB_C,"Coenzyme F420 hydrogenase/dehydrogenase, beta subunit C terminus",4,6,10,3,3,2,False,0
+PF12368,Rhodanese_C,Rhodanase C-terminal,9,1,10,1,1,0,False,0
+PF18693,TRAM_2,TRAM domain,6,4,10,1,1,1,False,0
+PF21688,FAD-depend_C,"FAD-dependent protein, C-terminal domain-like",8,2,10,2,2,2,False,0
+PF01464,SLT,Transglycosylase SLT domain,8,1,9,3,1,1,False,0
+PF03692,CxxCxxCC,Putative zinc- or iron-chelating domain,3,6,9,3,5,0,False,0
+PF04422,FrhB_FdhB_N,"Coenzyme F420 hydrogenase/dehydrogenase, beta subunit N-term",4,5,9,3,2,2,False,0
+PF01336,tRNA_anti-codon,OB-fold nucleic acid binding domain,7,1,8,3,1,1,False,0
+PF01512,Complex1_51K,Respiratory-chain NADH dehydrogenase 51 Kd subunit,2,6,8,1,1,1,False,0
+PF01926,MMR_HSR1,50S ribosome-binding GTPase,6,2,8,1,1,1,False,0
+PF03479,PCC,Plants and Prokaryotes Conserved (PCC) domain,7,1,8,1,1,1,False,0
+PF04413,Glycos_transf_N,3-Deoxy-D-manno-octulosonic-acid transferase (kdotransferase),5,3,8,2,2,1,False,0
+PF06172,Cupin_5,Cupin superfamily (DUF985),6,2,8,1,1,1,False,0
+PF10589,NADH_4Fe-4S,NADH-ubiquinone oxidoreductase-F iron-sulfur binding region,2,6,8,1,1,1,False,0
+PF01784,DUF34_NIF3,Duf34/NIF3 (NGG1p interacting factor 3),6,1,7,2,1,1,False,0
+PF01833,TIG,IPT/TIG domain,6,1,7,1,1,1,False,0
+PF01863,YgjP-like,"YgjP-like, metallopeptidase domain",4,3,7,2,1,1,False,0
+PF01990,ATP-synt_F,ATP synthase (F/14-kDa) subunit,5,2,7,3,2,2,False,0
+PF02586,SRAP,SOS response associated peptidase (SRAP),4,3,7,2,2,2,False,0
+PF03746,LamB_YcsF,LamB/YcsF family,6,1,7,1,1,1,False,0
+PF03969,AFG1_ATPase,AFG1-like ATPase,4,3,7,2,1,1,False,0
+PF04371,PAD_porph,Porphyromonas-type peptidyl-arginine deiminase,6,1,7,1,1,0,False,0
+PF04472,SepF,Cell division protein SepF,2,5,7,1,2,1,False,0
+PF14539,DUF4442,Domain of unknown function (DUF4442),5,2,7,2,1,1,False,0
+PF01878,EVE,EVE domain,4,2,6,1,1,1,False,0
+PF02445,NadA,Quinolinate synthetase A protein,3,3,6,1,1,1,False,0
+PF02698,DUF218,DUF218 domain,4,2,6,3,1,1,False,0
+PF03061,4HBT,Thioesterase superfamily,5,1,6,2,1,1,False,0
+PF04285,DUF444,Protein of unknown function (DUF444),5,1,6,1,1,1,False,0
+PF04468,PSP1,PSP1 C-terminal conserved region,3,3,6,1,2,1,False,0
+PF04752,ChaC,ChaC-like protein,1,5,6,1,1,1,False,0
+PF06154,CbeA_antitoxin,"CbeA_antitoxin, type IV, cytoskeleton bundling-enhancing factor A",4,2,6,1,1,1,False,0
+PF07992,Pyr_redox_2,Pyridine nucleotide-disulphide oxidoreductase,2,4,6,2,3,1,False,0
+PF17146,PIN_6,PIN domain of ribonuclease,5,1,6,1,1,1,False,0
+PF18073,Rubredoxin_2,Rubredoxin metal binding domain,4,2,6,1,1,1,False,0
+PF00078,RVT_1,Reverse transcriptase (RNA-dependent DNA polymerase),4,1,5,4,1,0,False,0
+PF03029,ATP_bind_1,Conserved hypothetical ATP binding protein,1,4,5,1,2,1,False,0
+PF05991,NYN_YacP,YacP-like NYN domain,4,1,5,1,1,1,False,0
+PF06032,DUF917,"Protein of unknown function (DUF917), N-terminal",3,2,5,2,2,2,False,0
+PF07720,TPR_3,Tetratricopeptide repeat,4,1,5,1,1,1,False,0
+PF08020,DUF1706,Protein of unknown function (DUF1706)   ,3,2,5,1,2,1,False,0
+PF08450,SGL,SMP-30/Gluconolactonase/LRE-like region,4,1,5,3,1,1,False,0
+PF10604,Polyketide_cyc2,Polyketide cyclase / dehydrase and lipid transport,4,1,5,1,1,1,False,0
+PF20906,DUF917_C,"Protein of unknown function DUF917, C-terminal",3,2,5,2,2,2,False,0
+PF01755,Glyco_transf_25,Glycosyltransferase family 25 (LPS biosynthesis protein),2,2,4,1,1,1,False,0
+PF01844,HNH,HNH endonuclease,1,3,4,1,3,0,False,0
+PF01869,BcrAD_BadFG,BadF/BadG/BcrA/BcrD ATPase family,2,2,4,1,2,1,False,0
+PF01906,YbjQ_1,Putative heavy-metal-binding,3,1,4,1,1,1,False,0
+PF01928,CYTH,CYTH domain,3,1,4,1,1,1,False,0
+PF01989,AcnX_swivel_put,Aconitase X swivel domain,3,1,4,1,1,1,False,0
+PF02374,ArsA_ATPase,Anion-transporting ATPase,1,3,4,1,1,0,False,0
+PF03432,Relaxase,"MobA/VirD2-like, nuclease domain",3,1,4,1,1,1,False,0
+PF03747,ADP_ribosyl_GH,ADP-ribosylglycohydrolase,2,2,4,2,2,0,False,0
+PF04305,DUF455,Protein of unknown function (DUF455),2,2,4,1,1,1,False,0
+PF04551,GcpE,GcpE protein,2,2,4,1,1,1,False,0
+PF07995,GSDH,Glucose / Sorbosone dehydrogenase,1,3,4,1,1,1,False,0
+PF12804,NTP_transf_3,MobA-like NTP transferase domain,2,2,4,2,2,1,False,0
+PF13452,MaoC_dehydrat_N,N-terminal half of MaoC dehydratase,2,2,4,1,1,1,False,0
+PF13671,AAA_33,AAA domain,2,2,4,1,2,0,False,0
+PF22794,jr-ZPR1,ZPR1 jelly-roll domain,3,1,4,1,1,1,False,0
+PF22818,ApeI-like,ApeI dehydratase,2,2,4,1,1,1,False,0
+PF00534,Glycos_transf_1,Glycosyl transferases group 1,2,1,3,1,1,1,False,0
+PF00753,Lactamase_B,Metallo-beta-lactamase superfamily,2,1,3,2,1,0,False,0
+PF00925,GTP_cyclohydro2,GTP cyclohydrolase II,2,1,3,1,1,0,False,0
+PF01656,CbiA,CobQ/CobB/MinD/ParA nucleotide binding domain,1,2,3,1,2,1,False,0
+PF01717,Meth_synt_2,"Cobalamin-independent synthase, Catalytic domain",2,1,3,1,1,1,False,0
+PF01893,UPF0058,Uncharacterised protein family UPF0058,2,1,3,1,1,1,False,0
+PF01960,ArgJ,ArgJ family,2,1,3,1,1,1,False,0
+PF02190,LON_substr_bdg,ATP-dependent protease La (LON) substrate-binding domain ,2,1,3,1,1,1,False,0
+PF02401,LYTB,LytB protein,1,2,3,1,1,1,False,0
+PF02541,Ppx-GppA,Ppx/GppA phosphatase family,2,1,3,1,1,0,False,0
+PF03038,Herpes_UL95,UL95 family,1,2,3,1,1,1,False,0
+PF03367,zf-ZPR1,ZPR1 zinc-finger domain,2,1,3,1,1,1,False,0
+PF04245,NA37,37-kD nucleoid-associated bacterial protein,2,1,3,1,1,1,False,0
+PF05908,Gamma_PGA_hydro,Poly-gamma-glutamate hydrolase,2,1,3,1,1,1,False,0
+PF06627,DUF1153,Protein of unknown function (DUF1153),2,1,3,1,1,1,False,0
+PF07542,ATP12,ATP12 chaperone protein,1,2,3,1,1,1,False,0
+PF07683,CobW_C,Cobalamin synthesis protein cobW C-terminal domain,2,1,3,1,1,0,False,0
+PF07977,FabA,FabA-like domain,2,1,3,2,1,1,False,0
+PF08406,CbbQ_C,CbbQ/NirQ/NorQ C-terminal ,2,1,3,1,1,1,False,0
+PF08662,eIF2A,Eukaryotic translation initiation factor eIF2A,1,2,3,1,1,1,False,0
+PF12706,Lactamase_B_2,Beta-lactamase superfamily domain,2,1,3,1,1,0,False,0
+PF14464,Prok-JAB,Prokaryotic homologs of the JAB domain,2,1,3,1,1,1,False,0
+PF17171,GST_C_6,"Glutathione S-transferase, C-terminal domain",2,1,3,1,1,1,False,0
+PF22817,ApeP-like,ApeP dehydratase,2,1,3,1,1,1,False,0
+PF00037,Fer4,4Fe-4S binding domain,1,1,2,1,1,0,False,0
+PF00436,SSB,Single-strand binding protein family,1,1,2,1,1,0,False,0
+PF01343,Peptidase_S49,Peptidase family S49,1,1,2,1,1,1,False,0
+PF01435,Peptidase_M48,Peptidase family M48,1,1,2,1,1,0,False,0
+PF01564,Spermine_synth,Spermine/spermidine synthase domain,1,1,2,1,1,1,False,0
+PF01774,UreD,UreD urease accessory protein,1,1,2,1,1,1,False,0
+PF01798,Nop,"snoRNA binding domain, fibrillarin",1,1,2,1,1,1,False,0
+PF01866,Diphthamide_syn,Putative diphthamide synthesis protein,1,1,2,1,1,1,False,0
+PF02550,AcetylCoA_hydro,Acetyl-CoA hydrolase/transferase N-terminal domain,1,1,2,1,1,1,False,0
+PF02582,DUF155,"RMND1/Sif2-Sif3/Mrx10, DUF155",1,1,2,1,1,0,False,0
+PF02900,LigB,Catalytic LigB subunit of aromatic ring-opening dioxygenase,1,1,2,1,1,1,False,0
+PF02934,GatB_N,GatB/GatE catalytic domain,1,1,2,1,1,0,False,0
+PF03807,F420_oxidored,NADP oxidoreductase coenzyme F420-dependent,1,1,2,1,1,1,False,0
+PF03998,Utp11,Utp11 protein,1,1,2,1,1,0,False,0
+PF04266,ASCH,ASCH domain,1,1,2,1,1,1,False,0
+PF05362,Lon_C,Lon protease (S16) C-terminal proteolytic domain,1,1,2,1,1,0,False,0
+PF05787,PhoX,Alkaline phosphatase PhoX,1,1,2,1,1,1,False,0
+PF05812,Herpes_BLRF2,Herpesvirus BLRF2 protein,1,1,2,1,1,1,False,0
+PF05971,Methyltransf_10,RNA methyltransferase,1,1,2,1,1,1,False,0
+PF06080,DUF938,Protein of unknown function (DUF938),1,1,2,1,1,1,False,0
+PF06094,GGACT,"Gamma-glutamyl cyclotransferase, AIG2-like",1,1,2,1,1,0,True,1
+PF06224,AlkZ-like,DNA glycosylase AlkZ-like,1,1,2,1,1,1,False,0
+PF06228,ChuX_HutX,Haem utilisation ChuX/HutX,1,1,2,1,1,1,False,0
+PF06968,BATS,Biotin and Thiamin Synthesis associated domain,1,1,2,1,1,1,False,0
+PF07978,NIPSNAP,NIPSNAP ,1,1,2,1,1,0,False,0
+PF08282,Hydrolase_3,haloacid dehalogenase-like hydrolase,1,1,2,1,1,0,False,0
+PF08388,GIIM,"Group II intron, maturase-specific domain",1,1,2,1,1,0,False,0
+PF08496,Peptidase_S49_N,Peptidase family S49 N-terminal,1,1,2,1,1,1,False,0
+PF13336,AcetylCoA_hyd_C,Acetyl-CoA hydrolase/transferase C-terminal domain,1,1,2,1,1,1,False,0
+PF13450,NAD_binding_8,NAD(P)-binding Rossmann-like domain,1,1,2,1,1,0,False,0

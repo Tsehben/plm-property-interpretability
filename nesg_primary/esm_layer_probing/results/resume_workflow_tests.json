@@ -1,0 +1,7 @@
+{
+  "suite": "test_resume_workflow test_colab_setup test_stage1 test_hf_access test_full_map_precision test_full_map_retries",
+  "tests_passed": 43,
+  "failures": 0,
+  "runtime_seconds": 3.47,
+  "scope": "Local offline/regression tests; mocked HF and model inference for reopening. Not execution of the user Colab session."
+}

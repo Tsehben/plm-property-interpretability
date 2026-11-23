@@ -1,0 +1,26 @@
+{
+  "input_sha256": {
+    "results/split_mixed_label_families/split_summary.tsv": "a9ec3044897d32d81e29ea4358fbd40b26b1863f7d27d548b4afa73bd48cf8e9",
+    "results/split_mixed_label_families/train_all_GA_mixed_families.tsv": "29de3854aadcbb202c5d6a6efbbdbbe42d6304c55c53b26e38935f0481be8d58",
+    "results/split_mixed_label_families/validation_all_GA_mixed_families.tsv": "eb20dc45d53386b9180a0c74d31a1fe07e38f650e9d1df31f98652f6612012c3",
+    "results/split_mixed_label_families/reserved_test_all_GA_mixed_families.tsv": "023af3281cc24bc223587592d44ad9fcc88e08cd0fb77aefe7d8dfcd4d2d2c1b"
+  },
+  "script_sha256": "d5b8ecf69ed0cf3e86b1a0fcfe709451e68605b05ab9764f55769d3081279200",
+  "matplotlib": "3.11.1",
+  "pandas": "2.3.3",
+  "numpy": "2.5.1",
+  "raw_test_records_opened": false,
+  "existing_test_label_report_used": true,
+  "definition": "Split-local >=1 unique soluble and >=1 unique insoluble protein; all GA assignments",
+  "outputs_sha256": {
+    "distribution_summary.tsv": "0af7f16cf83d7b50154e1a25f1ec49b4d83e093e394aa2c31d94f158a7bcde4e",
+    "family_size_bins.tsv": "ac1a1e1985280e6eee471358da1907eda18ecdfd9bbc59f226fb45cbb361fa68",
+    "ranked_family_counts_and_ratios.tsv": "1e2837fc620cf32fd60bcf0a8daa477ed1af2b4061ce2d6501e1d2810d6a10d9",
+    "reserved_test_family_distribution.png": "73cb0c5a03097b5038f5ed60175755b008bd35ef1d5875eba67c9a79766daa12",
+    "reserved_test_family_distribution.svg": "2a5a0c0dfcb704a4b9a984e86685406d406d7de08d32039b0a1cf9c3ad99cecb",
+    "train_family_distribution.png": "27e0447282b544457b4bb167ebeef03961bcaf0f85062b44c5f36203da62ae7b",
+    "train_family_distribution.svg": "946d151b9625bedcb3fd5388d649d180e0cbd3c60921c944d3175f03a5bb2eb4",
+    "validation_family_distribution.png": "3bc888a0748e241267ec54705ca4b481455e26dafa7fec80bee09f4387196987",
+    "validation_family_distribution.svg": "fd50eef8cfc375faa030ed94f5c6faaa79ee7a945ed17a1a6692caebeda28b13"
+  }
+}

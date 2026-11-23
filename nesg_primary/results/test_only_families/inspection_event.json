@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-23T01:31:55.845919+00:00",
+  "authorization": "User requested checking whether any families occur only in the test set",
+  "scope": "held-out family composition inspection, all GA-passing Pfam memberships",
+  "solubility_labels_loaded": false,
+  "sequences_loaded": false,
+  "model_predictions_loaded": false,
+  "restricted_test_manifest_opened": false,
+  "UESolDS_independent_test_opened": false,
+  "cohort_splits_annotations_unchanged": true,
+  "source_sha256": {
+    "nesg_primary/results/split_assignments.tsv": "f9f26b74a2a3a799b382d79c81ef448afee9ac3907e4ca0acfe0c44a3e330062",
+    "dataset_comparison/results/domains_with_clans.tsv.gz": "d36050bd23fed5e26ce1698ff3ac20ce77b8affaf52655d8a424263cecd5155c"
+  },
+  "output_sha256": {
+    "summary.json": "79f93b41bf1d0726e169911c1938c979999ad159970e67068f160e51e0273b98",
+    "test_only_families.tsv": "429a12258d325ffafc34e09f39ddb447fd578d9b8558b610a3adeda54f8034ba",
+    "test_only_families.csv": "c768ac32dce26bcd36f04401b8fac8bf62660bcc83176a2d9be5b973fc45f834"
+  },
+  "interpretation": "Descriptive inspection only; do not use to revise splits, model selection or hypotheses"
+}

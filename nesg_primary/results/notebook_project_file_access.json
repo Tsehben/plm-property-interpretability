@@ -1,0 +1,298 @@
+[
+  {
+    "path": "nesg_primary/results/reconciliation.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/duplicate_anomaly_counts.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/netsolp_rule_exceptions.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/raw_E_S_contingency.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/reconciliation.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig01_scores_and_labels.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/selection_reasons.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig02_selection_flow.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/score_policy_sensitivity.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/construct_variation_summary.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/technical_metadata_availability.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/technical_label_associations.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig03_available_technical_variables.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/E_label_biochemistry.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_diversity.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_annotation_coverage.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_named_biological_composition.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig04_named_families_clans.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/initial_family_support.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig05_family_size_and_labels.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/initial_biochemistry_box_summary.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_composition_means.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig06_biochemistry.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/development_records.tsv.gz",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/development_domains.tsv.gz",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_split_counts.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/integrity_checks.json",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/inner_cv_counts.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_split_family_representation.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/figures/fig07_frozen_split_audit.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/development_family_support.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/results/within_family_feasibility.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/results/controlled_family_candidates.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/figures/fig08_within_family_feasibility.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/same_E_family_contrasts.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/results/training_within_family_biochemistry.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/figures/fig09_training_family_biochemistry.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/training_family_heldout_feasibility_manifest.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/results/training_family_heldout_counts.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/results/training_family_heldout_summary.tsv",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/figures/fig10_family_heldout_feasibility.png",
+    "mode": "w+"
+  },
+  {
+    "path": "nesg_primary/results/test_lock.json",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/development_manifest.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_biochemistry_box_summary.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/development_records.tsv.gz",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/selection_reasons.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/E_label_biochemistry.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/technical_metadata_availability.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/technical_label_associations.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/reconciliation.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_family_support.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/integrity_checks.json",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_composition_means.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/split_assignments.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/development_domains.tsv.gz",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_split_counts.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/validation_manifest.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/training_cv_manifest.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/duplicate_anomaly_counts.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/score_policy_sensitivity.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/input_checksums.json",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/inner_cv_counts.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/candidate_construct_stems.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_diversity.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/training_manifest.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_named_biological_composition.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_annotation_coverage.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/netsolp_rule_exceptions.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/construct_variation_summary.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/raw_E_S_contingency.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/initial_split_family_representation.tsv",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/execution_provenance.json",
+    "mode": "w"
+  },
+  {
+    "path": "nesg_primary/results/integrity_checks.json",
+    "mode": "r"
+  },
+  {
+    "path": "nesg_primary/results/final_validation.json",
+    "mode": "w"
+  }
+]

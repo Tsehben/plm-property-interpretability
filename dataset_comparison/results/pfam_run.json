@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "cpus": 6,
+    "parallel": "queries",
+    "bit_cutoffs": "gathering",
+    "seed": 42,
+    "Z": 30277,
+    "F1": 0.02,
+    "F2": 0.001,
+    "F3": 1e-05,
+    "bias_filter": true,
+    "null2": true
+  },
+  "release": "37.0",
+  "pyhmmer": "0.11.2",
+  "new_sequences": 30277,
+  "reused_sequences": 13880,
+  "profiles": 21979,
+  "elapsed_seconds": 173.222997749981,
+  "reference_sha256": "66f57012fe5825c82f2e31447d7a8026367e1ca9e5e91b4b716c594c268db69b",
+  "domains_sha256": "e22260383a1985c4dade7ff7d647b1f9cec3706fe32da3e604e74eec0f8bda34"
+}

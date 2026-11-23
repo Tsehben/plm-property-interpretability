@@ -1,0 +1,9 @@
+test_complete_export_matches_independent_set_counts (test_split_mixed_families.SplitFamilyTests.test_complete_export_matches_independent_set_counts) ... ok
+test_inputs_and_outputs_unchanged_since_report (test_split_mixed_families.SplitFamilyTests.test_inputs_and_outputs_unchanged_since_report) ... ok
+test_repeated_domain_does_not_repeat_protein (test_split_mixed_families.SplitFamilyTests.test_repeated_domain_does_not_repeat_protein) ... ok
+test_unflagged_repeat_preserves_membership (test_split_mixed_families.SplitFamilyTests.test_unflagged_repeat_preserves_membership) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.254s
+
+OK

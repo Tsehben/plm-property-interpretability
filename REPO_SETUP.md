@@ -1,5 +1,18 @@
 # Repo setup — read this first
 
+## Branch layout and current NESG workflow
+
+`UESolDS-EDA` preserves the earlier UESolDS curation, family/source audits and
+biological annotations. `NESG-analysis` builds on that branch and adds
+`dataset_comparison/` and `nesg_primary/`.
+
+For NESG, start with [dataset validation](nesg_primary/README.md) and the
+[ESM notebook workflow index](nesg_primary/esm_layer_probing/README.md).
+NESG activations and probe bundles use the private HF dataset
+`PLM-Interp/nesg-esm2-layerwise`; they are not included in Git. The notebooks
+retrieve credentials from Colab Secrets and preserve the frozen test lock.
+The setup instructions below describe the earlier UESolDS/DeepLoc experiments.
+
 MIT 6.3930 project: *Mechanistic Interpretability of Property Representations in
 Protein Language Models.* Frozen ESM-2-650M, InterProt SAEs, UESolDS
 (solubility) and the DeepLoc 2.0 Extracellular-vs-Cytoplasm contrast.

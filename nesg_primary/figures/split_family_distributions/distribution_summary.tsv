@@ -1,0 +1,4 @@
+split	mixed_families	min_family_size	median_family_size	max_family_size	soluble_majority_families	equally_represented_families	insoluble_majority_families	median_family_soluble_percent	split_soluble	split_insoluble	split_soluble_percent	mixed_family_unique_soluble	mixed_family_unique_insoluble	mixed_family_unique_soluble_percent
+train	237	2	6.0	69	138	51	48	60.0	1645	716	69.67386700550614	864	470	64.76761619190405
+validation	81	2	5.0	25	39	25	17	50.0	491	200	71.05643994211287	190	116	62.091503267973856
+reserved_test	100	2	5.0	27	47	30	23	50.0	478	232	67.32394366197182	207	153	57.5

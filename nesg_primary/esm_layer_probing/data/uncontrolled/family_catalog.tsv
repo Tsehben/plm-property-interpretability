@@ -1,0 +1,1178 @@
+pfam	name	description	train_positive	train_negative	train_positive_groups	train_negative_groups	all_cv_partitions_both_classes	eligible	reason
+PF00004	AAA	ATPase family associated with various cellular activities (AAA)	17	2344	11	1082	True	True	eligible
+PF00005	ABC_tran	ABC transporter	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00007	Cys_knot	Cystine-knot domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00009	GTP_EFTU	Elongation factor Tu GTP binding domain	2	2359	2	1090	False	False	insufficient_training_group_support
+PF00011	HSP20	Hsp20/alpha crystallin family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00013	KH_1	KH domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00017	SH2	SH2 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00023	Ank	Ankyrin repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00025	Arf	ADP-ribosylation factor family	6	2355	3	1089	False	False	insufficient_training_group_support
+PF00036	EF-hand_1	EF hand	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00037	Fer4	4Fe-4S binding domain	5	2356	3	1089	False	False	insufficient_training_group_support
+PF00043	GST_C	Glutathione S-transferase, C-terminal domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF00046	Homeodomain	Homeodomain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00070	Pyr_redox	Pyridine nucleotide-disulphide oxidoreductase	9	2352	6	1087	False	False	single_class_CV_partition
+PF00071	Ras	Ras family	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00072	Response_reg	Response regulator receiver domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00076	RRM_1	RNA recognition motif	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00078	RVT_1	Reverse transcriptase (RNA-dependent DNA polymerase)	5	2356	5	1085	False	False	single_class_CV_partition
+PF00106	adh_short	short chain dehydrogenase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00114	Pilin	Pilin (bacterial filament)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00132	Hexapep	Bacterial transferase hexapeptide (six repeats)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00134	Cyclin_N	Cyclin, N-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00142	Fer4_NifH	4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family	2	2359	1	1090	False	False	insufficient_training_group_support
+PF00149	Metallophos	Calcineurin-like phosphoesterase	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00152	tRNA-synt_2	tRNA synthetases class II (D, K and N) 	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00158	Sigma54_activat	Sigma-54 interaction domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00160	Pro_isomerase	Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00170	bZIP_1	bZIP transcription factor	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00179	UQ_con	Ubiquitin-conjugating enzyme	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00190	Cupin_1	Cupin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00201	UDPGT	UDP-glucoronosyl and UDP-glucosyl transferase	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00213	OSCP	ATP synthase delta (OSCP) subunit	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00216	Bac_DNA_binding	Bacterial DNA-binding protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00240	ubiquitin	Ubiquitin family	5	2356	5	1085	False	False	single_class_CV_partition
+PF00251	Glyco_hydro_32N	Glycosyl hydrolases family 32 N-terminal domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00253	Ribosomal_S14	Ribosomal protein S14p/S29e	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00265	TK	Thymidine kinase	12	2349	1	1089	False	False	insufficient_training_group_support
+PF00293	NUDIX	NUDIX domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00298	Ribosomal_L11	Ribosomal protein L11, RNA binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00308	Bac_DnaA	Bacterial DnaA ATPAse domain	6	2355	3	1087	False	False	insufficient_training_group_support
+PF00313	CSD	'Cold-shock' DNA-binding domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00326	Peptidase_S9	Prolyl oligopeptidase family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00340	IL1	Interleukin-1 / 18	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00346	Complex1_49kDa	Respiratory-chain NADH dehydrogenase, 49 Kd subunit	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00355	Rieske	Rieske [2Fe-2S] domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00392	GntR	Bacterial regulatory proteins, gntR family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00398	RrnaAD	Ribosomal RNA adenine dimethylase	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00427	PBS_linker_poly	Phycobilisome Linker polypeptide	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00428	Ribosomal_60s	60s Acidic ribosomal protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00435	Spectrin	Spectrin repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00436	SSB	Single-strand binding protein family	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00440	TetR_N	Bacterial regulatory proteins, tetR family	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00455	DeoRC	DeoR C terminal sensor domain	57	2304	1	1089	False	False	insufficient_training_group_support
+PF00466	Ribosomal_L10	Ribosomal protein L10	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00467	KOW	KOW motif	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00472	RF-1	RF-1 domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00483	NTP_transferase	Nucleotidyl transferase	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00493	MCM	MCM P-loop domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00494	SQS_PSY	Squalene/phytoene synthase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00497	SBP_bac_3	Bacterial extracellular solute-binding proteins, family 3	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00498	FHA	FHA domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00505	HMG_box	HMG (high mobility group) box	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00515	TPR_1	Tetratricopeptide repeat	4	2357	4	1086	False	False	insufficient_training_group_support
+PF00525	Crystallin	Alpha crystallin A chain, N terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00534	Glycos_transf_1	Glycosyl transferases group 1	5	2356	3	1088	False	False	insufficient_training_group_support
+PF00535	Glycos_transf_2	Glycosyl transferase family 2	48	2313	26	1064	True	True	eligible
+PF00550	PP-binding	Phosphopantetheine attachment site	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00566	RabGAP-TBC	Rab-GTPase-TBC domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00571	CBS	CBS domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00575	S1	S1 RNA binding domain	50	2311	6	1086	False	False	single_class_CV_partition
+PF00578	AhpC-TSA	AhpC/TSA family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00579	tRNA-synt_1b	tRNA synthetases class I (W and Y)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00581	Rhodanese	Rhodanese-like domain	14	2347	1	1089	False	False	insufficient_training_group_support
+PF00583	Acetyltransf_1	Acetyltransferase (GNAT) family	7	2354	3	1087	False	False	insufficient_training_group_support
+PF00590	TP_methylase	Tetrapyrrole (Corrin/Porphyrin) Methylases	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00614	PLDc	Phospholipase D Active site motif	7	2354	1	1089	False	False	insufficient_training_group_support
+PF00653	BIR	Inhibitor of Apoptosis domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00656	Peptidase_C14	Caspase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00657	Lipase_GDSL	GDSL-like Lipase/Acylhydrolase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00665	rve	Integrase core domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00691	OmpA	OmpA family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00696	AA_kinase	Amino acid kinase family	15	2346	3	1087	False	False	insufficient_training_group_support
+PF00702	Hydrolase	haloacid dehalogenase-like hydrolase	2	2359	2	1089	False	False	insufficient_training_group_support
+PF00725	3HCDH	3-hydroxyacyl-CoA dehydrogenase, C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00732	GMC_oxred_N	GMC oxidoreductase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00743	FMO-like	Flavin-binding monooxygenase-like	12	2349	1	1089	False	False	insufficient_training_group_support
+PF00753	Lactamase_B	Metallo-beta-lactamase superfamily	8	2353	5	1085	False	False	single_class_CV_partition
+PF00773	RNB	RNB domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00781	DAGK_cat	Diacylglycerol kinase catalytic domain	4	2357	3	1087	False	False	insufficient_training_group_support
+PF00788	RA	Ras association (RalGDS/AF-6) domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00790	VHS	VHS domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00800	PDT	Prephenate dehydratase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00814	TsaD	tRNA N6-adenosine threonylcarbamoyltransferase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF00830	Ribosomal_L28	Ribosomal L28 family	16	2345	1	1089	False	False	insufficient_training_group_support
+PF00833	Ribosomal_S17e	Ribosomal S17	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00852	Glyco_transf_10	Glycosyltransferase family 10 (fucosyltransferase) C-term	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00877	NLPC_P60	NlpC/P60 family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00881	Nitroreductase	Nitroreductase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00884	Sulfatase	Sulfatase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF00890	FAD_binding_2	FAD binding domain	40	2321	22	1076	True	True	eligible
+PF00891	Methyltransf_2	O-methyltransferase domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF00899	ThiF	ThiF family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00903	Glyoxalase	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	6	2355	4	1086	False	False	insufficient_training_group_support
+PF00919	UPF0004	Uncharacterized protein family UPF0004	36	2325	1	1089	False	False	insufficient_training_group_support
+PF00920	ILVD_EDD	Dehydratase family	2	2359	1	1089	False	False	insufficient_training_group_support
+PF00925	GTP_cyclohydro2	GTP cyclohydrolase II	3	2358	2	1088	False	False	insufficient_training_group_support
+PF00926	DHBP_synthase	3,4-dihydroxy-2-butanone 4-phosphate synthase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00929	RNase_T	Exonuclease	0	2361	0	1090	False	False	insufficient_training_group_support
+PF00932	LTD	Lamin Tail Domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF00935	Ribosomal_L44	Ribosomal protein L44	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01008	IF-2B	Initiation factor 2 subunit family	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01011	PQQ	PQQ enzyme repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01015	Ribosomal_S3Ae	Ribosomal S3Ae family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01019	G_glu_transpept	Gamma-glutamyltranspeptidase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01020	Ribosomal_L40e	Ribosomal L40e family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01022	HTH_5	Bacterial regulatory protein, arsR family	2	2359	2	1089	False	False	insufficient_training_group_support
+PF01026	TatD_DNase	TatD related DNase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01047	MarR	MarR family	6	2355	3	1089	False	False	insufficient_training_group_support
+PF01053	Cys_Met_Meta_PP	Cys/Met metabolism PLP-dependent enzyme	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01068	DNA_ligase_A_M	ATP dependent DNA ligase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01077	NIR_SIR	Nitrite and sulphite reductase 4Fe-4S domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01090	Ribosomal_S19e	Ribosomal protein S19e	5	2356	1	1089	False	False	insufficient_training_group_support
+PF01092	Ribosomal_S6e	Ribosomal protein S6e	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01103	Omp85	Omp85 superfamily domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01132	EFP	Elongation factor P (EF-P) OB domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01134	GIDA	Glucose inhibited division protein A	13	2348	3	1088	False	False	insufficient_training_group_support
+PF01135	PCMT	Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)	3	2358	2	1089	False	False	insufficient_training_group_support
+PF01139	RtcB	tRNA-splicing ligase RtcB	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01163	RIO1	RIO1 family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01165	Ribosomal_S21	Ribosomal protein S21	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01170	UPF0020	RMKL-like, methyltransferase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01171	ATP_bind_3	PP-loop family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01172	SBDS	Shwachman-Bodian-Diamond syndrome (SBDS) protein 	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01200	Ribosomal_S28e	Ribosomal protein S28e	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01201	Ribosomal_S8e	Ribosomal protein S8e	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01205	UPF0029	Uncharacterized protein family UPF0029	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01208	URO-D	Uroporphyrinogen decarboxylase (URO-D)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01209	Ubie_methyltran	ubiE/COQ5 methyltransferase family	13	2348	8	1083	True	True	eligible
+PF01218	Coprogen_oxidas	Coproporphyrinogen III oxidase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01247	Ribosomal_L35Ae	Ribosomal protein L35Ae	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01248	Ribosomal_L7Ae	Ribosomal protein L7Ae/L30e/S12e/Gadd45 family	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01251	Ribosomal_S7e	Ribosomal protein S7e	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01261	AP_endonuc_2	Xylose isomerase-like TIM barrel	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01263	Aldose_epim	Aldose 1-epimerase	11	2350	1	1089	False	False	insufficient_training_group_support
+PF01264	Chorismate_synt	Chorismate synthase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01266	DAO	FAD dependent oxidoreductase	62	2299	24	1070	True	True	eligible
+PF01282	Ribosomal_S24e	Ribosomal protein S24e	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01323	DSBA	DSBA-like thioredoxin domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01336	tRNA_anti-codon	OB-fold nucleic acid binding domain	9	2352	3	1088	False	False	insufficient_training_group_support
+PF01343	Peptidase_S49	Peptidase family S49	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01368	DHH	DHH family	18	2343	1	1089	False	False	insufficient_training_group_support
+PF01370	Epimerase	NAD dependent epimerase/dehydratase family	2	2359	2	1089	False	False	insufficient_training_group_support
+PF01371	Trp_repressor	Trp repressor protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01380	SIS	SIS domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01381	HTH_3	Helix-turn-helix	6	2355	5	1085	False	False	single_class_CV_partition
+PF01385	OrfB_IS605	Probable transposase	18	2343	6	1084	True	True	eligible
+PF01387	Synuclein	Synuclein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01398	JAB	JAB1/Mov34/MPN/PAD-1 ubiquitin protease	2	2359	1	1090	False	False	insufficient_training_group_support
+PF01418	HTH_6	Helix-turn-helix domain, rpiR family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01429	MBD	Methyl-CpG binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01434	Peptidase_M41	Peptidase family M41	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01435	Peptidase_M48	Peptidase family M48	2	2359	2	1088	False	False	insufficient_training_group_support
+PF01436	NHL	NHL repeat	4	2357	1	1090	False	False	insufficient_training_group_support
+PF01459	Porin_3	Eukaryotic porin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01464	SLT	Transglycosylase SLT domain	9	2352	3	1087	False	False	insufficient_training_group_support
+PF01476	LysM	LysM domain	6	2355	1	1090	False	False	insufficient_training_group_support
+PF01488	Shikimate_DH	Shikimate / quinate 5-dehydrogenase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01494	FAD_binding_3	FAD binding domain	45	2316	17	1078	True	True	eligible
+PF01503	PRA-PH	Phosphoribosyl-ATP pyrophosphohydrolase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01512	Complex1_51K	Respiratory-chain NADH dehydrogenase 51 Kd subunit	8	2353	1	1089	False	False	insufficient_training_group_support
+PF01513	NAD_kinase	ATP-NAD kinase N-terminal domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF01519	DUF16	Protein of unknown function DUF16	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01521	Fe-S_biosyn	Iron-sulphur cluster biosynthesis	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01522	Polysacc_deac_1	Polysaccharide deacetylase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01531	Glyco_transf_11	Glycosyl transferase family 11	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01541	GIY-YIG	GIY-YIG catalytic domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF01546	Peptidase_M20	Peptidase family M20/M25/M40	13	2348	2	1088	False	False	insufficient_training_group_support
+PF01547	SBP_bac_1	Bacterial extracellular solute-binding protein	3	2358	3	1087	False	False	insufficient_training_group_support
+PF01564	Spermine_synth	Spermine/spermidine synthase domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01565	FAD_binding_4	FAD binding domain 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01575	MaoC_dehydratas	MaoC like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01582	TIR	TIR domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01583	APS_kinase	Adenylylsulphate kinase	1	2360	1	1090	False	False	insufficient_training_group_support
+PF01588	tRNA_bind	Putative tRNA binding domain	22	2339	2	1088	False	False	insufficient_training_group_support
+PF01593	Amino_oxidase	Flavin containing amine oxidoreductase	15	2346	10	1081	False	False	single_class_CV_partition
+PF01596	Methyltransf_3	O-methyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01609	DDE_Tnp_1	Transposase DDE domain	5	2356	1	1089	False	False	insufficient_training_group_support
+PF01627	Hpt	Hpt domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01629	DUF22	Domain of unknown function DUF22	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01633	Choline_kinase	Choline/ethanolamine kinase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01636	APH	Phosphotransferase enzyme family	27	2334	8	1083	False	False	single_class_CV_partition
+PF01637	ATPase_2	ATPase domain predominantly from Archaea	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01638	HxlR	HxlR-like helix-turn-helix	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01643	Acyl-ACP_TE	Acyl-ACP thioesterase N-terminal domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01656	CbiA	CobQ/CobB/MinD/ParA nucleotide binding domain	42	2319	6	1084	False	False	single_class_CV_partition
+PF01661	Macro	Macro domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01663	Phosphodiest	Type I phosphodiesterase / nucleotide pyrophosphatase	4	2357	2	1088	False	False	insufficient_training_group_support
+PF01695	IstB_IS21	IstB-like ATP binding protein	7	2354	4	1086	False	False	insufficient_training_group_support
+PF01717	Meth_synt_2	Cobalamin-independent synthase, Catalytic domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01730	UreF	UreF	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01755	Glyco_transf_25	Glycosyltransferase family 25 (LPS biosynthesis protein)	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01774	UreD	UreD urease accessory protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01775	Ribosomal_L18A	Ribosomal proteins 50S-L18Ae/60S-L20/60S-L18A	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01781	Ribosomal_L38e	Ribosomal L38e protein family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01782	RimM	RimM N-terminal domain	36	2325	1	1089	False	False	insufficient_training_group_support
+PF01784	DUF34_NIF3	Duf34/NIF3 (NGG1p interacting factor 3)	7	2354	2	1088	False	False	insufficient_training_group_support
+PF01796	OB_aCoA_assoc	DUF35 OB-fold domain, acyl-CoA-associated	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01798	Nop	snoRNA binding domain, fibrillarin	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01812	5-FTHF_cyc-lig	5-formyltetrahydrofolate cyclo-ligase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01813	ATP-synt_D	ATP synthase subunit D 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01832	Glucosaminidase	Mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01833	TIG	IPT/TIG domain	7	2354	1	1089	False	False	insufficient_training_group_support
+PF01841	Transglut_core	Transglutaminase-like superfamily	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01842	ACT	ACT domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01844	HNH	HNH endonuclease	8	2353	8	1082	True	True	eligible
+PF01850	PIN	PIN domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01852	START	START domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01863	YgjP-like	YgjP-like, metallopeptidase domain	8	2353	2	1088	False	False	insufficient_training_group_support
+PF01865	PhoU_div	Protein of unknown function DUF47	7	2354	3	1087	False	False	insufficient_training_group_support
+PF01866	Diphthamide_syn	Putative diphthamide synthesis protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01868	RNase_P-MRP_p29	Ribonuclease P/MRP, subunit p29	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01869	BcrAD_BadFG	BadF/BadG/BcrA/BcrD ATPase family	4	2357	2	1088	False	False	insufficient_training_group_support
+PF01871	AMMECR1	AMMECR1	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01875	Memo	Memo-like protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01878	EVE	EVE domain	6	2355	1	1089	False	False	insufficient_training_group_support
+PF01882	DUF58	Protein of unknown function DUF58	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01883	FeS_assembly_P	Iron-sulfur cluster assembly protein	16	2345	1	1090	False	False	insufficient_training_group_support
+PF01885	PTS_2-RNA	RNA 2'-phosphotransferase, Tpt1 / KptA family	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01893	UPF0058	Uncharacterised protein family UPF0058	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01894	UPF0047	Uncharacterised protein family UPF0047	12	2349	1	1089	False	False	insufficient_training_group_support
+PF01906	YbjQ_1	Putative heavy-metal-binding	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01910	Thiamine_BP	Thiamine-binding protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01912	eIF-6	eIF-6 family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01923	Cob_adeno_trans	Cobalamin adenosyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01926	MMR_HSR1	50S ribosome-binding GTPase	24	2337	3	1087	False	False	insufficient_training_group_support
+PF01927	Mut7-C	Mut7-C RNAse domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01928	CYTH	CYTH domain	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01930	Cas_Cas4	Domain of unknown function DUF83	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01933	CofD	2-phospho-L-lactate transferase CofD	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01934	HepT-like	Ribonuclease HepT-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01936	NYN	NYN domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01937	ARMT1-like_dom	Damage-control phosphatase ARMT1-like domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01938	TRAM	TRAM domain	24	2337	2	1089	False	False	insufficient_training_group_support
+PF01946	Thi4	Thi4 family	10	2351	6	1088	False	False	single_class_CV_partition
+PF01951	Archease	Archease protein family (MTH1598/TM1083)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01959	DHQS	3-dehydroquinate synthase II	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01960	ArgJ	ArgJ family	3	2358	1	1089	False	False	insufficient_training_group_support
+PF01965	DJ-1_PfpI	DJ-1/PfpI family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01966	HD	HD domain	27	2334	4	1087	False	False	insufficient_training_group_support
+PF01968	Hydantoinase_A	Hydantoinase/oxoprolinase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01972	SDH_sah	Serine dehydrogenase proteinase	1	2360	1	1090	False	False	insufficient_training_group_support
+PF01980	TrmO	tRNA-methyltransferase O	2	2359	1	1089	False	False	insufficient_training_group_support
+PF01986	DUF123	Domain of unknown function DUF123	0	2361	0	1090	False	False	insufficient_training_group_support
+PF01987	AIM24	Mitochondrial biogenesis AIM24	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01989	AcnX_swivel_put	Aconitase X swivel domain	4	2357	1	1089	False	False	insufficient_training_group_support
+PF01990	ATP-synt_F	ATP synthase (F/14-kDa) subunit	7	2354	3	1087	False	False	insufficient_training_group_support
+PF01996	F420_ligase	F420-0:Gamma-glutamyl ligase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF01997	Translin	Translin family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02027	RolB_RolC	RolB/RolC glucosidase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02049	FliE	Flagellar hook-basal body complex protein FliE	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02106	Fanconi_C	Fanconi anaemia group C protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02108	FliH	Flagellar assembly protein FliH	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02127	Peptidase_M18	Aminopeptidase I zinc metalloprotease (M18)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02173	pKID	pKID domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02190	LON_substr_bdg	ATP-dependent protease La (LON) substrate-binding domain 	3	2358	1	1089	False	False	insufficient_training_group_support
+PF02201	SWIB	SWIB/MDM2 domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF02254	TrkA_N	TrkA-N domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF02272	DHHA1	DHHA1 domain	16	2345	1	1090	False	False	insufficient_training_group_support
+PF02302	PTS_IIB	PTS system, Lactose/Cellobiose specific IIB subunit	2	2359	2	1088	False	False	insufficient_training_group_support
+PF02303	Phage_DNA_bind	Helix-destabilising protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02311	AraC_binding	AraC-like ligand binding domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF02342	TerD	TerD domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02348	CTP_transf_3	Cytidylyltransferase	3	2358	3	1087	False	False	insufficient_training_group_support
+PF02353	CMAS	Mycolic acid cyclopropane synthetase	3	2358	2	1088	False	False	insufficient_training_group_support
+PF02358	Trehalose_PPase	Trehalose-phosphatase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02367	TsaE	Threonylcarbamoyl adenosine biosynthesis protein TsaE	10	2351	2	1088	False	False	insufficient_training_group_support
+PF02374	ArsA_ATPase	Anion-transporting ATPase	20	2341	5	1087	False	False	single_class_CV_partition
+PF02393	US22	US22 like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02401	LYTB	LytB protein	3	2358	1	1089	False	False	insufficient_training_group_support
+PF02416	TatA_B_E	mttA/Hcf106 family	6	2355	1	1090	False	False	insufficient_training_group_support
+PF02421	FeoB_N	Ferrous iron transport protein B	11	2350	3	1088	False	False	insufficient_training_group_support
+PF02424	ApbE	ApbE family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02441	Flavoprotein	Flavoprotein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF02445	NadA	Quinolinate synthetase A protein	6	2355	1	1089	False	False	insufficient_training_group_support
+PF02470	MlaD	MlaD protein	13	2348	3	1087	False	False	insufficient_training_group_support
+PF02482	Ribosomal_S30AE	Sigma 54 modulation protein / S30EA ribosomal protein	17	2344	2	1088	False	False	insufficient_training_group_support
+PF02492	cobW	CobW/HypB/UreG, nucleotide-binding domain	5	2356	3	1087	False	False	insufficient_training_group_support
+PF02500	DNA_pack_N	Probable DNA packing protein, N-terminus 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02505	MCR_D	Methyl-coenzyme M reductase operon protein D	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02541	Ppx-GppA	Ppx/GppA phosphatase family	3	2358	2	1088	False	False	insufficient_training_group_support
+PF02548	Pantoate_transf	Ketopantoate hydroxymethyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02550	AcetylCoA_hydro	Acetyl-CoA hydrolase/transferase N-terminal domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF02582	DUF155	RMND1/Sif2-Sif3/Mrx10, DUF155	2	2359	2	1088	False	False	insufficient_training_group_support
+PF02586	SRAP	SOS response associated peptidase (SRAP)	7	2354	2	1088	False	False	insufficient_training_group_support
+PF02589	LUD_dom	LUD domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02590	SPOUT_MTase	Predicted SPOUT methyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02597	ThiS	ThiS family	2	2359	2	1088	False	False	insufficient_training_group_support
+PF02606	LpxK	Tetraacyldisaccharide-1-P 4'-kinase	13	2348	2	1088	False	False	insufficient_training_group_support
+PF02613	Nitrate_red_del	Nitrate reductase delta subunit	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02620	YceD	Large ribosomal RNA subunit accumulation protein YceD	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02622	DUF179	Uncharacterized ACR, COG1678	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02625	XdhC_CoxI	XdhC and CoxI family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02634	FdhD-NarQ	FdhD/NarQ family	3	2358	1	1089	False	False	insufficient_training_group_support
+PF02635	DsrE	DsrE/DsrF-like family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02636	Methyltransf_28	Putative S-adenosyl-L-methionine-dependent methyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02637	GatB_Yqey	GatB domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02639	DUF188	Uncharacterized BCR, YaiI/YqxD family COG1671	7	2354	1	1089	False	False	insufficient_training_group_support
+PF02661	Fic	Fic/DOC family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02666	PS_Dcarbxylase	Phosphatidylserine decarboxylase	14	2347	3	1087	False	False	insufficient_training_group_support
+PF02680	DUF211	Uncharacterized ArCR, COG1888	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02682	CT_C_D	Carboxyltransferase domain, subdomain C and D	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02697	VAPB_antitox	Putative antitoxin	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02698	DUF218	DUF218 domain	6	2355	3	1087	False	False	insufficient_training_group_support
+PF02709	Glyco_transf_7C	N-terminal domain of galactosyltransferase	1	2360	1	1090	False	False	insufficient_training_group_support
+PF02718	Herpes_UL31	Herpesvirus UL31-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02721	DUF223	Domain of unknown function DUF223	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02737	3HCDH_N	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02774	Semialdhyde_dhC	Semialdehyde dehydrogenase, dimerisation domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02798	GST_N	Glutathione S-transferase, N-terminal domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF02811	PHP	PHP domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02820	MBT	mbt repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02887	PK_C	Pyruvate kinase, alpha/beta domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02889	Sec63	Sec63 Brl domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02900	LigB	Catalytic LigB subunit of aromatic ring-opening dioxygenase	2	2359	1	1089	False	False	insufficient_training_group_support
+PF02913	FAD-oxidase_C	FAD linked oxidases, C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02915	Rubrerythrin	Rubrerythrin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02926	THUMP	THUMP domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02934	GatB_N	GatB/GatE catalytic domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF02952	Fucose_iso_C	L-fucose isomerase, C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02965	Met_synt_B12	Vitamin B12 dependent methionine synthase, activation domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02984	Cyclin_C	Cyclin, C-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF02994	Transposase_22	L1 transposable element RBD-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF02995	DUF229	Protein of unknown function (DUF229)	2	2359	1	1090	False	False	insufficient_training_group_support
+PF03008	DUF234	Archaea bacterial proteins of unknown function	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03009	GDPD	Glycerophosphoryl diester phosphodiesterase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03029	ATP_bind_1	Conserved hypothetical ATP binding protein	5	2356	2	1089	False	False	insufficient_training_group_support
+PF03038	Herpes_UL95	UL95 family	3	2358	1	1089	False	False	insufficient_training_group_support
+PF03045	DAN	DAN domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03048	Herpes_UL92	UL92 family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03055	RPE65	Retinal pigment epithelial membrane protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03061	4HBT	Thioesterase superfamily	29	2332	7	1083	False	False	single_class_CV_partition
+PF03069	FmdA_AmdA	Acetamidase/Formamidase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03070	TENA_THI-4	TENA/THI-4/PQQC family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03099	BPL_LplA_LipB	Biotin/lipoate A/B protein ligase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03109	ABC1	ABC1 atypical kinase-like domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF03180	Lipoprotein_9	NlpA lipoprotein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF03190	Thioredox_DsbH	Protein of unknown function, DUF255	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03193	RsgA_GTPase	RsgA GTPase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03232	COQ7	Ubiquinone biosynthesis protein COQ7	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03259	Robl_LC7	Roadblock/LC7 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03266	NTPase_1	NTPase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03278	IpaB_EvcA	IpaB/EvcA family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03279	Lip_A_acyltrans	Bacterial lipid A biosynthesis acyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03283	PAE	Pectinacetylesterase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03319	EutN_CcmL	Ethanolamine utilisation protein EutN/carboxysome	4	2357	1	1089	False	False	insufficient_training_group_support
+PF03321	GH3	GH3 auxin-responsive promoter	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03327	Herpes_VP19C	Herpesvirus capsid shell protein VP19C	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03328	HpcH_HpaI	HpcH/HpaI aldolase/citrate lyase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03331	LpxC	UDP-3-O-acyl N-acetylglycosamine deacetylase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03354	TerL_ATPase	Terminase large subunit, ATPase domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF03358	FMN_red	NADPH-dependent FMN reductase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03364	Polyketide_cyc	Polyketide cyclase / dehydrase and lipid transport	13	2348	6	1085	False	False	single_class_CV_partition
+PF03367	zf-ZPR1	ZPR1 zinc-finger domain	3	2358	1	1090	False	False	insufficient_training_group_support
+PF03371	PRP38	PRP38 family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03372	Exo_endo_phos	Endonuclease/Exonuclease/phosphatase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03400	DDE_Tnp_IS1	IS1 transposase	2	2359	2	1088	False	False	insufficient_training_group_support
+PF03401	TctC	Tripartite tricarboxylate transporter family receptor	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03415	Peptidase_C11	Clostripain family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03417	AAT	Acyl-coenzyme A:6-aminopenicillanic acid acyl-transferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03432	Relaxase	MobA/VirD2-like, nuclease domain	4	2357	1	1089	False	False	insufficient_training_group_support
+PF03437	BtpA	BtpA family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03446	NAD_binding_2	NAD binding domain of 6-phosphogluconate dehydrogenase	1	2360	1	1090	False	False	insufficient_training_group_support
+PF03460	NIR_SIR_ferr	Nitrite/Sulfite reductase ferredoxin-like half domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03473	MOSC	MOSC domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF03479	PCC	Plants and Prokaryotes Conserved (PCC) domain	8	2353	1	1089	False	False	insufficient_training_group_support
+PF03480	DctP	Bacterial extracellular solute-binding protein, family 7	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03527	RHS	RHS protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03575	Peptidase_S51	Peptidase family S51	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03577	Peptidase_C69	Peptidase family C69	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03592	Terminase_2	Terminase small subunit 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03666	NPR3	Nitrogen Permease regulator of amino acid transport activity 3	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03685	UPF0147	Uncharacterised protein family (UPF0147)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03690	UPF0160	Uncharacterised protein family (UPF0160)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03692	CxxCxxCC	Putative zinc- or iron-chelating domain	9	2352	8	1082	False	False	single_class_CV_partition
+PF03698	UPF0180	Uncharacterised protein family (UPF0180)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03724	META	META domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03737	RraA-like	Aldolase/RraA	2	2359	1	1089	False	False	insufficient_training_group_support
+PF03746	LamB_YcsF	LamB/YcsF family	7	2354	1	1089	False	False	insufficient_training_group_support
+PF03747	ADP_ribosyl_GH	ADP-ribosylglycohydrolase	4	2357	4	1086	False	False	insufficient_training_group_support
+PF03756	AfsA	A-factor biosynthesis hotdog domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03771	SPDY	Domain of unknown function (DUF317)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03780	Asp23	Asp23 family, cell envelope-related function	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03781	FGE-sulfatase	Sulfatase-modifying factor enzyme 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03796	DnaB_C	DnaB-like helicase C terminal domain	2	2359	1	1090	False	False	insufficient_training_group_support
+PF03798	TRAM_LAG1_CLN8	TLC domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03807	F420_oxidored	NADP oxidoreductase coenzyme F420-dependent	3	2358	2	1089	False	False	insufficient_training_group_support
+PF03819	MazG	MazG nucleotide pyrophosphohydrolase domain	3	2358	2	1088	False	False	insufficient_training_group_support
+PF03831	YjdM	PhnA domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF03843	Slp	Outer membrane lipoprotein Slp family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03848	TehB	Tellurite resistance protein TehB	13	2348	5	1086	False	False	single_class_CV_partition
+PF03860	DUF326	Domain of Unknown Function (DUF326) 	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03881	Fructosamin_kin	Fructosamine kinase	12	2349	1	1089	False	False	insufficient_training_group_support
+PF03882	KicB	MukF winged-helix domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03923	Lipoprotein_16	Uncharacterized lipoprotein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03928	HbpS-like	Haem degrading protein HbpS-like	2	2359	2	1088	False	False	insufficient_training_group_support
+PF03937	Sdh5	Flavinator of succinate dehydrogenase	3	2358	2	1088	False	False	insufficient_training_group_support
+PF03946	Ribosomal_L11_N	Ribosomal protein L11, N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03961	FapA	Flagellar Assembly Protein A beta solenoid domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03963	FlgD	Flagellar hook capping protein - N-terminal region	0	2361	0	1090	False	False	insufficient_training_group_support
+PF03966	Trm112p	Trm112p-like protein	16	2345	3	1088	False	False	insufficient_training_group_support
+PF03969	AFG1_ATPase	AFG1-like ATPase	7	2354	2	1088	False	False	insufficient_training_group_support
+PF03981	Ubiq_cyt_C_chap	Ubiquinol-cytochrome C chaperone 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03992	ABM	Antibiotic biosynthesis monooxygenase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF03998	Utp11	Utp11 protein	2	2359	2	1088	False	False	insufficient_training_group_support
+PF04012	PspA_IM30	PspA/IM30 family	14	2347	1	1089	False	False	insufficient_training_group_support
+PF04023	FeoA	FeoA domain	4	2357	2	1088	False	False	insufficient_training_group_support
+PF04026	SpoVG	SpoVG	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04028	DUF374	Domain of unknown function (DUF374)	2	2359	2	1088	False	False	insufficient_training_group_support
+PF04030	ALO	D-arabinono-1,4-lactone oxidase 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04034	Ribo_biogen_C	Ribosome biogenesis protein, C-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04055	Radical_SAM	Radical SAM superfamily	52	2309	11	1080	True	True	eligible
+PF04069	OpuAC	Substrate binding domain of ABC-type glycine betaine transport system	4	2357	3	1087	False	False	insufficient_training_group_support
+PF04071	zf-like	Cysteine-rich small domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF04095	NAPRTase	Nicotinate phosphoribosyltransferase (NAPRTase) family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04098	Rad52_Rad22	Rad52/22 family double-strand break repair protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04101	Glyco_tran_28_C	Glycosyltransferase family 28 C-terminal domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF04104	DNA_primase_lrg	Eukaryotic and archaeal DNA primase, large subunit	2	2359	2	1088	False	False	insufficient_training_group_support
+PF04106	ATG5_UblB	Autophagy protein ATG5, UblB domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04115	Ureidogly_lyase	Ureidoglycolate lyase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04127	DFP	DNA / pantothenate metabolism flavoprotein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04130	GCP_C_terminal	Gamma tubulin complex component C-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04134	DCC1-like	DCC1-like thiol-disulfide oxidoreductase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04139	Rad9	Rad9	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04175	DUF406	Protein of unknown function (DUF406) 	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04199	Cyclase	Putative cyclase	4	2357	1	1089	False	False	insufficient_training_group_support
+PF04204	HTS	Homoserine O-succinyltransferase 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04223	CitF	Citrate lyase, alpha subunit (CitF)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04237	YjbR	YjbR	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04245	NA37	37-kD nucleoid-associated bacterial protein	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04252	SFM1-like	Protein arginine N-methyltransferase SFM1-like	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04263	TPK_catalytic	Thiamin pyrophosphokinase, catalytic domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04265	TPK_B1_binding	Thiamin pyrophosphokinase, vitamin B1 binding domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04266	ASCH	ASCH domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF04280	Tim44	Tim44-like domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04285	DUF444	Protein of unknown function (DUF444)	6	2355	1	1089	False	False	insufficient_training_group_support
+PF04287	DUF446	tRNA pseudouridine synthase C	2	2359	1	1089	False	False	insufficient_training_group_support
+PF04288	MukE	MukE-like family	5	2356	1	1089	False	False	insufficient_training_group_support
+PF04289	DUF447_N	Protein of unknown function (DUF447) N-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04303	PrpF	PrpF protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04305	DUF455	Protein of unknown function (DUF455)	4	2357	1	1089	False	False	insufficient_training_group_support
+PF04324	Fer2_BFD	BFD-like [2Fe-2S] binding domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF04326	SLFN_AlbA_2	Schlafen, AlbA_2	8	2353	6	1084	False	False	single_class_CV_partition
+PF04333	MlaA	MlaA lipoprotein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04340	DUF484	Protein of unknown function, DUF484	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04343	DUF488	Domain of unknown function DUF488	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04347	FliO	Flagellar biosynthesis protein, FliO	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04363	DUF496	Protein of unknown function (DUF496)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04367	DUF502	Protein of unknown function (DUF502)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04371	PAD_porph	Porphyromonas-type peptidyl-arginine deiminase	7	2354	2	1088	False	False	insufficient_training_group_support
+PF04376	ATE_N	Arginine-tRNA-protein transferase, N terminus	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04377	ATE_C	Arginine-tRNA-protein transferase, C terminus	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04379	DUF525	ApaG domain 	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04386	SspB	Stringent starvation protein B	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04390	LptE	Lipopolysaccharide-assembly	16	2345	2	1088	False	False	insufficient_training_group_support
+PF04397	LytTR	LytTr DNA-binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04402	SIMPL	Protein of unknown function (DUF541)	16	2345	2	1088	False	False	insufficient_training_group_support
+PF04410	Gar1	Gar1/Naf1 RNA binding region	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04413	Glycos_transf_N	3-Deoxy-D-manno-octulosonic-acid transferase (kdotransferase)	8	2353	3	1087	False	False	insufficient_training_group_support
+PF04422	FrhB_FdhB_N	Coenzyme F420 hydrogenase/dehydrogenase, beta subunit N-term	9	2352	3	1087	False	False	insufficient_training_group_support
+PF04430	DUF498	Protein of unknown function (DUF498/DUF598)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04432	FrhB_FdhB_C	Coenzyme F420 hydrogenase/dehydrogenase, beta subunit C terminus	10	2351	4	1086	False	False	insufficient_training_group_support
+PF04437	RINT1_TIP1	RINT-1/TIP-1 family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04445	SAM_MT	Putative SAM-dependent methyltransferase	12	2349	1	1089	False	False	insufficient_training_group_support
+PF04446	Thg1	tRNAHis guanylyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04455	Saccharop_dh_N	LOR/SDH bifunctional enzyme conserved region 	2	2359	1	1089	False	False	insufficient_training_group_support
+PF04468	PSP1	PSP1 C-terminal conserved region	6	2355	2	1088	False	False	insufficient_training_group_support
+PF04472	SepF	Cell division protein SepF	7	2354	2	1088	False	False	insufficient_training_group_support
+PF04488	Gly_transf_sug	Glycosyltransferase sugar-binding region containing DXD motif   	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04536	TPM_phosphatase	TPM domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04538	BEX	Brain expressed X-linked like family 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04551	GcpE	GcpE protein	4	2357	1	1089	False	False	insufficient_training_group_support
+PF04577	Glyco_transf_61	Glycosyltransferase 61	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04609	MCR_C	Methyl-coenzyme M reductase operon protein C	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04670	Gtr1_RagA	Gtr1/RagA G protein conserved region	3	2358	2	1089	False	False	insufficient_training_group_support
+PF04676	CwfJ_C_2	Protein similar to CwfJ C-terminus 2	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04677	CwfJ_C_1	Protein similar to CwfJ C-terminus 1	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04679	DNA_ligase_A_C	ATP dependent DNA ligase C terminal region        	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04682	Herpes_BTRF1	Herpesvirus BTRF1 protein conserved region	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04703	FaeA	FaeA-like protein	1	2360	1	1090	False	False	insufficient_training_group_support
+PF04752	ChaC	ChaC-like protein	7	2354	1	1089	False	False	insufficient_training_group_support
+PF04784	DUF547	Protein of unknown function, DUF547	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04820	Trp_halogenase	Tryptophan halogenase	5	2356	4	1087	False	False	insufficient_training_group_support
+PF04828	GFA	Glutathione-dependent formaldehyde-activating enzyme	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04847	Calcipressin	Calcipressin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04857	CAF1	CAF1 family ribonuclease	0	2361	0	1090	False	False	insufficient_training_group_support
+PF04877	Harpin	HrpZ	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04883	HK97-gp10_like	Bacteriophage HK97-gp10, putative tail-component	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04909	Amidohydro_2	Amidohydrolase	11	2350	7	1083	True	True	eligible
+PF04914	DltD	DltD protein	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04952	AstE_AspA	Succinylglutamate desuccinylase / Aspartoacylase family	4	2357	1	1089	False	False	insufficient_training_group_support
+PF04957	RMF	Ribosome modulation factor	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04960	Glutaminase	Glutaminase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04977	DivIC	Septum formation initiator	1	2360	1	1089	False	False	insufficient_training_group_support
+PF04981	NMD3	NMD3 family 	3	2358	1	1089	False	False	insufficient_training_group_support
+PF04984	Phage_sheath_1	Phage tail sheath protein subtilisin-like domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF04991	LicD	LicD family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05005	Ocnus	Janus/Ocnus family (Ocnus)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05018	CFA20_dom	CFA20 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05041	Pecanex_C	Pecanex protein (C-terminus)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05063	MT-A70	MT-A70 	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05071	NDUFA12	NADH ubiquinone oxidoreductase subunit NDUFA12	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05076	SUFU	Suppressor of fused protein (SUFU)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05082	Rop-like	Rop-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05083	LST1	LST-1 protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05116	S6PP	Sucrose-6F-phosphate phosphohydrolase	1	2360	1	1090	False	False	insufficient_training_group_support
+PF05130	FlgN	FlgN protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05135	Phage_connect_1	Phage gp6-like head-tail connector protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05139	Erythro_esteras	Erythromycin esterase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05144	Phage_CRI	Phage replication protein CRI  	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05148	Methyltransf_8	Hypothetical methyltransferase	3	2358	1	1090	False	False	insufficient_training_group_support
+PF05155	Phage_X	Phage X family   	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05163	DinB	DinB family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05171	HemS	Haemin-degrading HemS.ChuX domain	3	2358	1	1090	False	False	insufficient_training_group_support
+PF05175	MTS	Methyltransferase small domain	14	2347	8	1083	True	True	eligible
+PF05199	GMC_oxred_C	GMC oxidoreductase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05207	zf-CSL	CSL zinc finger	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05238	CENP-N	Kinetochore protein CHL4 like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05239	PRC	PRC-barrel domain	36	2325	3	1088	False	False	insufficient_training_group_support
+PF05240	APOBEC_C	APOBEC-like C-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05257	CHAP	CHAP domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05345	He_PIG	Putative Ig domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05362	Lon_C	Lon protease (S16) C-terminal proteolytic domain	3	2358	2	1089	False	False	insufficient_training_group_support
+PF05368	NmrA	NmrA-like family	2	2359	2	1089	False	False	insufficient_training_group_support
+PF05401	NodS	Nodulation protein S (NodS)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05406	WGR	WGR domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF05456	eIF_4EBP	Eukaryotic translation initiation factor 4E binding protein (EIF4EBP)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05463	Sclerostin	Sclerostin (SOST)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05494	MlaC	MlaC protein	12	2349	3	1087	False	False	insufficient_training_group_support
+PF05504	Spore_GerAC	Spore germination B3/ GerAC like, C-terminal 	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05523	FdtA	WxcM-like, C-terminal 	2	2359	2	1088	False	False	insufficient_training_group_support
+PF05544	Pro_racemase	Proline racemase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05556	Calsarcin	Calcineurin-binding protein (Calsarcin)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05595	DUF771	Domain of unknown function (DUF771) 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05598	DUF772	Transposase domain (DUF772)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05603	Hikeshi-like_N	Hikeshi-like, N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05635	23S_rRNA_IVP	23S rRNA-intervening sequence protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05673	DUF815	Protein of unknown function (DUF815)	5	2356	2	1088	False	False	insufficient_training_group_support
+PF05686	Glyco_transf_90	Glycosyl transferase family 90	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05704	Caps_synth	Capsular polysaccharide synthesis protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05719	GPP34	Golgi phosphoprotein 3 (GPP34)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05721	PhyH	Phytanoyl-CoA dioxygenase (PhyH)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05724	TPMT	Thiopurine S-methyltransferase (TPMT)	2	2359	2	1088	False	False	insufficient_training_group_support
+PF05761	5_nucleotid	5' nucleotidase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05787	PhoX	Alkaline phosphatase PhoX	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05800	GvpO	Gas vesicle synthesis protein GvpO	2	2359	2	1088	False	False	insufficient_training_group_support
+PF05812	Herpes_BLRF2	Herpesvirus BLRF2 protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05834	Lycopene_cycl	Lycopene cyclase protein	4	2357	2	1089	False	False	insufficient_training_group_support
+PF05891	Methyltransf_PK	AdoMet dependent proline di-methyltransferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05896	NQRA	Na(+)-translocating NADH-quinone reductase subunit A (NQRA)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF05899	Cupin_3	EutQ-like cupin domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05908	Gamma_PGA_hydro	Poly-gamma-glutamate hydrolase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF05914	RIB43A	RIB43A	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05916	Sld5	GINS complex protein helical bundle domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05935	Arylsulfotrans	Arylsulfotransferase (ASST)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05971	Methyltransf_10	RNA methyltransferase	2	2359	1	1089	False	False	insufficient_training_group_support
+PF05979	DUF896	Bacterial protein of unknown function (DUF896)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF05991	NYN_YacP	YacP-like NYN domain	5	2356	1	1089	False	False	insufficient_training_group_support
+PF05995	CDO_I	Cysteine dioxygenase type I	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06006	DUF905	Bacterial protein of unknown function (DUF905)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06013	WXG100	Proteins of 100 residues with WXG	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06032	DUF917	Protein of unknown function (DUF917), N-terminal	5	2356	2	1088	False	False	insufficient_training_group_support
+PF06039	Mqo	Malate:quinone oxidoreductase (Mqo)	5	2356	2	1088	False	False	insufficient_training_group_support
+PF06057	VirJ	Bacterial virulence protein (VirJ)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06062	UPF0231	Uncharacterised protein family (UPF0231)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06080	DUF938	Protein of unknown function (DUF938)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF06094	GGACT	Gamma-glutamyl cyclotransferase, AIG2-like	4	2357	4	1087	False	False	insufficient_training_group_support
+PF06106	SAUGI	S. aureus uracil DNA glycosylase inhibitor	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06107	DUF951	Bacterial protein of unknown function (DUF951)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06108	DUF952	Protein of unknown function (DUF952)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF06124	DUF960	Staphylococcal protein of unknown function (DUF960)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06125	DUF961	Bacterial protein of unknown function (DUF961)	5	2356	1	1089	False	False	insufficient_training_group_support
+PF06133	Com_YlbF	Control of competence regulator ComK, YlbF/YmcA	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06154	CbeA_antitoxin	CbeA_antitoxin, type IV, cytoskeleton bundling-enhancing factor A	6	2355	1	1089	False	False	insufficient_training_group_support
+PF06172	Cupin_5	Cupin superfamily (DUF985)	8	2353	1	1089	False	False	insufficient_training_group_support
+PF06174	DUF987	Protein of unknown function (DUF987)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06176	WaaY	Lipopolysaccharide core biosynthesis protein (WaaY)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06189	5-nucleotidase	5'-nucleotidase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06194	Phage_Orf51	Phage Conserved Open Reading Frame 51	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06224	AlkZ-like	DNA glycosylase AlkZ-like	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06228	ChuX_HutX	Haem utilisation ChuX/HutX	5	2356	1	1089	False	False	insufficient_training_group_support
+PF06229	FRG1	FRG1-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06242	TrcR	Transcriptional cell cycle regulator TrcR	4	2357	1	1089	False	False	insufficient_training_group_support
+PF06257	VEG	Biofilm formation stimulator VEG	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06265	YutD-like	Putative antitoxin YutD-like	2	2359	2	1088	False	False	insufficient_training_group_support
+PF06279	DUF1033	Protein of unknown function (DUF1033)	5	2356	1	1089	False	False	insufficient_training_group_support
+PF06289	FlbD	Flagellar and Swarming motility proteins	3	2358	1	1089	False	False	insufficient_training_group_support
+PF06293	Kdo	Lipopolysaccharide kinase (Kdo/WaaP) family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06295	ZapG-like	Z-ring associated protein G-like	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06303	MatP	MatP N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06325	PrmA	Ribosomal protein L11 methyltransferase (PrmA)	5	2356	3	1088	False	False	insufficient_training_group_support
+PF06331	Tfb5	Transcription factor TFIIH complex subunit Tfb5	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06335	DUF1054	Protein of unknown function (DUF1054)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06407	BDV_P40	Borna disease virus P40 protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06414	Zeta_toxin	Zeta toxin	5	2356	3	1088	False	False	insufficient_training_group_support
+PF06445	GyrI-like	GyrI-like small molecule binding domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06474	MLTD_N	MltD lipid attachment motif	1	2360	1	1090	False	False	insufficient_training_group_support
+PF06476	DUF1090	Protein of unknown function (DUF1090)	8	2353	1	1089	False	False	insufficient_training_group_support
+PF06486	DUF1093	Protein of unknown function (DUF1093)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF06491	Disulph_isomer	Disulphide isomerase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06511	T3SS_TC	Type III secretion systems tip complex components	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06524	NOA36	NOA36 protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06530	Phage_antitermQ	Phage antitermination protein Q	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06627	DUF1153	Protein of unknown function (DUF1153)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF06707	DUF1194	Protein of unknown function (DUF1194)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06722	EryCIII-like_C	Erythromycin biosynthesis protein CIII-like, C-terminal domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF06742	DUF1214	Protein of unknown function (DUF1214)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06745	ATPase	KaiC	8	2353	2	1088	False	False	insufficient_training_group_support
+PF06748	DUF1217	Protein of unknown function (DUF1217)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06767	Sif	Sif protein	2	2359	2	1088	False	False	insufficient_training_group_support
+PF06784	UPF0240	Uncharacterised protein family (UPF0240)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06806	DUF1233	Putative excisionase (DUF1233)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06821	Ser_hydrolase	Serine hydrolase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06824	Glyco_hydro_125	Metal-independent alpha-mannosidase (GH125)	5	2356	1	1089	False	False	insufficient_training_group_support
+PF06834	TraU	TraU protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06838	Met_gamma_lyase	Methionine gamma-lyase 	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06855	YozE_SAM_like	YozE SAM-like fold	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06858	NOG1	Nucleolar GTP-binding protein 1 (NOG1)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF06863	DUF1254	Protein of unknown function (DUF1254)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06884	DUF1264	Protein of unknown function (DUF1264)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06894	Phage_TAC_2	Bacteriophage lambda tail assembly chaperone, TAC, protein G	0	2361	0	1090	False	False	insufficient_training_group_support
+PF06903	VirK	VirK protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06925	MGDG_synth	Monogalactosyldiacylglycerol (MGDG) synthase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06932	DUF1283	Protein of unknown function (DUF1283)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06949	DUF1292	Protein of unknown function (DUF1292)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF06968	BATS	Biotin and Thiamin Synthesis associated domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF06999	Suc_Fer-like	Sucrase/ferredoxin-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07002	Copine	Copine	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07015	VirC1	VirC1 protein	2	2359	1	1090	False	False	insufficient_training_group_support
+PF07021	MetW	Methionine biosynthesis protein MetW	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07023	DUF1315	Protein of unknown function (DUF1315)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07024	ImpE	ImpE protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07041	DUF1327	Protein of unknown function (DUF1327)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07051	OCIA	Ovarian carcinoma immunoreactive antigen (OCIA)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07063	HGLS	2-oxoadipate dioxygenase/decarboxylase	2	2359	1	1089	False	False	insufficient_training_group_support
+PF07085	DRTGG	DRTGG domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07129	DUF1381	Protein of unknown function (DUF1381)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07159	CYRIA-B_Rac1-bd	CYRIA/CYRIB Rac1 binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07166	DUF1398	Protein of unknown function (DUF1398)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07191	zinc-ribbons_6	zinc-ribbons	6	2355	1	1089	False	False	insufficient_training_group_support
+PF07205	DUF1413	Domain of unknown function (DUF1413)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07208	DUF1414	Protein of unknown function (DUF1414)	5	2356	1	1089	False	False	insufficient_training_group_support
+PF07216	LcrG	LcrG protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07233	DUF1425	Protein of unknown function (DUF1425)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF07244	POTRA	Surface antigen variable number repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07252	DUF1433	Protein of unknown function (DUF1433)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07258	COMM_domain	COMM domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF07273	DUF1439	Protein of unknown function (DUF1439)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07282	OrfB_Zn_ribbon	Putative transposase DNA-binding domain	28	2333	14	1077	True	True	eligible
+PF07283	TrbH	Conjugal transfer protein TrbH	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07286	D-Glu_cyclase	D-glutamate cyclase	3	2358	1	1089	False	False	insufficient_training_group_support
+PF07292	NID	Nmi/IFP 35 domain (NID)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07303	Occludin_ELL	Occludin homology domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07319	DnaI_N	Primosomal protein DnaI N-terminus	2	2359	1	1089	False	False	insufficient_training_group_support
+PF07321	YscO	Type III secretion protein YscO	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07334	IFP_35_N	Interferon-induced 35 kDa protein (IFP 35) N-terminus	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07338	YdgH_BhsA-like	YdgH/BhsA/McbA-like domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07357	DRAT	Dinitrogenase reductase ADP-ribosyltransferase (DRAT)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07383	DUF1496	Protein of unknown function (DUF1496)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07411	DUF1508	Domain of unknown function (DUF1508)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07449	HyaE	Hydrogenase-1 expression protein HyaE	2	2359	1	1089	False	False	insufficient_training_group_support
+PF07458	SPAN-X	Sperm protein associated with nucleus, mapped to X chromosome	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07528	DZF_N	DZF N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07537	CamS	CamS sex pheromone cAM373 precursor	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07542	ATP12	ATP12 chaperone protein	3	2358	1	1089	False	False	insufficient_training_group_support
+PF07545	Vg_Tdu	Vestigial/Tondu family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07563	DUF1541	Protein of unknown function (DUF1541)	3	2358	1	1089	False	False	insufficient_training_group_support
+PF07661	MORN_2	MORN repeat variant	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07683	CobW_C	Cobalamin synthesis protein cobW C-terminal domain	3	2358	2	1088	False	False	insufficient_training_group_support
+PF07685	GATase_3	CobB/CobQ-like glutamine amidotransferase domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07687	M20_dimer	Peptidase dimerisation domain	13	2348	2	1088	False	False	insufficient_training_group_support
+PF07693	KAP_NTPase	KAP family P-loop domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07700	HNOB	Haem-NO-binding	2	2359	1	1089	False	False	insufficient_training_group_support
+PF07716	bZIP_2	Basic region leucine zipper	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07717	OB_NTP_bind	Oligonucleotide/oligosaccharide-binding (OB)-fold	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07719	TPR_2	Tetratricopeptide repeat	6	2355	5	1086	False	False	single_class_CV_partition
+PF07720	TPR_3	Tetratricopeptide repeat	5	2356	1	1090	False	False	insufficient_training_group_support
+PF07721	TPR_4	Tetratricopeptide repeat	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07726	AAA_3	ATPase family associated with various cellular activities (AAA)	2	2359	2	1089	False	False	insufficient_training_group_support
+PF07728	AAA_5	AAA domain (dynein-related subfamily)	19	2342	10	1081	True	True	eligible
+PF07750	GcrA	GcrA cell cycle regulator	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07754	HVO_2753_ZBP	Small zinc finger protein HVO_2753-like, Zn-binding pocket	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07796	DUF1638	Protein of unknown function (DUF1638)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF07813	LTXXQ	LTXXQ motif family protein	4	2357	3	1087	False	False	insufficient_training_group_support
+PF07820	TraC	TraC-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07855	ATG101	Autophagy-related protein 101	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07859	Abhydrolase_3	alpha/beta hydrolase fold	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07883	Cupin_2	Cupin domain	3	2358	3	1087	False	False	insufficient_training_group_support
+PF07896	DUF1674	Protein of unknown function (DUF1674)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07901	DUF1672	Protein of unknown function (DUF1672)	5	2356	1	1089	False	False	insufficient_training_group_support
+PF07919	Gryzun	Gryzun, putative trafficking through Golgi	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07920	DUF1684	Protein of unknown function (DUF1684)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07922	Glyco_transf_52	Glycosyltransferase family 52	0	2361	0	1090	False	False	insufficient_training_group_support
+PF07929	PRiA4_ORF3	Plasmid pRiA4b ORF-3-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07931	CPT	Chloramphenicol phosphotransferase-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07949	YbbR	YbbR-like protein	3	2358	2	1088	False	False	insufficient_training_group_support
+PF07958	DUF1688	Protein of unknown function (DUF1688)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF07977	FabA	FabA-like domain	4	2357	3	1088	False	False	insufficient_training_group_support
+PF07978	NIPSNAP	NIPSNAP 	2	2359	2	1088	False	False	insufficient_training_group_support
+PF07992	Pyr_redox_2	Pyridine nucleotide-disulphide oxidoreductase	32	2329	14	1080	False	False	single_class_CV_partition
+PF07995	GSDH	Glucose / Sorbosone dehydrogenase	4	2357	1	1089	False	False	insufficient_training_group_support
+PF07998	Peptidase_M54	Peptidase family M54	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08000	bPH_1	Bacterial PH domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08003	Methyltransf_9	Protein of unknown function (DUF1698)	2	2359	2	1089	False	False	insufficient_training_group_support
+PF08010	Phage_30_3	Bacteriophage protein GP30.3	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08014	MATCAP	Microtubule-associated tyrosine carboxypeptidase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08020	DUF1706	Protein of unknown function (DUF1706)   	6	2355	3	1087	False	False	insufficient_training_group_support
+PF08123	DOT1	Histone methylation protein DOT1 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08207	EFP_N	Elongation factor P (EF-P) KOW-like domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF08210	APOBEC_N	APOBEC-like N-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08216	CTNNBL	Catenin-beta-like, Arm-motif containing nuclear	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08220	HTH_DeoR	DeoR-like helix-turn-helix domain	57	2304	2	1089	False	False	insufficient_training_group_support
+PF08238	Sel1	Sel1 repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08241	Methyltransf_11	Methyltransferase domain	34	2327	17	1073	True	True	eligible
+PF08242	Methyltransf_12	Methyltransferase domain	26	2335	15	1078	True	True	eligible
+PF08244	Glyco_hydro_32C	Glycosyl hydrolases family 32 C terminal	2	2359	1	1089	False	False	insufficient_training_group_support
+PF08274	YjdM_Zn_Ribbon	PhnA Zinc-Ribbon 	2	2359	1	1090	False	False	insufficient_training_group_support
+PF08279	HTH_11	HTH domain	40	2321	2	1089	False	False	insufficient_training_group_support
+PF08280	HTH_Mga	M protein trans-acting positive regulator (MGA) HTH domain	3	2358	1	1090	False	False	insufficient_training_group_support
+PF08282	Hydrolase_3	haloacid dehalogenase-like hydrolase	3	2358	2	1088	False	False	insufficient_training_group_support
+PF08299	Bac_DnaA_C	Bacterial dnaA protein helix-turn-helix	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08327	AHSA1	Activator of Hsp90 ATPase homolog 1-like protein	12	2349	7	1083	False	False	single_class_CV_partition
+PF08338	DUF1731	Domain of unknown function (DUF1731)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08388	GIIM	Group II intron, maturase-specific domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF08406	CbbQ_C	CbbQ/NirQ/NorQ C-terminal 	3	2358	1	1089	False	False	insufficient_training_group_support
+PF08445	FR47	FR47-like protein	2	2359	2	1089	False	False	insufficient_training_group_support
+PF08450	SGL	SMP-30/Gluconolactonase/LRE-like region	5	2356	3	1088	False	False	insufficient_training_group_support
+PF08460	SH3_5	Bacterial SH3 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08477	Roc	Ras of Complex, Roc, domain of DAPkinase	2	2359	2	1088	False	False	insufficient_training_group_support
+PF08489	DUF1743	Domain of unknown function (DUF1743)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08491	SE	Squalene epoxidase	7	2354	1	1090	False	False	insufficient_training_group_support
+PF08496	Peptidase_S49_N	Peptidase family S49 N-terminal	3	2358	1	1089	False	False	insufficient_training_group_support
+PF08499	PDEase_I_N	3'5'-cyclic nucleotide phosphodiesterase N-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08529	NusA_N	NusA N-terminal domain	4	2357	2	1088	False	False	insufficient_training_group_support
+PF08534	Redoxin	Redoxin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08545	ACP_syn_III	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08608	Wyosine_form	Wyosine base formation	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08645	PNK3P	Polynucleotide kinase 3 phosphatase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08659	KR	KR domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08662	eIF2A	Eukaryotic translation initiation factor eIF2A	3	2358	1	1089	False	False	insufficient_training_group_support
+PF08695	Coa1	Cytochrome oxidase complex assembly protein 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08699	ArgoL1	Argonaute linker 1 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08706	D5_N	D5 N terminal like	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08712	Nfu_N	Scaffold protein Nfu/NifU N terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08722	Tn7_TnsA-like_N	TnsA-like endonuclease N terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08761	dUTPase_2	dUTPase	1	2360	1	1090	False	False	insufficient_training_group_support
+PF08768	THAP4_heme-bd	THAP4-like, heme-binding beta-barrel domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF08776	VASP_tetra	VASP tetramerisation domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF08796	DUF1797	Protein of unknown function (DUF1797)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08797	HIRAN	HIRAN domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF08812	YtxC	YtxC-like family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08840	BAAT_C	BAAT / Acyl-CoA thioester hydrolase C terminal	0	2361	0	1090	False	False	insufficient_training_group_support
+PF08923	MAPKK1_Int	Mitogen-activated protein kinase kinase 1 interacting	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08925	DUF1907	Domain of Unknown Function (DUF1907)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF08933	PrnB	Monodechloroaminopyrrolnitrin synthase PrnB	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08939	Bles03	Basophilic leukemia-expressed protein Bles03	1	2360	1	1089	False	False	insufficient_training_group_support
+PF08984	DUF1858	Domain of unknown function (DUF1858)	2	2359	1	1089	False	False	insufficient_training_group_support
+PF09011	HMG_box_2	HMG-box domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09084	NMT1	NMT1/THI5 like	3	2358	3	1087	False	False	insufficient_training_group_support
+PF09140	MipZ	ATPase MipZ	29	2332	2	1090	False	False	insufficient_training_group_support
+PF09229	Aha1_N	Activator of Hsp90 ATPase, N-terminal	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09234	DUF1963	Domain of unknown function (DUF1963)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09284	RhgB_N	Rhamnogalacturonan lyase B, N-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09285	Elong-fact-P_C	Elongation factor P, C-terminal	3	2358	1	1089	False	False	insufficient_training_group_support
+PF09313	DUF1971	Domain of unknown function (DUF1971)	4	2357	1	1089	False	False	insufficient_training_group_support
+PF09337	zf-H2C2	H2C2 zinc finger	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09339	HTH_IclR	IclR helix-turn-helix domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF09347	DUF1989	Domain of unknown function (DUF1989)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09350	DJC28_CD	DnaJ homologue, subfamily C, member 28, conserved domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09367	CpeS	CpeS-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09375	Peptidase_M75	Imelysin	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09377	SBDS_domain_II	SBDS protein, domain II	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09388	SpoOE-like	Spo0E like sporulation regulatory protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09393	DUF2001	Phage tail tube protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09400	DUF2002	Protein of unknown function (DUF2002)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09415	CENP-X	CENP-S associating Centromere protein X	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09466	Yqai	Hypothetical protein Yqai	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09467	Yopt	Hypothetical protein Yopt	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09557	DUF2382	Domain of unknown function (DUF2382)	2	2359	2	1088	False	False	insufficient_training_group_support
+PF09579	Spore_YtfJ	Sporulation protein YtfJ (Spore_YtfJ)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09580	Spore_YhcN_YlaJ	Sporulation lipoprotein YhcN/YlaJ (Spore_YhcN_YlaJ)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09619	YscW	Type III secretion system lipoprotein chaperone (YscW)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09636	XkdW	XkdW protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09637	Med18	Med18 protein	2	2359	1	1089	False	False	insufficient_training_group_support
+PF09639	YjcQ	YjcQ protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09642	YonK	YonK protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09643	YopX	YopX protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09693	Phage_XkdX	Phage uncharacterised protein (Phage_XkdX)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09806	CDK2AP	Cyclin-dependent kinase 2-associated protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09848	SLFN-g3_helicase	Schlafen group 3, DNA/RNA helicase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09905	VF530	DNA-binding protein VF530	12	2349	2	1088	False	False	insufficient_training_group_support
+PF09906	DUF2135	Uncharacterized protein conserved in bacteria (DUF2135)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09926	DUF2158	Uncharacterized small protein (DUF2158)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF09949	APP1_cat	Phosphatidate phosphatase APP1, catalytic domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09953	DUF2187	Uncharacterized protein conserved in bacteria (DUF2187)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF09963	DUF2197	Uncharacterized protein conserved in bacteria (DUF2197)	2	2359	2	1088	False	False	insufficient_training_group_support
+PF09994	T6SS_Tle1-like_cat	T6SS, Phospholipase effector Tle1-like, catalytic domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF10006	DUF2249	Uncharacterized conserved protein (DUF2249)	1	2360	1	1090	False	False	insufficient_training_group_support
+PF10057	MpsC	Na+-translocating membrane potential-generating system (MpsC)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF10111	Glyco_tranf_2_2	Glycosyltransferase like family 2	19	2342	12	1079	False	False	single_class_CV_partition
+PF10256	Erf4	Golgin subfamily A member 7/ERF4 family	3	2358	3	1087	False	False	insufficient_training_group_support
+PF10262	Rdx	Rdx family	7	2354	1	1089	False	False	insufficient_training_group_support
+PF10263	SprT-like	SprT-like family	1	2360	1	1090	False	False	insufficient_training_group_support
+PF10276	zf-CHCC	Zinc-finger domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF10282	Lactonase	Lactonase, 7-bladed beta-propeller	0	2361	0	1090	False	False	insufficient_training_group_support
+PF10294	Methyltransf_16	Lysine methyltransferase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF10343	Q_salvage	Queuosine salvage protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10501	Ribosomal_L50	Ribosomal subunit 39S	0	2361	0	1090	False	False	insufficient_training_group_support
+PF10531	SLBB	SLBB domain	4	2357	1	1090	False	False	insufficient_training_group_support
+PF10568	Tom37	Outer mitochondrial membrane transport complex protein	4	2357	1	1089	False	False	insufficient_training_group_support
+PF10589	NADH_4Fe-4S	NADH-ubiquinone oxidoreductase-F iron-sulfur binding region	8	2353	1	1089	False	False	insufficient_training_group_support
+PF10604	Polyketide_cyc2	Polyketide cyclase / dehydrase and lipid transport	13	2348	5	1086	False	False	single_class_CV_partition
+PF10609	ParA	NUBPL iron-transfer P-loop NTPase	29	2332	3	1089	False	False	insufficient_training_group_support
+PF10628	CotE	Outer spore coat protein E (CotE)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10646	Germane	Sporulation and spore germination	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10662	PduV-EutP	Ethanolamine utilisation - propanediol utilisation	5	2356	2	1089	False	False	insufficient_training_group_support
+PF10676	gerPA	Spore germination protein gerPA/gerPF	0	2361	0	1090	False	False	insufficient_training_group_support
+PF10698	DUF2505	Protein of unknown function (DUF2505)	1	2360	1	1090	False	False	insufficient_training_group_support
+PF10763	DUF2584	Protein of unknown function (DUF2584)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10798	YmgB	Biofilm development protein YmgB/AriR	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10934	DUF2634	Protein of unknown function (DUF2634)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10957	Spore_Cse60	Sporulation protein Cse60 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF10965	DUF2767	Protein of unknown function (DUF2767)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11068	YlqD	YlqD protein	4	2357	1	1089	False	False	insufficient_training_group_support
+PF11080	GhoS	Endoribonuclease GhoS 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11088	RL11D	Glycoprotein encoding membrane proteins RL5A and RL6	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11102	YjbF	Group 4 capsule polysaccharide lipoprotein gfcB, YjbF	2	2359	1	1089	False	False	insufficient_training_group_support
+PF11115	DUF2623	Protein of unknown function (DUF2623)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11181	YflT	Heat induced stress protein YflT domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11258	DUF3048	Protein of unknown function (DUF3048) N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11316	Rhamno_transf	Putative rhamnosyl transferase 	1	2360	1	1090	False	False	insufficient_training_group_support
+PF11380	Stealth_CR2	Stealth protein CR2, conserved region 2	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11436	DUF3199	Protein of unknown function (DUF3199)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11486	DUF3212	Protein of unknown function (DUF3212)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11495	Regulator_TrmB	Archaeal transcriptional regulator TrmB	1	2360	1	1090	False	False	insufficient_training_group_support
+PF11514	DUF3219	Protein of unknown function (DUF3219)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11518	DUF3221	Protein of unknown function (DUF3221)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11523	DUF3223	Protein of unknown function (DUF3223)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11527	ARL2_Bind_BART	The ARF-like 2 binding protein BART	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11599	AviRa	RRNA methyltransferase AviRa	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11611	DUF4352	Domain of unknown function (DUF4352)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11622	DUF3251	Protein of unknown function (DUF3251)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11623	NdhS	NAD(P)H dehydrogenase subunit S	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11629	Mst1_SARAH	C terminal SARAH domain of Mst1	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11631	DUF3255	Protein of unknown function (DUF3255)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11638	DnaA_N	DnaA N-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11769	DUF3313	Protein of unknown function (DUF3313)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11848	DUF3368	Domain of unknown function (DUF3368)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11873	Mltc_N	Membrane-bound lytic murein transglycosylase C, N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF11944	DUF3461	Protein of unknown function (DUF3461)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF11976	Rad60-SLD	Ubiquitin-2 like Rad60 SUMO-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12002	MgsA_C	MgsA AAA+ ATPase C terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12014	Cyclin_D1_bind	Cyclin D1 binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12102	MrcB_N	MrcB-like, N-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12130	bMERB_dom	Bivalent Mical/EHBP Rab binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12172	DUF35_N	Rubredoxin-like zinc ribbon domain (DUF35_N)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12206	DUF3599	Domain of unknown function (DUF3599)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12323	HTH_OrfB_IS605	Helix-turn-helix domain	5	2356	1	1090	False	False	insufficient_training_group_support
+PF12368	Rhodanese_C	Rhodanase C-terminal	10	2351	2	1089	False	False	insufficient_training_group_support
+PF12618	PHF20_AT-hook	PHD finger protein 20, AT-hook	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12643	MazG-like	MazG-like family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12681	Glyoxalase_2	Glyoxalase-like domain	4	2357	2	1088	False	False	insufficient_training_group_support
+PF12688	TPR_5	Tetratrico peptide repeat	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12690	BsuPI	Intracellular proteinase inhibitor	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12706	Lactamase_B_2	Beta-lactamase superfamily domain	10	2351	5	1085	False	False	single_class_CV_partition
+PF12710	HAD	haloacid dehalogenase-like hydrolase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12724	Flavodoxin_5	Flavodoxin domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12732	YtxH	YtxH-like protein	3	2358	2	1088	False	False	insufficient_training_group_support
+PF12742	Gryzun-like	Gryzun, putative Golgi trafficking	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12762	DDE_Tnp_IS1595	ISXO2-like transposase domain	5	2356	1	1089	False	False	insufficient_training_group_support
+PF12796	Ank_2	Ankyrin repeats (3 copies)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12800	Fer4_4	4Fe-4S binding domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12802	MarR_2	MarR family	6	2355	3	1088	False	False	insufficient_training_group_support
+PF12804	NTP_transf_3	MobA-like NTP transferase domain	7	2354	6	1085	False	False	single_class_CV_partition
+PF12831	FAD_oxidored	FAD dependent oxidoreductase	21	2340	14	1079	True	True	eligible
+PF12838	Fer4_7	4Fe-4S dicluster domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12844	HTH_19	Helix-turn-helix domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF12850	Metallophos_2	Calcineurin-like phosphoesterase superfamily domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12867	DinB_2	DinB superfamily	2	2359	2	1088	False	False	insufficient_training_group_support
+PF12872	OST-HTH	OST-HTH/LOTUS domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF12894	ANAPC4_WD40	Anaphase-promoting complex subunit 4 WD40 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12895	ANAPC3	Anaphase-promoting complex, cyclosome, subunit 3	1	2360	1	1089	False	False	insufficient_training_group_support
+PF12917	YfbR-like	5'-deoxynucleotidase YfbR-like	3	2358	2	1088	False	False	insufficient_training_group_support
+PF13020	NOV_C	Protein NO VEIN, C-terminal	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13023	HD_3	HD domain	3	2358	2	1088	False	False	insufficient_training_group_support
+PF13028	DUF3889	Protein of unknown function (DUF3889)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13036	LpoB	Peptidoglycan-synthase activator LpoB	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13091	PLDc_2	PLD-like domain	7	2354	1	1089	False	False	insufficient_training_group_support
+PF13115	YtkA	YtkA-like	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13167	GTP-bdg_N	GTP-binding GTPase N-terminal	18	2343	1	1089	False	False	insufficient_training_group_support
+PF13173	AAA_14	AAA domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13174	TPR_6	Tetratricopeptide repeat	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13175	AAA_15	AAA ATPase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13176	TPR_7	Tetratricopeptide repeat	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13181	TPR_8	Tetratricopeptide repeat	8	2353	7	1083	False	False	single_class_CV_partition
+PF13183	Fer4_8	4Fe-4S dicluster domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF13184	KH_5	NusA-like KH domain	4	2357	2	1088	False	False	insufficient_training_group_support
+PF13187	Fer4_9	4Fe-4S dicluster domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF13191	AAA_16	AAA ATPase domain	4	2357	3	1088	False	False	insufficient_training_group_support
+PF13202	EF-hand_5	EF hand	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13207	AAA_17	AAA domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13237	Fer4_10	4Fe-4S dicluster domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13238	AAA_18	AAA domain	3	2358	3	1088	False	False	insufficient_training_group_support
+PF13242	Hydrolase_like	HAD-hyrolase-like	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13270	CCDC28	Coiled-coil domain-containing protein 28	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13276	HTH_21	HTH-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13279	4HBT_2	Thioesterase-like superfamily	7	2354	4	1086	False	False	insufficient_training_group_support
+PF13298	LigD_N	DNA polymerase Ligase (LigD)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13304	AAA_21	AAA domain, putative AbiEii toxin, Type IV TA system	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13336	AcetylCoA_hyd_C	Acetyl-CoA hydrolase/transferase C-terminal domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF13353	Fer4_12	4Fe-4S single cluster domain	14	2347	3	1088	False	False	insufficient_training_group_support
+PF13360	PQQ_2	PQQ-like domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13369	Transglut_core2	Transglutaminase-like superfamily	2	2359	1	1089	False	False	insufficient_training_group_support
+PF13371	TPR_9	Tetratricopeptide repeat	2	2359	1	1089	False	False	insufficient_training_group_support
+PF13374	TPR_10	Tetratricopeptide repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13375	RnfC_N	RnfC Barrel sandwich hybrid domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13379	NMT1_2	NMT1-like family	3	2358	3	1087	False	False	insufficient_training_group_support
+PF13380	CoA_binding_2	CoA binding domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF13391	HNH_2	HNH endonuclease	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13395	HNH_4	HNH endonuclease	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13401	AAA_22	AAA domain	5	2356	4	1087	False	False	insufficient_training_group_support
+PF13405	EF-hand_6	EF-hand domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13409	GST_N_2	Glutathione S-transferase, N-terminal domain	2	2359	1	1090	False	False	insufficient_training_group_support
+PF13411	MerR_1	MerR HTH family regulatory protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13412	HTH_24	Winged helix-turn-helix DNA-binding	4	2357	2	1089	False	False	insufficient_training_group_support
+PF13414	TPR_11	TPR repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13416	SBP_bac_8	Bacterial extracellular solute-binding protein	3	2358	3	1087	False	False	insufficient_training_group_support
+PF13417	GST_N_3	Glutathione S-transferase, N-terminal domain	3	2358	1	1090	False	False	insufficient_training_group_support
+PF13419	HAD_2	Haloacid dehalogenase-like hydrolase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13420	Acetyltransf_4	Acetyltransferase (GNAT) domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF13421	Band_7_1	SPFH domain-Band 7 family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13424	TPR_12	Tetratricopeptide repeat	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13428	TPR_14	Tetratricopeptide repeat	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13431	TPR_17	Tetratricopeptide repeat	7	2354	6	1085	False	False	single_class_CV_partition
+PF13432	TPR_16	Tetratricopeptide repeat	5	2356	4	1087	False	False	insufficient_training_group_support
+PF13434	Lys_Orn_oxgnase	L-lysine 6-monooxygenase/L-ornithine 5-monooxygenase	12	2349	2	1089	False	False	insufficient_training_group_support
+PF13439	Glyco_transf_4	Glycosyltransferase Family 4	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13443	HTH_26	Cro/C1-type HTH DNA-binding domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13450	NAD_binding_8	NAD(P)-binding Rossmann-like domain	69	2292	31	1067	True	True	eligible
+PF13452	MaoC_dehydrat_N	N-terminal half of MaoC dehydratase	7	2354	2	1088	False	False	insufficient_training_group_support
+PF13454	NAD_binding_9	FAD-NAD(P)-binding	4	2357	3	1088	False	False	insufficient_training_group_support
+PF13460	NAD_binding_10	NAD(P)H-binding 	3	2358	2	1088	False	False	insufficient_training_group_support
+PF13462	Thioredoxin_4	Thioredoxin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13463	HTH_27	Winged helix DNA-binding domain	2	2359	2	1090	False	False	insufficient_training_group_support
+PF13472	Lipase_GDSL_2	GDSL-like Lipase/Acylhydrolase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13474	SnoaL_3	SnoaL-like domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13478	XdhC_C	XdhC Rossmann domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13480	Acetyltransf_6	Acetyltransferase (GNAT) domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13481	AAA_25	AAA domain	8	2353	2	1088	False	False	insufficient_training_group_support
+PF13483	Lactamase_B_3	Beta-lactamase superfamily domain	3	2358	2	1089	False	False	insufficient_training_group_support
+PF13489	Methyltransf_23	Methyltransferase domain	26	2335	13	1079	True	True	eligible
+PF13499	EF-hand_7	EF-hand domain pair	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13500	AAA_26	AAA domain	7	2354	3	1088	False	False	insufficient_training_group_support
+PF13506	Glyco_transf_21	Glycosyl transferase family 21	2	2359	2	1090	False	False	insufficient_training_group_support
+PF13508	Acetyltransf_7	Acetyltransferase (GNAT) domain	6	2355	3	1088	False	False	insufficient_training_group_support
+PF13518	HTH_28	Helix-turn-helix domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13519	VWA_2	von Willebrand factor type A domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13521	AAA_28	AAA domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF13527	Acetyltransf_9	Acetyltransferase (GNAT) domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13532	2OG-FeII_Oxy_2	2OG-Fe(II) oxygenase superfamily	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13534	Fer4_17	4Fe-4S dicluster domain	2	2359	1	1090	False	False	insufficient_training_group_support
+PF13541	ChlI	Subunit ChlI of Mg-chelatase	4	2357	1	1090	False	False	insufficient_training_group_support
+PF13560	HTH_31	Helix-turn-helix domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13561	adh_short_C2	Enoyl-(Acyl carrier protein) reductase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13570	PQQ_3	PQQ-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13578	Methyltransf_24	Methyltransferase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13579	Glyco_trans_4_4	Glycosyl transferase 4-like domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13606	Ank_3	Ankyrin repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13614	AAA_31	AAA domain	30	2331	2	1089	False	False	insufficient_training_group_support
+PF13622	4HBT_3	Acyl-CoA thioesterase N-terminal domain	14	2347	2	1089	False	False	insufficient_training_group_support
+PF13632	Glyco_trans_2_3	Glycosyl transferase family group 2	3	2358	3	1088	False	False	insufficient_training_group_support
+PF13637	Ank_4	Ankyrin repeats (many copies)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13641	Glyco_tranf_2_3	Glycosyltransferase like family 2	30	2331	16	1076	True	True	eligible
+PF13649	Methyltransf_25	Methyltransferase domain	35	2326	18	1073	True	True	eligible
+PF13653	GDPD_2	Glycerophosphoryl diester phosphodiesterase family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13669	Glyoxalase_4	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13671	AAA_33	AAA domain	10	2351	6	1084	False	False	single_class_CV_partition
+PF13673	Acetyltransf_10	Acetyltransferase (GNAT) domain	6	2355	3	1088	False	False	insufficient_training_group_support
+PF13676	TIR_2	TIR domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13679	Methyltransf_32	Methyltransferase domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13683	rve_3	Integrase core domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13692	Glyco_trans_1_4	Glycosyl transferases group 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13711	DUF4160	Domain of unknown function (DUF4160)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13732	DUF4162	Domain of unknown function (DUF4162)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13738	Pyr_redox_3	Pyridine nucleotide-disulphide oxidoreductase	14	2347	3	1087	False	False	insufficient_training_group_support
+PF13743	Thioredoxin_5	Thioredoxin	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13749	HATPase_c_4	Putative ATP-dependent DNA helicase recG C-terminal	2	2359	2	1088	False	False	insufficient_training_group_support
+PF13772	AIG2_2	AIG2-like family	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13801	Metal_resist	Heavy-metal resistance	4	2357	3	1087	False	False	insufficient_training_group_support
+PF13804	HERV-K_env_2	Retro-transcribing viruses envelope glycoprotein	6	2355	1	1089	False	False	insufficient_training_group_support
+PF13806	Rieske_2	Rieske-like [2Fe-2S] domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13811	DUF4186	Domain of unknown function (DUF4186)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13833	EF-hand_8	EF-hand domain pair	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13840	ACT_7	ACT domain 	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13847	Methyltransf_31	Methyltransferase domain	21	2340	13	1079	True	True	eligible
+PF13857	Ank_5	Ankyrin repeats (many copies)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13866	zf-SAP30	SAP30 zinc-finger	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13867	SAP30_Sin3_bdg	Sin3 binding region of histone deacetylase complex subunit SAP30	0	2361	0	1090	False	False	insufficient_training_group_support
+PF13881	Rad60-SLD_2	Ubiquitin-2 like Rad60 SUMO-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13905	Thioredoxin_8	Thioredoxin-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13987	YedD	YedD-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13989	YejG	YejG-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF13995	YebF	YebF-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14069	SpoVIF	Stage VI sporulation protein F	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14148	YhdB	YhdB-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14157	YmzC	YmzC-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14183	YwpF	YwpF-like protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14278	TetR_C_8	Transcriptional regulator C-terminal region	2	2359	1	1089	False	False	insufficient_training_group_support
+PF14279	HNH_5	HNH endonuclease	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14310	Fn3-like	Fibronectin type III-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14354	Lar_restr_allev	Restriction alleviation protein Lar	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14464	Prok-JAB	Prokaryotic homologs of the JAB domain	5	2356	1	1089	False	False	insufficient_training_group_support
+PF14470	bPH_3	Bacterial PH domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF14520	HHH_5	Helix-hairpin-helix domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF14539	DUF4442	Domain of unknown function (DUF4442)	13	2348	4	1087	False	False	insufficient_training_group_support
+PF14542	Acetyltransf_CG	GCN5-related N-acetyl-transferase	4	2357	2	1088	False	False	insufficient_training_group_support
+PF14559	TPR_19	Tetratricopeptide repeat	9	2352	7	1084	False	False	single_class_CV_partition
+PF14560	Ubiquitin_2	Ubiquitin-like domain	2	2359	2	1088	False	False	insufficient_training_group_support
+PF14602	Hexapep_2	Hexapeptide repeat of succinyl-transferase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14675	FANCI_S1	FANCI solenoid 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14686	fn3_3	Polysaccharide lyase family 4, domain II	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14691	Fer4_20	Dihydroprymidine dehydrogenase domain II, 4Fe-4S cluster	0	2361	0	1090	False	False	insufficient_training_group_support
+PF14697	Fer4_21	4Fe-4S dicluster domain	2	2359	1	1090	False	False	insufficient_training_group_support
+PF14748	P5CR_dimer	Pyrroline-5-carboxylate reductase dimerisation	0	2361	0	1090	False	False	insufficient_training_group_support
+PF14794	DUF4479	Domain of unknown function (DUF4479)	9	2352	1	1089	False	False	insufficient_training_group_support
+PF14811	TPD	Protein of unknown function TPD sequence-motif	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14848	HU-DNA_bdg	DNA-binding domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF14901	Jiv90	Cleavage inducing molecular chaperone	0	2361	0	1090	False	False	insufficient_training_group_support
+PF14955	MRP-S24	Mitochondrial ribosome subunit S24	0	2361	0	1090	False	False	insufficient_training_group_support
+PF14959	GSAP-16	gamma-Secretase-activating protein C-term	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14961	BROMI	Broad-minded protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF14989	CCDC32	Coiled-coil domain containing 32	2	2359	1	1089	False	False	insufficient_training_group_support
+PF15006	DUF4517	Domain of unknown function (DUF4517)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15027	DUF4525	Domain of unknown function (DUF4525)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15206	FAM209	FAM209 family	2	2359	2	1088	False	False	insufficient_training_group_support
+PF15389	DUF4612	Domain of unknown function (DUF4612)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15519	RBM39linker	linker between RRM2 and RRM3 domains in RBM39 protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15617	C-C_Bond_Lyase	C-C_Bond_Lyase of the TIM-Barrel fold	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15631	Imm-NTF2-2	NTF2 fold immunity protein	0	2361	0	1090	False	False	insufficient_training_group_support
+PF15695	HERV-K_REC	Rec (regulator of expression encoded by corf) of HERV-K-113	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15741	LRIF1	Ligand-dependent nuclear receptor-interacting factor 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15907	Itfg2	Integrin-alpha FG-GAP repeat-containing protein 2	1	2360	1	1089	False	False	insufficient_training_group_support
+PF15961	DUF4764	Domain of unknown function (DUF4764)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16321	Ribosom_S30AE_C	Sigma 54 modulation/S30EA ribosomal protein C terminus	17	2344	2	1088	False	False	insufficient_training_group_support
+PF16347	SGSH_C	N-sulphoglucosamine sulphohydrolase, C-terminal	3	2358	1	1089	False	False	insufficient_training_group_support
+PF16358	RcsF	RcsF lipoprotein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16360	GTP-bdg_M	GTP-binding GTPase Middle Region	18	2343	1	1089	False	False	insufficient_training_group_support
+PF16362	YaiA	YaiA protein	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16472	DUF5050	Domain of unknown function (DUF5050)	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16483	Glyco_hydro_64	Beta-1,3-glucanase	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16486	ArgoN	N-terminal domain of argonaute	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16491	Peptidase_M48_N	CAAX prenyl protease N-terminal, five membrane helices	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16499	Melibiase_2	Alpha galactosidase A	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16517	Nore1-SARAH	Novel Ras effector 1 C-terminal SARAH (Sav/Rassf/Hpo) domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16546	SGTA_dimer	Homodimerisation domain of SGTA	1	2360	1	1089	False	False	insufficient_training_group_support
+PF16721	zf-H3C2	Zinc-finger like, probable DNA-binding 	0	2361	0	1090	False	False	insufficient_training_group_support
+PF16819	DUF5074	Domain of unknown function (DUF5074)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF16901	DAO_C	C-terminal domain of alpha-glycerophosphate oxidase	15	2346	1	1089	False	False	insufficient_training_group_support
+PF16968	TadZ_N	Pilus assembly protein TadZ N-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17039	Glyco_tran_10_N	Fucosyltransferase, N-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17101	Stealth_CR1	Stealth protein CR1, conserved region 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17102	Stealth_CR3	Stealth protein CR3, conserved region 3	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17146	PIN_6	PIN domain of ribonuclease	6	2355	1	1089	False	False	insufficient_training_group_support
+PF17171	GST_C_6	Glutathione S-transferase, C-terminal domain	4	2357	1	1089	False	False	insufficient_training_group_support
+PF17172	GST_N_4	Glutathione S-transferase N-terminal domain 	4	2357	1	1089	False	False	insufficient_training_group_support
+PF17192	MukF_M	MukF middle domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17193	MukF_C	MukF C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17244	CDC24_OB3	Cell division control protein 24, OB domain 3	1	2360	1	1090	False	False	insufficient_training_group_support
+PF17412	VraX	Family of unknown function	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17414	MatP_C	MatP C-terminal ribbon-helix-helix domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17425	Arylsulfotran_N	Arylsulfotransferase Ig-like domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF17448	YqaH	Uncharacterized YqaH-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17479	DUF3048_C	Protein of unknown function (DUF3048) C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17481	Phage_sheath_domII	Phage tail sheath protein beta-sandwich domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF17482	Phage_sheath_1C	Phage tail sheath C-terminal domain	2	2359	1	1089	False	False	insufficient_training_group_support
+PF17490	Tnp_22_dsRBD	L1 transposable element dsRBD-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17604	DUF5500	Family of unknown function (DUF5500)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF17681	GCP_N_terminal	Gamma tubulin complex component N-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17767	NAPRTase_N	Nicotinate phosphoribosyltransferase (NAPRTase) N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17773	UPF0176_N	UPF0176 acylphosphatase like domain	14	2347	1	1089	False	False	insufficient_training_group_support
+PF17777	RL10P_insert	Insertion domain in 60S ribosomal protein L10P	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17801	Melibiase_C	Alpha galactosidase C-terminal beta sandwich domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17835	NOG1_N	NOG1 N-terminal helical domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF17862	AAA_lid_3	AAA+ lid domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17863	AAA_lid_2	AAA lid domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF17885	Smoa_sbd	Styrene monooxygenase A putative substrate binding domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17886	ArsA_HSP20	HSP20-like domain found in ArsA	1	2360	1	1089	False	False	insufficient_training_group_support
+PF17898	GerD	Spore germination GerD central core domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF18025	FucT_N	Alpha-(1,3)-fucosyltransferase FucT N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF18029	Glyoxalase_6	Glyoxalase-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF18073	Rubredoxin_2	Rubredoxin metal binding domain	6	2355	1	1090	False	False	insufficient_training_group_support
+PF18115	Tudor_3	DNA repair protein Crb2 Tudor domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF18128	HydF_dimer	Hydrogen maturase F dimerization domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF18133	HydF_tetramer	Hydrogen maturase F tetramerization domain	3	2358	1	1089	False	False	insufficient_training_group_support
+PF18140	PCC_BT	Propionyl-coenzyme A carboxylase BT domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18291	HU-HIG	HU domain fused to wHTH, Ig, or Glycine-rich motif	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18614	RNase_II_C_S1	RNase II-type exonuclease C-terminal S1 domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF18674	TarS_C1	TarS beta-glycosyltransferase C-terminal domain 1	1	2360	1	1089	False	False	insufficient_training_group_support
+PF18693	TRAM_2	TRAM domain	12	2349	1	1090	False	False	insufficient_training_group_support
+PF18750	SNAD4	Secreted Novel AID/APOBEC-like Deaminase 4	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18769	APOBEC1	APOBEC1	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18771	APOBEC3	APOBEC3	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18772	APOBEC2	APOBEC2	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18774	APOBEC4_like	APOBEC4-like -AID/APOBEC-deaminase	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18775	APOBEC4	APOBEC4	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18778	NAD1	Novel AID APOBEC clade 1	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18782	NAD2	Novel AID APOBEC clade 2	0	2361	0	1090	False	False	insufficient_training_group_support
+PF18836	B_solenoid_ydck	YdcK Beta solenoid repeat	1	2360	1	1089	False	False	insufficient_training_group_support
+PF19263	DUF5906	Family of unknown function (DUF5906)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF19275	HflX_C	HflX C-terminal domain	5	2356	1	1090	False	False	insufficient_training_group_support
+PF19279	YegS_C	YegS C-terminal NAD kinase beta sandwich-like domain	3	2358	2	1088	False	False	insufficient_training_group_support
+PF19776	DUF6262	Family of unknown function (DUF6262)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF19864	Radical_SAM_N2	Radical SAM proteins, N-terminal	1	2360	1	1089	False	False	insufficient_training_group_support
+PF20030	bpMoxR	MoxR domain in the MoxR-vWA-beta-propeller ternary systems	0	2361	0	1090	False	False	insufficient_training_group_support
+PF20143	NAD_kinase_C	ATP-NAD kinase C-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF20250	FapA_N	Flagellar Assembly Protein A N-terminal region	1	2360	1	1089	False	False	insufficient_training_group_support
+PF20268	SBDS_C	SBDS protein, C-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF20434	BD-FAE	BD-FAE	0	2361	0	1090	False	False	insufficient_training_group_support
+PF20637	ATG5_HBR	Autophagy protein ATG5, alpha-helical bundle region	1	2360	1	1089	False	False	insufficient_training_group_support
+PF20638	ATG5_UblA	Autophagy protein ATG5, UblA domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF20706	GT4-conflict	Family 4 Glycosyltransferase in conflict systems	0	2361	0	1090	False	False	insufficient_training_group_support
+PF20766	DUF447_C	Protein of unknown function (DUF447)	0	2361	0	1090	False	False	insufficient_training_group_support
+PF20789	4HBT_3C	Acyl-CoA thioesterase C-terminal domain	4	2357	1	1090	False	False	insufficient_training_group_support
+PF20906	DUF917_C	Protein of unknown function DUF917, C-terminal	5	2356	2	1088	False	False	insufficient_training_group_support
+PF20965	DZF_C	DZF C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21010	HA2_C	Helicase associated domain (HA2), ratchet-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21016	RlmN_N	Ribosomal RNA large subunit methyltransferase N-terminal domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF21036	EryCIII-like_N	Erythromycin biosynthesis protein CIII-like, N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21057	Hikeshi-like_C	Hikeshi-like, C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21089	PKS_DH_N	Polyketide synthase dehydratase domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF21130	YgfZ_barrel	YgfZ, beta-barrel domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21148	NSUN5_fdxn-like	NOL1/NOP2/Sun domain family member 5, ferredoxin-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21238	Pus10_C	Pus10, C-terminal	0	2361	0	1090	False	False	insufficient_training_group_support
+PF21247	Fic-like_C	Filamentation induced by cAMP protein Fic-like, C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21349	RUBY_RBDX	Rubrerythrin, rubredoxin-like domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21473	Ssb-like_OB	Single-stranded DNA binding protein Ssb-like, OB fold	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21516	YqeH-like_C	YqeH-like, C-terminal	0	2361	0	1090	False	False	insufficient_training_group_support
+PF21570	ArgZ-like_C_2nd	Arginine dihydrolase ArgZ-like, C-terminal, Rossmann fold	2	2359	1	1089	False	False	insufficient_training_group_support
+PF21571	ArgZ-like_C_1st	Arginine dihydrolase ArgZ-like, C-terminal, first region	2	2359	1	1089	False	False	insufficient_training_group_support
+PF21572	Nop5_56-rel_N_Arc	Archaeal Nop5/56-rel, N-terminal domain	1	2360	1	1090	False	False	insufficient_training_group_support
+PF21672	COMM_HN	COMMD2-7/10, HN domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21688	FAD-depend_C	FAD-dependent protein, C-terminal domain-like	10	2351	2	1089	False	False	insufficient_training_group_support
+PF21706	FCSD_central	Sulfide dehydrogenase [flavocytochrome c] flavoprotein chain, central	1	2360	1	1090	False	False	insufficient_training_group_support
+PF21710	Spt6_S1	Spt6, S1/OB domain	2	2359	1	1090	False	False	insufficient_training_group_support
+PF21948	LplA-B_cat	Lipoyl protein ligase A/B catalytic domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF21980	MksE	Condensin complex protein MksE	5	2356	1	1089	False	False	insufficient_training_group_support
+PF21986	AH_C	Allophanate hydrolase C-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22023	Pus10_THUMP_arc	Pus10 THUMP domain, archaeal	0	2361	0	1090	False	False	insufficient_training_group_support
+PF22181	TarS_linker	Glycosyl transferase TarS linker domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22377	TarS_C2	TarS C-terminal domain 2	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22381	Staph_reg_Sar_Rot	Transcriptional regulator SarA/Rot	2	2359	1	1090	False	False	insufficient_training_group_support
+PF22461	SLBB_2	SLBB domain	3	2358	1	1090	False	False	insufficient_training_group_support
+PF22468	ACT_9	ACT domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22578	GGR_cat	Geranylgeranyl reductase catalytic domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF22607	FAD_binding-like	FAD binding domain-like	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22622	MFE-2_hydrat-2_N	MFE-2 hydratase 2 N-terminal domain   	2	2359	1	1090	False	False	insufficient_training_group_support
+PF22641	TiaS-FLD	TiaS FLD domain	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22657	SSB_1	Another single-strand binding protein family	0	2361	0	1090	False	False	insufficient_training_group_support
+PF22671	Gp18_domIII_N	Tail sheath protein Gp18 domain III N-terminal region	2	2359	1	1089	False	False	insufficient_training_group_support
+PF22675	KH_1_3	KH-domain type I	1	2360	1	1089	False	False	insufficient_training_group_support
+PF22677	Ble-like_N	Bleomycin resistance protein-like N-terminal	2	2359	2	1089	False	False	insufficient_training_group_support
+PF22698	Semialdhyde_dhC_1	Semialdehyde dehydrogenase, dimerisation domain	0	2361	0	1090	False	False	insufficient_training_group_support
+PF22751	DUF488-N3a	Active DUF488-N3 subclade	0	2361	0	1090	False	False	insufficient_training_group_support
+PF22752	DUF488-N3i	Inactive DUF488-N3 subclade	0	2361	0	1090	False	False	insufficient_training_group_support
+PF22794	jr-ZPR1	ZPR1 jelly-roll domain	4	2357	1	1089	False	False	insufficient_training_group_support
+PF22817	ApeP-like	ApeP dehydratase	3	2358	1	1090	False	False	insufficient_training_group_support
+PF22818	ApeI-like	ApeI dehydratase	5	2356	1	1089	False	False	insufficient_training_group_support
+PF22958	Ltn1_1st	E3 ubiquitin-protein ligase listerin, N-terminal domain	1	2360	1	1089	False	False	insufficient_training_group_support

@@ -1,0 +1,5 @@
+# Install into the extraction venv only; inherit the validated base GPU/numerical stack.
+transformers==4.57.6
+huggingface-hub==0.36.0
+safetensors==0.6.2
+tokenizers==0.22.2

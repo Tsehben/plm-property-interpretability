@@ -1,0 +1,21 @@
+Multiple metadata entries for numpy: ['1.26.4', '2.4.6']; keeping active version 2.4.6 (matches imported version).
+Multiple metadata entries for numpy: ['1.26.4', '2.4.6']; keeping active version 2.4.6 (matches imported version).
+[2/3] Installing binary extraction packages into /private/var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/tmpjba3e4x9/environment
+The notebook Python environment is not an installation target; no source builds are allowed.
+[3/3] Testing ESM imports in the extraction environment (elapsed 0.0s)...
+Ready. All extraction/HF commands must use: /private/var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/tmpjba3e4x9/environment/bin/python
+[2/3] Installing binary extraction packages into /private/var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/tmpjba3e4x9/environment
+The notebook Python environment is not an installation target; no source builds are allowed.
+[3/3] Testing ESM imports in the extraction environment (elapsed 0.0s)...
+Ready. All extraction/HF commands must use: /private/var/folders/v8/m8yvd24n4z1_h2j94kw0nkk00000gn/T/tmpjba3e4x9/environment/bin/python
+test_actual_import_metadata_disagreement_still_fails (__main__.ColabSetupTests.test_actual_import_metadata_disagreement_still_fails) ... ok
+test_cpu_preflight_stops_before_environment_mutation (__main__.ColabSetupTests.test_cpu_preflight_stops_before_environment_mutation) ... ok
+test_inactive_numpy_metadata_does_not_override_verified_version (__main__.ColabSetupTests.test_inactive_numpy_metadata_does_not_override_verified_version) ... ok
+test_pip_targets_separate_interpreter_and_forbids_source_builds (__main__.ColabSetupTests.test_pip_targets_separate_interpreter_and_forbids_source_builds) ... ok
+test_real_pip_writes_only_to_disposable_target_environment (__main__.ColabSetupTests.test_real_pip_writes_only_to_disposable_target_environment) ... ok
+test_restart_reuses_managed_env_and_keeps_correct_command_order (__main__.ColabSetupTests.test_restart_reuses_managed_env_and_keeps_correct_command_order) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.342s
+
+OK

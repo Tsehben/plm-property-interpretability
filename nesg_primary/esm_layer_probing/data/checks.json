@@ -1,0 +1,26 @@
+{
+  "proteins": 3052,
+  "counts": {
+    "train": {
+      "0": 716,
+      "1": 1645
+    },
+    "validation": {
+      "0": 200,
+      "1": 491
+    }
+  },
+  "groups": {
+    "train": 1090,
+    "validation": 364
+  },
+  "min_length": 50,
+  "max_length": 810,
+  "X_proteins": 3,
+  "reserved_count_verified_from_label_free_assignments": 710,
+  "reserved_sequences_or_labels_opened": false,
+  "all_input_hashes_verified": true,
+  "sequence_hashes_verified": true,
+  "split_and_fold_integrity": true,
+  "GA_hits_verified": true
+}

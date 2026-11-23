@@ -1,0 +1,16 @@
+test_clusters_and_partitions (test_audit.AuditTests.test_clusters_and_partitions) ... ok
+test_frozen_uesolds (test_audit.AuditTests.test_frozen_uesolds) ... ok
+test_no_double_count_representatives (test_audit.AuditTests.test_no_double_count_representatives) ... ok
+test_pfam_thresholds_and_coordinates (test_audit.AuditTests.test_pfam_thresholds_and_coordinates) ... ok
+test_previous_inputs_preserved (test_audit.AuditTests.test_previous_inputs_preserved) ... ok
+test_psi_construct_links (test_audit.AuditTests.test_psi_construct_links) ... ok
+test_records_and_hashes (test_audit.AuditTests.test_records_and_hashes) ... ok
+test_reference_pins (test_audit.AuditTests.test_reference_pins) ... ok
+test_score_mapping (test_audit.AuditTests.test_score_mapping) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.155s
+
+OK
+
+All original input SHA256 checks passed. No UESolDS independent test files were used.

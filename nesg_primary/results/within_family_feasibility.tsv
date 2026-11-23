@@ -1,0 +1,5 @@
+annotation_policy	training_groups_per_class	training_qualified_families	validation_both_families	validation_threshold_families	train_eligible_proteins	train_eligible_groups	validation_eligible_proteins	validation_eligible_groups	class_exclusive_training_qualified	class_exclusive_validation_both
+all_GA	3	31	16	7	359	137	111	50	16	5
+all_GA	5	13	8	2	228	99	80	36	7	2
+no_competing_overlap	3	7	1	0	52	11	3	3	2	0
+no_competing_overlap	5	1	0	0	0	0	0	0	0	0

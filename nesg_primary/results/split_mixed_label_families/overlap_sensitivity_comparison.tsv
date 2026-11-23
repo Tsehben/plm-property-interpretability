@@ -1,0 +1,419 @@
+pfam_accession	biological_family_name	unique_soluble_proteins_all_GA	unique_insoluble_proteins_all_GA	total_unique_proteins_all_GA	unique_soluble_proteins_sensitivity_mixed_only	unique_insoluble_proteins_sensitivity_mixed_only	total_unique_proteins_sensitivity_mixed_only	split	remains_mixed_after_overlap_removal	sensitivity_soluble_including_nonmixed	sensitivity_insoluble_including_nonmixed
+PF13450	NAD(P)-binding Rossmann-like domain	28	41	69	1.0	1.0	2.0	train	True	1	1
+PF01266	FAD dependent oxidoreductase	18	44	62	9.0	6.0	15.0	train	True	9	6
+PF00455	DeoR C terminal sensor domain	31	26	57	31.0	26.0	57.0	train	True	31	26
+PF08220	DeoR-like helix-turn-helix domain	32	25	57	7.0	9.0	16.0	train	True	7	9
+PF04055	Radical SAM superfamily	31	21	52	31.0	21.0	52.0	train	True	31	21
+PF00575	S1 RNA binding domain	48	2	50	48.0	2.0	50.0	train	True	48	2
+PF00535	Glycosyl transferase family 2	37	11	48	13.0	2.0	15.0	train	True	13	2
+PF01494	FAD binding domain	19	26	45	3.0	9.0	12.0	train	True	3	9
+PF01656	CobQ/CobB/MinD/ParA nucleotide binding domain	31	11	42	1.0	2.0	3.0	train	True	1	2
+PF00890	FAD binding domain	11	29	40				train	False	0	1
+PF08279	HTH domain	24	16	40				train	False	0	0
+PF00919	Uncharacterized protein family UPF0004	25	11	36	25.0	11.0	36.0	train	True	25	11
+PF13649	Methyltransferase domain	18	17	35				train	False	0	0
+PF08241	Methyltransferase domain	18	16	34				train	False	0	0
+PF07992	Pyridine nucleotide-disulphide oxidoreductase	15	17	32	2.0	4.0	6.0	train	True	2	4
+PF13614	AAA domain	29	1	30				train	False	0	0
+PF13641	Glycosyltransferase like family 2	21	9	30				train	False	0	0
+PF03061	Thioesterase superfamily	21	8	29	5.0	1.0	6.0	train	True	5	1
+PF09140	ATPase MipZ	28	1	29				train	False	0	0
+PF10609	NUBPL iron-transfer P-loop NTPase	27	2	29				train	False	0	0
+PF07282	Putative transposase DNA-binding domain	22	6	28	22.0	6.0	28.0	train	True	22	6
+PF01636	Phosphotransferase enzyme family	14	13	27	8.0	6.0	14.0	train	True	8	6
+PF01966	HD domain	23	4	27	22.0	2.0	24.0	train	True	22	2
+PF08242	Methyltransferase domain	13	13	26				train	False	0	0
+PF13489	Methyltransferase domain	12	14	26				train	False	0	0
+PF01926	50S ribosome-binding GTPase	20	4	24	6.0	2.0	8.0	train	True	6	2
+PF01938	TRAM domain	17	7	24	15.0	7.0	22.0	train	True	15	7
+PF01588	Putative tRNA binding domain	20	2	22	20.0	2.0	22.0	train	True	20	2
+PF12831	FAD dependent oxidoreductase	5	16	21				train	False	0	2
+PF13847	Methyltransferase domain	12	9	21				train	False	0	0
+PF02374	Anion-transporting ATPase	16	4	20	1.0	3.0	4.0	train	True	1	3
+PF07728	AAA domain (dynein-related subfamily)	5	14	19	4.0	9.0	13.0	train	True	4	9
+PF10111	Glycosyltransferase like family 2	13	6	19				train	False	0	0
+PF01368	DHH family	16	2	18	16.0	2.0	18.0	train	True	16	2
+PF01385	Probable transposase	17	1	18	17.0	1.0	18.0	train	True	17	1
+PF13167	GTP-binding GTPase N-terminal	14	4	18	14.0	4.0	18.0	train	True	14	4
+PF16360	GTP-binding GTPase Middle Region	14	4	18	14.0	4.0	18.0	train	True	14	4
+PF00004	ATPase family associated with various cellular activities (AAA)	7	10	17				train	False	0	1
+PF02272	DHHA1 domain	14	2	16	14.0	2.0	16.0	train	True	14	2
+PF03966	Trm112p-like protein	15	1	16	15.0	1.0	16.0	train	True	15	1
+PF04390	Lipopolysaccharide-assembly	15	1	16	15.0	1.0	16.0	train	True	15	1
+PF00696	Amino acid kinase family	11	4	15	11.0	4.0	15.0	train	True	11	4
+PF01593	Flavin containing amine oxidoreductase	4	11	15				train	False	1	0
+PF16901	C-terminal domain of alpha-glycerophosphate oxidase	10	5	15	10.0	5.0	15.0	train	True	10	5
+PF02666	Phosphatidylserine decarboxylase	9	5	14	9.0	5.0	14.0	train	True	9	5
+PF04012	PspA/IM30 family	7	7	14	7.0	7.0	14.0	train	True	7	7
+PF05175	Methyltransferase small domain	8	6	14				train	False	0	0
+PF13353	4Fe-4S single cluster domain	10	4	14	10.0	4.0	14.0	train	True	10	4
+PF13622	Acyl-CoA thioesterase N-terminal domain	8	6	14				train	False	0	0
+PF13738	Pyridine nucleotide-disulphide oxidoreductase	8	6	14				train	False	0	0
+PF01134	Glucose inhibited division protein A	12	1	13				train	False	2	0
+PF01209	ubiE/COQ5 methyltransferase family	7	6	13				train	False	0	0
+PF01546	Peptidase family M20/M25/M40	12	1	13	12.0	1.0	13.0	train	True	12	1
+PF02470	MlaD protein	12	1	13	12.0	1.0	13.0	train	True	12	1
+PF02606	Tetraacyldisaccharide-1-P 4'-kinase	8	5	13	8.0	5.0	13.0	train	True	8	5
+PF03364	Polyketide cyclase / dehydrase and lipid transport	7	6	13				train	False	0	2
+PF03848	Tellurite resistance protein TehB	6	7	13				train	False	0	0
+PF07687	Peptidase dimerisation domain	12	1	13	12.0	1.0	13.0	train	True	12	1
+PF10604	Polyketide cyclase / dehydrase and lipid transport	10	3	13	4.0	1.0	5.0	train	True	4	1
+PF14539	Domain of unknown function (DUF4442)	11	2	13	5.0	2.0	7.0	train	True	5	2
+PF00743	Flavin-binding monooxygenase-like	8	4	12				train	False	0	0
+PF01894	Uncharacterised protein family UPF0047	9	3	12	9.0	3.0	12.0	train	True	9	3
+PF03881	Fructosamine kinase	6	6	12				train	False	0	0
+PF05494	MlaC protein	11	1	12	11.0	1.0	12.0	train	True	11	1
+PF08327	Activator of Hsp90 ATPase homolog 1-like protein	9	3	12	9.0	3.0	12.0	train	True	9	3
+PF13434	L-lysine 6-monooxygenase/L-ornithine 5-monooxygenase	7	5	12				train	False	0	0
+PF18693	TRAM domain	8	4	12	6.0	4.0	10.0	train	True	6	4
+PF01263	Aldose 1-epimerase	5	6	11	5.0	6.0	11.0	train	True	5	6
+PF02421	Ferrous iron transport protein B	10	1	11				train	False	0	0
+PF04909	Amidohydrolase	3	8	11	3.0	8.0	11.0	train	True	3	8
+PF01946	Thi4 family	4	6	10				train	False	0	0
+PF04432	Coenzyme F420 hydrogenase/dehydrogenase, beta subunit C terminus	4	6	10	4.0	6.0	10.0	train	True	4	6
+PF12368	Rhodanase C-terminal	9	1	10	9.0	1.0	10.0	train	True	9	1
+PF12706	Beta-lactamase superfamily domain	5	5	10	2.0	1.0	3.0	train	True	2	1
+PF13671	AAA domain	8	2	10	2.0	2.0	4.0	train	True	2	2
+PF21688	FAD-dependent protein, C-terminal domain-like	8	2	10	8.0	2.0	10.0	train	True	8	2
+PF00070	Pyridine nucleotide-disulphide oxidoreductase	4	5	9				train	False	0	0
+PF01336	OB-fold nucleic acid binding domain	8	1	9	7.0	1.0	8.0	train	True	7	1
+PF01464	Transglycosylase SLT domain	8	1	9	8.0	1.0	9.0	train	True	8	1
+PF03692	Putative zinc- or iron-chelating domain	3	6	9	3.0	6.0	9.0	train	True	3	6
+PF04422	Coenzyme F420 hydrogenase/dehydrogenase, beta subunit N-term	4	5	9	4.0	5.0	9.0	train	True	4	5
+PF00753	Metallo-beta-lactamase superfamily	3	5	8	2.0	1.0	3.0	train	True	2	1
+PF01512	Respiratory-chain NADH dehydrogenase 51 Kd subunit	2	6	8	2.0	6.0	8.0	train	True	2	6
+PF01844	HNH endonuclease	3	5	8	1.0	3.0	4.0	train	True	1	3
+PF01863	YgjP-like, metallopeptidase domain	5	3	8	4.0	3.0	7.0	train	True	4	3
+PF03479	Plants and Prokaryotes Conserved (PCC) domain	7	1	8	7.0	1.0	8.0	train	True	7	1
+PF04413	3-Deoxy-D-manno-octulosonic-acid transferase (kdotransferase)	5	3	8	5.0	3.0	8.0	train	True	5	3
+PF06172	Cupin superfamily (DUF985)	6	2	8	6.0	2.0	8.0	train	True	6	2
+PF06745	KaiC	4	4	8				train	False	0	0
+PF10589	NADH-ubiquinone oxidoreductase-F iron-sulfur binding region	2	6	8	2.0	6.0	8.0	train	True	2	6
+PF13181	Tetratricopeptide repeat	7	1	8				train	False	1	0
+PF13481	AAA domain	4	4	8				train	False	0	0
+PF01695	IstB-like ATP binding protein	6	1	7				train	False	1	0
+PF01784	Duf34/NIF3 (NGG1p interacting factor 3)	6	1	7	6.0	1.0	7.0	train	True	6	1
+PF01833	IPT/TIG domain	6	1	7	6.0	1.0	7.0	train	True	6	1
+PF01990	ATP synthase (F/14-kDa) subunit	5	2	7	5.0	2.0	7.0	train	True	5	2
+PF02586	SOS response associated peptidase (SRAP)	4	3	7	4.0	3.0	7.0	train	True	4	3
+PF03746	LamB/YcsF family	6	1	7	6.0	1.0	7.0	train	True	6	1
+PF03969	AFG1-like ATPase	4	3	7	4.0	3.0	7.0	train	True	4	3
+PF04371	Porphyromonas-type peptidyl-arginine deiminase	6	1	7	6.0	1.0	7.0	train	True	6	1
+PF04472	Cell division protein SepF	2	5	7	2.0	5.0	7.0	train	True	2	5
+PF04752	ChaC-like protein	2	5	7	1.0	5.0	6.0	train	True	1	5
+PF08491	Squalene epoxidase	4	3	7				train	False	0	0
+PF12804	MobA-like NTP transferase domain	4	3	7	2.0	2.0	4.0	train	True	2	2
+PF13279	Thioesterase-like superfamily	6	1	7				train	False	1	0
+PF13431	Tetratricopeptide repeat	6	1	7				train	False	0	0
+PF13452	N-terminal half of MaoC dehydratase	4	3	7	2.0	2.0	4.0	train	True	2	2
+PF00025	ADP-ribosylation factor family	5	1	6				train	False	0	0
+PF00308	Bacterial DnaA ATPAse domain	5	1	6				train	False	0	0
+PF00903	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	5	1	6				train	False	0	0
+PF01047	MarR family	5	1	6				train	False	0	0
+PF01381	Helix-turn-helix	5	1	6				train	False	2	0
+PF01878	EVE domain	4	2	6	4.0	2.0	6.0	train	True	4	2
+PF02445	Quinolinate synthetase A protein	3	3	6	3.0	3.0	6.0	train	True	3	3
+PF02698	DUF218 domain	4	2	6	4.0	2.0	6.0	train	True	4	2
+PF04285	Protein of unknown function (DUF444)	5	1	6	5.0	1.0	6.0	train	True	5	1
+PF04468	PSP1 C-terminal conserved region	3	3	6	3.0	3.0	6.0	train	True	3	3
+PF06154	CbeA_antitoxin, type IV, cytoskeleton bundling-enhancing factor A	4	2	6	4.0	2.0	6.0	train	True	4	2
+PF08020	Protein of unknown function (DUF1706)   	4	2	6	3.0	2.0	5.0	train	True	3	2
+PF12802	MarR family	5	1	6				train	False	0	0
+PF17146	PIN domain of ribonuclease	5	1	6	5.0	1.0	6.0	train	True	5	1
+PF18073	Rubredoxin metal binding domain	4	2	6	4.0	2.0	6.0	train	True	4	2
+PF00037	4Fe-4S binding domain	2	3	5	1.0	1.0	2.0	train	True	1	1
+PF00078	Reverse transcriptase (RNA-dependent DNA polymerase)	4	1	5	4.0	1.0	5.0	train	True	4	1
+PF00534	Glycosyl transferases group 1	3	2	5	2.0	1.0	3.0	train	True	2	1
+PF03029	Conserved hypothetical ATP binding protein	1	4	5	1.0	4.0	5.0	train	True	1	4
+PF04820	Tryptophan halogenase	4	1	5				train	False	0	0
+PF05673	Protein of unknown function (DUF815)	1	4	5				train	False	0	0
+PF05991	YacP-like NYN domain	4	1	5	4.0	1.0	5.0	train	True	4	1
+PF06032	Protein of unknown function (DUF917), N-terminal	3	2	5	3.0	2.0	5.0	train	True	3	2
+PF06039	Malate:quinone oxidoreductase (Mqo)	3	2	5				train	False	0	0
+PF06228	Haem utilisation ChuX/HutX	4	1	5	1.0	1.0	2.0	train	True	1	1
+PF06325	Ribosomal protein L11 methyltransferase (PrmA)	2	3	5				train	False	0	0
+PF07720	Tetratricopeptide repeat	4	1	5	4.0	1.0	5.0	train	True	4	1
+PF08450	SMP-30/Gluconolactonase/LRE-like region	4	1	5	4.0	1.0	5.0	train	True	4	1
+PF13401	AAA domain	2	3	5				train	False	0	0
+PF13432	Tetratricopeptide repeat	4	1	5				train	False	0	0
+PF14464	Prokaryotic homologs of the JAB domain	4	1	5	2.0	1.0	3.0	train	True	2	1
+PF20906	Protein of unknown function DUF917, C-terminal	3	2	5	3.0	2.0	5.0	train	True	3	2
+PF22818	ApeI dehydratase	3	2	5	2.0	2.0	4.0	train	True	2	2
+PF01663	Type I phosphodiesterase / nucleotide pyrophosphatase	2	2	4				train	False	0	1
+PF01755	Glycosyltransferase family 25 (LPS biosynthesis protein)	2	2	4	2.0	2.0	4.0	train	True	2	2
+PF01869	BadF/BadG/BcrA/BcrD ATPase family	2	2	4	2.0	2.0	4.0	train	True	2	2
+PF01906	Putative heavy-metal-binding	3	1	4	3.0	1.0	4.0	train	True	3	1
+PF01928	CYTH domain	3	1	4	3.0	1.0	4.0	train	True	3	1
+PF01989	Aconitase X swivel domain	3	1	4	3.0	1.0	4.0	train	True	3	1
+PF03432	MobA/VirD2-like, nuclease domain	3	1	4	3.0	1.0	4.0	train	True	3	1
+PF03747	ADP-ribosylglycohydrolase	2	2	4	2.0	2.0	4.0	train	True	2	2
+PF04305	Protein of unknown function (DUF455)	2	2	4	2.0	2.0	4.0	train	True	2	2
+PF04551	GcpE protein	2	2	4	2.0	2.0	4.0	train	True	2	2
+PF05834	Lycopene cyclase protein	2	2	4				train	False	0	0
+PF06094	Gamma-glutamyl cyclotransferase, AIG2-like	3	1	4	1.0	1.0	2.0	train	True	1	1
+PF07977	FabA-like domain	3	1	4	2.0	1.0	3.0	train	True	2	1
+PF07995	Glucose / Sorbosone dehydrogenase	1	3	4	1.0	3.0	4.0	train	True	1	3
+PF10531	SLBB domain	1	3	4				train	False	0	1
+PF10568	Outer mitochondrial membrane transport complex protein	3	1	4				train	False	0	0
+PF12681	Glyoxalase-like domain	3	1	4				train	False	0	0
+PF13191	AAA ATPase domain	1	3	4				train	False	0	0
+PF13412	Winged helix-turn-helix DNA-binding	3	1	4				train	False	0	0
+PF13454	FAD-NAD(P)-binding	3	1	4				train	False	1	0
+PF13541	Subunit ChlI of Mg-chelatase	3	1	4				train	False	3	0
+PF17171	Glutathione S-transferase, C-terminal domain	3	1	4	2.0	1.0	3.0	train	True	2	1
+PF17172	Glutathione S-transferase N-terminal domain 	3	1	4				train	False	0	0
+PF22794	ZPR1 jelly-roll domain	3	1	4	3.0	1.0	4.0	train	True	3	1
+PF00884	Sulfatase	2	1	3				train	False	0	0
+PF00925	GTP cyclohydrolase II	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF01135	Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)	1	2	3				train	False	0	0
+PF01343	Peptidase family S49	1	2	3	1.0	1.0	2.0	train	True	1	1
+PF01717	Cobalamin-independent synthase, Catalytic domain	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF01852	START domain	1	2	3				train	False	0	0
+PF01893	Uncharacterised protein family UPF0058	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF01960	ArgJ family	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF02190	ATP-dependent protease La (LON) substrate-binding domain 	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF02401	LytB protein	1	2	3	1.0	2.0	3.0	train	True	1	2
+PF02541	Ppx/GppA phosphatase family	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF03038	UL95 family	1	2	3	1.0	2.0	3.0	train	True	1	2
+PF03367	ZPR1 zinc-finger domain	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF03807	NADP oxidoreductase coenzyme F420-dependent	1	2	3	1.0	1.0	2.0	train	True	1	1
+PF04245	37-kD nucleoid-associated bacterial protein	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF04670	Gtr1/RagA G protein conserved region	2	1	3				train	False	1	0
+PF05148	Hypothetical methyltransferase	2	1	3				train	False	0	0
+PF05362	Lon protease (S16) C-terminal proteolytic domain	1	2	3	1.0	1.0	2.0	train	True	1	1
+PF05908	Poly-gamma-glutamate hydrolase	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF06080	Protein of unknown function (DUF938)	1	2	3	1.0	1.0	2.0	train	True	1	1
+PF06627	Protein of unknown function (DUF1153)	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF07542	ATP12 chaperone protein	1	2	3	1.0	2.0	3.0	train	True	1	2
+PF07683	Cobalamin synthesis protein cobW C-terminal domain	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF08282	haloacid dehalogenase-like hydrolase	2	1	3	1.0	1.0	2.0	train	True	1	1
+PF08406	CbbQ/NirQ/NorQ C-terminal 	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF08496	Peptidase family S49 N-terminal	1	2	3	1.0	1.0	2.0	train	True	1	1
+PF08662	Eukaryotic translation initiation factor eIF2A	1	2	3	1.0	2.0	3.0	train	True	1	2
+PF09084	NMT1/THI5 like	2	1	3				train	False	0	0
+PF12917	5'-deoxynucleotidase YfbR-like	1	2	3				train	False	0	0
+PF13023	HD domain	1	2	3				train	False	0	0
+PF13183	4Fe-4S dicluster domain	1	2	3				train	False	0	0
+PF13379	NMT1-like family	1	2	3				train	False	0	1
+PF13460	NAD(P)H-binding 	2	1	3				train	False	1	0
+PF13483	Beta-lactamase superfamily domain	2	1	3				train	False	0	0
+PF16347	N-sulphoglucosamine sulphohydrolase, C-terminal	2	1	3				train	False	0	0
+PF22461	SLBB domain	1	2	3				train	False	0	0
+PF22817	ApeP dehydratase	2	1	3	2.0	1.0	3.0	train	True	2	1
+PF00201	UDP-glucoronosyl and UDP-glucosyl transferase	1	1	2				train	False	0	0
+PF00436	Single-strand binding protein family	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF00483	Nucleotidyl transferase	1	1	2				train	False	0	0
+PF00665	Integrase core domain	1	1	2				train	False	0	1
+PF00702	haloacid dehalogenase-like hydrolase	1	1	2				train	False	0	0
+PF00891	O-methyltransferase domain	1	1	2				train	False	0	0
+PF01022	Bacterial regulatory protein, arsR family	1	1	2				train	False	0	0
+PF01435	Peptidase family M48	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF01564	Spermine/spermidine synthase domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF01774	UreD urease accessory protein	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF01798	snoRNA binding domain, fibrillarin	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF01866	Putative diphthamide synthesis protein	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF02550	Acetyl-CoA hydrolase/transferase N-terminal domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF02582	RMND1/Sif2-Sif3/Mrx10, DUF155	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF02900	Catalytic LigB subunit of aromatic ring-opening dioxygenase	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF02934	GatB/GatE catalytic domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF03998	Utp11 protein	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF04266	ASCH domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF05368	NmrA-like family	1	1	2				train	False	0	0
+PF05787	Alkaline phosphatase PhoX	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF05812	Herpesvirus BLRF2 protein	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF05971	RNA methyltransferase	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF06224	DNA glycosylase AlkZ-like	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF06722	Erythromycin biosynthesis protein CIII-like, C-terminal domain	1	1	2				train	False	0	0
+PF06968	Biotin and Thiamin Synthesis associated domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF07726	ATPase family associated with various cellular activities (AAA)	1	1	2				train	False	0	0
+PF07978	NIPSNAP 	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF08388	Group II intron, maturase-specific domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF12844	Helix-turn-helix domain	1	1	2				train	False	0	0
+PF13336	Acetyl-CoA hydrolase/transferase C-terminal domain	1	1	2	1.0	1.0	2.0	train	True	1	1
+PF13391	HNH endonuclease	1	1	2				train	False	0	0
+PF13424	Tetratricopeptide repeat	1	1	2				train	False	0	0
+PF13534	4Fe-4S dicluster domain	1	1	2				train	False	0	0
+PF13560	Helix-turn-helix domain	1	1	2				train	False	0	0
+PF14697	4Fe-4S dicluster domain	1	1	2				train	False	0	0
+PF22622	MFE-2 hydratase 2 N-terminal domain   	1	1	2				train	False	0	0
+PF13450	NAD(P)-binding Rossmann-like domain	8	17	25				validation	False	0	1
+PF01266	FAD dependent oxidoreductase	4	17	21	2.0	4.0	6.0	validation	True	2	4
+PF07992	Pyridine nucleotide-disulphide oxidoreductase	10	11	21	1.0	2.0	3.0	validation	True	1	2
+PF01494	FAD binding domain	5	15	20				validation	False	0	0
+PF00890	FAD binding domain	7	11	18				validation	False	0	0
+PF00535	Glycosyl transferase family 2	12	5	17	3.0	3.0	6.0	validation	True	3	3
+PF20143	ATP-NAD kinase C-terminal domain	12	5	17	12.0	5.0	17.0	validation	True	12	5
+PF00575	S1 RNA binding domain	13	1	14	13.0	1.0	14.0	validation	True	13	1
+PF01656	CobQ/CobB/MinD/ParA nucleotide binding domain	6	7	13	1.0	3.0	4.0	validation	True	1	3
+PF07728	AAA domain (dynein-related subfamily)	9	4	13				validation	False	0	2
+PF01513	ATP-NAD kinase N-terminal domain	8	4	12	8.0	4.0	12.0	validation	True	8	4
+PF01926	50S ribosome-binding GTPase	11	1	12	1.0	1.0	2.0	validation	True	1	1
+PF02622	Uncharacterized ACR, COG1678	11	1	12	11.0	1.0	12.0	validation	True	11	1
+PF12831	FAD dependent oxidoreductase	5	7	12				validation	False	0	0
+PF00004	ATPase family associated with various cellular activities (AAA)	10	1	11				validation	False	0	0
+PF01933	2-phospho-L-lactate transferase CofD	8	3	11	8.0	3.0	11.0	validation	True	8	3
+PF07726	ATPase family associated with various cellular activities (AAA)	9	2	11				validation	False	0	0
+PF17863	AAA lid domain	9	2	11	9.0	2.0	11.0	validation	True	9	2
+PF20030	MoxR domain in the MoxR-vWA-beta-propeller ternary systems	9	2	11				validation	False	0	0
+PF07685	CobB/CobQ-like glutamine amidotransferase domain	5	5	10	5.0	5.0	10.0	validation	True	5	5
+PF13532	2OG-Fe(II) oxygenase superfamily	5	5	10	5.0	5.0	10.0	validation	True	5	5
+PF13641	Glycosyltransferase like family 2	8	2	10				validation	False	0	0
+PF00005	ABC transporter	5	4	9	3.0	4.0	7.0	validation	True	3	4
+PF00472	RF-1 domain	8	1	9	8.0	1.0	9.0	validation	True	8	1
+PF03577	Peptidase family C69	5	4	9	5.0	4.0	9.0	validation	True	5	4
+PF13738	Pyridine nucleotide-disulphide oxidoreductase	5	4	9				validation	False	0	0
+PF13806	Rieske-like [2Fe-2S] domain	6	3	9	3.0	3.0	6.0	validation	True	3	3
+PF01134	Glucose inhibited division protein A	3	5	8				validation	False	0	0
+PF02492	CobW/HypB/UreG, nucleotide-binding domain	4	4	8	4.0	4.0	8.0	validation	True	4	4
+PF13489	Methyltransferase domain	1	6	7				validation	False	0	0
+PF01593	Flavin containing amine oxidoreductase	3	3	6				validation	False	0	0
+PF03008	Archaea bacterial proteins of unknown function	2	4	6	2.0	4.0	6.0	validation	True	2	4
+PF05257	CHAP domain	4	2	6	4.0	2.0	6.0	validation	True	4	2
+PF13181	Tetratricopeptide repeat	5	1	6				validation	False	0	0
+PF13500	AAA domain	4	2	6				validation	False	0	0
+PF01637	ATPase domain predominantly from Archaea	1	4	5				validation	False	0	0
+PF01813	ATP synthase subunit D 	1	4	5	1.0	4.0	5.0	validation	True	1	4
+PF04363	Protein of unknown function (DUF496)	1	4	5	1.0	4.0	5.0	validation	True	1	4
+PF05834	Lycopene cyclase protein	3	2	5				validation	False	0	0
+PF06838	Methionine gamma-lyase 	4	1	5				validation	False	1	0
+PF08327	Activator of Hsp90 ATPase homolog 1-like protein	4	1	5	2.0	1.0	3.0	validation	True	2	1
+PF13173	AAA domain	1	4	5				validation	False	0	0
+PF13434	L-lysine 6-monooxygenase/L-ornithine 5-monooxygenase	3	2	5				validation	False	0	0
+PF14559	Tetratricopeptide repeat	4	1	5				validation	False	1	0
+PF01053	Cys/Met metabolism PLP-dependent enzyme	3	1	4				validation	False	0	0
+PF01476	LysM domain	2	2	4	2.0	2.0	4.0	validation	True	2	2
+PF01844	HNH endonuclease	3	1	4				validation	False	2	0
+PF04536	TPM domain	3	1	4	3.0	1.0	4.0	validation	True	3	1
+PF04991	LicD family	3	1	4	3.0	1.0	4.0	validation	True	3	1
+PF14691	Dihydroprymidine dehydrogenase domain II, 4Fe-4S cluster	3	1	4	3.0	1.0	4.0	validation	True	3	1
+PF22578	Geranylgeranyl reductase catalytic domain	2	2	4				validation	False	1	0
+PF00753	Metallo-beta-lactamase superfamily	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF01139	tRNA-splicing ligase RtcB	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF01519	Protein of unknown function DUF16	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF02374	Anion-transporting ATPase	1	2	3				validation	False	0	0
+PF03437	BtpA family	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF04055	Radical SAM superfamily	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF08014	Microtubule-associated tyrosine carboxypeptidase	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF09350	DnaJ homologue, subfamily C, member 28, conserved domain	2	1	3	2.0	1.0	3.0	validation	True	2	1
+PF13401	AAA domain	2	1	3				validation	False	0	0
+PF13454	FAD-NAD(P)-binding	1	2	3				validation	False	0	0
+PF13614	AAA domain	1	2	3				validation	False	0	0
+PF00340	Interleukin-1 / 18	1	1	2	1.0	1.0	2.0	validation	True	1	1
+PF01435	Peptidase family M48	1	1	2	1.0	1.0	2.0	validation	True	1	1
+PF02709	N-terminal domain of galactosyltransferase	1	1	2				validation	False	0	1
+PF03364	Polyketide cyclase / dehydrase and lipid transport	1	1	2				validation	False	0	1
+PF04280	Tim44-like domain	1	1	2	1.0	1.0	2.0	validation	True	1	1
+PF05240	APOBEC-like C-terminal domain	1	1	2				validation	False	0	0
+PF07683	Cobalamin synthesis protein cobW C-terminal domain	1	1	2	1.0	1.0	2.0	validation	True	1	1
+PF08210	APOBEC-like N-terminal domain	1	1	2				validation	False	0	0
+PF12895	Anaphase-promoting complex, cyclosome, subunit 3	1	1	2				validation	False	1	0
+PF13428	Tetratricopeptide repeat	1	1	2				validation	False	1	0
+PF14279	HNH endonuclease	1	1	2				validation	False	0	0
+PF18750	Secreted Novel AID/APOBEC-like Deaminase 4	1	1	2				validation	False	0	0
+PF18769	APOBEC1	1	1	2				validation	False	0	0
+PF18771	APOBEC3	1	1	2				validation	False	0	0
+PF18772	APOBEC2	1	1	2				validation	False	0	0
+PF18774	APOBEC4-like -AID/APOBEC-deaminase	1	1	2				validation	False	0	0
+PF18775	APOBEC4	1	1	2				validation	False	0	0
+PF18778	Novel AID APOBEC clade 1	1	1	2				validation	False	0	0
+PF18782	Novel AID APOBEC clade 2	1	1	2				validation	False	0	0
+PF01494	FAD binding domain	11	16	27	5.0	5.0	10.0	reserved_test	True	5	5
+PF13450	NAD(P)-binding Rossmann-like domain	7	18	25				reserved_test	False	0	0
+PF01527	Transposase	21	1	22	13.0	1.0	14.0	reserved_test	True	13	1
+PF13460	NAD(P)H-binding 	17	5	22	2.0	3.0	5.0	reserved_test	True	2	3
+PF13304	AAA domain, putative AbiEii toxin, Type IV TA system	6	13	19	4.0	3.0	7.0	reserved_test	True	4	3
+PF00890	FAD binding domain	7	11	18				reserved_test	False	0	1
+PF01370	NAD dependent epimerase/dehydratase family	15	1	16				reserved_test	False	0	0
+PF01715	IPP transferase	14	2	16	1.0	1.0	2.0	reserved_test	True	1	1
+PF13476	AAA domain	3	12	15	2.0	3.0	5.0	reserved_test	True	2	3
+PF01745	Isopentenyl transferase	13	1	14				reserved_test	False	0	0
+PF05368	NmrA-like family	12	2	14				reserved_test	False	0	0
+PF00534	Glycosyl transferases group 1	9	4	13				reserved_test	False	0	0
+PF12804	MobA-like NTP transferase domain	6	7	13	4.0	3.0	7.0	reserved_test	True	4	3
+PF13692	Glycosyl transferases group 1	9	4	13				reserved_test	False	0	0
+PF00535	Glycosyl transferase family 2	10	2	12				reserved_test	False	2	0
+PF01266	FAD dependent oxidoreductase	3	9	12				reserved_test	False	0	0
+PF00753	Metallo-beta-lactamase superfamily	8	3	11	2.0	2.0	4.0	reserved_test	True	2	2
+PF03618	Kinase/pyrophosphorylase	8	3	11	8.0	3.0	11.0	reserved_test	True	8	3
+PF01977	3-octaprenyl-4-hydroxybenzoate carboxy-lyase Rift-related domain	2	8	10	2.0	8.0	10.0	reserved_test	True	2	8
+PF13439	Glycosyltransferase Family 4	7	3	10				reserved_test	False	0	0
+PF13579	Glycosyl transferase 4-like domain	7	3	10				reserved_test	False	0	0
+PF13641	Glycosyltransferase like family 2	8	2	10				reserved_test	False	0	0
+PF20695	3-octaprenyl-4-hydroxybenzoate carboxy-lyase N-terminal domain	2	8	10	2.0	8.0	10.0	reserved_test	True	2	8
+PF20696	3-octaprenyl-4-hydroxybenzoate carboxy-lyase C-terminal domain	2	8	10	2.0	8.0	10.0	reserved_test	True	2	8
+PF02410	Ribosomal silencing factor during starvation 	6	3	9	6.0	3.0	9.0	reserved_test	True	6	3
+PF03054	tRNA methyl transferase HUP domain	7	2	9				reserved_test	False	1	0
+PF20258	Aminomethyltransferase beta-barrel domain	7	2	9	7.0	2.0	9.0	reserved_test	True	7	2
+PF20259	tRNA methyl transferase PRC-barrel domain	7	2	9	7.0	2.0	9.0	reserved_test	True	7	2
+PF01695	IstB-like ATP binding protein	3	5	8				reserved_test	False	0	2
+PF01812	5-formyltetrahydrofolate cyclo-ligase family	6	2	8	6.0	2.0	8.0	reserved_test	True	6	2
+PF12706	Beta-lactamase superfamily domain	6	2	8				reserved_test	False	1	0
+PF01435	Peptidase family M48	4	3	7	4.0	3.0	7.0	reserved_test	True	4	3
+PF02540	NAD synthase	5	2	7				reserved_test	False	0	0
+PF03942	DTW domain	3	4	7	3.0	4.0	7.0	reserved_test	True	3	4
+PF00149	Calcineurin-like phosphoesterase	1	5	6				reserved_test	False	0	3
+PF00308	Bacterial DnaA ATPAse domain	5	1	6				reserved_test	False	0	0
+PF01774	UreD urease accessory protein	1	5	6	1.0	5.0	6.0	reserved_test	True	1	5
+PF08241	Methyltransferase domain	3	3	6				reserved_test	False	0	1
+PF10111	Glycosyltransferase like family 2	5	1	6				reserved_test	False	0	0
+PF12831	FAD dependent oxidoreductase	3	3	6				reserved_test	False	0	0
+PF13175	AAA ATPase domain	2	4	6				reserved_test	False	0	0
+PF20706	Family 4 Glycosyltransferase in conflict systems	3	3	6				reserved_test	False	0	0
+PF00004	ATPase family associated with various cellular activities (AAA)	1	4	5				reserved_test	False	0	0
+PF02626	Carboxyltransferase domain, subdomain A and B 	1	4	5	1.0	4.0	5.0	reserved_test	True	1	4
+PF03435	Saccharopine dehydrogenase NADP binding domain	4	1	5	2.0	1.0	3.0	reserved_test	True	2	1
+PF08242	Methyltransferase domain	3	2	5				reserved_test	False	0	0
+PF10604	Polyketide cyclase / dehydrase and lipid transport	3	2	5				reserved_test	False	0	1
+PF13181	Tetratricopeptide repeat	4	1	5				reserved_test	False	0	0
+PF13432	Tetratricopeptide repeat	4	1	5				reserved_test	False	0	0
+PF13477	Glycosyl transferase 4-like	4	1	5				reserved_test	False	0	0
+PF13649	Methyltransferase domain	3	2	5				reserved_test	False	0	0
+PF13847	Methyltransferase domain	4	1	5				reserved_test	False	0	0
+PF01676	Metalloenzyme superfamily	3	1	4	3.0	1.0	4.0	reserved_test	True	3	1
+PF02811	PHP domain	3	1	4	3.0	1.0	4.0	reserved_test	True	3	1
+PF03061	Thioesterase superfamily	1	3	4	1.0	1.0	2.0	reserved_test	True	1	1
+PF03358	NADPH-dependent FMN reductase	2	2	4				reserved_test	False	0	2
+PF03364	Polyketide cyclase / dehydrase and lipid transport	3	1	4				reserved_test	False	0	0
+PF07081	Protein of unknown function (DUF1349)	3	1	4	1.0	1.0	2.0	reserved_test	True	1	1
+PF07451	Stage V sporulation protein AD (SpoVAD)	2	2	4	2.0	2.0	4.0	reserved_test	True	2	2
+PF09084	NMT1/THI5 like	3	1	4	1.0	1.0	2.0	reserved_test	True	1	1
+PF10143	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	3	1	4	3.0	1.0	4.0	reserved_test	True	3	1
+PF10263	SprT-like family	2	2	4	2.0	2.0	4.0	reserved_test	True	2	2
+PF00037	4Fe-4S binding domain	1	2	3	1.0	2.0	3.0	reserved_test	True	1	2
+PF00355	Rieske [2Fe-2S] domain	2	1	3	2.0	1.0	3.0	reserved_test	True	2	1
+PF01128	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	1	2	3				reserved_test	False	0	0
+PF01142	tRNA pseudouridine synthase D (TruD)	2	1	3	2.0	1.0	3.0	reserved_test	True	2	1
+PF01343	Peptidase family S49	2	1	3				reserved_test	False	1	0
+PF01436	NHL repeat	1	2	3	1.0	2.0	3.0	reserved_test	True	1	2
+PF02636	Putative S-adenosyl-L-methionine-dependent methyltransferase	1	2	3	1.0	2.0	3.0	reserved_test	True	1	2
+PF07676	WD40-like Beta Propeller Repeat	2	1	3	1.0	1.0	2.0	reserved_test	True	1	1
+PF07719	Tetratricopeptide repeat	2	1	3				reserved_test	False	0	0
+PF10275	Peptidase C65 Otubain	1	2	3				reserved_test	False	1	0
+PF13489	Methyltransferase domain	2	1	3				reserved_test	False	0	0
+PF13524	Glycosyl transferases group 1	2	1	3				reserved_test	False	0	0
+PF16653	Saccharopine dehydrogenase C-terminal domain	2	1	3	2.0	1.0	3.0	reserved_test	True	2	1
+PF17784	Sulfotransferase domain	2	1	3	2.0	1.0	3.0	reserved_test	True	2	1
+PF00069	Protein kinase domain	1	1	2				reserved_test	False	0	0
+PF00515	Tetratricopeptide repeat	1	1	2				reserved_test	False	0	0
+PF00574	Clp protease	1	1	2				reserved_test	False	0	0
+PF01656	CobQ/CobB/MinD/ParA nucleotide binding domain	1	1	2				reserved_test	False	0	0
+PF01734	Patatin-like phospholipase	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF01809	Putative membrane protein insertion efficiency factor	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF01968	Hydantoinase/oxoprolinase	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF02374	Anion-transporting ATPase	1	1	2				reserved_test	False	0	0
+PF02470	MlaD protein	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF02581	Thiamine monophosphate synthase	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF04909	Amidohydrolase	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF05257	CHAP domain	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF05378	Hydantoinase/oxoprolinase N-terminal region	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF06089	L-asparaginase II	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF07714	Protein tyrosine and serine/threonine kinase	1	1	2				reserved_test	False	0	0
+PF12850	Calcineurin-like phosphoesterase superfamily domain	1	1	2				reserved_test	False	0	0
+PF13174	Tetratricopeptide repeat	1	1	2				reserved_test	False	0	0
+PF13263	PHP-associated	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1
+PF13279	Thioesterase-like superfamily	1	1	2				reserved_test	False	1	0
+PF13414	TPR repeat	1	1	2				reserved_test	False	0	0
+PF13519	von Willebrand factor type A domain	1	1	2				reserved_test	False	0	1
+PF13614	AAA domain	1	1	2				reserved_test	False	0	0
+PF13671	AAA domain	1	1	2				reserved_test	False	0	1
+PF17283	SprT-like zinc ribbon domain	1	1	2	1.0	1.0	2.0	reserved_test	True	1	1

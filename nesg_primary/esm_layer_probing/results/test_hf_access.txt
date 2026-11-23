@@ -1,0 +1,16 @@
+Private destination verified; empty repository, no checkpoints to restore.
+Token authentication and private dataset access verified: PLM-Interp/test
+test_bad_token_is_distinguished_without_disclosing_response (__main__.HFAccessTests.test_bad_token_is_distinguished_without_disclosing_response) ... ok
+test_creation_denial_reports_status_without_response_body (__main__.HFAccessTests.test_creation_denial_reports_status_without_response_body) ... ok
+test_diagnosis_is_read_only_and_never_prints_token_details (__main__.HFAccessTests.test_diagnosis_is_read_only_and_never_prints_token_details) ... ok
+test_empty_private_repo_can_start_without_a_revision (__main__.HFAccessTests.test_empty_private_repo_can_start_without_a_revision) ... ok
+test_explicit_creation_is_private_dataset_only (__main__.HFAccessTests.test_explicit_creation_is_private_dataset_only) ... ok
+test_forbidden_repo_does_not_trigger_creation (__main__.HFAccessTests.test_forbidden_repo_does_not_trigger_creation) ... ok
+test_missing_repo_does_not_trigger_automatic_creation (__main__.HFAccessTests.test_missing_repo_does_not_trigger_automatic_creation) ... ok
+test_public_repo_is_never_reconfigured_or_used (__main__.HFAccessTests.test_public_repo_is_never_reconfigured_or_used) ... ok
+test_successful_creation_followed_by_failed_verification_is_distinct (__main__.HFAccessTests.test_successful_creation_followed_by_failed_verification_is_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.133s
+
+OK

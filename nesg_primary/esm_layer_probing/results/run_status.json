@@ -1,0 +1,11 @@
+{
+  "ESM_layers_completed": 0,
+  "baseline_completed": true,
+  "test_evaluated": false,
+  "extraction_directory": null,
+  "protocol_sha256": "a8b6786ccd5363a00c1152bc62d2575f66c8be65ff0a4256e02fcf61b6beac4a",
+  "input_manifest_sha256": "74cf7dd9a06df682506ac712579fa5d41414f884cd990cbf07a1bb228ad10350",
+  "local_labels_sha256": "59c024a985d589b659d6578cb229f7d947fae26ec54203a04b87ae6043198b4c",
+  "CV_interpretation": "Selected-C fold estimates reuse hyperparameter selection folds; not unbiased nested-CV estimates",
+  "uncertainty": "2000 paired homology-group bootstrap draws conditional on fitted models; no training-resampling or layer-selection correction"
+}

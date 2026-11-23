@@ -1,0 +1,16 @@
+NESG reserved-test sequences for AGGRESCAN
+
+710 of 710 test sequences ready; 0 unsupported.
+Server: http://bioinf.uab.es/aggrescan/
+Use the same default settings as training and validation. Keep identifiers unchanged.
+Paste FASTA contents if the server provides a text box instead of file upload.
+Choose either the combined FASTA or the batches; both contain the same sequences.
+The ZIP contains 8 batches of at most 100 proteins plus manifests.
+Batch size is an operational choice, not a verified server limit.
+Save complete outputs, including residue scores and hotspot coordinates, by batch name.
+Record run date, settings and any errors. Failed jobs are not zero aggregation.
+The manifest uses original record IDs and exact sequence hashes. The sid column is
+blank because the sequence-only source does not include those secondary identifiers.
+No phenotype records are read or included. Original sequences and splits are unchanged.
+
+Reproduce: python nesg_primary/export_aggrescan_fastas.py --test

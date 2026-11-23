@@ -1,0 +1,144 @@
+key	kind	control	category	variant	target	binary	train_n	validation_n	validation_groups	validation_positive	positive_groups	negative_groups	validation_target_sd	validation_target_min	validation_target_max	status	same_property_range	ci_support_eligible	lower	upper
+overall	overall	none	All validation	all	solubility	True	2361	691	364	491.0	263.0	137.0	0.4535004230388538	0.0	1.0	estimable	False	True		
+range:hydrophobicity:1	range	hydrophobicity	Range 1	training_quantiles	solubility	True	472	153	106	123.0	84.0	25.0	0.3970285633591488	0.0	1.0	estimable	False	True	-inf	-0.49714982317007816
+range:hydrophobicity:2	range	hydrophobicity	Range 2	training_quantiles	solubility	True	472	137	92	101.0	75.0	25.0	0.44014053815127985	0.0	1.0	estimable	False	True	-0.49714982317007816	-0.3318971418501725
+range:hydrophobicity:3	range	hydrophobicity	Range 3	training_quantiles	solubility	True	471	130	90	95.0	67.0	28.0	0.4435600997950306	0.0	1.0	estimable	False	True	-0.3318971418501725	-0.20980563847429526
+range:hydrophobicity:4	range	hydrophobicity	Range 4	training_quantiles	solubility	True	472	150	100	102.0	65.0	42.0	0.46647615158762407	0.0	1.0	estimable	False	True	-0.20980563847429526	-0.06824668227946902
+range:hydrophobicity:5	range	hydrophobicity	Range 5	training_quantiles	solubility	True	472	120	73	69.0	44.0	39.0	0.4943429983321297	0.0	1.0	estimable	False	True	-0.06824668227946902	inf
+range:charge_proxy:1	range	charge_proxy	Range 1	training_quantiles	solubility	True	471	168	105	144.0	91.0	21.0	0.34992710611188255	0.0	1.0	estimable	False	True	-inf	-0.0427807486631016
+range:charge_proxy:2	range	charge_proxy	Range 2	training_quantiles	solubility	True	473	111	69	76.0	50.0	23.0	0.4646413318280226	0.0	1.0	estimable	False	True	-0.0427807486631016	-0.024287567312605618
+range:charge_proxy:3	range	charge_proxy	Range 3	training_quantiles	solubility	True	470	129	90	85.0	64.0	39.0	0.4740739488812607	0.0	1.0	estimable	False	True	-0.024287567312605618	-0.008695652173913
+range:charge_proxy:4	range	charge_proxy	Range 4	training_quantiles	solubility	True	473	121	94	72.0	61.0	41.0	0.4908840464435537	0.0	1.0	estimable	False	True	-0.008695652173913	0.012215032354405145
+range:charge_proxy:5	range	charge_proxy	Range 5	training_quantiles	solubility	True	472	161	102	113.0	69.0	36.0	0.45743981713098053	0.0	1.0	estimable	False	True	0.012215032354405145	inf
+range:log_length:1	range	log_length	Range 1	training_quantiles	solubility	True	462	147	96	116.0	74.0	25.0	0.407936444913332	0.0	1.0	estimable	False	True	-inf	4.882801922586371
+range:log_length:2	range	log_length	Range 2	training_quantiles	solubility	True	476	129	82	102.0	60.0	26.0	0.40681059731478836	0.0	1.0	estimable	False	True	4.882801922586371	5.241747015059643
+range:log_length:3	range	log_length	Range 3	training_quantiles	solubility	True	476	130	78	75.0	43.0	39.0	0.49404740687173576	0.0	1.0	estimable	False	True	5.241747015059643	5.54907608489522
+range:log_length:4	range	log_length	Range 4	training_quantiles	solubility	True	472	141	74	105.0	57.0	27.0	0.4360404581259404	0.0	1.0	estimable	False	True	5.54907608489522	5.8998973535824915
+range:log_length:5	range	log_length	Range 5	training_quantiles	solubility	True	475	144	57	93.0	44.0	27.0	0.47826001180204153	0.0	1.0	estimable	False	True	5.8998973535824915	inf
+range:aggregation_Na4vSS:1	range	aggregation_Na4vSS	Range 1	training_quantiles	solubility	True	470	139	91	118.0	79.0	18.0	0.3581259989828386	0.0	1.0	estimable	False	True	-inf	-11.8
+range:aggregation_Na4vSS:2	range	aggregation_Na4vSS	Range 2	training_quantiles	solubility	True	466	134	89	107.0	73.0	20.0	0.4011150641903489	0.0	1.0	estimable	False	True	-11.8	-6.5
+range:aggregation_Na4vSS:3	range	aggregation_Na4vSS	Range 3	training_quantiles	solubility	True	461	114	88	80.0	64.0	29.0	0.45748788808439633	0.0	1.0	estimable	False	True	-6.5	-3.0
+range:aggregation_Na4vSS:4	range	aggregation_Na4vSS	Range 4	training_quantiles	solubility	True	487	138	85	99.0	62.0	29.0	0.45026772124365166	0.0	1.0	estimable	False	True	-3.0	1.1
+range:aggregation_Na4vSS:5	range	aggregation_Na4vSS	Range 5	training_quantiles	solubility	True	475	165	103	86.0	56.0	58.0	0.49954984327260316	0.0	1.0	estimable	False	True	1.1	inf
+range:apr_fraction:1	range	apr_fraction	Range 1	training_quantiles	solubility	True	472	145	105	117.0	86.0	24.0	0.39473346265528786	0.0	1.0	estimable	False	True	-inf	0.24045764362220057
+range:apr_fraction:2	range	apr_fraction	Range 2	training_quantiles	solubility	True	472	131	92	94.0	71.0	31.0	0.4501875632911979	0.0	1.0	estimable	False	True	0.24045764362220057	0.3000896860986547
+range:apr_fraction:3	range	apr_fraction	Range 3	training_quantiles	solubility	True	471	126	94	94.0	72.0	26.0	0.43527965716832034	0.0	1.0	estimable	False	True	0.3000896860986547	0.34916373708320014
+range:apr_fraction:4	range	apr_fraction	Range 4	training_quantiles	solubility	True	472	149	96	104.0	64.0	39.0	0.4591310436640824	0.0	1.0	estimable	False	True	0.34916373708320014	0.4078535839376449
+range:apr_fraction:5	range	apr_fraction	Range 5	training_quantiles	solubility	True	472	139	100	81.0	61.0	47.0	0.4931076111710444	0.0	1.0	estimable	False	True	0.4078535839376449	inf
+family:PF00004:all_ga	family	PF00004	AAA	all_ga	solubility	True	17	11	3	10.0	3.0	1.0	0.28747978728803447	0.0	1.0	estimable	False	False		
+family:PF00070:all_ga	family	PF00070	Pyr_redox	all_ga	solubility	True	9	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF00158:all_ga	family	PF00158	Sigma54_activat	all_ga	solubility	True	1	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF00240:all_ga	family	PF00240	ubiquitin	all_ga	solubility	True	5	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF00308:all_ga	family	PF00308	Bac_DnaA	all_ga	solubility	True	6	6	3	6.0	3.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF00483:all_ga	family	PF00483	NTP_transferase	all_ga	solubility	True	2	5	3	5.0	3.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF00535:all_ga	family	PF00535	Glycos_transf_2	all_ga	solubility	True	48	17	13	12.0	9.0	5.0	0.45564509955381377	0.0	1.0	estimable	False	True		
+family:PF00535:noncompeting	family	PF00535	Glycos_transf_2	noncompeting	solubility	True	15	6	5	3.0	3.0	3.0	0.5	0.0	1.0	estimable	False	True		
+family:PF00575:all_ga	family	PF00575	S1	all_ga	solubility	True	50	14	1	13.0	1.0	1.0	0.25753937681885636	0.0	1.0	estimable	False	False		
+family:PF00575:noncompeting	family	PF00575	S1	noncompeting	solubility	True	50	14	1	13.0	1.0	1.0	0.25753937681885636	0.0	1.0	estimable	False	False		
+family:PF00583:all_ga	family	PF00583	Acetyltransf_1	all_ga	solubility	True	7	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF00753:all_ga	family	PF00753	Lactamase_B	all_ga	solubility	True	8	3	3	2.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF00753:noncompeting	family	PF00753	Lactamase_B	noncompeting	solubility	True	3	3	3	2.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF00890:all_ga	family	PF00890	FAD_binding_2	all_ga	solubility	True	40	18	7	7.0	3.0	7.0	0.4874980215217846	0.0	1.0	estimable	False	True		
+family:PF00903:all_ga	family	PF00903	Glyoxalase	all_ga	solubility	True	6	3	2	3.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01092:all_ga	family	PF01092	Ribosomal_S6e	all_ga	solubility	True	1	4	1	4.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01092:noncompeting	family	PF01092	Ribosomal_S6e	noncompeting	solubility	True	1	4	1	4.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01134:all_ga	family	PF01134	GIDA	all_ga	solubility	True	13	8	4	3.0	2.0	3.0	0.4841229182759271	0.0	1.0	estimable	False	False		
+family:PF01139:all_ga	family	PF01139	RtcB	all_ga	solubility	True	1	3	1	2.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF01139:noncompeting	family	PF01139	RtcB	noncompeting	solubility	True	1	3	1	2.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF01266:all_ga	family	PF01266	DAO	all_ga	solubility	True	62	21	10	4.0	4.0	7.0	0.392676726249301	0.0	1.0	estimable	False	True		
+family:PF01266:noncompeting	family	PF01266	DAO	noncompeting	solubility	True	15	6	3	2.0	2.0	2.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF01435:all_ga	family	PF01435	Peptidase_M48	all_ga	solubility	True	2	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF01435:noncompeting	family	PF01435	Peptidase_M48	noncompeting	solubility	True	2	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF01436:all_ga	family	PF01436	NHL	all_ga	solubility	True	4	3	2	0.0	0.0	2.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF01436:noncompeting	family	PF01436	NHL	noncompeting	solubility	True	4	3	2	0.0	0.0	2.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF01476:all_ga	family	PF01476	LysM	all_ga	solubility	True	6	4	2	2.0	2.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF01476:noncompeting	family	PF01476	LysM	noncompeting	solubility	True	6	4	2	2.0	2.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF01494:all_ga	family	PF01494	FAD_binding_3	all_ga	solubility	True	45	20	7	5.0	3.0	6.0	0.4330127018922193	0.0	1.0	estimable	False	True		
+family:PF01513:all_ga	family	PF01513	NAD_kinase	all_ga	solubility	True	1	12	3	8.0	2.0	3.0	0.47140452079103173	0.0	1.0	estimable	False	False		
+family:PF01513:noncompeting	family	PF01513	NAD_kinase	noncompeting	solubility	True	0	12	3	8.0	2.0	3.0	0.47140452079103173	0.0	1.0	estimable	False	False		
+family:PF01593:all_ga	family	PF01593	Amino_oxidase	all_ga	solubility	True	15	6	3	3.0	1.0	3.0	0.5	0.0	1.0	estimable	False	False		
+family:PF01656:all_ga	family	PF01656	CbiA	all_ga	solubility	True	42	13	4	6.0	3.0	2.0	0.49851851526214314	0.0	1.0	estimable	False	False		
+family:PF01656:noncompeting	family	PF01656	CbiA	noncompeting	solubility	True	3	4	1	1.0	1.0	1.0	0.4330127018922193	0.0	1.0	estimable	False	False		
+family:PF01695:all_ga	family	PF01695	IstB_IS21	all_ga	solubility	True	7	5	2	5.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01813:all_ga	family	PF01813	ATP-synt_D	all_ga	solubility	True	1	5	1	1.0	1.0	1.0	0.4000000000000001	0.0	1.0	estimable	False	False		
+family:PF01813:noncompeting	family	PF01813	ATP-synt_D	noncompeting	solubility	True	1	5	1	1.0	1.0	1.0	0.4000000000000001	0.0	1.0	estimable	False	False		
+family:PF01844:all_ga	family	PF01844	HNH	all_ga	solubility	True	8	4	4	3.0	3.0	1.0	0.4330127018922193	0.0	1.0	estimable	False	False		
+family:PF01844:noncompeting	family	PF01844	HNH	noncompeting	solubility	True	4	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01863:all_ga	family	PF01863	YgjP-like	all_ga	solubility	True	8	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01863:noncompeting	family	PF01863	YgjP-like	noncompeting	solubility	True	7	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF01926:all_ga	family	PF01926	MMR_HSR1	all_ga	solubility	True	24	12	2	11.0	1.0	1.0	0.2763853991962833	0.0	1.0	estimable	False	False		
+family:PF01926:noncompeting	family	PF01926	MMR_HSR1	noncompeting	solubility	True	8	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF02027:all_ga	family	PF02027	RolB_RolC	all_ga	solubility	True	1	2	2	0.0	0.0	2.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF02027:noncompeting	family	PF02027	RolB_RolC	noncompeting	solubility	True	1	2	2	0.0	0.0	2.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF02374:all_ga	family	PF02374	ArsA_ATPase	all_ga	solubility	True	20	3	2	1.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF02492:all_ga	family	PF02492	cobW	all_ga	solubility	True	5	8	2	4.0	2.0	2.0	0.5	0.0	1.0	estimable	False	False		
+family:PF02492:noncompeting	family	PF02492	cobW	noncompeting	solubility	True	5	8	2	4.0	2.0	2.0	0.5	0.0	1.0	estimable	False	False		
+family:PF02709:all_ga	family	PF02709	Glyco_transf_7C	all_ga	solubility	True	1	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF03061:all_ga	family	PF03061	4HBT	all_ga	solubility	True	29	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF03364:all_ga	family	PF03364	Polyketide_cyc	all_ga	solubility	True	13	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF03417:all_ga	family	PF03417	AAT	all_ga	solubility	True	1	2	1	0.0	0.0	1.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF03417:noncompeting	family	PF03417	AAT	noncompeting	solubility	True	1	2	1	0.0	0.0	1.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF03437:all_ga	family	PF03437	BtpA	all_ga	solubility	True	1	3	1	2.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF03437:noncompeting	family	PF03437	BtpA	noncompeting	solubility	True	1	3	1	2.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF03577:all_ga	family	PF03577	Peptidase_C69	all_ga	solubility	True	1	9	1	5.0	1.0	1.0	0.4969039949999533	0.0	1.0	estimable	False	False		
+family:PF03577:noncompeting	family	PF03577	Peptidase_C69	noncompeting	solubility	True	1	9	1	5.0	1.0	1.0	0.4969039949999533	0.0	1.0	estimable	False	False		
+family:PF03819:all_ga	family	PF03819	MazG	all_ga	solubility	True	3	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF04055:all_ga	family	PF04055	Radical_SAM	all_ga	solubility	True	52	3	3	2.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF04055:noncompeting	family	PF04055	Radical_SAM	noncompeting	solubility	True	52	3	3	2.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF04199:all_ga	family	PF04199	Cyclase	all_ga	solubility	True	4	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF04199:noncompeting	family	PF04199	Cyclase	noncompeting	solubility	True	4	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF04280:all_ga	family	PF04280	Tim44	all_ga	solubility	True	3	2	1	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF04280:noncompeting	family	PF04280	Tim44	noncompeting	solubility	True	3	2	1	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF04488:all_ga	family	PF04488	Gly_transf_sug	all_ga	solubility	True	1	3	2	3.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05257:all_ga	family	PF05257	CHAP	all_ga	solubility	True	1	6	3	4.0	3.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF05257:noncompeting	family	PF05257	CHAP	noncompeting	solubility	True	1	6	3	4.0	3.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF05406:all_ga	family	PF05406	WGR	all_ga	solubility	True	2	3	3	3.0	3.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05406:noncompeting	family	PF05406	WGR	noncompeting	solubility	True	2	3	3	3.0	3.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05673:all_ga	family	PF05673	DUF815	all_ga	solubility	True	5	5	1	5.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05673:noncompeting	family	PF05673	DUF815	noncompeting	solubility	True	0	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05800:all_ga	family	PF05800	GvpO	all_ga	solubility	True	2	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05800:noncompeting	family	PF05800	GvpO	noncompeting	solubility	True	2	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF05834:all_ga	family	PF05834	Lycopene_cycl	all_ga	solubility	True	4	5	2	3.0	1.0	2.0	0.48989794855663565	0.0	1.0	estimable	False	False		
+family:PF07683:all_ga	family	PF07683	CobW_C	all_ga	solubility	True	3	2	1	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF07683:noncompeting	family	PF07683	CobW_C	noncompeting	solubility	True	3	2	1	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF07726:all_ga	family	PF07726	AAA_3	all_ga	solubility	True	2	11	1	9.0	1.0	1.0	0.385694607919935	0.0	1.0	estimable	False	False		
+family:PF07728:all_ga	family	PF07728	AAA_5	all_ga	solubility	True	19	13	2	9.0	1.0	2.0	0.46153846153846156	0.0	1.0	estimable	False	False		
+family:PF07728:noncompeting	family	PF07728	AAA_5	noncompeting	solubility	True	13	2	1	0.0	0.0	1.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF07813:all_ga	family	PF07813	LTXXQ	all_ga	solubility	True	4	7	1	7.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF07883:all_ga	family	PF07883	Cupin_2	all_ga	solubility	True	3	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF07883:noncompeting	family	PF07883	Cupin_2	noncompeting	solubility	True	0	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF07992:all_ga	family	PF07992	Pyr_redox_2	all_ga	solubility	True	32	21	9	10.0	6.0	7.0	0.49943278484292924	0.0	1.0	estimable	False	True		
+family:PF07992:noncompeting	family	PF07992	Pyr_redox_2	noncompeting	solubility	True	6	2	1	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF08241:all_ga	family	PF08241	Methyltransf_11	all_ga	solubility	True	34	8	4	0.0	0.0	4.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF08241:noncompeting	family	PF08241	Methyltransf_11	noncompeting	solubility	True	0	2	2	0.0	0.0	2.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF08327:all_ga	family	PF08327	AHSA1	all_ga	solubility	True	12	5	3	4.0	2.0	1.0	0.4000000000000001	0.0	1.0	estimable	False	False		
+family:PF08327:noncompeting	family	PF08327	AHSA1	noncompeting	solubility	True	12	3	3	2.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF08450:all_ga	family	PF08450	SGL	all_ga	solubility	True	5	2	1	0.0	0.0	1.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF08450:noncompeting	family	PF08450	SGL	noncompeting	solubility	True	5	2	1	0.0	0.0	1.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF09140:all_ga	family	PF09140	MipZ	all_ga	solubility	True	29	2	1	0.0	0.0	1.0	0.0	0.0	0.0	single_validation_class	False	False		
+family:PF10111:all_ga	family	PF10111	Glyco_tranf_2_2	all_ga	solubility	True	19	4	4	4.0	4.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF10604:all_ga	family	PF10604	Polyketide_cyc2	all_ga	solubility	True	13	3	2	3.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF12643:all_ga	family	PF12643	MazG-like	all_ga	solubility	True	1	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF12804:all_ga	family	PF12804	NTP_transf_3	all_ga	solubility	True	7	8	5	8.0	5.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF12804:noncompeting	family	PF12804	NTP_transf_3	noncompeting	solubility	True	4	4	3	4.0	3.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF12831:all_ga	family	PF12831	FAD_oxidored	all_ga	solubility	True	21	12	4	5.0	3.0	3.0	0.4930066485916347	0.0	1.0	estimable	False	True		
+family:PF12895:all_ga	family	PF12895	ANAPC3	all_ga	solubility	True	1	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF13174:all_ga	family	PF13174	TPR_6	all_ga	solubility	True	2	4	3	4.0	3.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF13181:all_ga	family	PF13181	TPR_8	all_ga	solubility	True	8	6	5	5.0	4.0	1.0	0.37267799624996495	0.0	1.0	estimable	False	False		
+family:PF13279:all_ga	family	PF13279	4HBT_2	all_ga	solubility	True	7	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF13401:all_ga	family	PF13401	AAA_22	all_ga	solubility	True	5	3	2	2.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF13432:all_ga	family	PF13432	TPR_16	all_ga	solubility	True	5	5	4	5.0	4.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF13434:all_ga	family	PF13434	Lys_Orn_oxgnase	all_ga	solubility	True	12	5	2	3.0	2.0	1.0	0.48989794855663565	0.0	1.0	estimable	False	False		
+family:PF13450:all_ga	family	PF13450	NAD_binding_8	all_ga	solubility	True	69	25	10	8.0	4.0	8.0	0.46647615158762407	0.0	1.0	estimable	False	True		
+family:PF13454:all_ga	family	PF13454	NAD_binding_9	all_ga	solubility	True	4	3	1	1.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF13489:all_ga	family	PF13489	Methyltransf_23	all_ga	solubility	True	26	7	3	1.0	1.0	2.0	0.3499271061118826	0.0	1.0	estimable	False	False		
+family:PF13500:all_ga	family	PF13500	AAA_26	all_ga	solubility	True	7	6	2	4.0	2.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF13508:all_ga	family	PF13508	Acetyltransf_7	all_ga	solubility	True	6	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF13614:all_ga	family	PF13614	AAA_31	all_ga	solubility	True	30	3	2	1.0	1.0	1.0	0.4714045207910317	0.0	1.0	estimable	False	False		
+family:PF13641:all_ga	family	PF13641	Glyco_tranf_2_3	all_ga	solubility	True	30	10	8	8.0	6.0	2.0	0.4	0.0	1.0	estimable	False	False		
+family:PF13669:all_ga	family	PF13669	Glyoxalase_4	all_ga	solubility	True	1	2	1	2.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF13673:all_ga	family	PF13673	Acetyltransf_10	all_ga	solubility	True	6	2	2	2.0	2.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF13738:all_ga	family	PF13738	Pyr_redox_3	all_ga	solubility	True	14	9	5	5.0	4.0	2.0	0.4969039949999533	0.0	1.0	estimable	False	False		
+family:PF13801:all_ga	family	PF13801	Metal_resist	all_ga	solubility	True	4	6	1	6.0	1.0	0.0	0.0	1.0	1.0	single_validation_class	False	False		
+family:PF14279:all_ga	family	PF14279	HNH_5	all_ga	solubility	True	1	2	2	1.0	1.0	1.0	0.5	0.0	1.0	estimable	False	False		
+family:PF14559:all_ga	family	PF14559	TPR_19	all_ga	solubility	True	9	5	5	4.0	4.0	1.0	0.4	0.0	1.0	estimable	False	False		

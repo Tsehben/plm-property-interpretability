@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/tmp/mmseqs/bin/mmseqs",
+    "easy-search",
+    "/tmp/uesolds-dataset-comparison/union.fasta",
+    "/tmp/uesolds-dataset-comparison/union.fasta",
+    "/Users/hoichingcheung/Library/CloudStorage/GoogleDrive-hccheung3@gmail.com/My Drive/plm-property-interpretability/dataset_comparison/results/homology_edges.tsv",
+    "/tmp/uesolds-dataset-comparison/search",
+    "--min-seq-id",
+    "0.30",
+    "-c",
+    "0.80",
+    "--cov-mode",
+    "0",
+    "-s",
+    "7.5",
+    "-e",
+    "0.001",
+    "--alignment-mode",
+    "3",
+    "--threads",
+    "4",
+    "--max-seqs",
+    "10000",
+    "--format-output",
+    "query,target,fident,qcov,tcov,evalue,bits"
+  ],
+  "version": "2a3dafc46f9a1bc79af96b4c11a24d63a7b0b4d4",
+  "binary_sha256": "d6ebeaf4b8cc7570d3f2bdbce191a37bd14e24ad604022ad67cc072657af352b",
+  "fasta_sha256": "7be72c069d5224793eecd5fa0ceb373f900ac94d6b0f3d61a69e754bcdfbe9fa"
+}

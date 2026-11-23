@@ -1,0 +1,39 @@
+pfam_accession,pfam_name,biological_family_name,unique_soluble_proteins,unique_insoluble_proteins,total_unique_proteins,homology_groups_soluble,homology_groups_insoluble,homology_groups_shared_between_classes,has_competing_overlapping_assignments,unique_proteins_with_competing_assignments
+PF20143,NAD_kinase_C,ATP-NAD kinase C-terminal domain,12,5,17,2,3,2,False,0
+PF00575,S1,S1 RNA binding domain,13,1,14,1,1,1,False,0
+PF01513,NAD_kinase,ATP-NAD kinase N-terminal domain,8,4,12,2,3,2,False,0
+PF02622,DUF179,"Uncharacterized ACR, COG1678",11,1,12,1,1,1,False,0
+PF01933,CofD,2-phospho-L-lactate transferase CofD,8,3,11,1,1,1,False,0
+PF17863,AAA_lid_2,AAA lid domain,9,2,11,1,1,1,False,0
+PF07685,GATase_3,CobB/CobQ-like glutamine amidotransferase domain,5,5,10,2,1,1,False,0
+PF13532,2OG-FeII_Oxy_2,2OG-Fe(II) oxygenase superfamily,5,5,10,1,2,1,False,0
+PF00472,RF-1,RF-1 domain,8,1,9,1,1,1,False,0
+PF03577,Peptidase_C69,Peptidase family C69,5,4,9,1,1,1,False,0
+PF02492,cobW,"CobW/HypB/UreG, nucleotide-binding domain",4,4,8,2,2,2,False,0
+PF00005,ABC_tran,ABC transporter,3,4,7,2,1,0,False,0
+PF00535,Glycos_transf_2,Glycosyl transferase family 2,3,3,6,3,3,1,False,0
+PF01266,DAO,FAD dependent oxidoreductase,2,4,6,2,2,1,False,0
+PF03008,DUF234,Archaea bacterial proteins of unknown function,2,4,6,2,1,1,False,0
+PF05257,CHAP,CHAP domain,4,2,6,3,1,1,False,0
+PF13806,Rieske_2,Rieske-like [2Fe-2S] domain,3,3,6,1,1,1,False,0
+PF01813,ATP-synt_D,ATP synthase subunit D ,1,4,5,1,1,1,False,0
+PF04363,DUF496,Protein of unknown function (DUF496),1,4,5,1,1,1,False,0
+PF01476,LysM,LysM domain,2,2,4,2,1,1,False,0
+PF01656,CbiA,CobQ/CobB/MinD/ParA nucleotide binding domain,1,3,4,1,1,1,False,0
+PF04536,TPM_phosphatase,TPM domain,3,1,4,1,1,1,False,0
+PF04991,LicD,LicD family,3,1,4,1,1,1,False,0
+PF14691,Fer4_20,"Dihydroprymidine dehydrogenase domain II, 4Fe-4S cluster",3,1,4,1,1,1,False,0
+PF00753,Lactamase_B,Metallo-beta-lactamase superfamily,2,1,3,2,1,0,False,0
+PF01139,RtcB,tRNA-splicing ligase RtcB,2,1,3,1,1,1,False,0
+PF01519,DUF16,Protein of unknown function DUF16,2,1,3,1,1,0,False,0
+PF03437,BtpA,BtpA family,2,1,3,1,1,1,False,0
+PF04055,Radical_SAM,Radical SAM superfamily,2,1,3,2,1,0,False,0
+PF07992,Pyr_redox_2,Pyridine nucleotide-disulphide oxidoreductase,1,2,3,1,2,1,True,1
+PF08014,MATCAP,Microtubule-associated tyrosine carboxypeptidase,2,1,3,1,1,1,False,0
+PF08327,AHSA1,Activator of Hsp90 ATPase homolog 1-like protein,2,1,3,2,1,0,False,0
+PF09350,DJC28_CD,"DnaJ homologue, subfamily C, member 28, conserved domain",2,1,3,1,1,1,False,0
+PF00340,IL1,Interleukin-1 / 18,1,1,2,1,1,1,False,0
+PF01435,Peptidase_M48,Peptidase family M48,1,1,2,1,1,0,False,0
+PF01926,MMR_HSR1,50S ribosome-binding GTPase,1,1,2,1,1,0,False,0
+PF04280,Tim44,Tim44-like domain,1,1,2,1,1,1,False,0
+PF07683,CobW_C,Cobalamin synthesis protein cobW C-terminal domain,1,1,2,1,1,1,False,0

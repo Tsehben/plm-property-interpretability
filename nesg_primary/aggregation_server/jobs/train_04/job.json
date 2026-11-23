@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "started_UTC": "2026-11-18T17:08:49.926725+00:00",
+  "endpoint": "http://andromeda.uab.cat/bioinf/cgi-bin/aap/aap_ov.pl",
+  "input_fasta": "server_uploads/aggrescan/batches/train_04.fasta",
+  "input_sha256": "1e06a4444d71c98c1aedaba4bf32399bd25c08a213e81a12b462f38270ef1a45",
+  "request_sha256": "733f0a321ec81eb59de50479c8d12e4f05d7691c20584cb4302f8d3a3ad829b4",
+  "split": "train",
+  "N": 100,
+  "settings": "Server defaults; browser-style CRLF in sequence field",
+  "script_sha256": "24275e48bb1355cf9979bfc9a73e7328ebb07c6c10a3f32421fd9eebae429909",
+  "completed_UTC": "2026-11-18T17:09:04.633304+00:00",
+  "seconds": 14.71,
+  "spreadsheet_url": "http://andromeda.uab.cat/bioinf/aap/1795021730/aap_1795021730.txt.xls",
+  "sequence_hashes_verified": true,
+  "residue_coordinates_verified": true,
+  "summary_spreadsheet_agrees": true,
+  "outputs_sha256": {
+    "response.headers.txt": "b7f1b3ea8a1475cecf59868db3d2b062645bc20ec42cb53272b6280d1d386752",
+    "hotspots.tsv": "0e7f9a9d3a10048bb25bf63861e77f6f9a2e93493a942d7f233349ab417cf5a3",
+    "results.txt.headers.txt": "19b1effbbeffddefdbedf9b63af4c3eb2986f22b3180ef2f7a4073220d967ccd",
+    "results.txt.xls": "08ab13c8da7e2aacd4af561b33fee5c6353f5c63b35875b923192847265bb561",
+    "protein_results.json": "34c7b459cc82ec555ec215170cec772e516b2b771bd8b131bcb01289105e023b",
+    "response.html.gz": "8333934fcf02f6250dfe918d4fe3ee40cb5683a5c0e840e3a49304a699a8fce3",
+    "request.form": "733f0a321ec81eb59de50479c8d12e4f05d7691c20584cb4302f8d3a3ad829b4",
+    "residue_scores.tsv.gz": "1eeadec8c75648e249f72e33d8047e53ded3edba8b1b2235c2eaf62e548f2b2d"
+  }
+}

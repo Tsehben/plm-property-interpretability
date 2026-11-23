@@ -1,0 +1,15 @@
+{
+  "original_safe_inputs": {
+    "development_records.tsv.gz": "459f2cc4c7b2e7767bd2bce8e1206ec0f24b3806073d786c61aa864aad61dc80",
+    "development_domains.tsv.gz": "dcb17c18b0a1765d9989450ab1f1af321ecdead7cbd6691bafbe50796d43c9b7",
+    "training_manifest.tsv": "7289e1dfe6844d36de851c70165025335071bc7795bab2b48bced744b98be3d2",
+    "validation_manifest.tsv": "42039a4cef6dbaf1f6a7eeff7800ad0a4b517cb64369c05b1f302e3f7e95d0b5",
+    "training_cv_manifest.tsv": "84f0437d5b5b3f3718680f3df59f55a82b095a6df541201650e4ca84695a91f5",
+    "split_assignments.tsv": "f9f26b74a2a3a799b382d79c81ef448afee9ac3907e4ca0acfe0c44a3e330062",
+    "initial_split_counts.tsv": "c2bb6b9cc03131eaa77589b9d28fef33e0eafbbf8eae8b1d0dbe9ebd91d43bfc"
+  },
+  "extraction_manifest_sha256": "74cf7dd9a06df682506ac712579fa5d41414f884cd990cbf07a1bb228ad10350",
+  "local_labels_sha256": "59c024a985d589b659d6578cb229f7d947fae26ec54203a04b87ae6043198b4c",
+  "pfam_domains_sha256": "fdcb63cb1c86b8aa11b037d7ae51386df15442e3462611cea8b8379169034050",
+  "pfam_memberships_sha256": "abecb399c32eabf46139d60e9790b03ff5d00d6ea9f2ae3f33a20efc903011dc"
+}

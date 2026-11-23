@@ -1,0 +1,11 @@
+split	target	total	observed	missing
+train	hydrophobicity	2361	2359	2
+train	charge_proxy	2361	2359	2
+train	log_length	2361	2361	0
+train	aggregation_Na4vSS	2361	2359	2
+train	apr_fraction	2361	2359	2
+validation	hydrophobicity	691	690	1
+validation	charge_proxy	691	690	1
+validation	log_length	691	691	0
+validation	aggregation_Na4vSS	691	690	1
+validation	apr_fraction	691	690	1

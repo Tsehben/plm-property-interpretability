@@ -1,0 +1,39 @@
+{
+  "input_path": "results/reserved_test/test_sequences.tsv.gz",
+  "input_sha256": "db519f22c9415e3afdd020fe55ca974ff992cde56202486b27bb3765f35c5aa7",
+  "script_sha256": "f49382c574d2b210edab903b4c19760a0ab2a1290c5bae468b1c34a966d97adf",
+  "counts": {
+    "reserved_test": {
+      "total": 710,
+      "ready": 710,
+      "unsupported": 0,
+      "batches": 8
+    }
+  },
+  "batch_size": 100,
+  "batch_limit_is_server_verified": false,
+  "eligibility": "20 standard amino acids, 5\u20132000 residues; no sequence edits",
+  "selection_uses_solubility_labels": false,
+  "reserved_test_opened": true,
+  "test_phenotype_records_opened": false,
+  "test_export_authorization": "User requested test FASTAs for fixed aggregation annotation",
+  "submitted_to_server": false,
+  "original_sequences_unchanged": true,
+  "fasta_roundtrip_verified": true,
+  "archive_verified": true,
+  "outputs_sha256": {
+    "nesg_reserved_test_aggrescan.fasta": "73c3979159b89c3e0e1ee891d0ee0afdefd52eaf1e7ba9a03e6e24a86aa7bb2a",
+    "batches/reserved_test_01.fasta": "aee8aab4298953a82f73967a17a734ed7bc24faae638fb92c29fe05455d4ac97",
+    "batches/reserved_test_02.fasta": "304da6a900d7c86e3c5c646c732f213e69927127f754836972694d9934debcdd",
+    "batches/reserved_test_03.fasta": "3d4a1b7859d130f3cddd1e6e08fbd474ab178266cee27f3e9ad4ba1c4d14d56d",
+    "batches/reserved_test_04.fasta": "a2ca4c23cbfd3b8d1530ba8d37e9a83ab3306cb11b49e90db3053ccc9d0a97ea",
+    "batches/reserved_test_05.fasta": "7186f449386a8b86cb83773cb39e6a245e6ccab0e9537fc0ff76dbf8ab49b5b2",
+    "batches/reserved_test_06.fasta": "de57188be113165510af6f609b208bedc9bf7ee75a494068417c9b4eafc5a593",
+    "batches/reserved_test_07.fasta": "1d228f0d81a3d4e5376d1ac721c084ba08cbdb63e049b3ef76d27b87f1c88bfd",
+    "batches/reserved_test_08.fasta": "a8d9813feafc0afe23572b5fcbfbfe32563b8737a6727f776057d14ebb657046",
+    "upload_manifest.tsv": "5f16e51384d3cf2aae9b41aa2921c7721cc2d0d11b17cb27b63097f8a19aefaa",
+    "unsupported_records.tsv": "ab913a91ab71dd4ac8f5df502e0b75f8b94558a7e52c6ed929448fc8ffae8d04",
+    "UPLOAD_INSTRUCTIONS.txt": "957ce18c2114ed744b70bc48ba3e5258acd2f1d400a153bf0cc683a2b85812dd",
+    "nesg_aggrescan_test_batches.zip": "a65346412973a20ad8bfb48c4e3b046c417c4674ab3073110a0aad18703415a4"
+  }
+}

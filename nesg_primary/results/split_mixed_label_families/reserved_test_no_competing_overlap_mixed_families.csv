@@ -1,0 +1,49 @@
+pfam_accession,pfam_name,biological_family_name,unique_soluble_proteins,unique_insoluble_proteins,total_unique_proteins,homology_groups_soluble,homology_groups_insoluble,homology_groups_shared_between_classes,has_competing_overlapping_assignments,unique_proteins_with_competing_assignments
+PF01527,HTH_Tnp_1,Transposase,13,1,14,1,1,1,False,0
+PF03618,Kinase-PPPase,Kinase/pyrophosphorylase,8,3,11,1,1,1,False,0
+PF01494,FAD_binding_3,FAD binding domain,5,5,10,1,1,1,True,1
+PF01977,UbiD,3-octaprenyl-4-hydroxybenzoate carboxy-lyase Rift-related domain,2,8,10,1,1,1,False,0
+PF20695,UbiD_N,3-octaprenyl-4-hydroxybenzoate carboxy-lyase N-terminal domain,2,8,10,1,1,1,False,0
+PF20696,UbiD_C,3-octaprenyl-4-hydroxybenzoate carboxy-lyase C-terminal domain,2,8,10,1,1,1,False,0
+PF02410,RsfS,Ribosomal silencing factor during starvation ,6,3,9,1,2,1,False,0
+PF20258,tRNA_Me_trans_C,Aminomethyltransferase beta-barrel domain,7,2,9,1,1,1,False,0
+PF20259,tRNA_Me_trans_M,tRNA methyl transferase PRC-barrel domain,7,2,9,1,1,1,False,0
+PF01812,5-FTHF_cyc-lig,5-formyltetrahydrofolate cyclo-ligase family,6,2,8,2,1,1,False,0
+PF01435,Peptidase_M48,Peptidase family M48,4,3,7,1,2,1,False,0
+PF03942,DTW,DTW domain,3,4,7,1,1,1,False,0
+PF12804,NTP_transf_3,MobA-like NTP transferase domain,4,3,7,2,1,1,False,0
+PF13304,AAA_21,"AAA domain, putative AbiEii toxin, Type IV TA system",4,3,7,2,1,1,False,0
+PF01774,UreD,UreD urease accessory protein,1,5,6,1,2,1,False,0
+PF02626,CT_A_B,"Carboxyltransferase domain, subdomain A and B ",1,4,5,1,1,1,False,0
+PF13460,NAD_binding_10,NAD(P)H-binding ,2,3,5,1,1,1,False,0
+PF13476,AAA_23,AAA domain,2,3,5,1,1,1,False,0
+PF00753,Lactamase_B,Metallo-beta-lactamase superfamily,2,2,4,2,2,0,False,0
+PF01676,Metalloenzyme,Metalloenzyme superfamily,3,1,4,1,1,1,False,0
+PF02811,PHP,PHP domain,3,1,4,2,1,1,False,0
+PF07451,SpoVAD,Stage V sporulation protein AD (SpoVAD),2,2,4,1,1,1,False,0
+PF10143,PhosphMutase,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",3,1,4,1,1,1,False,0
+PF10263,SprT-like,SprT-like family,2,2,4,2,1,1,False,0
+PF00037,Fer4,4Fe-4S binding domain,1,2,3,1,2,1,False,0
+PF00355,Rieske,Rieske [2Fe-2S] domain,2,1,3,1,1,1,False,0
+PF01142,TruD,tRNA pseudouridine synthase D (TruD),2,1,3,1,1,1,False,0
+PF01436,NHL,NHL repeat,1,2,3,1,2,1,False,0
+PF02636,Methyltransf_28,Putative S-adenosyl-L-methionine-dependent methyltransferase,1,2,3,1,1,1,False,0
+PF03435,Sacchrp_dh_NADP,Saccharopine dehydrogenase NADP binding domain,2,1,3,1,1,1,False,0
+PF16653,Sacchrp_dh_C,Saccharopine dehydrogenase C-terminal domain,2,1,3,1,1,1,False,0
+PF17784,Sulfotransfer_4,Sulfotransferase domain,2,1,3,1,1,1,False,0
+PF01715,IPPT,IPP transferase,1,1,2,1,1,1,False,0
+PF01734,Patatin,Patatin-like phospholipase,1,1,2,1,1,0,False,0
+PF01809,YidD,Putative membrane protein insertion efficiency factor,1,1,2,1,1,1,False,0
+PF01968,Hydantoinase_A,Hydantoinase/oxoprolinase,1,1,2,1,1,0,False,0
+PF02470,MlaD,MlaD protein,1,1,2,1,1,0,False,0
+PF02581,TMP-TENI,Thiamine monophosphate synthase,1,1,2,1,1,1,False,0
+PF03061,4HBT,Thioesterase superfamily,1,1,2,1,1,0,False,0
+PF04909,Amidohydro_2,Amidohydrolase,1,1,2,1,1,0,False,0
+PF05257,CHAP,CHAP domain,1,1,2,1,1,0,False,0
+PF05378,Hydant_A_N,Hydantoinase/oxoprolinase N-terminal region,1,1,2,1,1,0,False,0
+PF06089,Asparaginase_II,L-asparaginase II,1,1,2,1,1,1,False,0
+PF07081,DUF1349,Protein of unknown function (DUF1349),1,1,2,1,1,0,False,0
+PF07676,PD40,WD40-like Beta Propeller Repeat,1,1,2,1,1,0,False,0
+PF09084,NMT1,NMT1/THI5 like,1,1,2,1,1,1,False,0
+PF13263,PHP_C,PHP-associated,1,1,2,1,1,1,False,0
+PF17283,Zn_ribbon_SprT,SprT-like zinc ribbon domain,1,1,2,1,1,1,False,0

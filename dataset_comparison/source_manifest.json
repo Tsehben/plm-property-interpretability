@@ -1,0 +1,137 @@
+[
+  {
+    "local_path": "raw/NESG_testset.csv",
+    "url": "https://services.healthtech.dtu.dk/services/NetSolP-1.0/data/NESG_testset.csv",
+    "version": "NetSolP 1.0; downloaded 2026-11-12; SHA256 pinned",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 323221,
+    "sha256": "2e1add8a80bf4ef90efc600c8b5302e68f43c1339c922b8d003da8f405bb99fd",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/NetSolP_paper.pdf",
+    "url": "https://backend.orbit.dtu.dk/ws/portalfiles/portal/264717113/btab801.pdf",
+    "version": "DOI 10.1093/bioinformatics/btab801 accepted manuscript",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 472006,
+    "sha256": "181478750c22901362fca58f26b7972890299f0fa4d203ceb97bf518c1aae9b2",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/PSI_Biology_solubility_trainset.csv",
+    "url": "https://services.healthtech.dtu.dk/services/NetSolP-1.0/data/PSI_Biology_solubility_trainset.csv",
+    "version": "NetSolP 1.0; downloaded 2026-11-12; SHA256 pinned",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 2734696,
+    "sha256": "6c25f1fe86895276ccc8cf909033e9fe4e27fb47be09557d3cefaf37622f31dc",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/Price2011_SI.doc",
+    "url": "https://static-content.springer.com/esm/art%3A10.1186%2F2042-5783-1-6/MediaObjects/13309_2011_4_MOESM1_ESM.DOC",
+    "version": "DOI 10.1186/2042-5783-1-6 supplement",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 4275200,
+    "sha256": "11da66ec921aa1624a55c6e40c893a68a425a61a112ddc565deb8a1fb06fa734",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/Price2011_SI_download_response.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3372292/bin/2042-5783-1-6-S1.DOC",
+    "version": "downloaded 2026-11-12; SHA256 pinned",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 1816,
+    "sha256": "16ed08fa9b5208a7cfde0b278c62208c0e46f636b6ba4bcf3e89f2861b13c8e3",
+    "status": "failed_HTML_response_NOT_supplement"
+  },
+  {
+    "local_path": "raw/Price_usability_trainset.csv",
+    "url": "https://services.healthtech.dtu.dk/services/NetSolP-1.0/data/Price_usability_trainset.csv",
+    "version": "NetSolP 1.0; downloaded 2026-11-12; SHA256 pinned",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 1918374,
+    "sha256": "c912759d8771d3b58f1b05d85ce129a175c0b1ac32b52cf31de8134fc121429f",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/SoDoPe_Data_cleanup.ipynb",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/Data_cleanup.ipynb",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 15695,
+    "sha256": "ef83707f15275093282cc989185c562426fd2d53ca5f47750f831af3cbc8829c",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/benchmark_pET15_NESG.faa",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/benchmarking/pET15_NESG.faa",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 1090066,
+    "sha256": "ec7c5a9ee482c6e5b3e3ef8987dc10fc4ae75099fe7485dac2e523ea0be5fabb",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/benchmark_pET21_NESG.faa",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/benchmarking/pET21_NESG.faa",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 2782459,
+    "sha256": "efc786547aab0c4c5cc0207a3be66f453f68e3a4088d7ac66a77302d97ba812b",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/class.txt",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/datasets_used/class.txt",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 244006,
+    "sha256": "d5ddd0535762ee21be66856bbe5cc2f32e2d9f2ccd36c5450c826e584a1b402f",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/nesg.zip",
+    "url": "https://loschmidt.chemi.muni.cz/soluprot/?f=nesg.zip",
+    "version": "SoluProt 1.0 author-supplied NESG mirror; downloaded 2026-11-12; SHA256 pinned",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 1339711,
+    "sha256": "ea26072f601fb91dd2eaa3a842cd9268ceef2a8139722e78de04ffef6d0db71e",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/pET15_NESG.faa",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/datasets_used/pET15_NESG.faa",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 1090066,
+    "sha256": "ec7c5a9ee482c6e5b3e3ef8987dc10fc4ae75099fe7485dac2e523ea0be5fabb",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/pET15_NESG.txt",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/datasets_used/pET15_NESG.txt",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 3461849,
+    "sha256": "59f7ac80c76c224883584a73729a980a6d4c560977c2f849cd46f01969c67359",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/pET21_NESG.fas",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/datasets_used/pET21_NESG.fas",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 7926132,
+    "sha256": "192f069a24178bb8490ecea56457c21982a4c920129f633e4c284283f5a6c4ce",
+    "status": "downloaded_valid"
+  },
+  {
+    "local_path": "raw/pET_21_class.txt",
+    "url": "https://raw.githubusercontent.com/Gardner-BinfLab/SoDoPE_paper_2020/c28f26d94aa6285ff08270709fc8a95806ddb1db/datasets_used/pET_21_class.txt",
+    "version": "c28f26d94aa6285ff08270709fc8a95806ddb1db",
+    "retrieved_UTC": "2026-11-12",
+    "bytes": 171571,
+    "sha256": "cfff551560bd7613ee71c9f0d228415ac663481a180a83a437a2375892bd7301",
+    "status": "downloaded_valid"
+  }
+]

@@ -1,0 +1,14 @@
+test_assignment_integrity (test_validation.ValidationTests.test_assignment_integrity) ... ok
+test_controlled_family_counts (test_validation.ValidationTests.test_controlled_family_counts) ... ok
+test_creation_time_detected_edge_check (test_validation.ValidationTests.test_creation_time_detected_edge_check) ... ok
+test_development_scores_sequences (test_validation.ValidationTests.test_development_scores_sequences) ... ok
+test_family_heldout_training_only (test_validation.ValidationTests.test_family_heldout_training_only) ... ok
+test_frozen_snapshots (test_validation.ValidationTests.test_frozen_snapshots) ... ok
+test_guard_rejects_paths_without_opening_them (test_validation.ValidationTests.test_guard_rejects_paths_without_opening_them) ... ok
+test_locked_execution_access_log (test_validation.ValidationTests.test_locked_execution_access_log) ... ok
+test_notebook_executed_and_figures_embedded (test_validation.ValidationTests.test_notebook_executed_and_figures_embedded) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.088s
+
+OK

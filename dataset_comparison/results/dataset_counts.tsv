@@ -1,0 +1,28 @@
+policy	total	soluble	insoluble	unclassified	percent_soluble	parent_N	excluded	outcome
+PSI_original	12216	8238.0	3978.0	0	67.43614931237721	12216	0	solubility
+PSI_NetSolP	11226	7500.0	3726.0	0	66.80919294494923	11226	0	solubility
+NESG_NetSolP	1323	842.0	481.0	0	63.6432350718065	1323	0	solubility
+UESolDS_development	13880	7996.0	5884.0	0	57.60806916426513	13880	0	solubility
+Price_usability	7259			0		7259	0	usability_NOT_solubility
+UESolDS_DNASU_proxy	460	409.0	51.0	0	88.91304347826087	460	0	solubility
+NESG_raw_scores	9703			9703		9703	0	E_and_S_ordinal_scores_NO_binary_label
+NESG_unique_scores	9272			9272		9703	431	E_and_S_ordinal_scores_NO_binary_label
+NESG_consistent_scores	9328			9328		9703	375	E_and_S_ordinal_scores_NO_binary_label
+NESG_raw_E45_S45_vs0	3943	2753.0	1190.0	0	69.81993406036013	9703	5760	solubility
+NESG_raw_E345_S45_vs0	4641	3149.0	1492.0	0	67.8517560870502	9703	5062	solubility
+NESG_raw_E45_S345_vs0	4672	3482.0	1190.0	0	74.5291095890411	9703	5031	solubility
+NESG_raw_E345_S345_vs0	5710	4218.0	1492.0	0	73.87040280210158	9703	3993	solubility
+NESG_raw_E45_S45_vs01	4227	2753.0	1474.0	0	65.12893304944404	9703	5476	solubility
+NESG_raw_expressed_ordinal	7543			7543		9703	2160	S_ordinal_conditioned_on_E_positive
+NESG_unique_E45_S45_vs0	3762	2614.0	1148.0	0	69.4843168527379	9272	5510	solubility
+NESG_unique_E345_S45_vs0	4436	2992.0	1444.0	0	67.44815148782688	9272	4836	solubility
+NESG_unique_E45_S345_vs0	4458	3310.0	1148.0	0	74.24854194706147	9272	4814	solubility
+NESG_unique_E345_S345_vs0	5457	4013.0	1444.0	0	73.53857430822796	9272	3815	solubility
+NESG_unique_E45_S45_vs01	4036	2614.0	1422.0	0	64.76709613478691	9272	5236	solubility
+NESG_unique_expressed_ordinal	7200			7200		9272	2072	S_ordinal_conditioned_on_E_positive
+NESG_consistent_E45_S45_vs0	3792	2638.0	1154.0	0	69.5675105485232	9328	5536	solubility
+NESG_consistent_E345_S45_vs0	4467	3017.0	1450.0	0	67.53973584060891	9328	4861	solubility
+NESG_consistent_E45_S345_vs0	4490	3336.0	1154.0	0	74.29844097995546	9328	4838	solubility
+NESG_consistent_E345_S345_vs0	5491	4041.0	1450.0	0	73.59315243125114	9328	3837	solubility
+NESG_consistent_E45_S45_vs01	4066	2638.0	1428.0	0	64.87948844072798	9328	5262	solubility
+NESG_consistent_expressed_ordinal	7234			7234		9328	2094	S_ordinal_conditioned_on_E_positive

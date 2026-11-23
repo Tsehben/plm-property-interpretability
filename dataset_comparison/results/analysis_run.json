@@ -1,0 +1,20 @@
+{
+  "records": 55607,
+  "unique_sequences": 44157,
+  "groups": 18412,
+  "edge_rows": 447527,
+  "max_targets_per_query": 198,
+  "pfam_domains": 69116,
+  "overlapping_domains": 28059,
+  "published_crossfold_pairs": 2,
+  "fasta_sha256": "7be72c069d5224793eecd5fa0ceb373f900ac94d6b0f3d61a69e754bcdfbe9fa",
+  "scripts": {
+    "audit.py": "0d77686419577f5bc61eb7a1b0388227b0bd19a32c258b3305d3c494f55ead68",
+    "fetch_sources.py": "612607a1039c863213a2b8a2c83bf7c6c36450ca92400d63ac1aea8d33fd0288",
+    "render_reports.py": "58db8b203dc84760c0db4f17bad1d5028b1dfe1b95787cb9dd76f481fdbd0292",
+    "test_audit.py": "5902b50b89a8900cb3f5e88e4f1198842d388b6f7b1e5f21bae19115de85a733",
+    "plot_results.py": "16f548de8ad98d0611188e96444b7cb633aaad0a531f9f682f53d4dfdc77110a",
+    "supplement.py": "dd546dbd760bc940af4c9837fb0bf22b10b5f2c4812109e6fffa5412e00a39bc",
+    "analyze.py": "1f45b3d450128178fc04dff8dd9156501a390636748c30ce5a50b5a28f8d76a0"
+  }
+}

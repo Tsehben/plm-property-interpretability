@@ -1,0 +1,10 @@
+test_fallback_and_invalid_headers (test_full_map_retries.RetryTests.test_fallback_and_invalid_headers) ... ok
+test_honors_server_headers (test_full_map_retries.RetryTests.test_honors_server_headers) ... ok
+test_no_retry_of_auth_conflict_or_unknown_commit_failure (test_full_map_retries.RetryTests.test_no_retry_of_auth_conflict_or_unknown_commit_failure) ... ok
+test_retry_keeps_commit_arguments_and_sanitizes_output (test_full_map_retries.RetryTests.test_retry_keeps_commit_arguments_and_sanitizes_output) ... ok
+test_retry_limit_is_finite (test_full_map_retries.RetryTests.test_retry_limit_is_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

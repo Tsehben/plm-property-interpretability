@@ -1,0 +1,25 @@
+NESG development sequences for AGGRESCAN
+
+Server: http://bioinf.uab.es/aggrescan/
+Reference: https://doi.org/10.1186/1471-2105-8-65
+
+Training: 2,359 ready; 2 unsupported (X).
+Validation: 690 ready; 1 unsupported (X).
+No reserved-test sequences are included. Unsupported proteins remain in NESG.
+
+Use default server settings. Keep the FASTA identifiers unchanged.
+If the page has a text box rather than file upload, paste the FASTA file contents.
+The combined files and batches contain the SAME sequences: choose one approach.
+Start with batches/train_01.fasta to check the output format. Batch size 100 is
+an operational choice, not a verified current server limit. The server could
+not be reached from the assistant's browser during preparation.
+
+The ZIP contains batches, manifest and these instructions (no combined FASTAs).
+Save each job under its batch name and retain all downloadable result files,
+especially per-protein summaries and residue profiles/hotspot coordinates.
+Record the run date, settings, server version if shown, and any errors.
+Do not replace X, truncate sequences or treat failed jobs as zero aggregation.
+Predictions are aggregation annotations, not experimental property labels.
+
+Reproduce from repository root:
+  python nesg_primary/export_aggrescan_fastas.py

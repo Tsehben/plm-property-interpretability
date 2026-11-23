@@ -1,0 +1,10 @@
+Restored and verified 1 shards from private HF revision frozen-commit
+test_credentials_and_public_repo_refusal (__main__.Stage1Tests.test_credentials_and_public_repo_refusal) ... ok
+test_hf_resume_skips_identical_and_refuses_conflicts (__main__.Stage1Tests.test_hf_resume_skips_identical_and_refuses_conflicts) ... ok
+test_hf_upload_is_atomic_and_failure_stops (__main__.Stage1Tests.test_hf_upload_is_atomic_and_failure_stops) ... ok
+test_hf_restores_partial_run_without_completed_manifest (__main__.Stage1Tests.test_hf_restores_partial_run_without_completed_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.100s
+
+OK
